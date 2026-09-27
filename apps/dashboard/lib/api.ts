@@ -1,4 +1,6 @@
-export const API = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+// Browser requests stay on the dashboard origin; Next proxies /api to Python.
+// This also works when the dashboard is opened from another device on the LAN.
+export const API = "";
 
 export type Match = {
   id: string;

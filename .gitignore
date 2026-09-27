@@ -10,5 +10,6 @@ data/tennis_quant.db-wal
 data/manifest.json
 artifacts/
 .env
+work/
 *.pyc
 

@@ -3,8 +3,8 @@ import "./globals.css";
 import { Shell } from "../components/Shell";
 
 export const metadata: Metadata = {
-  title: "Tennis Quant | Terminal de investigação",
-  description: "Probabilidades, preços justos e validação quantitativa de ténis com proveniência verificável.",
+  title: "Tennis Quant | Assistente de análise de ténis",
+  description: "Jogos atuais, probabilidades exploratórias, resultados recentes e fontes verificáveis.",
   icons: { icon: "/favicon.svg" },
 };
 

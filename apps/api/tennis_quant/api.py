@@ -1,16 +1,23 @@
 from __future__ import annotations
 
 import json
+import os
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from sqlalchemy import and_, desc, func, or_, select
 
-from .db import DATA_DIR, counts, engine, init_db, matches, odds_snapshots, players, predictions, raw_ingestions
+from .db import DATA_DIR, counts, engine, init_db, matches, odds_snapshots, players, predictions, raw_ingestions, fixtures, fixture_odds, recent_results
+from .daily import daily_board
+from .espn_fixtures import ensure_fresh
+from .live_odds import ingest_current_odds
+from .parlay import calculate_ticket
 
-app = FastAPI(title="Tennis Quant API", version="0.1.0", description="Investigação quantitativa em ténis")
+app = FastAPI(title="Tennis Quant API", version="0.2.0", description="Investigação quantitativa em ténis")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
                    allow_credentials=False, allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
 
@@ -68,7 +75,100 @@ def _serialize(record: dict) -> dict:
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "version": "0.1.0"}
+    return {"status": "ok", "version": "0.2.0"}
+
+
+@app.get("/api/daily")
+def daily(day: date | None = None):
+    local_today = datetime.now(ZoneInfo("Europe/Lisbon")).date()
+    requested = day or local_today
+    if requested < local_today or requested > local_today + timedelta(days=30):
+        raise HTTPException(422, "Escolhe uma data entre hoje e os próximos 30 dias")
+    calendar = ensure_fresh(requested)
+    return {**daily_board(requested, evaluation().get("operational_version") or selected_version()),
+            "calendar": calendar,
+            "feed_configured": bool(os.getenv("ODDS_API_KEY")),
+            "last_refresh": _last_quote_time()}
+
+
+@app.get("/api/upcoming")
+def upcoming(days: int = Query(3, ge=1, le=7)):
+    today = datetime.now(ZoneInfo("Europe/Lisbon")).date()
+    version = evaluation().get("operational_version") or selected_version()
+    boards = []
+    calendars = []
+    for offset in range(days):
+        target = today + timedelta(days=offset)
+        calendars.append(ensure_fresh(target))
+        boards.append(daily_board(target, version))
+    items = sorted((item for board in boards for item in board["items"]), key=lambda item: item["start_at"])
+    return {"date": today.isoformat(), "days": days, "items": items, "count": len(items),
+            "calendar": calendars, "status": "research_only", "quote_max_age_hours": 6,
+            "feed_configured": bool(os.getenv("ODDS_API_KEY")), "last_refresh": _last_quote_time()}
+
+
+@app.get("/api/recent")
+def recent(days: int = Query(3, ge=1, le=7)):
+    today = datetime.now(ZoneInfo("Europe/Lisbon")).date()
+    calendars = [ensure_fresh(today - timedelta(days=offset)) for offset in range(days)]
+    earliest = datetime.combine(today - timedelta(days=days - 1), datetime.min.time(), tzinfo=ZoneInfo("Europe/Lisbon"))
+    with engine.connect() as conn:
+        rows = [dict(row) for row in conn.execute(select(recent_results).where(
+            recent_results.c.start_at >= earliest,
+            recent_results.c.start_at <= datetime.now(ZoneInfo("Europe/Lisbon")),
+            recent_results.c.winner.is_not(None), recent_results.c.score.is_not(None),
+        ).order_by(desc(recent_results.c.start_at)).limit(300)).mappings()]
+    for row in rows:
+        row["tour"] = "Masculino" if row["tour"] == "ATP" else "Feminino"
+        row["start_at"] = row["start_at"].isoformat()
+        row["last_seen_at"] = row["last_seen_at"].isoformat()
+    return {"items": rows, "count": len(rows), "calendar": calendars,
+            "source": "ESPN scoreboard", "training_status": "not_in_training_archive"}
+
+
+def _last_quote_time() -> str | None:
+    with engine.connect() as conn:
+        value = conn.execute(select(func.max(fixture_odds.c.observed_at))).scalar_one()
+    return value.isoformat() if value else None
+
+
+@app.post("/api/odds/refresh")
+def refresh_odds(region: str = Query("eu", pattern="^(eu|uk|us|au)$")):
+    if not os.getenv("ODDS_API_KEY"):
+        raise HTTPException(409, "Configura ODDS_API_KEY no servidor antes de atualizar")
+    try:
+        return ingest_current_odds(region=region)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
+    except Exception as exc:
+        # Never return URLs, provider responses or credentials to the browser.
+        raise HTTPException(502, "A fonte de odds não respondeu; tenta novamente mais tarde") from exc
+
+
+class TicketLeg(BaseModel):
+    selection: str = Field(min_length=1, max_length=140)
+    decimal_odds: float = Field(gt=1, le=1000)
+    fixture_id: str | None = None
+    bookmaker: str | None = None
+    source: str = Field(default="manual", pattern="^(manual|provider)$")
+    observed_at: datetime | None = None
+    start_at: datetime | None = None
+
+
+class TicketRequest(BaseModel):
+    legs: list[TicketLeg] = Field(min_length=1, max_length=8)
+    kind: str = Field(pattern="^(single|accumulator|system|round_robin)$")
+    total_stake: float = Field(gt=0, le=100000)
+    system_size: int | None = None
+
+
+@app.post("/api/parlay/calculate")
+def parlay_calculate(ticket: TicketRequest):
+    try:
+        return calculate_ticket([leg.model_dump() for leg in ticket.legs],
+                                ticket.kind, ticket.total_stake, ticket.system_size)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
 
 
 @app.get("/api/overview")
@@ -96,6 +196,14 @@ def overview():
 @app.get("/api/models")
 def models():
     return evaluation()
+
+
+@app.get("/api/backtest/predictions")
+def prediction_backtest():
+    path = DATA_DIR.parent / "artifacts" / "prediction_backtest.json"
+    if not path.exists():
+        raise HTTPException(404, "Executa scripts/backtest_predictions.py para criar o relatório")
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 @app.get("/api/matches")

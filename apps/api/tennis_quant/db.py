@@ -5,7 +5,7 @@ from pathlib import Path
 
 from sqlalchemy import (
     JSON, CheckConstraint, Column, Date, DateTime, Float, ForeignKey,
-    Integer, MetaData, String, Table, Text, UniqueConstraint, create_engine, event,
+    Integer, MetaData, String, Table, Text, UniqueConstraint, Index, create_engine, event,
     func,
 )
 
@@ -111,6 +111,63 @@ odds_snapshots = Table(
     Column("source", String(200), nullable=False),
     Column("source_ref", String(300), nullable=False),
     CheckConstraint("decimal_odds > 1", name="valid_odds"),
+)
+
+# Provider event ids are kept separate from historical results: the archive does
+# not contain match start times, so joining by name/date would imply false certainty.
+fixtures = Table(
+    "fixtures", metadata,
+    Column("id", String(100), primary_key=True),
+    Column("sport_key", String(100), nullable=False),
+    Column("tour", String(3)),
+    Column("tournament", String(180), nullable=False),
+    Column("start_at", DateTime(timezone=True), nullable=False, index=True),
+    Column("player_a", String(140), nullable=False),
+    Column("player_b", String(140), nullable=False),
+    Column("player_a_id", String(32), ForeignKey("players.id")),
+    Column("player_b_id", String(32), ForeignKey("players.id")),
+    Column("match_quality", JSON, nullable=False),
+    Column("source", String(100), nullable=False),
+    Column("last_seen_at", DateTime(timezone=True), nullable=False),
+)
+
+fixture_odds = Table(
+    "fixture_odds", metadata,
+    Column("id", String(64), primary_key=True),
+    Column("fixture_id", String(100), ForeignKey("fixtures.id"), nullable=False),
+    Column("market", String(32), nullable=False),
+    Column("selection", String(140), nullable=False),
+    Column("bookmaker", String(80), nullable=False),
+    Column("decimal_odds", Float, nullable=False),
+    Column("observed_at", DateTime(timezone=True), nullable=False),
+    Column("source_ref", String(300), nullable=False),
+    CheckConstraint("decimal_odds > 1", name="valid_fixture_odds"),
+    Index("ix_fixture_odds_latest", "fixture_id", "bookmaker", "selection", "observed_at"),
+)
+
+source_refreshes = Table(
+    "source_refreshes", metadata,
+    Column("source", String(60), primary_key=True),
+    Column("day", Date, primary_key=True),
+    Column("refreshed_at", DateTime(timezone=True), nullable=False),
+    Column("event_count", Integer, nullable=False),
+)
+
+# Recent scoreboard results are displayed separately from the audited training
+# archive. They have exact start times but have not passed historical QA.
+recent_results = Table(
+    "recent_results", metadata,
+    Column("id", String(100), primary_key=True),
+    Column("tour", String(3), nullable=False),
+    Column("tournament", String(180), nullable=False),
+    Column("start_at", DateTime(timezone=True), nullable=False, index=True),
+    Column("player_a", String(140), nullable=False),
+    Column("player_b", String(140), nullable=False),
+    Column("score", String(140)),
+    Column("winner", String(140)),
+    Column("round", String(100)),
+    Column("source_url", Text, nullable=False),
+    Column("last_seen_at", DateTime(timezone=True), nullable=False),
 )
 
 backtest_runs = Table(

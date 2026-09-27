@@ -1,6 +1,6 @@
-# Tennis Quant v0.1
+# Tennis Quant v0.2
 
-Terminal local de investigação quantitativa para ténis, construído a partir do plano fornecido pelo utilizador. Esta versão importa resultados ATP/WTA, calcula variáveis antes do início de cada torneio, compara Elo, regressão logística e XGBoost, calibra probabilidades e apresenta o teste fora da amostra no painel.
+Assistente local de análise de ténis. Integra calendário atual ATP/WTA, leitura rápida dos jogos de hoje, resultados recentes, arquivo e backtesting de probabilidades, odds atuais quando existe uma chave, e calculadora de combinadas. **Sem recomendações nem sinais de aposta aprovados.**
 
 ## Arranque local (Windows)
 
@@ -31,22 +31,44 @@ npm run dev
 
 Abre [http://127.0.0.1:3000](http://127.0.0.1:3000). A documentação interativa da API está em [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
 
+### No telemóvel
+
+Com o computador ligado e o telemóvel na mesma rede Wi-Fi, abre **http://192.168.1.213:3000** no browser do telemóvel. Este é o endereço local atual do computador e pode mudar quando a rede atribuir outro IP. Para consultar o novo endereço, corre `Get-NetIPAddress -AddressFamily IPv4 | Where-Object InterfaceAlias -eq 'Wi-Fi'` e substitui o IP no URL. O painel escuta na rede; a API permanece em `127.0.0.1:8000` e é acedida através do painel. A ligação pelo IP local e o proxy `/api` foram testados neste computador; a abertura no telemóvel depende da rede e da firewall locais. Não há acesso fora da rede Wi-Fi nesta instalação.
+
 Nesta máquina, as dependências e os dados já foram instalados. Para reabrir a plataforma, bastam os comandos dos dois terminais.
 
 ## O que está implementado
 
 - Base de dados com jogadores, torneios, jogos, odds, previsões, versões de modelo, testes e proveniência raw. SQLAlchemy suporta SQLite para arranque local e PostgreSQL via `DATABASE_URL`.
 - Importação de resultados ATP/WTA de 2015 até ao último ano disponível no snapshot fixado. Ficheiros raw imutáveis e SHA-256 por fonte.
-- Elo global e por superfície, rankings, forma, serviço, resposta e descanso entre torneios. Todas as variáveis são calculadas antes de incorporar jogos com a mesma data de início de torneio.
+- Elo global e por superfície, rankings, forma, serviço, resposta, descanso, serviço/resposta por superfície regularizados e carga em 30 dias. Todas as variáveis são calculadas antes de incorporar jogos com a mesma data de início de torneio.
 - Elo, regressão logística e XGBoost. Treino: 2015–2021; calibração: 2022; seleção por Brier: 2023; teste OOS: 2024 em diante. As três famílias são mostradas, incluindo as que perderam.
-- Painel de jogos, detalhe quantitativo, comparação de modelos, auditoria de fontes e cenário manual de fair odd / EV matemático.
+- Painel de jogos, detalhe quantitativo, comparação de modelos, backtests anuais e de calibração, auditoria de fontes e cenário manual de fair odd / EV matemático.
+- Agenda de jogos futuros alimentada pelo [marcador público ESPN](https://www.espn.com/tennis/scoreboard/), com atualização por data e ligação para a origem. A tab «Jogos de hoje» mostra rapidamente o jogador estatisticamente mais provável e a probabilidade quando ambos os jogadores e o nível da prova estão confirmados para o modelo.
+- Resultados dos últimos três dias separados do arquivo de treino. O arquivo antigo permanece identificado como histórico e a entrada da plataforma abre nos próximos jogos.
+- Odds por casa, hora e seleção com [The Odds API](https://the-odds-api.com/sports/tennis-odds.html), quando configurada. Preços com mais de seis horas não entram na vista diária; a atualização é manual para controlar créditos.
+- Bilhete de simples, combinada, sistema k/N e round robin até oito seleções, incluindo comparação por casa quando há odds recentes para todas as seleções. O cálculo é indicativo e não envia apostas.
 - Importador de snapshots de odds por CSV com origem e timestamp. Sem hora real do encontro, estes registos não passam automaticamente a odds elegíveis para backtest.
 
 ## Estado quantitativo
 
-**Investigação. Sem sinais de aposta aprovados.** O CSV histórico indica a data de início do torneio, não a hora do jogo. Esta limitação impede verificar preços disponíveis antes de cada encontro. O projeto não calcula ROI, CLV, PBO, DSR ou CPCV a partir de odds inexistentes, nem mostra EV manual como evidência histórica.
+**Investigação. Sem sinais de aposta aprovados.** O CSV histórico indica a data de início do torneio, não a hora do jogo. Esta limitação impede verificar preços disponíveis antes de cada encontro. O projeto não calcula ROI, CLV, PBO, DSR ou CPCV a partir de odds inexistentes, nem mostra EV manual como evidência histórica. O teste 2024+ foi consultado durante a evolução do v4; novos jogos futuros são necessários para confirmação.
 
-Os resultados concretos do teste estão em `artifacts/evaluation.json` e no ecrã **Modelos**. Os valores são recalculados apenas quando se executa `scripts/bootstrap.py`.
+Os resultados estão em `RESULTS.md`, nos artefactos JSON e nos ecrãs **Modelos** e **Backtests**. Para recalcular: `scripts/bootstrap.py --skip-download`, `scripts/compare_models.py`, `scripts/backtest_predictions.py` e `scripts/refit_operational.py`.
+
+## Ligar odds atuais
+
+A instalação atual **não tem chave de odds**. Os jogos futuros e resultados recentes aparecem sem ela; apenas os preços reais ficam vazios. Para usar a [API de odds](https://the-odds-api.com/liveapi/guides/v4/), define a variável no terminal que arranca a API:
+
+```powershell
+$env:ODDS_API_KEY='a_tua_chave'
+$env:PYTHONPATH='apps/api'
+.\.venv\Scripts\python.exe -m uvicorn tennis_quant.api:app --host 127.0.0.1 --port 8000
+```
+
+Abre **Próximos jogos** e carrega em **Atualizar odds**. A integração consulta ATP/WTA ativos, região `eu`, mercado `h2h` e até 12 competições por execução. A cobertura de ténis do fornecedor varia; o plano gratuito inclui odds atuais, enquanto o histórico requer plano pago. A aplicação nunca armazena a chave em ficheiros ou na base de dados. Consulta `docs/RESEARCH_2026-09-27.md` para fontes e limites.
+
+Para uma atualização local sem abrir o browser: `.\.venv\Scripts\python.exe scripts\refresh_odds.py --region eu --max-sports 12`. O comando é idempotente para snapshots iguais. Uma execução periódica requer agendamento explícito no sistema e uma chave configurada; não há recolha automática nesta instalação.
 
 ## PostgreSQL
 
@@ -58,7 +80,7 @@ $env:DATABASE_URL='postgresql+psycopg://tennis:local_only_change_me@127.0.0.1:54
 .\.venv\Scripts\python.exe scripts\bootstrap.py
 ```
 
-O caminho SQLite é o que foi executado nesta instalação; PostgreSQL ainda requer teste de integração neste equipamento, onde Docker não está instalado.
+O caminho SQLite é o que foi executado nesta instalação; PostgreSQL ainda requer teste de integração neste equipamento, onde Docker não está instalado. A API pagina o arquivo e os preços atuais têm índice por jogo/casa/seleção/hora. Para vários utilizadores e recolha contínua, são necessários migrações formais, fila de tarefas e monitorização antes de escalar produção.
 
 ## Odds próprias
 
@@ -68,7 +90,7 @@ Formato em `docs/ODDS_FORMAT.csv`. Cada linha requer `match_id`, `market=match_w
 .\.venv\Scripts\python.exe scripts\import_odds.py C:\caminho\odds.csv --source 'Fornecedor autorizado'
 ```
 
-O importador rejeita jogos e seleções desconhecidos, preços inválidos, timestamps sem timezone ou futuros e linhas sem proveniência. O ficheiro original fica guardado por checksum.
+O importador rejeita jogos e seleções desconhecidos, preços inválidos, timestamps sem timezone ou futuros e linhas sem proveniência. O ficheiro original fica guardado por checksum. Estes snapshots de jogos históricos não se confundem com a tabela separada de fixtures futuras.
 
 ## Estrutura
 

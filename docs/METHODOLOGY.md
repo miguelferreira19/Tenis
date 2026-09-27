@@ -1,4 +1,4 @@
-# Metodologia v0.1
+# Metodologia v0.2
 
 ## Unidade temporal
 
@@ -9,6 +9,8 @@ O ranking que aparece no CSV do próprio torneio é guardado como metadado, mas 
 ## Variáveis
 
 O vetor simétrico A−B contém Elo global, Elo de superfície com shrinkage `n/(n+20)`, logaritmo da razão dos últimos rankings **anteriores**, forma dos últimos 10 jogos, pontos ganhos no serviço e na resposta dos últimos 20 encontros com estatísticas, descanso entre datas de torneios limitado a 14 dias e logaritmo da experiência. Valores de serviço/resposta em falta recebem priors neutros de 0,62/0,38. O descanso não pretende medir recuperação entre rondas.
+
+O candidato `prematch-v4` acrescenta serviço e resposta por superfície, cada um regularizado por 10 jogos equivalentes em direção à taxa recente global do jogador, e diferença de carga de jogos nos 30 dias anteriores. As datas são **inícios de torneio**; a carga não mede dias reais entre rondas. Todas estas estatísticas são calculadas antes de incorporar o grupo atual. A comparação v4 vs v3 está em `RESULTS.md` e é diagnóstica, porque o período 2024+ já tinha sido consultado.
 
 O Elo começa em 1500. K global 32 e K de superfície 24. A probabilidade base combina 55% da diferença Elo global e 45% da diferença Elo de superfície. Estes parâmetros estão fixados no código; não foram otimizados no período de teste.
 
@@ -27,9 +29,15 @@ Cada observação de treino entra nas duas orientações A/B para evitar uma van
 
 As métricas publicadas são Brier, log loss, ECE de 10 bins e taxa de acerto, global e por ATP/WTA/superfície. ECE deve ser lido com cautela em subgrupos pequenos. A arquitetura guarda versões e previsões imutáveis por `match_id` e versão.
 
+O backtest de probabilidades acrescenta séries anuais, intervalos de calibração e bootstrap pareado por torneio. A unidade de reamostragem é o torneio, para preservar dependência local entre jogos. A versão operacional usa a família escolhida em 2023, refaz o treino até 2024 e calibra em 2025. O diagnóstico de 2026 desse refit foi consultado; não é holdout intocado. Nenhuma destas métricas equivale a ROI.
+
 ## Limitações que impedem sinais
 
-O arquivo não traz uma trajetória de odds com hora nem a hora de cada jogo. A instalação não tem fornecedor de jogos futuros ou de odds atuais. Logo, o scanner de mercado fica vazio e o backtest de apostas está bloqueado. O formulário de odds manual calcula apenas `p × odd − 1`; não valida disponibilidade, custos, limites ou qualidade da estimativa. Não existem gates DSR/PBO/CPCV, testes nulos ou paper tracking para aprovar estratégias.
+O arquivo não traz uma trajetória de odds com hora nem a hora de cada jogo. Há um adaptador de calendário e odds atuais, mas **a chave ainda não está configurada** nesta instalação. Portanto, a agenda de hoje fica vazia e o backtest de apostas está bloqueado. O formulário manual calcula apenas `p × odd − 1`; não valida disponibilidade, custos, limites ou qualidade da estimativa. Não existem gates DSR/PBO/CPCV, testes nulos ou paper tracking para aprovar estratégias.
+
+Fixtures de uma fonte atual mantêm `start_at` exato e `observed_at` por cotação, em tabelas separadas dos resultados históricos. A associação de jogadores exige nome normalizado exatamente igual e único por circuito. Só odds anteriores ao início, observadas há menos de 6 horas, entram na agenda; superfícies não identificadas ficam `Unknown` e não geram candidatos. A palavra «candidato» significa apenas `p × odd − 1 > 0`, com superfície conhecida, **sem aprovação para aposta**.
+
+O construtor de bilhetes suporta simples, acumulador, sistema k/N e round robin. A multiplicação das odds produz preço indicativo, não cotação aceite. Não estima probabilidade conjunta nem EV da combinada, pois dependências, restrições e regras de settlement da casa ainda não foram validadas. Duas seleções do mesmo jogo são rejeitadas na ausência de preço conjunto da casa.
 
 Não se calcula confiança estatística para cada probabilidade, nem simulação de sets/games. O painel mostra apenas o mercado vencedor. A comparação de variáveis não é uma explicação causal nem SHAP.
 

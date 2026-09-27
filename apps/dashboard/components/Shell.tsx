@@ -5,11 +5,15 @@ import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
 
 const nav = [
-  { href: "/", label: "Visão geral", icon: "◫" },
-  { href: "/jogos", label: "Jogos", icon: "◈" },
-  { href: "/mercados", label: "Mercados", icon: "⌁" },
-  { href: "/modelos", label: "Modelos", icon: "▥" },
-  { href: "/dados", label: "Dados e fontes", icon: "▤" },
+  { href: "/hoje", label: "Próximos jogos", icon: "◷", group: "ATUALIDADE" },
+  { href: "/recentes", label: "Resultados recentes", icon: "◈", group: "ATUALIDADE" },
+  { href: "/combinadas", label: "Combinadas", icon: "⊞", group: "ATUALIDADE" },
+  { href: "/resumo", label: "Visão geral", icon: "◫", group: "INVESTIGAÇÃO" },
+  { href: "/jogos", label: "Arquivo histórico", icon: "◈", group: "INVESTIGAÇÃO" },
+  { href: "/modelos", label: "Modelos e validação", icon: "▥", group: "INVESTIGAÇÃO" },
+  { href: "/backtests", label: "Backtests", icon: "▤", group: "INVESTIGAÇÃO" },
+  { href: "/mercados", label: "Mercados e odds", icon: "⌁", group: "INVESTIGAÇÃO" },
+  { href: "/dados", label: "Dados e fontes", icon: "▤", group: "INVESTIGAÇÃO" },
 ];
 
 export function Shell({ children }: { children: ReactNode }) {
@@ -20,21 +24,20 @@ export function Shell({ children }: { children: ReactNode }) {
         <span className="brand-mark"><span className="ball" /></span>
         <span><strong>TENNIS<br/>QUANT</strong><small>RESEARCH TERMINAL</small></span>
       </Link>
-      <div className="sidebar-section">WORKSPACE <span>01 / TÉNIS</span></div>
       <nav aria-label="Navegação principal">
-        {nav.map(item => <Link key={item.href} href={item.href}
+        {nav.map((item, index) => <div key={item.href} className="nav-item-wrap">{(index === 0 || nav[index - 1].group !== item.group) && <div className="sidebar-section">{item.group}</div>}<Link href={item.href}
           className={`nav-link ${pathname === item.href || (item.href === "/jogos" && pathname.startsWith("/jogos/")) ? "active" : ""}`}>
           <span className="nav-icon" aria-hidden>{item.icon}</span>{item.label}<span className="nav-arrow">↗</span>
-        </Link>)}
+        </Link></div>)}
       </nav>
       <div className="sidebar-bottom">
         <div className="status-lamp"><i/> AMBIENTE DE INVESTIGAÇÃO</div>
         <p>Probabilidades auditáveis.<br/>Sem sinais aprovados para aposta.</p>
-        <span className="version">TQ / V0.1</span>
+        <span className="version">TQ / V0.2</span>
       </div>
     </aside>
     <div className="main-wrap">
-      <header className="topbar"><div><span className="topbar-label">TENNIS / QUANTITATIVE INTELLIGENCE</span><span className="topbar-mobile">TENNIS QUANT</span></div><div className="topbar-right"><span className="topbar-dot"/> DADOS HISTÓRICOS <span className="topbar-sep">/</span> PT-PT</div></header>
+      <header className="topbar"><div><span className="topbar-label">TENNIS / QUANTITATIVE INTELLIGENCE</span><span className="topbar-mobile">TENNIS QUANT</span></div><div className="topbar-right"><span className="topbar-dot"/> INVESTIGAÇÃO <span className="topbar-sep">/</span> PT-PT</div></header>
       <main className="main-content">{children}</main>
     </div>
   </div>;
