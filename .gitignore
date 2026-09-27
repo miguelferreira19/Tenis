@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+data/raw/
+data/tennis_quant.db
+data/tennis_quant.db-shm
+data/tennis_quant.db-wal
+data/manifest.json
+artifacts/
+.env
+*.pyc
+
