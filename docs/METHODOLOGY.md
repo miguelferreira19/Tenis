@@ -1,4 +1,4 @@
-# Metodologia v0.2
+# Metodologia v0.3
 
 ## Unidade temporal
 
@@ -31,9 +31,17 @@ As métricas publicadas são Brier, log loss, ECE de 10 bins e taxa de acerto, g
 
 O backtest de probabilidades acrescenta séries anuais, intervalos de calibração e bootstrap pareado por torneio. A unidade de reamostragem é o torneio, para preservar dependência local entre jogos. A versão operacional usa a família escolhida em 2023, refaz o treino até 2024 e calibra em 2025. O diagnóstico de 2026 desse refit foi consultado; não é holdout intocado. Nenhuma destas métricas equivale a ROI.
 
+## Investigação adicional e promoção de modelos
+
+Os estudos de Bradley–Terry dinâmico e Elo por superfície motivaram classificações temporais; os métodos por pontos de serviço motivaram estatísticas de serviço/resposta. Foram comparadas 15 configurações: Elo, logística, XGBoost, HistGradientBoosting, misturas de probabilidades calibradas, forma com decaimento, atenuação do Elo por inatividade e intervalo desde o torneio anterior. [Fontes e resultados numéricos](../RESULTS.md#pesquisa-de-modelos-e-candidato-de-inatividade).
+
+O desafio mais simples acrescenta ao vetor A−B `log(1+min(dias_A,365))−log(1+min(dias_B,365))`, dividido por 6. `dias` é contado desde o **início do último torneio anterior**; sem torneio conhecido recebe 365. Este limite evita que longas ausências dominem numericamente. A definição é anterior ao encontro e anti-simétrica, tal como as restantes variáveis. O treino simétrico e os parâmetros do XGBoost são os mesmos da referência.
+
+O script `scripts/research_layoff.py` repete janelas 2019–2026: treino até `Y−2`, calibração em `Y−1`, previsão em `Y`. A seleção inicial usa 2019–2023; 2024–2026 é diagnóstico histórico **já consultado no projeto**. O bootstrap reamostra torneios, mas não corrige a procura entre configurações. Três versões baralhadas da nova variável servem de controlo negativo. O candidato é registado separadamente com `research_only_challenger`; o `operational_version` permanece congelado. Só resultados prospectivos independentes e dados de odds com hora permitiriam estudar promoção e estratégia de apostas.
+
 ## Limitações que impedem sinais
 
-O arquivo não traz uma trajetória de odds com hora nem a hora de cada jogo. Há um adaptador de calendário e odds atuais, mas **a chave ainda não está configurada** nesta instalação. Portanto, a agenda de hoje fica vazia e o backtest de apostas está bloqueado. O formulário manual calcula apenas `p × odd − 1`; não valida disponibilidade, custos, limites ou qualidade da estimativa. Não existem gates DSR/PBO/CPCV, testes nulos ou paper tracking para aprovar estratégias.
+O arquivo não traz uma trajetória de odds com hora nem a hora de cada jogo. Há um adaptador de calendário e odds atuais, mas **a chave ainda não está configurada** nesta instalação. A agenda pode mostrar encontros futuros obtidos da fonte de calendário, com probabilidade apenas quando a identificação dos jogadores e o nível da prova são verificados. As sugestões que dependem de cotações verificadas ficam vazias sem odds, e o backtest de apostas está bloqueado. O formulário manual calcula apenas `p × odd − 1`; não valida disponibilidade, custos, limites ou qualidade da estimativa. Não existem gates DSR/PBO/CPCV, testes nulos ou paper tracking para aprovar estratégias.
 
 Fixtures de uma fonte atual mantêm `start_at` exato e `observed_at` por cotação, em tabelas separadas dos resultados históricos. A associação de jogadores exige nome normalizado exatamente igual e único por circuito. Só odds anteriores ao início, observadas há menos de 6 horas, entram na agenda; superfícies não identificadas ficam `Unknown` e não geram candidatos. A palavra «candidato» significa apenas `p × odd − 1 > 0`, com superfície conhecida, **sem aprovação para aposta**.
 

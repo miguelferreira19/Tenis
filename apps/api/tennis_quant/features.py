@@ -53,6 +53,11 @@ class PlayerState:
             return 14
         return min(max((event_date - self.last_event).days, 0), 14)
 
+    def layoff_days(self, event_date: date) -> int:
+        if self.last_event is None:
+            return 365
+        return min(max((event_date - self.last_event).days, 0), 365)
+
     def surface_stat(self, surface: str, kind: str) -> float:
         sample = (self.surface_serve if kind == "serve" else self.surface_returns).get(surface, ())
         prior = self.recent_serve() if kind == "serve" else self.recent_return()
@@ -98,6 +103,8 @@ def _feature_record(row: dict, states: dict[str, PlayerState]) -> dict:
         "surface_return_a": round(a.surface_stat(surface, "return"), 3),
         "surface_return_b": round(b.surface_stat(surface, "return"), 3),
         "load_30d_a": a.load_30d(event_date), "load_30d_b": b.load_30d(event_date),
+        "layoff_days_a": a.layoff_days(event_date),
+        "layoff_days_b": b.layoff_days(event_date),
     }
     features = np.array([
         (a.elo - b.elo) / 400,
@@ -117,6 +124,7 @@ def _feature_record(row: dict, states: dict[str, PlayerState]) -> dict:
     return {
         "row": row, "x": features, "y": int(row["winner_id"] == row["player_a_id"]),
         "elo_probability": baseline, "details": details,
+        "layoff_feature": (log1p(a.layoff_days(event_date)) - log1p(b.layoff_days(event_date))) / 6,
         "quality": {
             "experience_a": a.n_matches, "experience_b": b.n_matches,
             "serve_sample_a": len(a.serve), "serve_sample_b": len(b.serve),

@@ -36,6 +36,19 @@ def test_feature_snapshot_is_before_event_result():
     assert next_event["elo_probability"] > 0.5
 
 
+def test_layoff_feature_uses_only_prior_tournament_dates():
+    states = defaultdict(PlayerState)
+    row = sample_match("one", date(2024, 1, 1))
+    assert _feature_record(row, states)["layoff_feature"] == 0
+    _update(row, states)
+    future = sample_match("two", date(2024, 1, 31))
+    future["player_b_id"] = "ATP:3"
+    feature = _feature_record(future, states)
+    assert feature["details"]["layoff_days_a"] == 30
+    assert feature["details"]["layoff_days_b"] == 365
+    assert feature["layoff_feature"] == pytest.approx((np.log1p(30) - np.log1p(365)) / 6)
+
+
 def test_invalid_or_missing_service_stats_do_not_create_features():
     assert _service_points_won({"svpt": None, "1stWon": 2, "2ndWon": 1}) is None
     assert _service_points_won({"svpt": 4, "1stWon": 4, "2ndWon": 2}) is None

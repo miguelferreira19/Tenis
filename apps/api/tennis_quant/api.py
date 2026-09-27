@@ -33,6 +33,9 @@ def evaluation() -> dict:
     comparison_path = DATA_DIR.parent / "artifacts" / "model_comparison.json"
     if comparison_path.exists():
         report["comparison"] = json.loads(comparison_path.read_text(encoding="utf-8"))
+    research_path = DATA_DIR.parent / "artifacts" / "layoff_research.json"
+    if research_path.exists():
+        report["layoff_research"] = json.loads(research_path.read_text(encoding="utf-8"))
     return report
 
 

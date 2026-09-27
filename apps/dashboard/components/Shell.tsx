@@ -33,7 +33,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <div className="sidebar-bottom">
         <div className="status-lamp"><i/> AMBIENTE DE INVESTIGAÇÃO</div>
         <p>Probabilidades auditáveis.<br/>Sem sinais aprovados para aposta.</p>
-        <span className="version">TQ / V0.2</span>
+        <span className="version">TQ / V0.3</span>
       </div>
     </aside>
     <div className="main-wrap">

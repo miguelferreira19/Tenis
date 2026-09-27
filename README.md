@@ -1,4 +1,4 @@
-# Tennis Quant v0.2
+# Tennis Quant v0.3
 
 Assistente local de análise de ténis. Integra calendário atual ATP/WTA, leitura rápida dos jogos de hoje, resultados recentes, arquivo e backtesting de probabilidades, odds atuais quando existe uma chave, e calculadora de combinadas. **Sem recomendações nem sinais de aposta aprovados.**
 
@@ -42,7 +42,8 @@ Nesta máquina, as dependências e os dados já foram instalados. Para reabrir a
 - Base de dados com jogadores, torneios, jogos, odds, previsões, versões de modelo, testes e proveniência raw. SQLAlchemy suporta SQLite para arranque local e PostgreSQL via `DATABASE_URL`.
 - Importação de resultados ATP/WTA de 2015 até ao último ano disponível no snapshot fixado. Ficheiros raw imutáveis e SHA-256 por fonte.
 - Elo global e por superfície, rankings, forma, serviço, resposta, descanso, serviço/resposta por superfície regularizados e carga em 30 dias. Todas as variáveis são calculadas antes de incorporar jogos com a mesma data de início de torneio.
-- Elo, regressão logística e XGBoost. Treino: 2015–2021; calibração: 2022; seleção por Brier: 2023; teste OOS: 2024 em diante. As três famílias são mostradas, incluindo as que perderam.
+- Elo, regressão logística e XGBoost. Treino: 2015–2021; calibração: 2022; seleção por Brier: 2023; diagnóstico histórico: 2024 em diante. As três famílias são mostradas, incluindo as que perderam.
+- Modelo desafiante que acrescenta o tempo desde o último torneio; comparação anual 2019–2026, bootstrap por torneio e controlos com variável baralhada. Está versionado como investigação e não substitui as probabilidades diárias.
 - Painel de jogos, detalhe quantitativo, comparação de modelos, backtests anuais e de calibração, auditoria de fontes e cenário manual de fair odd / EV matemático.
 - Agenda de jogos futuros alimentada pelo [marcador público ESPN](https://www.espn.com/tennis/scoreboard/), com atualização por data e ligação para a origem. A tab «Jogos de hoje» mostra rapidamente o jogador estatisticamente mais provável e a probabilidade quando ambos os jogadores e o nível da prova estão confirmados para o modelo.
 - Resultados dos últimos três dias separados do arquivo de treino. O arquivo antigo permanece identificado como histórico e a entrada da plataforma abre nos próximos jogos.
@@ -54,7 +55,7 @@ Nesta máquina, as dependências e os dados já foram instalados. Para reabrir a
 
 **Investigação. Sem sinais de aposta aprovados.** O CSV histórico indica a data de início do torneio, não a hora do jogo. Esta limitação impede verificar preços disponíveis antes de cada encontro. O projeto não calcula ROI, CLV, PBO, DSR ou CPCV a partir de odds inexistentes, nem mostra EV manual como evidência histórica. O teste 2024+ foi consultado durante a evolução do v4; novos jogos futuros são necessários para confirmação.
 
-Os resultados estão em `RESULTS.md`, nos artefactos JSON e nos ecrãs **Modelos** e **Backtests**. Para recalcular: `scripts/bootstrap.py --skip-download`, `scripts/compare_models.py`, `scripts/backtest_predictions.py` e `scripts/refit_operational.py`.
+Os resultados estão em `RESULTS.md`, nos artefactos JSON e nos ecrãs **Modelos** e **Backtests**. Para recalcular: `scripts/bootstrap.py --skip-download`, `scripts/compare_models.py`, `scripts/backtest_predictions.py`, `scripts/refit_operational.py` e `scripts/research_layoff.py`.
 
 ## Ligar odds atuais
 

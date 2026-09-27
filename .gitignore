@@ -12,4 +12,6 @@ artifacts/
 .env
 work/
 *.pyc
+*.tsbuildinfo
+.playwright-cli/
 
