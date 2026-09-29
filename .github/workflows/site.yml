@@ -30,7 +30,15 @@ jobs:
       - run: pip install -r requirements.txt -c constraints.txt
       - run: python -m pytest -q
       # Falha se a ESPN não responder: o site anterior fica no ar.
-      - run: python scripts/export_snapshot.py --bootstrap
+      # Em caso de erro, as últimas linhas vão para uma anotação (visível sem iniciar sessão).
+      - name: Exportar snapshot
+        run: |
+          if ! python scripts/export_snapshot.py --bootstrap > export.log 2>&1; then
+            cat export.log
+            echo "::error title=export_snapshot falhou::$(tail -n 30 export.log | awk '{gsub(/%/,"%25"); gsub(/\r/,""); printf "%s%%0A", $0}')"
+            exit 1
+          fi
+          cat export.log
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
