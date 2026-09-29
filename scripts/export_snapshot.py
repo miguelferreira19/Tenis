@@ -19,6 +19,7 @@ from fastapi import HTTPException
 from fastapi.encoders import jsonable_encoder
 
 from tennis_quant import api
+from tennis_quant.espn_fixtures import refresh_day
 from tennis_quant.ingest import bootstrap
 
 LISBON = ZoneInfo("Europe/Lisbon")
@@ -51,7 +52,13 @@ def main() -> None:
     recent = api.recent(days=3)
     down = [c for c in upcoming["calendar"] + recent["calendar"] if c.get("status") == UNAVAILABLE]
     if down:
-        raise SystemExit(f"ESPN indisponível em {len(down)} dia(s); snapshot anterior mantido")
+        # ensure_fresh engole o erro; repetir um pedido direto para o log dizer porquê.
+        try:
+            refresh_day(today)
+            why = "pedido direto respondeu bem"
+        except Exception as exc:  # noqa: BLE001 - só diagnóstico
+            why = f"{type(exc).__name__}: {exc}"[:300]
+        raise SystemExit(f"ESPN indisponível em {len(down)} dia(s) ({why}); snapshot anterior mantido")
 
     write(args.out, "upcoming", {**upcoming, "generated_at": generated_at})
     write(args.out, "recent", recent)
