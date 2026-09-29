@@ -1,0 +1,8 @@
+# Versões com que o modelo operacional foi treinado (o joblib não é portável entre versões).
+# Usado só no CI: pip install -r requirements.txt -c constraints.txt
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+pandas==3.0.6

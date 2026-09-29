@@ -1,0 +1,203 @@
+{
+  "feature": "layoff_log_365d",
+  "baseline_feature_version": "prematch-v4",
+  "model": "xgboost",
+  "parameter_source": "MODEL_PARAMETERS.xgboost",
+  "split_rule": "train <= year-2; calibrate year-1; evaluate year",
+  "yearly": {
+    "2019": {
+      "baseline": {
+        "n": 5197,
+        "brier": 0.2152195989447286,
+        "log_loss": 0.6188965354587156
+      },
+      "challenger": {
+        "n": 5197,
+        "brier": 0.21486008809730486,
+        "log_loss": 0.6181328678092752
+      }
+    },
+    "2020": {
+      "baseline": {
+        "n": 2680,
+        "brier": 0.21293731712164632,
+        "log_loss": 0.6128785858222225
+      },
+      "challenger": {
+        "n": 2680,
+        "brier": 0.21205015090395135,
+        "log_loss": 0.610884078518906
+      }
+    },
+    "2021": {
+      "baseline": {
+        "n": 5135,
+        "brier": 0.21215246676045796,
+        "log_loss": 0.6115590798523108
+      },
+      "challenger": {
+        "n": 5135,
+        "brier": 0.21143902471791087,
+        "log_loss": 0.6098365362718923
+      }
+    },
+    "2022": {
+      "baseline": {
+        "n": 5306,
+        "brier": 0.21144225488884544,
+        "log_loss": 0.6103032282924903
+      },
+      "challenger": {
+        "n": 5306,
+        "brier": 0.21096198965294935,
+        "log_loss": 0.6091715045188895
+      }
+    },
+    "2023": {
+      "baseline": {
+        "n": 5598,
+        "brier": 0.2135389589946574,
+        "log_loss": 0.61434688923596
+      },
+      "challenger": {
+        "n": 5598,
+        "brier": 0.21305560227165152,
+        "log_loss": 0.6131863606576227
+      }
+    },
+    "2024": {
+      "baseline": {
+        "n": 5736,
+        "brier": 0.21270135633768977,
+        "log_loss": 0.6117475757608555
+      },
+      "challenger": {
+        "n": 5736,
+        "brier": 0.21242324881587757,
+        "log_loss": 0.611182410287606
+      }
+    },
+    "2025": {
+      "baseline": {
+        "n": 5343,
+        "brier": 0.2156154596965286,
+        "log_loss": 0.6193590855746568
+      },
+      "challenger": {
+        "n": 5343,
+        "brier": 0.2152841116800906,
+        "log_loss": 0.6185308414916042
+      }
+    },
+    "2026": {
+      "baseline": {
+        "n": 2655,
+        "brier": 0.20989257954001234,
+        "log_loss": 0.6057682950000352
+      },
+      "challenger": {
+        "n": 2655,
+        "brier": 0.2097637780538233,
+        "log_loss": 0.6055524157401158
+      }
+    }
+  },
+  "status": "research_only_forward_confirmation_pending",
+  "development_2019_2023": {
+    "baseline": {
+      "n": 23916,
+      "brier": 0.21307387854612078,
+      "log_loss": 0.6136753050295607
+    },
+    "challenger": {
+      "n": 23916,
+      "brier": 0.21252346767043023,
+      "log_loss": 0.6123932809888877
+    },
+    "paired": {
+      "improvement": 0.0005504108756905362,
+      "bootstrap_95": [
+        0.0003454808336177561,
+        0.0007382527695552251
+      ],
+      "n_tournaments": 1265,
+      "resamples": 2000
+    },
+    "by_tour": {
+      "ATP": {
+        "n": 12437,
+        "brier_improvement": 0.0005810494146465271
+      },
+      "WTA": {
+        "n": 11479,
+        "brier_improvement": 0.0005172153439372772
+      }
+    },
+    "by_surface": {
+      "Hard": {
+        "n": 14554,
+        "brier_improvement": 0.0005856865214918908
+      },
+      "Clay": {
+        "n": 6858,
+        "brier_improvement": 0.0006032856425583448
+      },
+      "Grass": {
+        "n": 2453,
+        "brier_improvement": 0.00032966269814468517
+      }
+    }
+  },
+  "diagnostic_2024_2026": {
+    "baseline": {
+      "n": 13734,
+      "brier": 0.2132920620205529,
+      "log_loss": 0.6135528259803955
+    },
+    "challenger": {
+      "n": 13734,
+      "brier": 0.21302210533329685,
+      "log_loss": 0.6129528364125061
+    },
+    "paired": {
+      "improvement": 0.00026995668725605807,
+      "bootstrap_95": [
+        -3.19643847081646e-05,
+        0.0005821961841746528
+      ],
+      "n_tournaments": 519,
+      "resamples": 2000
+    },
+    "by_tour": {
+      "ATP": {
+        "n": 7192,
+        "brier_improvement": 1.2523233886274682e-05
+      },
+      "WTA": {
+        "n": 6542,
+        "brier_improvement": 0.0005529682122691247
+      }
+    },
+    "by_surface": {
+      "Hard": {
+        "n": 8125,
+        "brier_improvement": 0.00021094536272563827
+      },
+      "Clay": {
+        "n": 4276,
+        "brier_improvement": 0.00035391837840030257
+      },
+      "Grass": {
+        "n": 1189,
+        "brier_improvement": -9.599776689624442e-05
+      }
+    }
+  },
+  "version": "xgboost-prematch-v5-layoff-a64f1de37c75",
+  "active_model_unchanged": "xgboost-operational-prematch-v4-4a05cb828214",
+  "limitations": [
+    "Anos 2024+ j\u00e1 consultados; confirma\u00e7\u00e3o prospectiva em falta.",
+    "Dados hist\u00f3ricos usam in\u00edcio do torneio, n\u00e3o hora exata de cada jogo.",
+    "Sem odds hist\u00f3ricas temporizadas: ROI, CLV e gates de apostas n\u00e3o calcul\u00e1veis."
+  ]
+}

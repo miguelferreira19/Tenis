@@ -8,7 +8,16 @@ data/tennis_quant.db
 data/tennis_quant.db-shm
 data/tennis_quant.db-wal
 data/manifest.json
-artifacts/
+artifacts/*
+# pequenos ficheiros que o site publicado precisa (o resto dos artefactos fica local)
+!artifacts/evaluation.json
+!artifacts/operational.json
+!artifacts/model_comparison.json
+!artifacts/prediction_backtest.json
+!artifacts/layoff_research.json
+!artifacts/xgboost-operational-*.joblib
+apps/dashboard/public/data/
+apps/dashboard/out/
 .env
 work/
 *.pyc

@@ -2,6 +2,24 @@
 // This also works when the dashboard is opened from another device on the LAN.
 export const API = "";
 
+// Published site (GitHub Pages): no Python server, the same answers are JSON files
+// written by scripts/export_snapshot.py. Archive search and price scenarios stay local-only.
+export const STATIC = process.env.NEXT_PUBLIC_STATIC === "1";
+export const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const SNAPSHOT: Record<string, string> = {
+  "/api/upcoming": "upcoming", "/api/recent": "recent", "/api/overview": "overview",
+  "/api/models": "models", "/api/backtest/predictions": "backtest", "/api/data-sources": "data-sources",
+};
+
+export function apiUrl(path: string): string {
+  if (!STATIC) return `${API}${path}`;
+  const url = new URL(path, "http://snapshot");
+  const day = url.searchParams.get("day");
+  const file = url.pathname === "/api/daily" ? (day ? `daily/${day}` : "meta") : SNAPSHOT[url.pathname];
+  if (!file) throw new Error("Indisponível no site publicado");
+  return `${BASE}/data/${file}.json`;
+}
+
 export type Match = {
   id: string;
   tour: string;
@@ -46,7 +64,7 @@ export type Overview = {
 };
 
 export async function getJSON<T>(path: string): Promise<T> {
-  const response = await fetch(`${API}${path}`, { cache: "no-store" });
+  const response = await fetch(apiUrl(path), { cache: "no-store" });
   if (!response.ok) throw new Error(`API ${response.status}`);
   return response.json() as Promise<T>;
 }

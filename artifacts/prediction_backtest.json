@@ -1,0 +1,156 @@
+{
+  "model_version": "xgboost-prematch-v4-a21b39ea870c",
+  "overall": {
+    "n": 13734,
+    "brier": 0.213376,
+    "log_loss": 0.613705,
+    "ece_10": 0.022186,
+    "accuracy": 0.653196
+  },
+  "by_year": {
+    "2024": {
+      "n": 5736,
+      "brier": 0.212894,
+      "log_loss": 0.612184,
+      "ece_10": 0.020435,
+      "accuracy": 0.649582
+    },
+    "2025": {
+      "n": 5343,
+      "brier": 0.215623,
+      "log_loss": 0.619481,
+      "ece_10": 0.026544,
+      "accuracy": 0.647951
+    },
+    "2026": {
+      "n": 2655,
+      "brier": 0.209896,
+      "log_loss": 0.605369,
+      "ece_10": 0.032352,
+      "accuracy": 0.671563
+    }
+  },
+  "by_tour": {
+    "ATP": {
+      "n": 7192,
+      "brier": 0.213325,
+      "log_loss": 0.613561,
+      "ece_10": 0.024361,
+      "accuracy": 0.657119
+    },
+    "WTA": {
+      "n": 6542,
+      "brier": 0.213431,
+      "log_loss": 0.613863,
+      "ece_10": 0.022294,
+      "accuracy": 0.648884
+    }
+  },
+  "by_surface": {
+    "Hard": {
+      "n": 8125,
+      "brier": 0.213403,
+      "log_loss": 0.613948,
+      "ece_10": 0.021053,
+      "accuracy": 0.652185
+    },
+    "Clay": {
+      "n": 4276,
+      "brier": 0.212989,
+      "log_loss": 0.612259,
+      "ece_10": 0.028042,
+      "accuracy": 0.654116
+    },
+    "Grass": {
+      "n": 1189,
+      "brier": 0.215529,
+      "log_loss": 0.61952,
+      "ece_10": 0.024692,
+      "accuracy": 0.652649
+    }
+  },
+  "reliability": [
+    {
+      "from": 0.0,
+      "to": 0.1,
+      "n": 208,
+      "forecast_mean": 0.0752,
+      "observed_rate": 0.0433
+    },
+    {
+      "from": 0.1,
+      "to": 0.2,
+      "n": 617,
+      "forecast_mean": 0.1555,
+      "observed_rate": 0.1345
+    },
+    {
+      "from": 0.2,
+      "to": 0.3,
+      "n": 1385,
+      "forecast_mean": 0.2551,
+      "observed_rate": 0.2368
+    },
+    {
+      "from": 0.3,
+      "to": 0.4,
+      "n": 1766,
+      "forecast_mean": 0.3521,
+      "observed_rate": 0.3454
+    },
+    {
+      "from": 0.4,
+      "to": 0.5,
+      "n": 2327,
+      "forecast_mean": 0.4511,
+      "observed_rate": 0.4358
+    },
+    {
+      "from": 0.5,
+      "to": 0.6,
+      "n": 2659,
+      "forecast_mean": 0.5473,
+      "observed_rate": 0.5228
+    },
+    {
+      "from": 0.6,
+      "to": 0.7,
+      "n": 2117,
+      "forecast_mean": 0.649,
+      "observed_rate": 0.6174
+    },
+    {
+      "from": 0.7,
+      "to": 0.8,
+      "n": 1670,
+      "forecast_mean": 0.7464,
+      "observed_rate": 0.7102
+    },
+    {
+      "from": 0.8,
+      "to": 0.9,
+      "n": 770,
+      "forecast_mean": 0.8441,
+      "observed_rate": 0.8221
+    },
+    {
+      "from": 0.9,
+      "to": 1.0,
+      "n": 215,
+      "forecast_mean": 0.9234,
+      "observed_rate": 0.9116
+    }
+  ],
+  "challenger_vs_frozen_v3": {
+    "n": 13734,
+    "n_tournaments": 519,
+    "brier_improvement_right": 0.001117,
+    "bootstrap_95": [
+      0.000597,
+      0.001623
+    ],
+    "cluster": "tournament",
+    "resamples": 2000
+  },
+  "caveat": "Backtest de probabilidades. O teste 2024+ j\u00e1 foi consultado durante a evolu\u00e7\u00e3o do projeto; requer confirma\u00e7\u00e3o futura. Sem odds hist\u00f3ricas com hora real, n\u00e3o estima ROI, CLV ou gates de aposta."
+}

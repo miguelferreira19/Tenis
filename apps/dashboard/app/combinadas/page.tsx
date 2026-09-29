@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { API, decimal } from "../../lib/api";
+import { decimal } from "../../lib/api";
 import { readSlip, SlipLeg, writeSlip } from "../../lib/betslip";
+import { calculateTicket, Ticket } from "../../lib/parlay";
 
-type Ticket = {kind: string; line_count: number; lines: {indices: number[]; decimal_odds: number; stake: number}[]; total_stake: number; max_gross_return: number; max_net_profit: number; same_bookmaker: boolean; provider_prices: boolean; note: string};
 const types = [{id: "accumulator", title: "Combinada", copy: "Todas as seleções têm de ganhar."}, {id: "system", title: "Sistema k/N", copy: "Cobre todas as combinações com k seleções."}, {id: "round_robin", title: "Round robin", copy: "Duplas, triplas e restantes subconjuntos."}, {id: "single", title: "Simples", copy: "Uma seleção para comparação."}];
 
 export default function Parlays() {
@@ -33,12 +33,8 @@ export default function Parlays() {
   useEffect(() => {
     setTicket(null); setError("");
     if (!legs.length || !Number.isFinite(Number(stake)) || Number(stake) <= 0) return;
-    const controller = new AbortController();
-    fetch(`${API}/api/parlay/calculate`, {method: "POST", headers: {"Content-Type": "application/json"}, signal: controller.signal,
-      body: JSON.stringify({legs, kind, system_size: systemSize, total_stake: Number(stake)})})
-      .then(async response => {const body = await response.json(); if (!response.ok) throw new Error(typeof body.detail === "string" ? body.detail : "Bilhete inválido"); return body;})
-      .then(setTicket).catch(err => {if (err.name !== "AbortError") setError(err.message || "Erro de cálculo");});
-    return () => controller.abort();
+    try { setTicket(calculateTicket(legs, kind, Number(stake), systemSize)); }
+    catch (err) { setError(err instanceof Error ? err.message : "Erro de cálculo"); }
   }, [legs, kind, stake, systemSize]);
   function update(next: SlipLeg[]) { setLegs(next); writeSlip(next); }
   function chooseBook(book: string) {

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Shell } from "../components/Shell";
+import { BASE } from "../lib/api";
 
 export const metadata: Metadata = {
   title: "Tennis Quant | Assistente de análise de ténis",
   description: "Jogos atuais, probabilidades exploratórias, resultados recentes e fontes verificáveis.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: `${BASE}/favicon.svg` },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

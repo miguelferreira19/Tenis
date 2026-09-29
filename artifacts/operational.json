@@ -1,0 +1,15 @@
+{
+  "version": "xgboost-operational-prematch-v4-4a05cb828214",
+  "family": "xgboost",
+  "feature_version": "prematch-v4",
+  "train_end": "2024-12-31",
+  "calibration_year": 2025,
+  "diagnostic_2026": {
+    "n": 2655,
+    "brier": 0.209893,
+    "log_loss": 0.605768
+  },
+  "last_archive_event": "2026-05-25",
+  "status": "research_only_forward_confirmation_pending",
+  "note": "Refit para jogos futuros. 2026 \u00e9 diagn\u00f3stico consultado, n\u00e3o holdout intocado; sem valida\u00e7\u00e3o de ROI/CLV."
+}

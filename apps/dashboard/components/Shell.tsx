@@ -3,21 +3,22 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
+import { STATIC } from "../lib/api";
 
 const nav = [
   { href: "/hoje", label: "Próximos jogos", icon: "◷", group: "ATUALIDADE" },
   { href: "/recentes", label: "Resultados recentes", icon: "◈", group: "ATUALIDADE" },
   { href: "/combinadas", label: "Combinadas", icon: "⊞", group: "ATUALIDADE" },
-  { href: "/resumo", label: "Visão geral", icon: "◫", group: "INVESTIGAÇÃO" },
-  { href: "/jogos", label: "Arquivo histórico", icon: "◈", group: "INVESTIGAÇÃO" },
+  { href: "/resumo", label: "Visão geral", icon: "◫", group: "INVESTIGAÇÃO", archive: true },
+  { href: "/jogos", label: "Arquivo histórico", icon: "◈", group: "INVESTIGAÇÃO", archive: true },
   { href: "/modelos", label: "Modelos e validação", icon: "▥", group: "INVESTIGAÇÃO" },
   { href: "/backtests", label: "Backtests", icon: "▤", group: "INVESTIGAÇÃO" },
   { href: "/mercados", label: "Mercados e odds", icon: "⌁", group: "INVESTIGAÇÃO" },
   { href: "/dados", label: "Dados e fontes", icon: "▤", group: "INVESTIGAÇÃO" },
-];
+].filter(item => !(STATIC && item.archive)); // o arquivo precisa da API Python: só em local
 
 export function Shell({ children }: { children: ReactNode }) {
-  const pathname = usePathname();
+  const pathname = usePathname().replace(/\/$/, "") || "/"; // trailingSlash no site estático
   return <div className="app-shell">
     <aside className="sidebar">
       <Link href="/" className="brand" aria-label="Tennis Quant, início">

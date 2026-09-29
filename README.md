@@ -37,6 +37,25 @@ Com o computador ligado e o telemóvel na mesma rede Wi-Fi, abre **http://192.16
 
 Nesta máquina, as dependências e os dados já foram instalados. Para reabrir a plataforma, bastam os comandos dos dois terminais.
 
+## Site publicado (GitHub Pages)
+
+O workflow [`.github/workflows/site.yml`](.github/workflows/site.yml) atualiza sozinho um site estático, de 3 em 3 horas e a cada push: descarrega os CSV fixados, reconstrói a base só com jogos (cerca de 30 s), lê a ESPN, aplica o modelo operacional versionado em `artifacts/`, exporta as respostas da API para JSON (`scripts/export_snapshot.py`) e publica o build estático do painel. Se a ESPN não responder, o workflow falha e o site anterior fica no ar.
+
+Configuração (uma vez): criar o repositório no GitHub, em **Settings → Pages** escolher **Source: GitHub Actions**, fazer push e correr o workflow em **Actions → Atualizar site → Run workflow**. O endereço fica `https://<utilizador>.github.io/<repositório>/`.
+
+No site publicado não existem a pesquisa no arquivo histórico, o cenário de preço e o botão de atualizar odds (precisam da API Python; continuam a funcionar em local). As combinadas são calculadas no browser (`apps/dashboard/lib/parlay.ts`, espelho de `parlay.py`; verificação: `node apps/dashboard/lib/parlay.test.mjs`).
+
+Limites: o arquivo de resultados termina em maio de 2026 e não há fonte atualizada, por isso Elo, forma, descanso e carga refletem essa data (o painel já o avisa). Em repositórios públicos o GitHub desativa workflows agendados após 60 dias sem atividade: basta reativar em **Actions**. Para refazer o modelo, corre `scripts/refit_operational.py` em local e faz commit do novo `artifacts/xgboost-operational-*.joblib` e de `evaluation.json`/`operational.json`.
+
+Testar o build estático em local (PowerShell):
+
+```powershell
+.\.venv\Scripts\python.exe scripts\export_snapshot.py
+cd apps\dashboard
+$env:NEXT_PUBLIC_STATIC='1'; $env:NEXT_PUBLIC_BASE_PATH='/tennis-quant'
+npm run build   # resultado em apps/dashboard/out
+```
+
 ## O que está implementado
 
 - Base de dados com jogadores, torneios, jogos, odds, previsões, versões de modelo, testes e proveniência raw. SQLAlchemy suporta SQLite para arranque local e PostgreSQL via `DATABASE_URL`.
