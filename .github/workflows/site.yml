@@ -29,23 +29,6 @@ jobs:
           cache-dependency-path: requirements.txt
       - run: pip install -r requirements.txt -c constraints.txt
       - run: python -m pytest -q
-      # TEMPORÁRIO: diagnóstico do que a ESPN devolve ao runner.
-      - name: Sondar ESPN
-        continue-on-error: true
-        run: |
-          python - > probe.log 2>&1 <<'PY'
-          import httpx
-          UA = "Mozilla/5.0 (compatible; TennisQuant/0.3; personal research)"
-          for url in ["https://www.espn.com/tennis/scoreboard/_/date/20260930",
-                      "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260930"]:
-              try:
-                  r = httpx.get(url, headers={"User-Agent": UA}, follow_redirects=True, timeout=20)
-                  b = r.text
-                  print(r.status_code, str(r.url)[:90], r.headers.get("content-type"), len(b), "espnfitt" in b, repr(b[:200]))
-              except Exception as e:
-                  print(url[:60], type(e).__name__, e)
-          PY
-          echo "::notice title=probe ESPN::$(awk '{gsub(/%/,"%25"); gsub(/\r/,""); printf "%s%%0A", $0}' probe.log)"
       # Falha se a ESPN não responder: o site anterior fica no ar.
       # Em caso de erro, as últimas linhas vão para uma anotação (visível sem iniciar sessão).
       - name: Exportar snapshot
