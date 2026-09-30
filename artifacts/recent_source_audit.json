@@ -461,7 +461,102 @@
         "ATP:SX90": "ATP:111806",
         "ATP:Z0CQ": "ATP:212044"
       },
-      "identity_note": "Exact normalized names are candidates, not independently verified cross-provider IDs"
+      "identity_note": "Exact normalized names are candidates, not independently verified cross-provider IDs",
+      "duplicate_key_evidence": [
+        {
+          "key": {
+            "tourney_id": "2026-416",
+            "match_num": "1",
+            "rows": 2
+          },
+          "records": [
+            {
+              "csv_row": 969,
+              "tourney_id": "2026-416",
+              "tourney_date": "20260413",
+              "match_num": "1",
+              "winner_id": "S0S1",
+              "winner_name": "Ben Shelton",
+              "loser_id": "N0AM",
+              "loser_name": "Emilio Nava",
+              "score": "7-6(4) 3-6 6-3",
+              "round": "R32"
+            },
+            {
+              "csv_row": 1126,
+              "tourney_id": "2026-416",
+              "tourney_date": "20260506",
+              "match_num": "1",
+              "winner_id": "V812",
+              "winner_name": "Botic Van De Zandschulp",
+              "loser_id": "MP20",
+              "loser_name": "Alexandre Muller",
+              "score": "7-5 6-3",
+              "round": "R128"
+            }
+          ]
+        },
+        {
+          "key": {
+            "tourney_id": "2026-422",
+            "match_num": "79",
+            "rows": 2
+          },
+          "records": [
+            {
+              "csv_row": 2070,
+              "tourney_id": "2026-422",
+              "tourney_date": "20260819",
+              "match_num": "79",
+              "winner_id": "TD51",
+              "winner_name": "Frances Tiafoe",
+              "loser_id": "T0HA",
+              "loser_name": "Learner Tien",
+              "score": "6-4 4-6 6-4",
+              "round": "R32"
+            },
+            {
+              "csv_row": 2071,
+              "tourney_id": "2026-422",
+              "tourney_date": "20260819",
+              "match_num": "79",
+              "winner_id": "O483",
+              "winner_name": "Christopher O'Connell",
+              "loser_id": "F0FV",
+              "loser_name": "Joao Fonseca",
+              "score": "W/O",
+              "round": "R32"
+            }
+          ]
+        }
+      ],
+      "identity_conflict_evidence": [
+        {
+          "source_id": "ATP:BK92",
+          "names": [
+            "Alexander Bublik",
+            "Alexander Shevchenko"
+          ],
+          "decision": "quarantine_all_rows_for_this_source_id_until_independent_verification"
+        },
+        {
+          "source_id": "ATP:EA13",
+          "names": [
+            "Jerome Kym",
+            "Moez Echargui"
+          ],
+          "decision": "quarantine_all_rows_for_this_source_id_until_independent_verification"
+        },
+        {
+          "source_id": "ATP:K0EP",
+          "names": [
+            "Jerome Kym",
+            "Moez Echargui"
+          ],
+          "decision": "quarantine_all_rows_for_this_source_id_until_independent_verification"
+        }
+      ],
+      "duplicate_decision": "Not identical duplicate rows: one key combines different tournament dates and opponents; the other combines two distinct matches on the same date, including a walkover. Never drop one automatically or ingest tournament IDs without cross-provider verification."
     },
     "WTA": {
       "url": "https://stats.tennismylife.org/data/2026_wta.csv",

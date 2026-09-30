@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-30T13:58:53.332686+00:00",
+  "created_at": "2026-09-30T15:53:32.460649+00:00",
   "selected": "recency_730d",
   "artifact": "iteration-recency_730d-ba8d9ddb11569e94.joblib",
   "dataset_hash": "5c42deb4b28ae00f9ce9d6c2ce36039923afce84c42f13be8fb01734f3c8b04e",
@@ -594,9 +594,9 @@
         "as_of": "2026-09-30T10:41:29.189328+00:00",
         "baseline": 0.40212634228610095,
         "selected": 0.3351665623885538,
-        "settled": false,
-        "result_a": null,
-        "actual_start_at": null
+        "settled": true,
+        "result_a": 0,
+        "actual_start_at": "2026-09-30T11:50:00+00:00"
       },
       {
         "fixture_id": "espn:184288",
@@ -607,9 +607,9 @@
         "as_of": "2026-09-30T10:41:29.192539+00:00",
         "baseline": 0.5149090911390343,
         "selected": 0.5479584126494147,
-        "settled": false,
-        "result_a": null,
-        "actual_start_at": null
+        "settled": true,
+        "result_a": 0,
+        "actual_start_at": "2026-09-30T13:20:00+00:00"
       },
       {
         "fixture_id": "espn:183485",
@@ -1004,26 +1004,26 @@
     ],
     "n": 33,
     "n_matches": 33,
-    "settled": 1,
+    "settled": 3,
     "invalid_excluded": 0,
     "settlement_rule": "Same competition ID, both player identities and names, tour and tournament; forecast before scheduled and actual start; delay bounded to 12 hours",
     "note": "Resultados públicos provisórios; amostra insuficiente para promoção",
     "by_version": {
       "enrichment-all_metadata_context-5c42deb4b28a": {
         "forecasts": 3,
-        "settled": 1,
+        "settled": 3,
         "metrics": {
           "baseline": {
-            "n": 1,
-            "brier": 0.011381570930628252,
-            "log_loss": 0.11281539612209751,
-            "accuracy": 1.0
+            "n": 3,
+            "brier": 0.14607284607621765,
+            "log_loss": 0.4502033942867474,
+            "accuracy": 0.6666666666666666
           },
           "selected": {
-            "n": 1,
-            "brier": 0.03537291261865414,
-            "log_loss": 0.20834962254304115,
-            "accuracy": 1.0
+            "n": 3,
+            "brier": 0.14932265305176023,
+            "log_loss": 0.47018315265628835,
+            "accuracy": 0.6666666666666666
           }
         },
         "status": "insufficient_prospective_evidence"
