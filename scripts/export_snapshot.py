@@ -73,6 +73,10 @@ def main() -> None:
 
     write(args.out, "overview", api.overview())
     write(args.out, "models", api.models())
+    prices = ROOT / "artifacts" / "price_comparison.json"
+    if prices.exists():
+        # Preserve observation time: rebuilding the site does not refresh market prices.
+        write(args.out, "price-comparison", json.loads(prices.read_text(encoding="utf-8")))
     try:
         write(args.out, "backtest", api.prediction_backtest())
     except HTTPException:

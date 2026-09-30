@@ -8,6 +8,7 @@ import { STATIC } from "../lib/api";
 const nav = [
   { href: "/hoje", label: "Jogos", icon: "◷", group: "DIA A DIA" },
   { href: "/recentes", label: "Resultados", icon: "◈", group: "DIA A DIA" },
+  { href: "/plano", label: "Plano e cotações", icon: "⌁", group: "ATUALIDADE" },
   { href: "/combinadas", label: "Combinadas", icon: "⊞", group: "ATUALIDADE" },
   { href: "/resumo", label: "Visão geral", icon: "◫", group: "INVESTIGAÇÃO", archive: true },
   { href: "/jogos", label: "Arquivo histórico", icon: "◈", group: "INVESTIGAÇÃO", archive: true },

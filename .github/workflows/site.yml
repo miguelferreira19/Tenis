@@ -52,6 +52,7 @@ jobs:
         run: |
           node lib/parlay.test.mjs
           node lib/agenda.test.mjs
+          node lib/bankroll.test.mjs
           npm ci
           npm run build
       - uses: actions/upload-pages-artifact@v5

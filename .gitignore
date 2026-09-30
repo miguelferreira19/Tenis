@@ -38,3 +38,5 @@ work/
 
 data/external/
 !artifacts/recent_source_audit.json
+
+!artifacts/price_comparison.json

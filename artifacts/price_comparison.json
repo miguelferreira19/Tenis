@@ -1,0 +1,1634 @@
+{
+  "observed_at": "2026-09-30T15:31:07.041Z",
+  "source": "Betclic — consulta manual da oferta de ténis no browser",
+  "model_note": "Modelo operacional v4; histórico até maio de 2026. Sem validação prospectiva suficiente para recomendar apostas reais.",
+  "coverage": "140 encontros com duas cotações recolhidos até ao fim da oferta carregada: 28 comparáveis e 112 sem modelo aplicável. Mercado vencedor do encontro; vencedores de competição e outros desportos não abrangidos. Consulta pontual, não feed contínuo.",
+  "rows": [
+    {
+      "fixture_id": "espn:183491",
+      "player": "Brandon Nakashima",
+      "match": "Brandon Nakashima - Ugo Humbert",
+      "probability": 0.47588842204202164,
+      "odds": 1.45,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/brandon-nakashima-ugo-humbert-m1237923406053378",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183491",
+      "player": "Ugo Humbert",
+      "match": "Brandon Nakashima - Ugo Humbert",
+      "probability": 0.5241115779579784,
+      "odds": 2.7,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/brandon-nakashima-ugo-humbert-m1237923406053378",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183492",
+      "player": "Luciano Darderi",
+      "match": "Luciano Darderi - Casper Ruud",
+      "probability": 0.32647740321206536,
+      "odds": 2.85,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/luciano-darderi-casper-ruud-m1237924171505664",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183492",
+      "player": "Casper Ruud",
+      "match": "Luciano Darderi - Casper Ruud",
+      "probability": 0.6735225967879346,
+      "odds": 1.41,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/luciano-darderi-casper-ruud-m1237924171505664",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183486",
+      "player": "Taylor Fritz",
+      "match": "Taylor Fritz - Jaume Munar",
+      "probability": 0.6992664648333804,
+      "odds": 1.3,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/taylor-fritz-jaume-munar-m1238856508649472",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183486",
+      "player": "Jaume Munar",
+      "match": "Taylor Fritz - Jaume Munar",
+      "probability": 0.3007335351666196,
+      "odds": 3.45,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/taylor-fritz-jaume-munar-m1238856508649472",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183485",
+      "player": "Jaime Faria",
+      "match": "Jaime Faria - Arthur Fery",
+      "probability": 0.549104710324737,
+      "odds": 1.87,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/jaime-faria-arthur-fery-m1239737292582912",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183485",
+      "player": "Arthur Fery",
+      "match": "Jaime Faria - Arthur Fery",
+      "probability": 0.45089528967526304,
+      "odds": 1.9,
+      "start_at": "2026-10-01T02:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/jaime-faria-arthur-fery-m1239737292582912",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183458",
+      "player": "Alex De Minaur",
+      "match": "Alex De Minaur - Mariano Navone",
+      "probability": 0.7124844096509757,
+      "odds": 1.2,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alex-de-minaur-mariano-navone-m1237978427957248",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183458",
+      "player": "Mariano Navone",
+      "match": "Alex De Minaur - Mariano Navone",
+      "probability": 0.2875155903490243,
+      "odds": 4.1,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alex-de-minaur-mariano-navone-m1237978427957248",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183448",
+      "player": "Alex Molcan",
+      "match": "Alex Molcan - Arthur Rinderknech",
+      "probability": 0.3339817173246459,
+      "odds": 2.24,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alex-molcan-arthur-rinderknech-m1238832034877440",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183448",
+      "player": "Arthur Rinderknech",
+      "match": "Alex Molcan - Arthur Rinderknech",
+      "probability": 0.6660182826753541,
+      "odds": 1.58,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alex-molcan-arthur-rinderknech-m1238832034877440",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:184286",
+      "player": "Yulia Starodubtseva",
+      "match": "Yulia Starodubtseva - Alina Charaeva",
+      "probability": 0.6808379401535165,
+      "odds": 1.6,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/yulia-starodubtseva-alina-charaeva-m1238004687450112",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184286",
+      "player": "Alina Charaeva",
+      "match": "Yulia Starodubtseva - Alina Charaeva",
+      "probability": 0.3191620598464835,
+      "odds": 2.2,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/yulia-starodubtseva-alina-charaeva-m1238004687450112",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184267",
+      "player": "Sofia Kenin",
+      "match": "Sofia Kenin - Ashlyn Krueger",
+      "probability": 0.45757627352982205,
+      "odds": 2.28,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/sofia-kenin-ashlyn-krueger-m1238005287235587",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184267",
+      "player": "Ashlyn Krueger",
+      "match": "Sofia Kenin - Ashlyn Krueger",
+      "probability": 0.5424237264701779,
+      "odds": 1.56,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/sofia-kenin-ashlyn-krueger-m1238005287235587",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184252",
+      "player": "Katie Volynets",
+      "match": "Katie Volynets - Robin Montgomery",
+      "probability": 0.557206200739141,
+      "odds": 1.68,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/katie-volynets-robin-montgomery-m1238911433052162",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184252",
+      "player": "Robin Montgomery",
+      "match": "Katie Volynets - Robin Montgomery",
+      "probability": 0.44279379926085904,
+      "odds": 2.06,
+      "start_at": "2026-10-01T03:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/katie-volynets-robin-montgomery-m1238911433052162",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:183487",
+      "player": "Kei Nishikori",
+      "match": "Kei Nishikori - Frances Tiafoe",
+      "probability": 0.4401298075152804,
+      "odds": 4.3,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/kei-nishikori-frances-tiafoe-m1237919113187328",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183487",
+      "player": "Frances Tiafoe",
+      "match": "Kei Nishikori - Frances Tiafoe",
+      "probability": 0.5598701924847196,
+      "odds": 1.21,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/kei-nishikori-frances-tiafoe-m1237919113187328",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183484",
+      "player": "Holger Rune",
+      "match": "Holger Rune - Kyrian Jacquet",
+      "probability": 0.77600397765539,
+      "odds": 1.53,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/holger-rune-kyrian-jacquet-m1238015278067712",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183484",
+      "player": "Kyrian Jacquet",
+      "match": "Holger Rune - Kyrian Jacquet",
+      "probability": 0.22399602234461002,
+      "odds": 2.45,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/holger-rune-kyrian-jacquet-m1238015278067712",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183494",
+      "player": "Tomas Martin Etcheverry",
+      "match": "Tomas Martin Etcheverry - Stefanos Tsitsipas",
+      "probability": 0.515896364799995,
+      "odds": 3.4,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/tomas-martin-etcheverry-stefanos-tsitsipas-m1238836893990912",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183494",
+      "player": "Stefanos Tsitsipas",
+      "match": "Tomas Martin Etcheverry - Stefanos Tsitsipas",
+      "probability": 0.484103635200005,
+      "odds": 1.3,
+      "start_at": "2026-10-01T03:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/tomas-martin-etcheverry-stefanos-tsitsipas-m1238836893990912",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183445",
+      "player": "Ignacio Buse",
+      "match": "Ignacio Buse - Quentin Halys",
+      "probability": 0.547663415889762,
+      "odds": 1.98,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/ignacio-buse-quentin-halys-m1237979520565248",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183445",
+      "player": "Quentin Halys",
+      "match": "Ignacio Buse - Quentin Halys",
+      "probability": 0.452336584110238,
+      "odds": 1.68,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/ignacio-buse-quentin-halys-m1237979520565248",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183441",
+      "player": "Roman Safiullin",
+      "match": "Roman Safiullin - Flavio Cobolli",
+      "probability": 0.3182459331265965,
+      "odds": 1.9,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/roman-safiullin-flavio-cobolli-m1238161942380544",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183441",
+      "player": "Flavio Cobolli",
+      "match": "Roman Safiullin - Flavio Cobolli",
+      "probability": 0.6817540668734035,
+      "odds": 1.74,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/roman-safiullin-flavio-cobolli-m1238161942380544",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:184257",
+      "player": "Aoi Ito",
+      "match": "Aoi Ito - Kimberly Birrell",
+      "probability": 0.4258077849641668,
+      "odds": 3.25,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/aoi-ito-kimberly-birrell-m1238004709470208",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184257",
+      "player": "Kimberly Birrell",
+      "match": "Aoi Ito - Kimberly Birrell",
+      "probability": 0.5741922150358332,
+      "odds": 1.26,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/aoi-ito-kimberly-birrell-m1238004709470208",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184244",
+      "player": "Paula Badosa Gibert",
+      "match": "Paula Badosa Gibert - Daria Kasatkina",
+      "probability": 0.5335733574508901,
+      "odds": 1.37,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/paula-badosa-gibert-daria-kasatkina-m1238008878612480",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184244",
+      "player": "Daria Kasatkina",
+      "match": "Paula Badosa Gibert - Daria Kasatkina",
+      "probability": 0.4664266425491099,
+      "odds": 2.7,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/paula-badosa-gibert-daria-kasatkina-m1238008878612480",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184285",
+      "player": "Sonay Kartal",
+      "match": "Sonay Kartal - Andrea Lazaro Garcia",
+      "probability": 0.6311518645942075,
+      "odds": 1.23,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/sonay-kartal-andrea-lazaro-garcia-m1238910820687872",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184285",
+      "player": "Andrea Lazaro Garcia",
+      "match": "Sonay Kartal - Andrea Lazaro Garcia",
+      "probability": 0.36884813540579253,
+      "odds": 3.5,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/sonay-kartal-andrea-lazaro-garcia-m1238910820687872",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:183460",
+      "player": "Botic Van De Zandschulp",
+      "match": "Botic Van De Zandschulp - Francisco Cerundolo",
+      "probability": 0.4190556801959587,
+      "odds": 2.1,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/botic-van-de-zandschulp-francisco-cerundolo-m1238830845800448",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183460",
+      "player": "Francisco Cerundolo",
+      "match": "Botic Van De Zandschulp - Francisco Cerundolo",
+      "probability": 0.5809443198040414,
+      "odds": 1.61,
+      "start_at": "2026-10-01T04:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/botic-van-de-zandschulp-francisco-cerundolo-m1238830845800448",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:184270",
+      "player": "Magda Linette",
+      "match": "Magda Linette - Katerina Siniakova",
+      "probability": 0.4397501503628615,
+      "odds": 2.45,
+      "start_at": "2026-10-01T06:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/magda-linette-katerina-siniakova-m1238005910081536",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184270",
+      "player": "Katerina Siniakova",
+      "match": "Magda Linette - Katerina Siniakova",
+      "probability": 0.5602498496371384,
+      "odds": 1.45,
+      "start_at": "2026-10-01T06:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/magda-linette-katerina-siniakova-m1238005910081536",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:183493",
+      "player": "Denis Shapovalov",
+      "match": "Denis Shapovalov - Sho Shimabukuro",
+      "probability": 0.6429009037920378,
+      "odds": 1.28,
+      "start_at": "2026-10-01T06:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/denis-shapovalov-sho-shimabukuro-m1237926227759104",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183493",
+      "player": "Sho Shimabukuro",
+      "match": "Denis Shapovalov - Sho Shimabukuro",
+      "probability": 0.3570990962079622,
+      "odds": 3.35,
+      "start_at": "2026-10-01T06:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/denis-shapovalov-sho-shimabukuro-m1237926227759104",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183499",
+      "player": "Alejandro Davidovich Fokina",
+      "match": "Alejandro Davidovich Fokina - Matteo Berrettini",
+      "probability": 0.562305643437376,
+      "odds": 1.62,
+      "start_at": "2026-10-01T08:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/alejandro-davidovich-fokina-matteo-berrettini-m1237920925126656",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183499",
+      "player": "Matteo Berrettini",
+      "match": "Alejandro Davidovich Fokina - Matteo Berrettini",
+      "probability": 0.437694356562624,
+      "odds": 2.16,
+      "start_at": "2026-10-01T08:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/alejandro-davidovich-fokina-matteo-berrettini-m1237920925126656",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183440",
+      "player": "Alexander Zverev",
+      "match": "Alexander Zverev - Cameron Norrie",
+      "probability": 0.7822853173369541,
+      "odds": 1.08,
+      "start_at": "2026-10-01T07:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alexander-zverev-cameron-norrie-m1237986657189888",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183440",
+      "player": "Cameron Norrie",
+      "match": "Alexander Zverev - Cameron Norrie",
+      "probability": 0.21771468266304594,
+      "odds": 5.8,
+      "start_at": "2026-10-01T07:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alexander-zverev-cameron-norrie-m1237986657189888",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183497",
+      "player": "Carlos Alcaraz",
+      "match": "Carlos Alcaraz - Alex Michelsen",
+      "probability": 0.8695952043333008,
+      "odds": 1.15,
+      "start_at": "2026-10-01T07:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/carlos-alcaraz-alex-michelsen-m1237926283350016",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183497",
+      "player": "Alex Michelsen",
+      "match": "Carlos Alcaraz - Alex Michelsen",
+      "probability": 0.13040479566669916,
+      "odds": 4.7,
+      "start_at": "2026-10-01T07:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/carlos-alcaraz-alex-michelsen-m1237926283350016",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:184292",
+      "player": "Marina Bassols Ribera",
+      "match": "Marina Bassols Ribera - Kamilla Rakhimova",
+      "probability": 0.36843123413970813,
+      "odds": 3.05,
+      "start_at": "2026-10-01T07:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/marina-bassols-ribera-kamilla-rakhimova-m1238936619851786",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:184292",
+      "player": "Kamilla Rakhimova",
+      "match": "Marina Bassols Ribera - Kamilla Rakhimova",
+      "probability": 0.6315687658602919,
+      "odds": 1.29,
+      "start_at": "2026-10-01T07:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/marina-bassols-ribera-kamilla-rakhimova-m1238936619851786",
+      "tour": "WTA"
+    },
+    {
+      "fixture_id": "espn:183443",
+      "player": "Tallon Griekspoor",
+      "match": "Tallon Griekspoor - Andrey Rublev",
+      "probability": 0.41085829414182196,
+      "odds": 2.27,
+      "start_at": "2026-10-01T08:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/tallon-griekspoor-andrey-rublev-m1237986550218762",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183443",
+      "player": "Andrey Rublev",
+      "match": "Tallon Griekspoor - Andrey Rublev",
+      "probability": 0.589141705858178,
+      "odds": 1.52,
+      "start_at": "2026-10-01T08:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/tallon-griekspoor-andrey-rublev-m1237986550218762",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183498",
+      "player": "Adolfo Daniel Vallejo",
+      "match": "Adolfo Daniel Vallejo - Rafael Jodar",
+      "probability": 0.29161390037901475,
+      "odds": 4.2,
+      "start_at": "2026-10-01T08:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/adolfo-daniel-vallejo-rafael-jodar-m1238857457606656",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183498",
+      "player": "Rafael Jodar",
+      "match": "Adolfo Daniel Vallejo - Rafael Jodar",
+      "probability": 0.7083860996209852,
+      "odds": 1.19,
+      "start_at": "2026-10-01T08:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/adolfo-daniel-vallejo-rafael-jodar-m1238857457606656",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183438",
+      "player": "Learner Tien",
+      "match": "Learner Tien - Hubert Hurkacz",
+      "probability": 0.6346737676282478,
+      "odds": 1.49,
+      "start_at": "2026-10-01T11:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/learner-tien-hubert-hurkacz-m1238162482413568",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183438",
+      "player": "Hubert Hurkacz",
+      "match": "Learner Tien - Hubert Hurkacz",
+      "probability": 0.3653262323717522,
+      "odds": 2.33,
+      "start_at": "2026-10-01T11:00:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/learner-tien-hubert-hurkacz-m1238162482413568",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183459",
+      "player": "Alexander Bublik",
+      "match": "Alexander Bublik - Jakub Mensik",
+      "probability": 0.49284986299357914,
+      "odds": 2.26,
+      "start_at": "2026-10-01T12:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alexander-bublik-jakub-mensik-m1237976773304320",
+      "tour": "ATP"
+    },
+    {
+      "fixture_id": "espn:183459",
+      "player": "Jakub Mensik",
+      "match": "Alexander Bublik - Jakub Mensik",
+      "probability": 0.5071501370064209,
+      "odds": 1.52,
+      "start_at": "2026-10-01T12:30:00+00:00",
+      "observed_at": "2026-09-30T15:31:07.041Z",
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/alexander-bublik-jakub-mensik-m1237976773304320",
+      "tour": "ATP"
+    }
+  ],
+  "unmodeled": [
+    {
+      "name": "Jiri Lehecka - Zizou Bergs",
+      "odds": [
+        1.09,
+        6
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/jiri-lehecka-zizou-bergs-m1237922232700928",
+      "reason": "Em direto: sem modelo ao vivo"
+    },
+    {
+      "name": "Anna Bondar - Renata Zarazua",
+      "odds": [
+        2.25,
+        1.5
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/anna-bondar-renata-zarazua-m1238018434273280",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Cadenasso G / Giunta M - Barry C / Johns G",
+      "odds": [
+        1.03,
+        15
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-pares-c29926/cadenasso-g-giunta-m-barry-c-johns-g-m1238708234760192",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Luca Potenza - Inaki Montes-De La Torre",
+      "odds": [
+        50,
+        null
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/luca-potenza-inaki-montes-de-la-torre-m1238288767664128",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Edas Butvilas - Michael Geerts",
+      "odds": [
+        1.05,
+        10
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/edas-butvilas-michael-geerts-m1238288793862144",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Guido Ivan Justo - Franco Roncadelli",
+      "odds": [
+        null,
+        17
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/guido-ivan-justo-franco-roncadelli-m1236796571684864",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Luis Guto Miguel - Facundo Mena",
+      "odds": [
+        1.29,
+        2.9
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/luis-guto-miguel-facundo-mena-m1236795883814912",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Bruno Fernandez - Lautaro Midon",
+      "odds": [
+        15,
+        null
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/bruno-fernandez-lautaro-midon-m1239172074471424",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Samuel Heredia - Joao Eduardo Schiessl",
+      "odds": [
+        2.6,
+        1.35
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/samuel-heredia-joao-eduardo-schiessl-m1238661634990080",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Andrew Fenty - Dylan Dietrich",
+      "odds": [
+        3.25,
+        1.19
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/andrew-fenty-dylan-dietrich-m1239238574104576",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Okonkwo A I / Stearns P - Jarvis R / Vance J",
+      "odds": [
+        1.42,
+        2.25
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/okonkwo-a-i-stearns-p-jarvis-r-vance-j-m1238205640753152",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Barrientos N / WalkÃ³w S - Paul J / Vocel M",
+      "odds": [
+        2.45,
+        1.35
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-pares-c35928/barrientos-n-walkow-s-paul-j-vocel-m-m1238205655420928",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Barroso Campos A / Vega Hernandez D - Jans J / Vliegen J",
+      "odds": [
+        1.71,
+        1.75
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-pares-c20619/barroso-campos-a-vega-hernandez-d-jans-j-vliegen-j-m1237536462626816",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Leolia Jeanjean - Melisa Ercan",
+      "odds": [
+        1.22,
+        3.45
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-c41265/leolia-jeanjean-melisa-ercan-m1238945004265472",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Galfi D / Waltert S - Moratelli A / ValdmannovÃ¡ V",
+      "odds": [
+        1.79,
+        1.85
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-pares-c41266/galfi-d-waltert-s-moratelli-a-valdmannova-v-m1237543508021248",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Bittoun Kouzmine C / Visker N - Balshaw F / Martineau M",
+      "odds": [
+        1.82,
+        1.82
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-pares-c20619/bittoun-kouzmine-c-visker-n-balshaw-f-martineau-m-m1239073739014144",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Oliveira B (2002) / Rodrigues N - Braga B / Braga V",
+      "odds": [
+        1.11,
+        5
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-pares-c36257/oliveira-b-2002-rodrigues-n-braga-b-braga-v-m1239851866292224",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Juan Bautista Torres - Marcelo Tomas Barrios Vera",
+      "odds": [
+        3,
+        1.31
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/juan-bautista-torres-marcelo-tomas-barrios-vera-m1239080831574016",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Gustavo Heide - Felipe Alves",
+      "odds": [
+        1.3,
+        3.05
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/gustavo-heide-felipe-alves-m1239172116418560",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Darwin Blanch - Daniel Milavsky",
+      "odds": [
+        1.41,
+        2.55
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/darwin-blanch-daniel-milavsky-m1239121002516480",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Cagla Buyukakcay - Lucrezia Stefanini",
+      "odds": [
+        5.6,
+        1.09
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-c41265/cagla-buyukakcay-lucrezia-stefanini-m1239133588586496",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Braden Shick - Mees Rottgering",
+      "odds": [
+        2.41,
+        1.46
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/braden-shick-mees-rottgering-m1238492788035584",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Geerts M / Prashanth V S - Donski A / Pieczonka F",
+      "odds": [
+        3.05,
+        1.26
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-pares-c35928/geerts-m-prashanth-v-s-donski-a-pieczonka-f-m1238205796986880",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Roncadelli F / Villanueva G - Alves M / Couto Loureiro J V",
+      "odds": [
+        1.52,
+        2.25
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-pares-c36257/roncadelli-f-villanueva-g-alves-m-couto-loureiro-j-v-m1238719301427200",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Pissetti Vialle H / Storck FranÃ§a L - Pereira J / Sakamoto P",
+      "odds": [
+        4.4,
+        1.15
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-pares-c36257/pissetti-vialle-h-storck-franca-l-pereira-j-sakamoto-p-m1237820123410432",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Arneodo R / Kittay B - Pereira T / Rocha F",
+      "odds": [
+        1.23,
+        3.5
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-pares-c35928/arneodo-r-kittay-b-pereira-t-rocha-f-m1237813904302080",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Goffin D / Herbert P-H - Poling K / Sheehy J",
+      "odds": [
+        1.42,
+        2.55
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-pares-c20619/goffin-d-herbert-p-h-poling-k-sheehy-j-m1237536408100864",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Luca Staeheli - Andres Andrade",
+      "odds": [
+        3.35,
+        1.25
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/luca-staeheli-andres-andrade-m1239297238790188",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Blando J / Vasser O - Martinez L D / Trotter J K",
+      "odds": [
+        4.1,
+        1.16
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/blando-j-vasser-o-martinez-l-d-trotter-j-k-m1238205965799424",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Lucas Poullain - Remy Bertola",
+      "odds": [
+        2.08,
+        1.61
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/lucas-poullain-remy-bertola-m1239177624571904",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Fenty A / Maloney P - Ayeni A / Suarez B",
+      "odds": [
+        3.2,
+        1.27
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/fenty-a-maloney-p-ayeni-a-suarez-b-m1238205144760320",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Remondy Pagotto V H / Roveri Sidney G - Miguel L G / Ribeiro E",
+      "odds": [
+        5.8,
+        1.08
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-pares-c36257/remondy-pagotto-v-h-roveri-sidney-g-miguel-l-g-ribeiro-e-m1238718267527168",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Britto L / Marcondes I - Mackinlay J / Okonkwo O",
+      "odds": [
+        1.8,
+        1.72
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/britto-l-marcondes-i-mackinlay-j-okonkwo-o-m1237813967228928",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Forbes M / Petak D - Mayo A / Vance J",
+      "odds": [
+        1.66,
+        1.87
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/forbes-m-petak-d-mayo-a-vance-j-m1238205967892480",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Joao Lucas Reis Da Silva - Matheus Pucinelli de Almeida",
+      "odds": [
+        2.29,
+        1.51
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/curitiba-challenger-c36256/joao-lucas-reis-da-silva-matheus-pucinelli-de-almeida-m1239121860251648",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Carpico B / Filin N - Mitsui S / Tu L",
+      "odds": [
+        1.31,
+        2.65
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-pares-c20427/carpico-b-filin-n-mitsui-s-tu-l-m1238204810268672",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Qinwen Zheng - Shi Han",
+      "odds": [
+        1.07,
+        6.6
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/qinwen-zheng-shi-han-m1238906545643520",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Cash R / Erler A - Luz O / Matos R",
+      "odds": [
+        2.39,
+        1.47
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/cash-r-erler-a-luz-o-matos-r-m1238130440028160",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Lloyd Harris - Luka Pavlovic",
+      "odds": [
+        1.18,
+        4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/lloyd-harris-luka-pavlovic-m1239611889192960",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Adam Walton - Mattia Bellucci",
+      "odds": [
+        1.86,
+        1.78
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/adam-walton-mattia-bellucci-m1239611931123713",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Petr Bar Biryukov - Dane Sweeny",
+      "odds": [
+        2.85,
+        1.33
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/petr-bar-biryukov-dane-sweeny-m1239691843104768",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Sofya Lansere - Sofia Costoulas",
+      "odds": [
+        3.15,
+        1.27
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/sofya-lansere-sofia-costoulas-m1238913850019840",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Alevtina Ibragimova - Kyoka Okamura",
+      "odds": [
+        1.29,
+        3.1
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/alevtina-ibragimova-kyoka-okamura-m1238914007314432",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Krajicek A / Mektic N - Nouza P / Venus M",
+      "odds": [
+        1.34,
+        2.85
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/krajicek-a-mektic-n-nouza-p-venus-m-m1238135061094432",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Michael Zheng - Yanki Erel",
+      "odds": [
+        1.15,
+        4.4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/michael-zheng-yanki-erel-m1238814080110594",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Yuta Shimizu - Bernard Tomic",
+      "odds": [
+        2.19,
+        1.55
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/yuta-shimizu-bernard-tomic-m1238945684799488",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Elias Ymer - Federico Cina",
+      "odds": [
+        3.05,
+        1.29
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/elias-ymer-federico-cina-m1239611888132096",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Andre Ilagan - Marat Sharipov",
+      "odds": [
+        2.9,
+        1.33
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-c38676/andre-ilagan-marat-sharipov-m1239671015243776",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Kuwata H / Zheng W - Li Y-Y / Zhang Y",
+      "odds": [
+        2.65,
+        1.38
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-pares-c38680/kuwata-h-zheng-w-li-y-y-zhang-y-m1238998754287616",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Grant T C / Jones E - Brooks M / Rajecki A",
+      "odds": [
+        2.55,
+        1.42
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-pares-c38680/grant-t-c-jones-e-brooks-m-rajecki-a-m1239761216884736",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Bolelli S / Vavassori A - Mochizuki S / Watanabe S",
+      "odds": [
+        1.09,
+        5.4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/bolelli-s-vavassori-a-mochizuki-s-watanabe-s-m1238132795125875",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "King E / Nakashima B - Arribage T / Olivetti A",
+      "odds": [
+        2.7,
+        1.37
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/king-e-nakashima-b-arribage-t-olivetti-a-m1238134541000704",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Yushan Shao - Anastasia Zakharova",
+      "odds": [
+        7,
+        1.05
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/yushan-shao-anastasia-zakharova-m1238005335474176",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Yu Jun Lin - Storm Hunter",
+      "odds": [
+        7.6,
+        1.03
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/yu-jun-lin-storm-hunter-m1238906505797632",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Zhang Z / Zhou Y i - Schnaitter J / Wallner M",
+      "odds": [
+        3.5,
+        1.23
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/zhang-z-zhou-y-i-schnaitter-j-wallner-m-m1238131867127808",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Jessica Bouzas Maneiro - Yuhan Wang",
+      "odds": [
+        1.04,
+        7.4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/jessica-bouzas-maneiro-yuhan-wang-m1238944994820096",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Darderi L / Etcheverry T M - Hijikata R / Uesugi K",
+      "odds": [
+        2.19,
+        1.56
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/darderi-l-etcheverry-t-m-hijikata-r-uesugi-k-m1238133351915520",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Juncheng Shang - Sebastian Baez",
+      "odds": [
+        1.57,
+        2.16
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/juncheng-shang-sebastian-baez-m1237971573420032",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Harriet Dart - Yihan Qu",
+      "odds": [
+        1.04,
+        7.4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/harriet-dart-yihan-qu-m1238937976705024",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Escobar G / Kaliyanda Poonacha N - Leong M W K / Sakellaridis S",
+      "odds": [
+        1.2,
+        3.75
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-challenger-pares-c38677/escobar-g-kaliyanda-poonacha-n-leong-m-w-k-sakellaridis-s-m1239819603701760",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Aliona Falei - Kristiana Sidorova",
+      "odds": [
+        1.54,
+        2.22
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/aliona-falei-kristiana-sidorova-m1238914437218304",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Lanlana Tararudee - Maria Camila Osorio Serrano",
+      "odds": [
+        1.77,
+        1.87
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/lanlana-tararudee-maria-camila-osorio-serrano-m1238006498344960",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Xinyu Gao - Panna Udvardy",
+      "odds": [
+        2.42,
+        1.46
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/xinyu-gao-panna-udvardy-m1238010271105024",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Lorenzo Giustino - Matthew William Donald",
+      "odds": [
+        1.68,
+        1.98
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-c29925/lorenzo-giustino-matthew-william-donald-m1238967105130496",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Pierluigi Basile - Martin Krumich",
+      "odds": [
+        2.12,
+        1.49
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-c29925/pierluigi-basile-martin-krumich-m1238978455965696",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Massimo Giunta - Carlos Taberner",
+      "odds": [
+        2.7,
+        1.38
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-c29925/massimo-giunta-carlos-taberner-m1239061907922944",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Laurent Lokoli - Samuele Pieri",
+      "odds": [
+        1.56,
+        2.18
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-c29925/laurent-lokoli-samuele-pieri-m1239099988017152",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Gianluca Cadenasso - Vitaliy Sachko",
+      "odds": [
+        2,
+        1.67
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/bari-challenger-c29925/gianluca-cadenasso-vitaliy-sachko-m1239867322306560",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Alycia Parks - Lin Zhu",
+      "odds": [
+        1.81,
+        1.83
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/alycia-parks-lin-zhu-m1238009832808448",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Joel Josef Schwarzler - Harry Wendelken",
+      "odds": [
+        1.93,
+        1.72
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/joel-josef-schwarzler-harry-wendelken-m1238978453860352",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Doumbia S / Reboul F - Gonzalez M / Molteni A",
+      "odds": [
+        1.46,
+        2.4
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/doumbia-s-reboul-f-gonzalez-m-molteni-a-m1239833135583232",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Daniel Rincon - Laslo Djere",
+      "odds": [
+        2.04,
+        1.64
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/daniel-rincon-laslo-djere-m1238923231629312",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Goncalo Marques - David Jorda Sanchis",
+      "odds": [
+        2.12,
+        1.59
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/goncalo-marques-david-jorda-sanchis-m1238924220440576",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "August Holmgren - Andrea Guerrieri",
+      "odds": [
+        1.98,
+        1.68
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/august-holmgren-andrea-guerrieri-m1238966981390336",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Toby Samuel - Jerome Kym",
+      "odds": [
+        1.38,
+        2.65
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/toby-samuel-jerome-kym-m1238978454908928",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Mili Poljicak - Henrique Rocha",
+      "odds": [
+        3.45,
+        1.23
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/porto-2-challenger-c35926/mili-poljicak-henrique-rocha-m1238990691786752",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Henry Bernet - Dominic Stephan Stricker",
+      "odds": [
+        2.08,
+        1.61
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/henry-bernet-dominic-stephan-stricker-m1239843891863552",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Eva Lys - Xinran Sun",
+      "odds": [
+        1.4,
+        2.6
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/eva-lys-xinran-sun-m1238008834560000",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Felix Balshaw - Nicolai Budkov Kjaer",
+      "odds": [
+        2.11,
+        1.6
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/felix-balshaw-nicolai-budkov-kjaer-m1238983773294592",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Clement Chidekh - Ugo Blanchet",
+      "odds": [
+        1.39,
+        2.65
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/clement-chidekh-ugo-blanchet-m1239224814686208",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Jakupovic D / Salden L - Crawley F / Daniel J",
+      "odds": [
+        1.42,
+        2.55
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-pares-c41266/jakupovic-d-salden-l-crawley-f-daniel-j-m1239218156236800",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Pridankina E / Tikhonova A - Aksu A / Mert A",
+      "odds": [
+        1.23,
+        3.5
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-pares-c41266/pridankina-e-tikhonova-a-aksu-a-mert-a-m1239741781536768",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Abedallah Shelbayh - Daniil Ostapenkov",
+      "odds": [
+        1.29,
+        3.05
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/abedallah-shelbayh-daniil-ostapenkov-m1239085141229568",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Stefan Kozlov - Mitchell Krueger",
+      "odds": [
+        1.79,
+        1.84
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/stefan-kozlov-mitchell-krueger-m1239309669662720",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Bryce Nakashima - Keegan Smith",
+      "odds": [
+        1.91,
+        1.73
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/bryce-nakashima-keegan-smith-m1239416070762496",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Aidan Mayo - Colton Smith",
+      "odds": [
+        2.3,
+        1.5
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/columbus-challenger-c20426/aidan-mayo-colton-smith-m1239442418331648",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Harold Mayot - Tristan Schoolkate",
+      "odds": [
+        1.53,
+        2.06
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/mouilleron-le-captif-challenger-c18899/harold-mayot-tristan-schoolkate-m1239818750164992",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Daniil Medvedev - Pablo CarreÃ±o-Busta",
+      "odds": [
+        1.19,
+        3.6
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/daniil-medvedev-pablo-carreno-busta-m1238830790213632",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Andreozzi G / Guinard M - Arends S / Pel D",
+      "odds": [
+        1.34,
+        2.85
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/andreozzi-g-guinard-m-arends-s-pel-d-m1238129388290048",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Cabral F / Tracy J - Buse I / Cobolli F",
+      "odds": [
+        1.3,
+        3
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/cabral-f-tracy-j-buse-i-cobolli-f-m1238130235539456",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Melo M / Zverev A - Frantzen C / Haase R",
+      "odds": [
+        2.05,
+        1.64
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/melo-m-zverev-a-frantzen-c-haase-r-m1238131442462720",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Galloway R / Goransson A - Tabilo A / van Assche L",
+      "odds": [
+        1.22,
+        3.55
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/galloway-r-goransson-a-tabilo-a-van-assche-l-m1238133965328384",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Johnson L / Rikl P - Polmans M / Zielinski J",
+      "odds": [
+        2.17,
+        1.56
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-pares-c18440/johnson-l-rikl-p-polmans-m-zielinski-j-m1238134400491520",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Bu Yunchaokete - Novak Djokovic",
+      "odds": [
+        3,
+        1.27
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-c36052/bu-yunchaokete-novak-djokovic-m1239875329228800",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Janice Tjen - Diana Shnaider",
+      "odds": [
+        2.9,
+        1.29
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/janice-tjen-diana-shnaider-m1239628396924928",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Linda Noskova - Elena Gabriela Ruse",
+      "odds": [
+        1.18,
+        3.65
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/linda-noskova-elena-gabriela-ruse-m1239628421033984",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Maria Timofeeva - Naomi Osaka",
+      "odds": [
+        3.8,
+        1.17
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/maria-timofeeva-naomi-osaka-m1239628508065792",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Dayana Yastremska - Maja Chwalinska",
+      "odds": [
+        2.65,
+        1.35
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/dayana-yastremska-maja-chwalinska-m1239628558397440",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Anastasia Potapova - Sinja Kraus",
+      "odds": [
+        1.24,
+        3.15
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/anastasia-potapova-sinja-kraus-m1239628620259328",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Jasmine Paolini - Daria Snigur",
+      "odds": [
+        1.45,
+        2.32
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/jasmine-paolini-daria-snigur-m1239679945961472",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Viktorija Golubic - Peyton Stearns",
+      "odds": [
+        2.23,
+        1.49
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/viktorija-golubic-peyton-stearns-m1239679991042048",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Clara Tauson - Polina Kudermetova",
+      "odds": [
+        1.3,
+        2.85
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/clara-tauson-polina-kudermetova-m1239680039276544",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Ekaterina Alexandrova - Aliaksandra Sasnovich",
+      "odds": [
+        1.57,
+        2.07
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/ekaterina-alexandrova-aliaksandra-sasnovich-m1239688727781376",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Sara Bejlek - Maddison Inglis",
+      "odds": [
+        1.28,
+        2.95
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/sara-bejlek-maddison-inglis-m1239723123171329",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Linda Fruhvirtova - Liudmila Samsonova",
+      "odds": [
+        3.6,
+        1.19
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/linda-fruhvirtova-liudmila-samsonova-m1239745742004224",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Yue Yuan - Mirra Andreeva",
+      "odds": [
+        6.2,
+        1.04
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/yue-yuan-mirra-andreeva-m1239754437849088",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Karolina Muchova - Katie Boulter",
+      "odds": [
+        1.08,
+        5.2
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/karolina-muchova-katie-boulter-m1239834807005184",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Taylah Preston - Diane Parry",
+      "odds": [
+        2.19,
+        1.51
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-wta-c36053/taylah-preston-diane-parry-m1239834866774016",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Khachanov K / Rublev A - Cash J / Glasspool L",
+      "odds": [
+        3.15,
+        1.28
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/beijing-atp-pares-c36056/khachanov-k-rublev-a-cash-j-glasspool-l-m1238131062882304",
+      "reason": "Pares: sem modelo de pares"
+    },
+    {
+      "name": "Alexandra Shubladze - Sijia Wei",
+      "odds": [
+        1.14,
+        3.75
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/alexandra-shubladze-sijia-wei-m1239813453803520",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Lois Boisson - Anna Blinkova",
+      "odds": [
+        2.09,
+        1.51
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-c41265/lois-boisson-anna-blinkova-m1239832483352576",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    },
+    {
+      "name": "Elena Pridankina - Erika Andreeva",
+      "odds": [
+        1.8,
+        1.71
+      ],
+      "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-c41265/elena-pridankina-erika-andreeva-m1239891189985280",
+      "reason": "Sem correspondência única com probabilidade no calendário"
+    }
+  ]
+}
