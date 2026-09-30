@@ -38,3 +38,6 @@ Consulta manual ao mercado vencedor do encontro de toda a oferta de ténis carre
 
 ## Atualização 15:52 UTC
 Dois novos resultados ESPN fechados com a regra de identidade e horas: Frech venceu Jacquemot; Zarazua venceu Bondar. Segunda ronda: 3/3 previsões liquidáveis, ambos os modelos acertam 2/3; Brier v4 0,146072846 vs candidato 0,149322653, log-loss 0,450203394 vs 0,470183153. Candidato pior nesta amostra minúscula; nenhuma promoção. Recency_730d: 30 pendentes. Métricas recalculadas diretamente com math, identidade/horas cobertas pelo teste de liquidação. Auditoria do CSV ATP em cache com SHA verificado: as duas chaves repetidas correspondem a jogos distintos, não linhas idênticas. Uma cruza datas de torneios diferentes, a outra cruza um jogo e um W/O na mesma data. Três IDs têm nomes incompatíveis; manter quarentena até confirmação independente. Evidência por linha anexada ao relatório; não foi escolhido arbitrariamente um registo nem integrado no treino.
+
+### Clarificação do plano
+Indicação principal inequívoca: ninguém / 0 € / nenhuma combinada real. Simulação em lista com jogador, tipo simples, montante individual e total separado. Estado vazio explica numericamente o conflito mínimo/limite. Definições e tabela técnica recolhidas em details; mantidas acessíveis. Sem alterar probabilidades ou regras de alocação.
