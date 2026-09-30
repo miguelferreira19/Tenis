@@ -12,7 +12,7 @@ export function GameCard({item,onAdd}: {item: Fixture; onAdd: (item: Fixture,off
   const aPct = p == null ? null : Math.round(p*1000)/10;
   const chances = aPct == null ? [null,null] : [aPct/100,(100-aPct)/100];
   return <article className="game-card" aria-label={`${item.player_a} contra ${item.player_b}`}>
-    <header className="game-meta"><div><span className="game-tour">{item.tour}</span><span>{item.tournament}</span></div><time dateTime={item.start_at}>{time(item.start_at)}<small>Lisboa</small></time></header>
+    <header className="game-meta"><div><span className="game-tour">{item.tour}</span><span>{item.tournament}</span></div><time dateTime={item.start_at}>{time(item.start_at)}<small>{new Date(item.start_at).toLocaleDateString("pt-PT",{day:"numeric",month:"short",timeZone:"Europe/Lisbon"})} · Lisboa</small></time></header>
     <p className="game-round">{item.quality.round?.replace(/Round (\d+)/,"Ronda $1").replace("Quarterfinals","Quartos de final").replace("Semifinals","Meias-finais") || "Ronda por confirmar"} · {surfaces[item.quality.surface || ""] || "Superfície por confirmar"}</p>
     <div className="game-players">{[item.player_a,item.player_b].map((name,i) => <div className={`game-player ${favorite===(i===0 ? "a" : "b") ? "game-favorite" : ""}`} key={`${i}:${name}`}>
       <span className="game-player-state">{p==null ? "Sem estimativa" : favorite===(i===0 ? "a" : "b") ? "Mais provável" : favorite==null ? "Probabilidades iguais" : "Também pode ganhar"}</span><h3>{name}</h3><strong aria-label={`${name}: ${chances[i] == null ? "probabilidade indisponível" : pct(chances[i])}`}>{pct(chances[i])}</strong><span className="game-chance-label">probabilidade estimada</span></div>)}</div>

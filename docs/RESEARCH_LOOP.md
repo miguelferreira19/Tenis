@@ -29,3 +29,6 @@ Fonte recente encontrada e preservada: recent_source_audit.json. Resolver 2 chav
 
 ## Publicação autorizada
 Após alterações, enviar para origin/master e verificar o workflow de GitHub Pages; autorização expressa do utilizador em 30-09-2026. Não deixar melhorias apenas locais.
+
+### Agenda — ordenação do favorito
+Adicionada ordenação global por max(p, 1-p), decrescente, com desempate por hora e jogos sem estimativa no fim. Datas visíveis nos cartões. Verificação: node apps/dashboard/lib/agenda.test.mjs (favorito B, empates, valores inválidos, imutabilidade). Não representa garantia de segurança nem valor de aposta.
