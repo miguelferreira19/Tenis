@@ -36,6 +36,11 @@ def evaluation() -> dict:
     research_path = DATA_DIR.parent / "artifacts" / "layoff_research.json"
     if research_path.exists():
         report["layoff_research"] = json.loads(research_path.read_text(encoding="utf-8"))
+    for name in ("innovation_research", "enrichment_research", "innovation_placebo", "enrichment_placebo",
+                 "iteration_research", "research_analysis", "research_audit"):
+        path = DATA_DIR.parent / "artifacts" / f"{name}.json"
+        if path.exists():
+            report[name] = json.loads(path.read_text(encoding="utf-8"))
     return report
 
 

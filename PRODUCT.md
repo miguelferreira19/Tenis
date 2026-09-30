@@ -30,3 +30,7 @@ Bilhetes de aposta que ocultam a casa, o instante de observação ou a dependên
 ## Accessibility & Inclusion
 
 Texto legível, navegação por teclado, foco visível, contraste adequado e respeito por movimento reduzido.
+
+## Publicação — preferência do utilizador (30-09-2026)
+
+Após alterações pedidas à plataforma, executar os testes adequados, enviar para o GitHub e acompanhar a publicação automática no GitHub Pages. Esta publicação está autorizada pelo utilizador; não pedir novamente confirmação para alterações dentro do âmbito aprovado.

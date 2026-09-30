@@ -1,0 +1,150 @@
+{
+  "day": "2026-09-30",
+  "model_version": "enrichment-all_metadata_context-5c42deb4b28a",
+  "model_sha256": "94739cc1e2d283a601dbf8ff1abba99287e74a4634773789d492ba92879ef5d8",
+  "dataset_hash": "5c42deb4b28ae00f9ce9d6c2ce36039923afce84c42f13be8fb01734f3c8b04e",
+  "baseline_version": "xgboost-operational-prematch-v4-4a05cb828214",
+  "last_archive_event": "2026-05-25",
+  "status": "research_shadow_not_betting_signal",
+  "forecasts": [
+    {
+      "fixture_id": "espn:183455",
+      "tour": "ATP",
+      "player_a_id": "ATP:132686",
+      "player_b_id": "ATP:104925",
+      "start_at": "2026-09-30T11:00:00+00:00",
+      "as_of": "2026-09-30T10:41:16.334461+00:00",
+      "baseline_probability_a": 0.10668444558898102,
+      "challenger_probability_a": 0.18807687954305852,
+      "features": {
+        "elo_global": -1.0031736888214773,
+        "elo_surface": -1.0837339637983592,
+        "ranking_log": -2.3418058061473275,
+        "form_10": -0.09999999999999998,
+        "serve_points": -0.0533093480115876,
+        "return_points": -0.023843155764276924,
+        "rest_days": 0.0,
+        "experience_log": -1.3179170636751536,
+        "surface_serve_shrunk": -0.04322639003497408,
+        "surface_return_shrunk": -0.0555463324299611,
+        "match_load_30d": 0.0,
+        "layoff_log_365d": 0.0,
+        "dynamic_skill": -1.3557249583172089,
+        "uncertainty_asymmetry": -0.37714830478291855,
+        "adjusted_serve": -0.14177480218545502,
+        "adjusted_return": -0.15973807186710623,
+        "surface_adjusted_serve": -0.1664859903738325,
+        "surface_adjusted_return": -0.3848346721479554,
+        "margin_skill": 0.1465103082496706,
+        "mechanistic_logit": -2.6495869444043807,
+        "age_difference": -0.9800000000000004,
+        "age_curve_difference": -1.6562872005475708,
+        "height_difference": -0.15000000000000036,
+        "ranking_points_log": -0.15248017668369396,
+        "metadata_missing_difference": 0.0,
+        "best_of_elo_global": -0.0,
+        "best_of_elo_surface": -0.0
+      }
+    },
+    {
+      "fixture_id": "espn:184289",
+      "tour": "WTA",
+      "player_a_id": "WTA:221039",
+      "player_b_id": "WTA:211684",
+      "start_at": "2026-09-30T11:00:00+00:00",
+      "as_of": "2026-09-30T10:41:29.189328+00:00",
+      "baseline_probability_a": 0.40212634228610095,
+      "challenger_probability_a": 0.3351665623885538,
+      "features": {
+        "elo_global": -0.20612267208025684,
+        "elo_surface": -0.21082470329043929,
+        "ranking_log": -0.36936010346604853,
+        "form_10": 0.0,
+        "serve_points": -0.03724579049047394,
+        "return_points": -0.05322786251194145,
+        "rest_days": 0.0,
+        "experience_log": -1.5314763709643882,
+        "surface_serve_shrunk": -0.0374569889292895,
+        "surface_return_shrunk": -0.045721835680037126,
+        "match_load_30d": 0.0,
+        "layoff_log_365d": 0.0,
+        "dynamic_skill": -0.4010537087455395,
+        "uncertainty_asymmetry": 0.16323467329568495,
+        "adjusted_serve": -0.21298251395645257,
+        "adjusted_return": -0.21420403638427143,
+        "surface_adjusted_serve": -0.19071010562535745,
+        "surface_adjusted_return": -0.2460798177119815,
+        "margin_skill": -0.23128973639738823,
+        "mechanistic_logit": -2.495595729626874,
+        "age_difference": -0.5399999999999996,
+        "age_curve_difference": -0.005448049281314024,
+        "height_difference": 0.09999999999999964,
+        "ranking_points_log": -0.022941824045705328,
+        "metadata_missing_difference": 0.3333333333333333,
+        "best_of_elo_global": -0.0,
+        "best_of_elo_surface": -0.0
+      }
+    },
+    {
+      "fixture_id": "espn:184288",
+      "tour": "WTA",
+      "player_a_id": "WTA:214388",
+      "player_b_id": "WTA:213887",
+      "start_at": "2026-09-30T12:30:00+00:00",
+      "as_of": "2026-09-30T10:41:29.192539+00:00",
+      "baseline_probability_a": 0.5149090911390343,
+      "challenger_probability_a": 0.5479584126494147,
+      "features": {
+        "elo_global": 0.1693582682562203,
+        "elo_surface": -0.11090439212753153,
+        "ranking_log": 0.25704510298989103,
+        "form_10": 0.2,
+        "serve_points": 0.022754745693278178,
+        "return_points": -0.009157394245991324,
+        "rest_days": 0.0,
+        "experience_log": 0.4122447950935424,
+        "surface_serve_shrunk": 0.02422302535621712,
+        "surface_return_shrunk": -0.0011619546741579723,
+        "match_load_30d": 0.0,
+        "layoff_log_365d": 0.0,
+        "dynamic_skill": 0.4930505125279226,
+        "uncertainty_asymmetry": -0.28726681469554644,
+        "adjusted_serve": 0.18865359727329523,
+        "adjusted_return": -0.007806484037858802,
+        "surface_adjusted_serve": 0.14800150716217414,
+        "surface_adjusted_return": -0.03261866452571199,
+        "margin_skill": 0.6029590738632258,
+        "mechanistic_logit": 0.5932545970255294,
+        "age_difference": 0.029999999999999805,
+        "age_curve_difference": 0.01860266940451727,
+        "height_difference": 0.0,
+        "ranking_points_log": 0.012376463023480833,
+        "metadata_missing_difference": 0.0,
+        "best_of_elo_global": 0.0,
+        "best_of_elo_surface": -0.0
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "id": "espn:184139",
+      "reason": "n\u00edvel da prova ainda n\u00e3o confirmado para o modelo ATP/WTA"
+    },
+    {
+      "id": "espn:184146",
+      "reason": "n\u00edvel da prova ainda n\u00e3o confirmado para o modelo ATP/WTA"
+    },
+    {
+      "id": "espn:184135",
+      "reason": "n\u00edvel da prova ainda n\u00e3o confirmado para o modelo ATP/WTA"
+    },
+    {
+      "id": "espn:184133",
+      "reason": "n\u00edvel da prova ainda n\u00e3o confirmado para o modelo ATP/WTA"
+    },
+    {
+      "id": "espn:184131",
+      "reason": "n\u00edvel da prova ainda n\u00e3o confirmado para o modelo ATP/WTA"
+    }
+  ]
+}

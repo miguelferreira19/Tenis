@@ -15,6 +15,17 @@ artifacts/*
 !artifacts/model_comparison.json
 !artifacts/prediction_backtest.json
 !artifacts/layoff_research.json
+!artifacts/innovation_research.json
+!artifacts/enrichment_research.json
+!artifacts/innovation_placebo.json
+!artifacts/enrichment_placebo.json
+!artifacts/research_audit.json
+!artifacts/iteration_research.json
+!artifacts/research_analysis.json
+!artifacts/iteration-*.joblib
+!artifacts/enrichment-*.joblib
+!artifacts/forward/
+!artifacts/forward/*.json
 !artifacts/xgboost-operational-*.joblib
 apps/dashboard/public/data/
 apps/dashboard/out/
@@ -24,3 +35,6 @@ work/
 *.tsbuildinfo
 .playwright-cli/
 
+
+data/external/
+!artifacts/recent_source_audit.json

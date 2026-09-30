@@ -1,5 +1,7 @@
 # Resultados de investigação v0.3
 
+Nova investigação em 30-09-2026: [resultados e registo completo](docs/RESULTS_2026-09-30.md). O candidato novo reduziu Brier de diagnóstico em origens móveis de **0,213292 para 0,211292** nos mesmos 13 734 jogos. A confirmação prospectiva continua pendente; ver o relatório para seleção múltipla, limitações, métodos rejeitados e previsões congeladas.
+
 Execução local em 27-09-2026. Arquivo ATP/WTA até ao torneio iniciado em **25-05-2026**. Os artefactos JSON em `artifacts/` guardam todos os valores e versões; os ficheiros raw não são redistribuídos.
 
 ## Cobertura e protocolo

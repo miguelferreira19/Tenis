@@ -1,0 +1,1039 @@
+{
+  "created_at": "2026-09-30T13:58:53.332686+00:00",
+  "selected": "recency_730d",
+  "artifact": "iteration-recency_730d-ba8d9ddb11569e94.joblib",
+  "dataset_hash": "5c42deb4b28ae00f9ce9d6c2ce36039923afce84c42f13be8fb01734f3c8b04e",
+  "status": "exploratory_retrospective",
+  "new_configurations": 22,
+  "shuffle_controls": 6,
+  "yearly": {
+    "2019": {
+      "baseline": {
+        "n": 5197,
+        "brier": 0.2152195989447286,
+        "log_loss": 0.6188965354587156,
+        "accuracy": 0.6546084279391957,
+        "ece_10": 0.022330578362563455
+      },
+      "selected": {
+        "n": 5197,
+        "brier": 0.21331662663145462,
+        "log_loss": 0.6147480702279073,
+        "accuracy": 0.660188570329036,
+        "ece_10": 0.02029147565354071
+      }
+    },
+    "2020": {
+      "baseline": {
+        "n": 2680,
+        "brier": 0.21293731712164632,
+        "log_loss": 0.6128785858222225,
+        "accuracy": 0.6526119402985074,
+        "ece_10": 0.03641999661216197
+      },
+      "selected": {
+        "n": 2680,
+        "brier": 0.20942890738624767,
+        "log_loss": 0.6050895359578135,
+        "accuracy": 0.6638059701492537,
+        "ece_10": 0.032896497466372535
+      }
+    },
+    "2021": {
+      "baseline": {
+        "n": 5135,
+        "brier": 0.21215246676045796,
+        "log_loss": 0.6115590798523108,
+        "accuracy": 0.6601752677702045,
+        "ece_10": 0.036655813611013915
+      },
+      "selected": {
+        "n": 5135,
+        "brier": 0.20831734535589128,
+        "log_loss": 0.6030819430872734,
+        "accuracy": 0.6691333982473223,
+        "ece_10": 0.027028785222101104
+      }
+    },
+    "2022": {
+      "baseline": {
+        "n": 5306,
+        "brier": 0.21144225488884544,
+        "log_loss": 0.6103032282924903,
+        "accuracy": 0.6556728232189973,
+        "ece_10": 0.01785373304162607
+      },
+      "selected": {
+        "n": 5306,
+        "brier": 0.20745663406875814,
+        "log_loss": 0.6010316455489969,
+        "accuracy": 0.6675461741424802,
+        "ece_10": 0.014699542813374013
+      }
+    },
+    "2023": {
+      "baseline": {
+        "n": 5598,
+        "brier": 0.2135389589946574,
+        "log_loss": 0.61434688923596,
+        "accuracy": 0.6573776348695963,
+        "ece_10": 0.015979511388938654
+      },
+      "selected": {
+        "n": 5598,
+        "brier": 0.20994122876548188,
+        "log_loss": 0.6060745067623952,
+        "accuracy": 0.6648803143979993,
+        "ece_10": 0.0115591071522121
+      }
+    },
+    "2024": {
+      "baseline": {
+        "n": 5736,
+        "brier": 0.21270135633768977,
+        "log_loss": 0.6117475757608555,
+        "accuracy": 0.6483612273361228,
+        "ece_10": 0.021702459814436553
+      },
+      "selected": {
+        "n": 5736,
+        "brier": 0.21078730284817063,
+        "log_loss": 0.607638686620612,
+        "accuracy": 0.6600418410041841,
+        "ece_10": 0.019316231781373226
+      }
+    },
+    "2025": {
+      "baseline": {
+        "n": 5343,
+        "brier": 0.2156154596965286,
+        "log_loss": 0.6193590855746568,
+        "accuracy": 0.6498221972674527,
+        "ece_10": 0.028509750377294772
+      },
+      "selected": {
+        "n": 5343,
+        "brier": 0.21299153119104577,
+        "log_loss": 0.6135752548411741,
+        "accuracy": 0.6552498596294217,
+        "ece_10": 0.018923454119604083
+      }
+    },
+    "2026": {
+      "baseline": {
+        "n": 2655,
+        "brier": 0.20989257954001234,
+        "log_loss": 0.6057682950000352,
+        "accuracy": 0.6700564971751413,
+        "ece_10": 0.03382057430971595
+      },
+      "selected": {
+        "n": 2655,
+        "brier": 0.20836250675963794,
+        "log_loss": 0.6021150296862618,
+        "accuracy": 0.6674199623352166,
+        "ece_10": 0.016411303815260903
+      }
+    }
+  },
+  "periods": {
+    "development": {
+      "baseline": {
+        "n": 23916,
+        "brier": 0.21307387854612078,
+        "log_loss": 0.6136753050295608,
+        "accuracy": 0.6564642916875731,
+        "ece_10": 0.02169549418782693
+      },
+      "selected": {
+        "n": 23916,
+        "brier": 0.20971740457431484,
+        "log_loss": 0.6060875754822458,
+        "accuracy": 0.6652450242515471,
+        "ece_10": 0.012570681626428357
+      },
+      "paired": {
+        "improvement": 0.003356473971805962,
+        "bootstrap_95": [
+          0.002742678436601212,
+          0.003946962330110408
+        ],
+        "n_tournaments": 1265,
+        "resamples": 2000
+      },
+      "subgroups": {
+        "ATP": {
+          "baseline": {
+            "n": 12437,
+            "brier": 0.21389869718417975,
+            "log_loss": 0.615136047796691,
+            "accuracy": 0.6529709737074857,
+            "ece_10": 0.028661811377020573
+          },
+          "selected": {
+            "n": 12437,
+            "brier": 0.21026414264125035,
+            "log_loss": 0.6068064856532002,
+            "accuracy": 0.6610114979496663,
+            "ece_10": 0.014858215198958752
+          }
+        },
+        "WTA": {
+          "baseline": {
+            "n": 11479,
+            "brier": 0.21218022322757912,
+            "log_loss": 0.612092653422731,
+            "accuracy": 0.6602491506228766,
+            "ece_10": 0.018244590714002026
+          },
+          "selected": {
+            "n": 11479,
+            "brier": 0.20912503752679518,
+            "log_loss": 0.6053086674069639,
+            "accuracy": 0.6698318668873595,
+            "ece_10": 0.015239498937529678
+          }
+        },
+        "Hard": {
+          "baseline": {
+            "n": 14554,
+            "brier": 0.21068805466847995,
+            "log_loss": 0.6085494313099802,
+            "accuracy": 0.6629105400577161,
+            "ece_10": 0.021678343974482754
+          },
+          "selected": {
+            "n": 14554,
+            "brier": 0.20707751878812536,
+            "log_loss": 0.6003172224916616,
+            "accuracy": 0.6727360175896661,
+            "ece_10": 0.01372593858645104
+          }
+        },
+        "Clay": {
+          "baseline": {
+            "n": 6858,
+            "brier": 0.21864550774986147,
+            "log_loss": 0.6254782247082258,
+            "accuracy": 0.6408573928258967,
+            "ece_10": 0.030943115990790346
+          },
+          "selected": {
+            "n": 6858,
+            "brier": 0.21510135530809602,
+            "log_loss": 0.6178506512829094,
+            "accuracy": 0.652522601341499,
+            "ece_10": 0.020783999025862962
+          }
+        },
+        "Grass": {
+          "baseline": {
+            "n": 2453,
+            "brier": 0.2113289754723386,
+            "log_loss": 0.6103792187237904,
+            "accuracy": 0.6624541377904607,
+            "ece_10": 0.018299609939427208
+          },
+          "selected": {
+            "n": 2453,
+            "brier": 0.20990009540637738,
+            "log_loss": 0.6065061077295042,
+            "accuracy": 0.6591928251121076,
+            "ece_10": 0.02408534453893768
+          }
+        }
+      },
+      "reliability": [
+        {
+          "from": 0.5,
+          "to": 0.6,
+          "n": 8482,
+          "predicted": 0.547948805951971,
+          "observed": 0.5446828578165527
+        },
+        {
+          "from": 0.6,
+          "to": 0.7,
+          "n": 6633,
+          "predicted": 0.6486681734193779,
+          "observed": 0.6511382481531736
+        },
+        {
+          "from": 0.7,
+          "to": 0.8,
+          "n": 5287,
+          "predicted": 0.7469061467376917,
+          "observed": 0.7503310005674295
+        },
+        {
+          "from": 0.8,
+          "to": 0.9,
+          "n": 2861,
+          "predicted": 0.8431613808032158,
+          "observed": 0.8364208318769661
+        },
+        {
+          "from": 0.9,
+          "to": 1,
+          "n": 653,
+          "predicted": 0.9243953128737826,
+          "observed": 0.9356814701378254
+        }
+      ]
+    },
+    "diagnostic": {
+      "baseline": {
+        "n": 13734,
+        "brier": 0.2132920620205529,
+        "log_loss": 0.6135528259803955,
+        "accuracy": 0.6531236347750109,
+        "ece_10": 0.023281500356780078
+      },
+      "selected": {
+        "n": 13734,
+        "brier": 0.21117607221040502,
+        "log_loss": 0.6088804060644568,
+        "accuracy": 0.6596039027231688,
+        "ece_10": 0.012839452804199803
+      },
+      "paired": {
+        "improvement": 0.002115989810147854,
+        "bootstrap_95": [
+          0.0012111719187054579,
+          0.0030426468477246682
+        ],
+        "n_tournaments": 519,
+        "resamples": 2000
+      },
+      "subgroups": {
+        "ATP": {
+          "baseline": {
+            "n": 7192,
+            "brier": 0.21329076172040284,
+            "log_loss": 0.6136076504627399,
+            "accuracy": 0.6540600667408232,
+            "ece_10": 0.025435229055947695
+          },
+          "selected": {
+            "n": 7192,
+            "brier": 0.21137830561697374,
+            "log_loss": 0.6092803695359017,
+            "accuracy": 0.6601779755283649,
+            "ece_10": 0.013739006663469997
+          }
+        },
+        "WTA": {
+          "baseline": {
+            "n": 6542,
+            "brier": 0.2132934915159181,
+            "log_loss": 0.613492554247436,
+            "accuracy": 0.6520941608070926,
+            "ece_10": 0.020985891623871614
+          },
+          "selected": {
+            "n": 6542,
+            "brier": 0.21095374529813934,
+            "log_loss": 0.6084407030246171,
+            "accuracy": 0.6589727911953531,
+            "ece_10": 0.017890225608243965
+          }
+        },
+        "Hard": {
+          "baseline": {
+            "n": 8125,
+            "brier": 0.21329674094204518,
+            "log_loss": 0.613691030365986,
+            "accuracy": 0.6524307692307693,
+            "ece_10": 0.02091578605918151
+          },
+          "selected": {
+            "n": 8125,
+            "brier": 0.2106426482037826,
+            "log_loss": 0.6077666799257397,
+            "accuracy": 0.6617846153846154,
+            "ece_10": 0.013501860294938273
+          }
+        },
+        "Clay": {
+          "baseline": {
+            "n": 4276,
+            "brier": 0.21304639147696858,
+            "log_loss": 0.612606023101634,
+            "accuracy": 0.6534144059869037,
+            "ece_10": 0.028904755858404015
+          },
+          "selected": {
+            "n": 4276,
+            "brier": 0.21195756523625264,
+            "log_loss": 0.6101437128802096,
+            "accuracy": 0.6527128157156221,
+            "ece_10": 0.026728535035585265
+          }
+        },
+        "Grass": {
+          "baseline": {
+            "n": 1189,
+            "brier": 0.21503446461814477,
+            "log_loss": 0.6182133625919818,
+            "accuracy": 0.6518082422203533,
+            "ece_10": 0.03142185218340078
+          },
+          "selected": {
+            "n": 1189,
+            "brier": 0.21412489131705542,
+            "log_loss": 0.6168218612731703,
+            "accuracy": 0.6619007569386038,
+            "ece_10": 0.019168607227231762
+          }
+        }
+      },
+      "reliability": [
+        {
+          "from": 0.5,
+          "to": 0.6,
+          "n": 5000,
+          "predicted": 0.548296892310956,
+          "observed": 0.5434
+        },
+        {
+          "from": 0.6,
+          "to": 0.7,
+          "n": 3909,
+          "predicted": 0.6483466674366342,
+          "observed": 0.6408288564850345
+        },
+        {
+          "from": 0.7,
+          "to": 0.8,
+          "n": 2835,
+          "predicted": 0.7473362841629372,
+          "observed": 0.7509700176366843
+        },
+        {
+          "from": 0.8,
+          "to": 0.9,
+          "n": 1551,
+          "predicted": 0.8431086422189716,
+          "observed": 0.8343004513217279
+        },
+        {
+          "from": 0.9,
+          "to": 1,
+          "n": 439,
+          "predicted": 0.9238195614890183,
+          "observed": 0.9430523917995444
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "name": "v4",
+      "mean_annual_brier": 0.21305811934206717,
+      "round": 1
+    },
+    {
+      "name": "v5_layoff",
+      "mean_annual_brier": 0.21247337112875359,
+      "round": 1
+    },
+    {
+      "name": "dynamic",
+      "mean_annual_brier": 0.21243130660280835,
+      "round": 1
+    },
+    {
+      "name": "point_global",
+      "mean_annual_brier": 0.21156909559955786,
+      "round": 1
+    },
+    {
+      "name": "point_surface",
+      "mean_annual_brier": 0.21166242897210813,
+      "round": 1
+    },
+    {
+      "name": "margin",
+      "mean_annual_brier": 0.21133529103240792,
+      "round": 1
+    },
+    {
+      "name": "mechanistic",
+      "mean_annual_brier": 0.2113976945133837,
+      "round": 1
+    },
+    {
+      "name": "point_mechanistic",
+      "mean_annual_brier": 0.21148020008593335,
+      "round": 1
+    },
+    {
+      "name": "all",
+      "mean_annual_brier": 0.21126785173900106,
+      "round": 1
+    },
+    {
+      "name": "metadata",
+      "mean_annual_brier": 0.21113948570996474,
+      "round": 2
+    },
+    {
+      "name": "all_metadata",
+      "mean_annual_brier": 0.210035132661866,
+      "round": 2
+    },
+    {
+      "name": "all_by_tour",
+      "mean_annual_brier": 0.21166326952224215,
+      "round": 2
+    },
+    {
+      "name": "all_metadata_by_tour",
+      "mean_annual_brier": 0.21040448879077758,
+      "round": 2
+    },
+    {
+      "name": "all_metadata_context",
+      "mean_annual_brier": 0.20994335483534865,
+      "round": 2
+    },
+    {
+      "name": "markov_standalone",
+      "mean_annual_brier": 0.21903339645182412,
+      "round": 2
+    },
+    {
+      "name": "dynamic_standalone",
+      "mean_annual_brier": 0.22131457266723217,
+      "round": 2
+    },
+    {
+      "name": "service_detail",
+      "mean_annual_brier": 0.20998080142359013,
+      "round": 3
+    },
+    {
+      "name": "pressure",
+      "mean_annual_brier": 0.2100292781439581,
+      "round": 3
+    },
+    {
+      "name": "network",
+      "mean_annual_brier": 0.21003681896475973,
+      "round": 3
+    },
+    {
+      "name": "multiscale",
+      "mean_annual_brier": 0.21009017011619027,
+      "round": 3
+    },
+    {
+      "name": "style",
+      "mean_annual_brier": 0.21001014516245736,
+      "round": 3
+    },
+    {
+      "name": "all_dynamics",
+      "mean_annual_brier": 0.21024336085071846,
+      "round": 3
+    },
+    {
+      "name": "recency_730d",
+      "mean_annual_brier": 0.20969214844156672,
+      "round": 3
+    },
+    {
+      "name": "hist_boost",
+      "mean_annual_brier": 0.21023977302369706,
+      "round": 3
+    }
+  ],
+  "source_note": "Scores independently recomputed from saved forecasts, without refit. Reviewer is this session; no external independent evaluator.",
+  "limitations": [
+    "2024+ já consultado; sem holdout histórico intocado",
+    "Arquivo termina em maio de 2026",
+    "Sem odds temporizadas nem evidência de rentabilidade"
+  ],
+  "simultaneous": {
+    "brier_improvement": 0.002806063096115427,
+    "simultaneous_95": [
+      0.0011672095624214306,
+      0.0044449166298094235
+    ]
+  },
+  "incremental_vs_previous": {
+    "improvement": 0.00011572252705548197,
+    "bootstrap_95": [
+      -0.00020258277876867718,
+      0.00041991412187318366
+    ],
+    "n_tournaments": 519,
+    "resamples": 2000
+  },
+  "forward": {
+    "forecasts": [
+      {
+        "fixture_id": "espn:183455",
+        "version": "enrichment-all_metadata_context-5c42deb4b28a",
+        "player_a": "Nuno Borges",
+        "player_b": "Novak Djokovic",
+        "start_at": "2026-09-30T11:00:00+00:00",
+        "as_of": "2026-09-30T10:41:16.334461+00:00",
+        "baseline": 0.10668444558898102,
+        "selected": 0.18807687954305852,
+        "settled": true,
+        "result_a": 0,
+        "actual_start_at": "2026-09-30T11:05:00+00:00"
+      },
+      {
+        "fixture_id": "espn:184289",
+        "version": "enrichment-all_metadata_context-5c42deb4b28a",
+        "player_a": "Elsa Jacquemot",
+        "player_b": "Magdalena Frech",
+        "start_at": "2026-09-30T11:00:00+00:00",
+        "as_of": "2026-09-30T10:41:29.189328+00:00",
+        "baseline": 0.40212634228610095,
+        "selected": 0.3351665623885538,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184288",
+        "version": "enrichment-all_metadata_context-5c42deb4b28a",
+        "player_a": "Anna Bondar",
+        "player_b": "Renata Zarazua",
+        "start_at": "2026-09-30T12:30:00+00:00",
+        "as_of": "2026-09-30T10:41:29.192539+00:00",
+        "baseline": 0.5149090911390343,
+        "selected": 0.5479584126494147,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183485",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Jaime Faria",
+        "player_b": "Arthur Fery",
+        "start_at": "2026-10-01T02:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.881631+00:00",
+        "baseline": 0.549104710324737,
+        "selected": 0.5883291177992807,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183486",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Taylor Fritz",
+        "player_b": "Jaume Munar",
+        "start_at": "2026-10-01T02:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.888091+00:00",
+        "baseline": 0.6992664648333804,
+        "selected": 0.6698352293165469,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183492",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Luciano Darderi",
+        "player_b": "Casper Ruud",
+        "start_at": "2026-10-01T02:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.894979+00:00",
+        "baseline": 0.32647740321206536,
+        "selected": 0.3576989902654417,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183491",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Brandon Nakashima",
+        "player_b": "Ugo Humbert",
+        "start_at": "2026-10-01T02:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.900058+00:00",
+        "baseline": 0.47588842204202164,
+        "selected": 0.4728083133195245,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183448",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Alex Molcan",
+        "player_b": "Arthur Rinderknech",
+        "start_at": "2026-10-01T03:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.904917+00:00",
+        "baseline": 0.3339817173246459,
+        "selected": 0.3655975507530237,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183458",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Alex de Minaur",
+        "player_b": "Mariano Navone",
+        "start_at": "2026-10-01T03:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.910498+00:00",
+        "baseline": 0.7124844096509757,
+        "selected": 0.6658940743440012,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183484",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Holger Rune",
+        "player_b": "Kyrian Jacquet",
+        "start_at": "2026-10-01T03:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.916238+00:00",
+        "baseline": 0.77600397765539,
+        "selected": 0.8036841694707623,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183494",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Tomas Martin Etcheverry",
+        "player_b": "Stefanos Tsitsipas",
+        "start_at": "2026-10-01T03:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.921655+00:00",
+        "baseline": 0.515896364799995,
+        "selected": 0.49060606042467964,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183487",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Kei Nishikori",
+        "player_b": "Frances Tiafoe",
+        "start_at": "2026-10-01T03:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.927938+00:00",
+        "baseline": 0.4401298075152804,
+        "selected": 0.378560738373745,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183441",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Roman Safiullin",
+        "player_b": "Flavio Cobolli",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.934198+00:00",
+        "baseline": 0.3182459331265965,
+        "selected": 0.31037994042275846,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183445",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Ignacio Buse",
+        "player_b": "Quentin Halys",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.940177+00:00",
+        "baseline": 0.547663415889762,
+        "selected": 0.59861645471352,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183460",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Botic Van De Zandschulp",
+        "player_b": "Francisco Cerundolo",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.947640+00:00",
+        "baseline": 0.4190556801959587,
+        "selected": 0.38130197070366867,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183490",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Jiri Lehecka",
+        "player_b": "Zizou Bergs",
+        "start_at": "2026-10-01T05:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.954175+00:00",
+        "baseline": 0.6770304758969783,
+        "selected": 0.7024808170604471,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183493",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Denis Shapovalov",
+        "player_b": "Sho Shimabukuro",
+        "start_at": "2026-10-01T06:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.962177+00:00",
+        "baseline": 0.6429009037920378,
+        "selected": 0.6292109449727992,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183497",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Carlos Alcaraz",
+        "player_b": "Alex Michelsen",
+        "start_at": "2026-10-01T07:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.969036+00:00",
+        "baseline": 0.8695952043333008,
+        "selected": 0.854548955691579,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183440",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Alexander Zverev",
+        "player_b": "Cameron Norrie",
+        "start_at": "2026-10-01T07:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.976179+00:00",
+        "baseline": 0.7822853173369541,
+        "selected": 0.8161299437783497,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183499",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Alejandro Davidovich Fokina",
+        "player_b": "Matteo Berrettini",
+        "start_at": "2026-10-01T08:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.983150+00:00",
+        "baseline": 0.562305643437376,
+        "selected": 0.5445818710517562,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183443",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Tallon Griekspoor",
+        "player_b": "Andrey Rublev",
+        "start_at": "2026-10-01T08:00:00+00:00",
+        "as_of": "2026-09-30T11:43:41.989401+00:00",
+        "baseline": 0.41085829414182196,
+        "selected": 0.4255254510412476,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183498",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Adolfo Daniel Vallejo",
+        "player_b": "Rafael Jodar",
+        "start_at": "2026-10-01T08:30:00+00:00",
+        "as_of": "2026-09-30T11:43:41.996353+00:00",
+        "baseline": 0.29161390037901475,
+        "selected": 0.32894101073923926,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183438",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Learner Tien",
+        "player_b": "Hubert Hurkacz",
+        "start_at": "2026-10-01T11:00:00+00:00",
+        "as_of": "2026-09-30T11:43:42.003690+00:00",
+        "baseline": 0.6346737676282478,
+        "selected": 0.6301690619516793,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:183459",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Alexander Bublik",
+        "player_b": "Jakub Mensik",
+        "start_at": "2026-10-01T12:30:00+00:00",
+        "as_of": "2026-09-30T11:43:42.010528+00:00",
+        "baseline": 0.49284986299357914,
+        "selected": 0.3970877689116535,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184252",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Katie Volynets",
+        "player_b": "Robin Montgomery",
+        "start_at": "2026-10-01T03:00:00+00:00",
+        "as_of": "2026-09-30T11:44:09.170425+00:00",
+        "baseline": 0.557206200739141,
+        "selected": 0.5976199056684557,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184267",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Sofia Kenin",
+        "player_b": "Ashlyn Krueger",
+        "start_at": "2026-10-01T03:00:00+00:00",
+        "as_of": "2026-09-30T11:44:09.175567+00:00",
+        "baseline": 0.45757627352982205,
+        "selected": 0.3973818258183481,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184286",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Yuliia Starodubtseva",
+        "player_b": "Alina Charaeva",
+        "start_at": "2026-10-01T03:00:00+00:00",
+        "as_of": "2026-09-30T11:44:09.179285+00:00",
+        "baseline": 0.6808379401535165,
+        "selected": 0.6828823436059611,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184244",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Paula Badosa",
+        "player_b": "Daria Kasatkina",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:44:09.182844+00:00",
+        "baseline": 0.5335733574508901,
+        "selected": 0.5180317894090002,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184257",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Aoi Ito",
+        "player_b": "Kimberly Birrell",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:44:09.186520+00:00",
+        "baseline": 0.4258077849641668,
+        "selected": 0.4466038338448445,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184285",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Sonay Kartal",
+        "player_b": "Andrea Lazaro Garcia",
+        "start_at": "2026-10-01T04:30:00+00:00",
+        "as_of": "2026-09-30T11:44:09.191829+00:00",
+        "baseline": 0.6311518645942075,
+        "selected": 0.6985145600836751,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184270",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Magda Linette",
+        "player_b": "Katerina Siniakova",
+        "start_at": "2026-10-01T06:00:00+00:00",
+        "as_of": "2026-09-30T11:44:09.197233+00:00",
+        "baseline": 0.4397501503628615,
+        "selected": 0.4694076560503486,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184232",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Lanlana Tararudee",
+        "player_b": "Camila Osorio",
+        "start_at": "2026-10-01T07:30:00+00:00",
+        "as_of": "2026-09-30T11:44:09.202036+00:00",
+        "baseline": 0.38932840126669027,
+        "selected": 0.3719844679638627,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      },
+      {
+        "fixture_id": "espn:184292",
+        "version": "iteration-recency_730d-ba8d9ddb11569e94",
+        "player_a": "Marina Bassols Ribera",
+        "player_b": "Kamilla Rakhimova",
+        "start_at": "2026-10-01T07:30:00+00:00",
+        "as_of": "2026-09-30T11:44:09.207508+00:00",
+        "baseline": 0.36843123413970813,
+        "selected": 0.3142105348137716,
+        "settled": false,
+        "result_a": null,
+        "actual_start_at": null
+      }
+    ],
+    "n": 33,
+    "n_matches": 33,
+    "settled": 1,
+    "invalid_excluded": 0,
+    "settlement_rule": "Same competition ID, both player identities and names, tour and tournament; forecast before scheduled and actual start; delay bounded to 12 hours",
+    "note": "Resultados públicos provisórios; amostra insuficiente para promoção",
+    "by_version": {
+      "enrichment-all_metadata_context-5c42deb4b28a": {
+        "forecasts": 3,
+        "settled": 1,
+        "metrics": {
+          "baseline": {
+            "n": 1,
+            "brier": 0.011381570930628252,
+            "log_loss": 0.11281539612209751,
+            "accuracy": 1.0
+          },
+          "selected": {
+            "n": 1,
+            "brier": 0.03537291261865414,
+            "log_loss": 0.20834962254304115,
+            "accuracy": 1.0
+          }
+        },
+        "status": "insufficient_prospective_evidence"
+      },
+      "iteration-recency_730d-ba8d9ddb11569e94": {
+        "forecasts": 30,
+        "settled": 0,
+        "metrics": {},
+        "status": "insufficient_prospective_evidence"
+      }
+    }
+  }
+}

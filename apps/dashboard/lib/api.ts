@@ -70,11 +70,11 @@ export async function getJSON<T>(path: string): Promise<T> {
 }
 
 export function pct(value: number | null | undefined, digits = 1): string {
-  return value == null ? "—" : `${(value * 100).toFixed(digits)}%`;
+  return value == null || !Number.isFinite(value) ? "—" : `${(value*100).toLocaleString("pt-PT",{minimumFractionDigits:digits,maximumFractionDigits:digits})}%`;
 }
 
 export function decimal(value: number | null | undefined, digits = 2): string {
-  return value == null ? "—" : value.toFixed(digits);
+  return value == null || !Number.isFinite(value) ? "—" : value.toLocaleString("pt-PT",{minimumFractionDigits:digits,maximumFractionDigits:digits});
 }
 
 export function day(value: string | null | undefined): string {

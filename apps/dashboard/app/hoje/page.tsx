@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { API, STATIC, apiUrl, decimal, pct } from "../../lib/api";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { API, STATIC, apiUrl } from "../../lib/api";
 import { readSlip, SlipLeg, writeSlip } from "../../lib/betslip";
+import {Fixture, Offer, GameCard} from "../../components/GameCard";
 
-type Offer = {id: string; bookmaker: string; selection: string; decimal_odds: number; observed_at: string; source_ref: string; probability: number | null; fair_odds: number | null; model_price_edge: number | null; no_vig_market_probability: number | null};
-type Fixture = {id: string; tour: string; tournament: string; start_at: string; player_a: string; player_b: string; probability_a: number | null; quality: {surface?: string; surface_known?: boolean; exact_player_match?: boolean; reason?: string; rank_a?: string; rank_b?: string; round?: string}; analysis?: Record<string, number | null>; source_url: string; offers: Offer[]; status: string};
 type Board = {date: string; items: Fixture[]; count: number; feed_configured: boolean; last_refresh: string | null; status: string; quote_max_age_hours: number; generated_at?: string};
 
 // A snapshot pode ter horas: jogos que já começaram saem da lista.
@@ -20,10 +19,12 @@ function localDay(offset = 0) {
   return new Intl.DateTimeFormat("en-CA", {timeZone: "Europe/Lisbon", year: "numeric", month: "2-digit", day: "2-digit"}).format(date);
 }
 
-function clock(value: string) { return new Intl.DateTimeFormat("pt-PT", {weekday: "short", day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Lisbon"}).format(new Date(value)); }
-
 export default function Today() {
   const [day, setDay] = useState("upcoming");
+  const [tour, setTour] = useState("all");
+  const [query, setQuery] = useState("");
+  const [onlyModel, setOnlyModel] = useState(false);
+  const requestId = useRef(0);
   const [board, setBoard] = useState<Board | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -31,6 +32,7 @@ export default function Today() {
   useEffect(() => { setSlipCount(readSlip().length); }, []);
   const load = useCallback(async (value: string) => {
     if (!value) return;
+    const id = ++requestId.current;
     setBusy(true); setError("");
     try {
       const path = value === "upcoming" ? "/api/upcoming?days=3" : `/api/daily?day=${encodeURIComponent(value)}`;
@@ -42,12 +44,12 @@ export default function Today() {
       }
       if (!response?.ok) throw new Error(`A agenda não respondeu (${response?.status || "sem ligação"}).`);
       const data: Board = await response.json();
-      setBoard(STATIC ? liveOnly(data) : data);
-    } catch (err) { setError(err instanceof Error ? err.message : "Não foi possível carregar a agenda."); }
-    finally { setBusy(false); }
+      if (id === requestId.current) setBoard(liveOnly(data));
+    } catch (err) { if (id === requestId.current) setError(err instanceof Error ? err.message : "Não foi possível carregar a agenda."); }
+    finally { if (id === requestId.current) setBusy(false); }
   }, []);
   useEffect(() => { void load(day); }, [day, load]);
-  const modelCount = useMemo(() => board?.items.filter(item => item.probability_a !== null).length || 0, [board]);
+  useEffect(() => {const timer = setInterval(() => setBoard(current => current ? liveOnly(current) : current),60000); return () => clearInterval(timer);},[]);
 
   async function refresh() {
     setBusy(true); setError("");
@@ -68,21 +70,28 @@ export default function Today() {
       alternatives: item.offers.filter(q => q.selection === offer.selection).map(q => ({id: q.id, bookmaker: q.bookmaker, decimal_odds: q.decimal_odds, observed_at: q.observed_at}))};
     writeSlip([...current, leg]); setSlipCount(current.length + 1); setError("");
   }
+  const visible = useMemo(() => (board?.items || []).filter(item =>
+    (tour === "all" || item.tour === tour) && (!onlyModel || item.probability_a !== null) &&
+    `${item.player_a} ${item.player_b} ${item.tournament}`.toLocaleLowerCase("pt-PT").includes(query.toLocaleLowerCase("pt-PT"))), [board,tour,onlyModel,query]);
+  const groups = useMemo(() => {
+    const result = new Map<string, Fixture[]>();
+    for (const item of visible) {
+      const key = new Intl.DateTimeFormat("en-CA", {timeZone:"Europe/Lisbon",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(item.start_at));
+      result.set(key,[...(result.get(key) || []),item]);
+    }
+    return [...result.entries()];
+  },[visible]);
   return <>
-    <div className="page-heading"><div><div className="eyebrow"><span className="eyebrow-line"/> AGENDA ATUAL / ATP + WTA</div><h1>Próximos jogos<span className="heading-dot">.</span></h1><p>Calendário, contexto estatístico e preços observados para a tua análise.</p></div><Link href="/combinadas" className="button-primary">Calculadora · {slipCount}</Link></div>
-    <div className="notice amber"><strong>Leitura crítica</strong><span>Calendário ESPN. Estimativas exploratórias com arquivo até maio de 2026; provas de outros níveis podem estar fora do domínio do modelo. Nenhum sinal de aposta aprovado.</span></div>
-    <div className="daily-toolbar"><div className="day-tabs"><button type="button" className={day === localDay() ? "selected" : ""} onClick={() => setDay(localDay())}>Jogos de hoje</button><button type="button" className={day === "upcoming" ? "selected" : ""} onClick={() => setDay("upcoming")}>Próximos 3 dias</button><button type="button" className={day === localDay(1) ? "selected" : ""} onClick={() => setDay(localDay(1))}>Amanhã</button></div><label>Outra data <input type="date" value={day === "upcoming" ? "" : day} min={localDay()} max={localDay(STATIC ? 6 : 30)} onChange={e => setDay(e.target.value)} /></label>{!STATIC && <button type="button" className="button-secondary" disabled={busy || !board?.feed_configured} onClick={refresh}>Atualizar odds</button>}</div>
-    {error && <div className="notice danger" role="alert">{error}</div>}
-    {busy && <div className="loading" role="status">A carregar jogos e cotações…</div>}
-    {!busy && board && <>
-      <div className="daily-summary"><div><strong>{board.count}</strong><span>jogos futuros</span></div><div><strong>{modelCount}</strong><span>com estimativa exploratória</span></div><div><strong>{board.items.reduce((n, item) => n + item.offers.length, 0)}</strong><span>odds recentes · até {board.quote_max_age_hours} h</span></div></div>
-      {(day === localDay() || day === "upcoming") && <section className="daily-section"><div className="section-top"><div><h2>{day === localDay() ? "Leitura rápida · hoje" : "Leitura rápida · próximos encontros"}</h2><p className="fine-print">Jogador estatisticamente mais provável em cada confronto. Isto não é uma recomendação de aposta.</p></div></div>{board.items.length ? <div className="quick-list">{(day === "upcoming" ? board.items.filter(item => item.probability_a !== null).slice(0, 10) : board.items).map(item => { const p = item.probability_a; const likely = p == null ? null : p >= 0.5 ? item.player_a : item.player_b; return <div className="quick-row" key={item.id}><span>{clock(item.start_at)}<small>{item.tour} · {item.tournament}</small></span><strong>{item.player_a} <em>vs</em> {item.player_b}</strong><span className="quick-likely">{likely ? <>Mais provável: <b>{likely}</b></> : "Modelo indisponível"}</span><strong className="quick-percent">{p == null ? "—" : pct(Math.max(p, 1 - p))}</strong></div>; })}</div> : <div className="empty-state"><strong>Sem jogos futuros hoje</strong><p>Consulta «Próximos 3 dias» para ver encontros ainda disponíveis no calendário.</p></div>}</section>}
-      {!board.feed_configured && <section className="panel setup-panel"><div><h2>Odds ainda não ligadas</h2><p>O calendário atualiza automaticamente. {STATIC ? "Este site não recolhe odds; usa a " : <>Para comparar preços reais, configura <code>ODDS_API_KEY</code> na API. Também podes usar a </>}<Link href="/combinadas">calculadora</Link> com odds introduzidas por ti.</p><Link href="/mercados" className="text-link">Ver proveniência e limites →</Link></div></section>}
-      {STATIC && board.generated_at && <p className="fine-print">Snapshot de {new Date(board.generated_at).toLocaleString("pt-PT", {timeZone: "Europe/Lisbon"})}. O site regenera-se sozinho aproximadamente de 3 em 3 horas.</p>}
-      {board.feed_configured && board.last_refresh &&<p className="fine-print">Última observação na base: {new Date(board.last_refresh).toLocaleString("pt-PT", {timeZone: "Europe/Lisbon"})}. Cotações com mais de 6 horas não entram na agenda.</p>}
-      <section className="daily-section"><div className="section-top"><div><h2>Jogos por ordem de início</h2><p className="fine-print">Horários de Lisboa. A superfície é assinalada quando a associação ao arquivo é clara.</p></div><Link href="/recentes" className="text-link">Resultados recentes ↗</Link></div>
-        {board.items.length ? <div className="fixture-list">{board.items.map(item => <article className="fixture-row" key={item.id}><div className="fixture-head"><div><small>{clock(item.start_at)} Lisboa · {item.tour} · {item.tournament}</small><h3>{item.player_a} <em>vs</em> {item.player_b}</h3><p className="fine-print">{item.quality.round || "Ronda por confirmar"} · Cabeça de série {item.quality.rank_a || "—"} / {item.quality.rank_b || "—"}</p></div><span className="state-pill">{item.quality.surface && item.quality.surface !== "Unknown" ? item.quality.surface : "superfície por verificar"}</span></div>{item.probability_a !== null && <div className="fixture-prob"><span>Estimativa exploratória A / B</span><strong>{pct(item.probability_a)} / {pct(1 - item.probability_a)}</strong><div className="probability-bar"><div style={{width: `${Math.round(item.probability_a * 100)}%`}} /></div></div>}{item.analysis && <details className="fixture-analysis"><summary>Ver variáveis da análise</summary><div className="fixture-analysis-grid"><div><span>Elo geral</span><strong>{item.analysis.elo_a?.toFixed(0) || "—"} / {item.analysis.elo_b?.toFixed(0) || "—"}</strong></div><div><span>Elo na superfície</span><strong>{item.analysis.surface_elo_a?.toFixed(0) || "—"} / {item.analysis.surface_elo_b?.toFixed(0) || "—"}</strong></div><div><span>Forma recente</span><strong>{pct(item.analysis.form_a)} / {pct(item.analysis.form_b)}</strong></div><div><span>Serviço recente</span><strong>{pct(item.analysis.serve_a)} / {pct(item.analysis.serve_b)}</strong></div><div><span>Descanso, dias</span><strong>{item.analysis.rest_a ?? "—"} / {item.analysis.rest_b ?? "—"}</strong></div><div><span>Jogos em 30 dias</span><strong>{item.analysis.load_30d_a ?? "—"} / {item.analysis.load_30d_b ?? "—"}</strong></div></div></details>}{item.probability_a === null && <p className="fine-print">Sem estimativa: {item.quality.reason || "identificação dos jogadores por confirmar"}.</p>}{item.offers.length ? <div className="offer-list">{item.offers.map(offer => <div className="offer-row" key={offer.id}><span>{offer.selection}<small>{offer.bookmaker} · {new Date(offer.observed_at).toLocaleTimeString("pt-PT", {hour: "2-digit", minute: "2-digit", timeZone: "Europe/Lisbon"})}</small></span><strong>{decimal(offer.decimal_odds)}</strong><span>{offer.probability == null ? "sem modelo" : `${pct(offer.probability)} modelo`}</span><button className="button-secondary" onClick={() => add(item, offer)} aria-label={`Adicionar ${offer.selection} a ${decimal(offer.decimal_odds)}`}>Usar na calculadora</button></div>)}</div> : <p className="fine-print">Sem odds recentes verificadas para este jogo.</p>}<a className="text-link fixture-source" href={item.source_url} target="_blank" rel="noreferrer">Ver calendário de origem ↗</a></article>)}</div> : <div className="empty-state"><span>◷</span><strong>Sem jogos futuros disponíveis neste intervalo</strong><p>O calendário pode ainda não estar publicado ou a fonte pode estar temporariamente indisponível. Experimenta outra data.</p><Link href="/recentes">Ver resultados recentes →</Link></div>}
-      </section>
+    <div className="page-heading agenda-heading"><div><h1>O próximo encontro<span className="heading-dot">.</span></h1><p>Descobre quem joga, quando começa e a probabilidade de cada jogador.</p></div><Link href="/combinadas" className="button-secondary">Calculadora{slipCount ? ` · ${slipCount}` : ""}</Link></div>
+    <div className="agenda-toolbar"><div className="day-tabs" aria-label="Dias da agenda"><button aria-pressed={day===localDay()} className={day===localDay() ? "selected" : ""} onClick={() => setDay(localDay())}>Hoje</button><button aria-pressed={day===localDay(1)} className={day===localDay(1) ? "selected" : ""} onClick={() => setDay(localDay(1))}>Amanhã</button><button aria-pressed={day==="upcoming"} className={day==="upcoming" ? "selected" : ""} onClick={() => setDay("upcoming")}>Próximos 3 dias</button></div><label>Escolher data<input type="date" value={day==="upcoming" ? "" : day} min={localDay()} max={localDay(STATIC ? 6 : 30)} onChange={e => e.target.value && setDay(e.target.value)}/></label><button className="quiet-button" disabled={busy} onClick={() => void load(day)} aria-label="Atualizar calendário">{busy ? "A atualizar…" : "↻ Atualizar"}</button></div>
+    <div className="agenda-filters"><label className="agenda-search">Procurar jogador ou torneio<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Ex.: Alcaraz, Pequim…"/></label><label>Circuito<select value={tour} onChange={e => setTour(e.target.value)}><option value="all">Todos os circuitos</option><option value="ATP">ATP</option><option value="WTA">WTA</option><option value="Masculino">Outros · masculino</option><option value="Feminino">Outros · feminino</option></select></label><label className="agenda-checkbox"><input type="checkbox" checked={onlyModel} onChange={e => setOnlyModel(e.target.checked)}/>Só jogos com probabilidade</label></div>
+    {error && <div className="notice danger" role="alert"><span>{error}</span><button className="button-secondary" onClick={() => void load(day)} disabled={busy}>Tentar novamente</button></div>}
+    {busy && !board && <div className="agenda-loading" role="status" aria-live="polite"><span/><span/><p>A procurar os próximos encontros…</p></div>}
+    {board && <>
+      <div className="agenda-summary" aria-live="polite"><p><strong>{visible.length} {visible.length===1 ? "encontro" : "encontros"}</strong>{query || tour!=="all" || onlyModel ? ` de ${board.count} no calendário` : " no calendário"} · {visible.filter(item => item.probability_a !== null).length} com estimativa</p><Link className="text-link" href="/recentes">Ver resultados recentes →</Link></div>
+      <div className="agenda-note"><span aria-hidden="true">ⓘ</span><p>As duas probabilidades somam 100%. São estimativas exploratórias com histórico até maio de 2026, não garantias nem recomendações de aposta. <Link href="/modelos">Como são avaliadas →</Link></p></div>
+      <div aria-busy={busy} className={`agenda-content ${busy ? "agenda-updating" : ""}`}>{groups.length ? groups.map(([date,items]) => <section className="agenda-day" key={date}><header><h2>{date===localDay() ? "Hoje" : date===localDay(1) ? "Amanhã" : new Intl.DateTimeFormat("pt-PT",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Lisbon"}).format(new Date(`${date}T12:00:00Z`))}</h2><span>{items.length} {items.length===1 ? "jogo" : "jogos"} · horário de Lisboa</span></header><div className="game-grid">{items.map(item => <GameCard item={item} onAdd={add} key={item.id}/>)}</div></section>) : <div className="empty-state"><strong>{board.count ? "Nenhum encontro corresponde aos filtros" : "Sem próximos encontros neste intervalo"}</strong><p>{board.count ? "Tenta outro jogador ou mostra todos os circuitos." : "Os jogos podem já ter começado ou o calendário ainda não estar publicado. Experimenta amanhã ou os próximos três dias."}</p>{board.count ? <button className="button-secondary" onClick={() => {setQuery("");setTour("all");setOnlyModel(false);}}>Limpar filtros</button> : <button className="button-secondary" onClick={() => setDay(day==="upcoming" ? localDay(1) : "upcoming")}>{day==="upcoming" ? "Ver amanhã" : "Ver próximos 3 dias"}</button>}</div>}</div>
+      <details className="research-details agenda-data"><summary>Atualização do calendário e cotações</summary><p>Calendário ESPN; horários sujeitos a confirmação. {board.generated_at ? `Snapshot de ${new Date(board.generated_at).toLocaleString("pt-PT",{timeZone:"Europe/Lisbon"})}.` : "O calendário é atualizado na consulta."}</p><p>{board.feed_configured ? "As cotações com mais de seis horas são excluídas." : "Sem cotações verificadas. Podes usar a calculadora com preços que introduzas."}</p>{!STATIC && board.feed_configured && <button className="button-secondary" disabled={busy} onClick={refresh}>Atualizar cotações</button>}<Link className="text-link" href="/dados">Consultar fontes →</Link></details>
     </>}
   </>;
 }

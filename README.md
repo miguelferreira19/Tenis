@@ -1,5 +1,7 @@
 # Tennis Quant v0.3
 
+Investigação de 30-09-2026: [estudo de metodologias](docs/RESEARCH_2026-09-30.md) e [resultados completos](docs/RESULTS_2026-09-30.md). Novo candidato com aptidão dinâmica, serviço ajustado à oposição, margens e metadados; comparação de 14 configurações adicionais, seis controlos e previsões futuras congeladas. Continua em investigação, com referência operacional v4 para comparação prospectiva.
+
 Assistente local de análise de ténis. Integra calendário atual ATP/WTA, leitura rápida dos jogos de hoje, resultados recentes, arquivo e backtesting de probabilidades, odds atuais quando existe uma chave, e calculadora de combinadas. **Sem recomendações nem sinais de aposta aprovados.**
 
 ## Arranque local (Windows)
