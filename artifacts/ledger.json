@@ -18,7 +18,7 @@
     "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/daniil-medvedev-jan-lennard-struff-m1241597692878848",
     "status": "pendente",
     "last_odds": 1.14,
-    "last_seen": "2026-10-02T14:40:39.462896+00:00"
+    "last_seen": "2026-10-02T16:40:32.601636+00:00"
   },
   {
     "match_id": "betclic:1240679034396672",
@@ -39,6 +39,27 @@
     "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/belinda-bencic-anastasia-zakharova-m1240679034396672",
     "status": "pendente",
     "last_odds": 1.18,
-    "last_seen": "2026-10-02T14:40:39.462896+00:00"
+    "last_seen": "2026-10-02T16:40:32.601636+00:00"
+  },
+  {
+    "match_id": "betclic:1241725364367360",
+    "created_at": "2026-10-02T16:40:32.587765+00:00",
+    "start_at": "2026-10-03T03:00:00+00:00",
+    "tour": "WTA",
+    "competition": "Suzhou WTA Challenger - Qual.",
+    "player_a": "Shi Han",
+    "player_b": "Chengyiyi Yuan",
+    "side": "a",
+    "pick": "Shi Han",
+    "odds": 1.1,
+    "p": 0.8806,
+    "ev": -0.0313,
+    "stake": 1.0,
+    "stake_pct": 0.01,
+    "bank_at_pick": 100.0,
+    "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-qual-c38753/shi-han-chengyiyi-yuan-m1241725364367360",
+    "status": "pendente",
+    "last_odds": 1.1,
+    "last_seen": "2026-10-02T16:40:32.601636+00:00"
   }
 ]
