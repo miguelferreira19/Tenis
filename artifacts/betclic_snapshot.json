@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-02T12:31:46.722222+00:00",
+  "observed_at": "2026-10-02T12:40:33.284109+00:00",
   "competitions": 23,
   "matches": [
     {
@@ -13,7 +13,7 @@
       "odds_b": 3.1,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/alex-de-minaur-quentin-halys-m1240574622470144",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240789328867328",
@@ -26,7 +26,7 @@
       "odds_b": 2.08,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/andrey-rublev-roman-safiullin-m1240789328867328",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240825120964608",
@@ -39,7 +39,7 @@
       "odds_b": 1.45,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/francisco-cerundolo-jakub-mensik-m1240825120964608",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241597692878848",
@@ -52,7 +52,7 @@
       "odds_b": 4.6,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/daniil-medvedev-jan-lennard-struff-m1241597692878848",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240714609430540",
@@ -65,7 +65,7 @@
       "odds_b": 6.1,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-atp-c36052/alexander-zverev-juncheng-shang-m1240714609430540",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240679150788608",
@@ -78,7 +78,7 @@
       "odds_b": 2.26,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/denis-shapovalov-alejandro-tabilo-m1240679150788608",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240689590415360",
@@ -91,7 +91,7 @@
       "odds_b": 8.4,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/carlos-alcaraz-matteo-arnaldi-m1240689590415360",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240783062568960",
@@ -104,7 +104,7 @@
       "odds_b": 2.19,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/matteo-berrettini-adolfo-daniel-vallejo-m1240783062568960",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240603628150784",
@@ -117,7 +117,7 @@
       "odds_b": 1.5,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/ugo-humbert-jiri-lehecka-m1240603628150784",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241610534797312",
@@ -130,7 +130,7 @@
       "odds_b": 2.23,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/jaume-munar-kyrian-jacquet-m1241610534797312",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241643460091904",
@@ -139,11 +139,11 @@
       "live": false,
       "player_a": "Valentin Vacherot",
       "player_b": "Arthur Fils",
-      "odds_a": 3.6,
-      "odds_b": 1.21,
+      "odds_a": 3.45,
+      "odds_b": 1.23,
       "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/valentin-vacherot-arthur-fils-m1241643460091904",
       "tour": "ATP",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240598879150080",
@@ -156,7 +156,7 @@
       "odds_b": 1.73,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/katie-volynets-elise-mertens-m1240598879150080",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240599231467520",
@@ -169,7 +169,7 @@
       "odds_b": 1.64,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ashlyn-krueger-ann-li-m1240599231467520",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240728179056640",
@@ -182,7 +182,7 @@
       "odds_b": 2.31,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/donna-vekic-lin-zhu-m1240728179056640",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240758311993344",
@@ -195,7 +195,7 @@
       "odds_b": 6.6,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/coco-gauff-maria-camila-osorio-serrano-m1240758311993344",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240611173707776",
@@ -208,7 +208,7 @@
       "odds_b": 1.24,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/katerina-siniakova-elina-svitolina-m1240611173707776",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240611288002560",
@@ -221,7 +221,7 @@
       "odds_b": 1.48,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/jelena-ostapenko-paula-badosa-gibert-m1240611288002560",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240611360358400",
@@ -234,7 +234,7 @@
       "odds_b": 2.85,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/maria-sakkari-storm-hunter-m1240611360358400",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240815380738048",
@@ -247,7 +247,7 @@
       "odds_b": 1.01,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/xinyu-gao-iga-swiatek-m1240815380738048",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240679081574400",
@@ -260,7 +260,7 @@
       "odds_b": 1.25,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/kamilla-rakhimova-leylah-annie-fernandez-m1240679081574400",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240757444804608",
@@ -273,7 +273,7 @@
       "odds_b": 6.2,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/iva-jovic-harriet-dart-m1240757444804608",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240599268167680",
@@ -286,7 +286,7 @@
       "odds_b": 2.3,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/qinwen-zheng-anna-kalinskaya-m1240599268167680",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240679034396672",
@@ -299,7 +299,7 @@
       "odds_b": 3.9,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/belinda-bencic-anastasia-zakharova-m1240679034396672",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240611219849216",
@@ -312,7 +312,7 @@
       "odds_b": 2.6,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/marie-bouzkova-kimberly-birrell-m1240611219849216",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240759037595648",
@@ -325,7 +325,7 @@
       "odds_b": 1.35,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/xinran-sun-cristina-bucsa-m1240759037595648",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240598840352768",
@@ -338,7 +338,7 @@
       "odds_b": 1.89,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/sonay-kartal-xin-yu-wang-m1240598840352768",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240598096908288",
@@ -348,10 +348,10 @@
       "player_a": "Elena Rybakina",
       "player_b": "Alina Charaeva",
       "odds_a": 1.02,
-      "odds_b": 7.4,
+      "odds_b": 8.4,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/elena-rybakina-alina-charaeva-m1240598096908288",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241544795373568",
@@ -364,7 +364,7 @@
       "odds_b": 1.35,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/sinja-kraus-dayana-yastremska-m1241544795373568",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241544841502720",
@@ -377,7 +377,7 @@
       "odds_b": 4.7,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/linda-noskova-viktorija-golubic-m1241544841502720",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241585487458304",
@@ -386,11 +386,11 @@
       "live": false,
       "player_a": "Ekaterina Alexandrova",
       "player_b": "Diana Shnaider",
-      "odds_a": 2.3,
-      "odds_b": 1.46,
+      "odds_a": 2.34,
+      "odds_b": 1.44,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ekaterina-alexandrova-diana-shnaider-m1241585487458304",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241587695759360",
@@ -403,7 +403,7 @@
       "odds_b": 2.3,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/daria-snigur-taylah-preston-m1241587695759360",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241588604862464",
@@ -416,7 +416,7 @@
       "odds_b": 1.05,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/polina-kudermetova-mirra-andreeva-m1241588604862464",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241589904060416",
@@ -425,11 +425,11 @@
       "live": false,
       "player_a": "Karolina Muchova",
       "player_b": "Liudmila Samsonova",
-      "odds_a": 1.24,
-      "odds_b": 3.2,
+      "odds_a": 1.23,
+      "odds_b": 3.25,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/karolina-muchova-liudmila-samsonova-m1241589904060416",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241649951834112",
@@ -442,7 +442,7 @@
       "odds_b": 1.29,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/sara-bejlek-naomi-osaka-m1241649951834112",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1240054824460288",
@@ -455,7 +455,7 @@
       "odds_b": 1.89,
       "url": "https://www.betclic.pt/tenis-stennis/adana-wta-challenger-c41265/antonia-ruzic-teodora-kostovic-m1240054824460288",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241563833307136",
@@ -468,7 +468,7 @@
       "odds_b": 1.7,
       "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/emerson-jones-alexandra-shubladze-m1241563833307136",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     },
     {
       "id": "betclic:1241563836465152",
@@ -481,7 +481,7 @@
       "odds_b": 3.35,
       "url": "https://www.betclic.pt/tenis-stennis/jingshan-wta-challenger-c38679/jessica-bouzas-maneiro-aliona-falei-m1241563836465152",
       "tour": "WTA",
-      "observed_at": "2026-10-02T12:31:46.722222+00:00"
+      "observed_at": "2026-10-02T12:40:33.284109+00:00"
     }
   ]
 }
