@@ -2,7 +2,7 @@
 
 **Site:** https://miguelferreira19.github.io/Tenis/ — abre em «Apostas de hoje».
 
-De 2 em 2 horas o GitHub Actions lê as odds públicas da Betclic, escolhe as apostas da estratégia, calcula os montantes, fecha os resultados com a ESPN e publica. Tu só abres o link de cada jogo na Betclic, apostas o montante indicado e marcas «Já apostei». Os montantes ajustam-se à banca que escreves no site (guardada só no teu browser).
+De 2 em 2 horas a tarefa do Windows «TennisQuant Piloto» (no teu PC, `scripts/autopilot_local.ps1`; a Betclic bloqueia os servidores do GitHub) lê as odds públicas da Betclic, escolhe as apostas da estratégia, calcula os montantes, fecha os resultados com a ESPN e envia o livro para o GitHub, que reconstrói o site. Com o PC desligado não há apostas novas; os resultados continuam a ser fechados no site. Tu só abres o link de cada jogo na Betclic, apostas o montante indicado e marcas «Já apostei». Os montantes ajustam-se à banca que escreves no site (guardada só no teu browser).
 
 - Estratégia, regras de banca e resultados esperados: página **Estratégia** do site e [docs/RESULTS_2026-10-02.md](docs/RESULTS_2026-10-02.md).
 - Retorno esperado da estratégia: **negativo (~−2% por euro)**. Usa a conta demo para confirmar antes de usar dinheiro.
