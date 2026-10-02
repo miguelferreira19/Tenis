@@ -7,6 +7,7 @@ Nunca coloca apostas: só diz quais e quanto. Banca em papel, 100 € de partida
 """
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -25,6 +26,8 @@ from tennis_quant.strategy import Plan, candidates, probability, stakes
 
 LISBON = ZoneInfo("Europe/Lisbon")
 LEDGER = ROOT / "artifacts" / "ledger.json"
+SNAPSHOT = ROOT / "artifacts" / "betclic_snapshot.json"
+SNAPSHOT_MAX_AGE = timedelta(hours=6)
 STRATEGY = ROOT / "artifacts" / "strategy.json"
 OUT = ROOT / "apps" / "dashboard" / "public" / "data" / "autopilot.json"
 START_BANK = 100.0
@@ -103,7 +106,8 @@ def bank_state(ledger: list[dict]) -> dict:
     return {"bank": round(bank, 2), "peak": round(peak, 2), "curve": curve}
 
 
-def place(ledger: list[dict], market: dict, plan: Plan, now: datetime) -> tuple[list[dict], list[dict]]:
+def place(ledger: list[dict], market: dict, plan: Plan, now: datetime,
+          allow_new: bool = True) -> tuple[list[dict], list[dict]]:
     known = {b["match_id"]: b for b in ledger}
     state = bank_state(ledger)
     board, fresh = [], []
@@ -119,7 +123,7 @@ def place(ledger: list[dict], market: dict, plan: Plan, now: datetime) -> tuple[
                 bet["last_odds"] = m["odds_a"] if bet["side"] == "a" else m["odds_b"]
                 bet["last_seen"] = market["observed_at"]
             continue
-        if not (MIN_LEAD <= start - now <= MAX_LEAD):
+        if not allow_new or not (MIN_LEAD <= start - now <= MAX_LEAD):
             continue
         for c in candidates(p_a, m["odds_a"], m["odds_b"], plan):
             by_day.setdefault(lisbon_day(m["start_at"]), []).append({**c, "match": m})
@@ -155,23 +159,42 @@ def summary(ledger: list[dict]) -> dict:
             "avg_clv": round(sum(clv) / len(clv), 4) if clv else None}
 
 
+def read_market(now: datetime) -> tuple[dict, bool]:
+    """Live Betclic read; if blocked (GitHub IPs), fall back to the PC's recent snapshot."""
+    try:
+        market = betclic.fetch()
+    except httpx.HTTPError as exc:
+        market = {"observed_at": now.isoformat(), "competitions": 0, "matches": [], "error": str(exc)[:200]}
+    if market["matches"]:
+        write_json(SNAPSHOT, market)
+        return market, True
+    print(f"Betclic sem jogos nesta leitura: {market.get('error', 'resposta vazia')}")
+    if SNAPSHOT.exists():
+        snap = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
+        if now - datetime.fromisoformat(snap["observed_at"]) <= SNAPSHOT_MAX_AGE:
+            return snap, False
+    return market, False
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--read-only", action="store_true",
+                        help="não cria apostas nem grava o livro (uso no GitHub Actions)")
+    args = parser.parse_args()
     plan, report = load_plan()
     now = datetime.now(timezone.utc)
     ledger = json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else []
     settled = settle(ledger, now)
-    try:
-        market = betclic.fetch()
-    except httpx.HTTPError as exc:
-        print(f"Betclic indisponível: {exc}")
-        market = {"observed_at": now.isoformat(), "competitions": 0, "matches": [], "error": str(exc)[:200]}
-    board, fresh = place(ledger, market, plan, now)
-    write_json(LEDGER, ledger)
+    market, live = read_market(now)
+    board, fresh = place(ledger, market, plan, now, allow_new=live and not args.read_only)
+    if not args.read_only:
+        write_json(LEDGER, ledger)
     state = bank_state(ledger)
     board.sort(key=lambda r: r["start_at"])
     payload = {
         "generated_at": now.isoformat(), "observed_at": market["observed_at"],
-        "betclic_ok": bool(market["matches"]), "start_bank": START_BANK,
+        "betclic_ok": bool(market["matches"]),
+        "betclic_live_read": live, "start_bank": START_BANK,
         "plan": plan.as_dict(), "bank": state, "summary": summary(ledger),
         "bets": sorted(ledger, key=lambda b: b["start_at"], reverse=True),
         "board": [{k: r[k] for k in ("id", "tour", "competition", "start_at", "player_a", "player_b",

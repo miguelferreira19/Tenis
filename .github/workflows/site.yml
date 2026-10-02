@@ -8,7 +8,7 @@ on:
     branches: [main, master]
 
 permissions:
-  contents: write   # o piloto guarda o livro de apostas (artifacts/ledger.json)
+  contents: read
   pages: write
   id-token: write
 
@@ -39,20 +39,12 @@ jobs:
             exit 1
           fi
           cat export.log
-      # Piloto automático: lê a Betclic, decide apostas, fecha resultados e guarda o livro.
+      # Piloto: aqui só fecha resultados e gera o JSON do site. A Betclic bloqueia IPs do
+      # GitHub; as apostas novas vêm do PC (scripts/autopilot_local.ps1), único a escrever o livro.
       - name: Piloto automático
         run: |
-          python scripts/autopilot.py | tee autopilot.log
+          python scripts/autopilot.py --read-only | tee autopilot.log
           echo "::notice title=Piloto::$(tail -n 1 autopilot.log)"
-      - name: Guardar livro de apostas
-        run: |
-          git config user.name "tennis-quant-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add artifacts/ledger.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: livro do piloto [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
       - uses: actions/setup-node@v7
         with:
           node-version: "24"

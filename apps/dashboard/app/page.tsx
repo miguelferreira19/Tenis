@@ -50,7 +50,7 @@ export default function Today() {
       </label>
     </header>
 
-    {!data.betclic_ok && <p className="ap-warn" role="alert">A última leitura da Betclic falhou. As apostas abaixo são da leitura anterior; confirma as odds antes de apostar.</p>}
+    {!data.betclic_ok && <p className="ap-warn" role="alert">As odds da Betclic têm mais de 6 horas (o PC que as recolhe pode estar desligado). Confirma a odd na Betclic antes de apostar.</p>}
 
     {upcoming.length > 0 && <section aria-labelledby="h-now">
       <h2 id="h-now" className="ap-h2">Para apostar</h2>
