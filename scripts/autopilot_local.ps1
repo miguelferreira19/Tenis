@@ -8,7 +8,8 @@ $log = Join-Path $root "work\autopilot_local.log"
 New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
 try {
     git pull --rebase --autostash -q origin master
-    & "$root\.venv\Scripts\python.exe" "$root\scripts\autopilot.py" *>> $log
+    $env:PYTHONIOENCODING = "utf-8"
+    & "$root\.venv\Scripts\python.exe" "$root\scripts\autopilot.py" | Out-File -Append -Encoding utf8 $log
     if ($LASTEXITCODE -ne 0) { throw "autopilot.py falhou ($LASTEXITCODE)" }
     git add artifacts/ledger.json artifacts/betclic_snapshot.json
     git diff --cached --quiet
