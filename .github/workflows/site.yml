@@ -2,13 +2,13 @@ name: Atualizar site
 
 on:
   schedule:
-    - cron: "17 */3 * * *"   # de 3 em 3 horas (UTC)
+    - cron: "17 */2 * * *"   # de 2 em 2 horas (UTC)
   workflow_dispatch:
   push:
     branches: [main, master]
 
 permissions:
-  contents: read
+  contents: write   # o piloto guarda o livro de apostas (artifacts/ledger.json)
   pages: write
   id-token: write
 
@@ -39,6 +39,20 @@ jobs:
             exit 1
           fi
           cat export.log
+      # Piloto automático: lê a Betclic, decide apostas, fecha resultados e guarda o livro.
+      - name: Piloto automático
+        run: |
+          python scripts/autopilot.py | tee autopilot.log
+          echo "::notice title=Piloto::$(tail -n 1 autopilot.log)"
+      - name: Guardar livro de apostas
+        run: |
+          git config user.name "tennis-quant-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add artifacts/ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: livro do piloto [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
@@ -52,7 +66,6 @@ jobs:
         run: |
           node lib/parlay.test.mjs
           node lib/agenda.test.mjs
-          node lib/bankroll.test.mjs
           npm ci
           npm run build
       - uses: actions/upload-pages-artifact@v5

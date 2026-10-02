@@ -1,4 +1,24 @@
-# Tennis Quant v0.3
+# Tennis Quant v0.4 — piloto automático
+
+**Site:** https://miguelferreira19.github.io/Tenis/ — abre em «Apostas de hoje».
+
+De 2 em 2 horas o GitHub Actions lê as odds públicas da Betclic, escolhe as apostas da estratégia, calcula os montantes, fecha os resultados com a ESPN e publica. Tu só abres o link de cada jogo na Betclic, apostas o montante indicado e marcas «Já apostei». Os montantes ajustam-se à banca que escreves no site (guardada só no teu browser).
+
+- Estratégia, regras de banca e resultados esperados: página **Estratégia** do site e [docs/RESULTS_2026-10-02.md](docs/RESULTS_2026-10-02.md).
+- Retorno esperado da estratégia: **negativo (~−2% por euro)**. Usa a conta demo para confirmar antes de usar dinheiro.
+- O piloto não coloca apostas. O clique final é sempre teu.
+
+Correr em local (Windows):
+
+```powershell
+.\.venv\Scripts\python.exe scripts\autopilot.py           # lê a Betclic, decide, fecha resultados
+.\.venv\Scripts\python.exe scripts\backtest_strategy.py   # refaz o backtest da estratégia
+.\.venv\Scripts\python.exe scripts\research_market.py     # modelo contra mercado (ronda 4)
+```
+
+---
+
+## Plataforma de investigação (v0.3)
 
 Investigação de 30-09-2026: [estudo de metodologias](docs/RESEARCH_2026-09-30.md) e [resultados completos](docs/RESULTS_2026-09-30.md). Novo candidato com aptidão dinâmica, serviço ajustado à oposição, margens e metadados; comparação de 14 configurações adicionais, seis controlos e previsões futuras congeladas. Continua em investigação, com referência operacional v4 para comparação prospectiva.
 

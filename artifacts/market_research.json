@@ -1,0 +1,890 @@
+{
+  "protocol": "Ronda 4: o modelo contra o mercado e modelos residuais sobre o mercado.\n\nPergunta: existe informação que as odds de fecho não incorporam? Protocolo fixado\nantes de correr (02-10-2026):\n- Referência: probabilidade sem margem (Shin) da média das casas (Avg).\n- Origens móveis 2021–2026: treino em 2019..Y−1, teste em Y. Previsões do\n  modelo são as fora-da-amostra já guardadas (iteration_predictions.npz).\n- Configurações (todas registadas): mercado recalibrado; mercado+modelo;\n  mercado+carga real de jogos; mercado+momento de surpresa; resíduo logístico e\n  XGBoost com todas as variáveis; controlo com variáveis baralhadas.\n- Apostas: só Bet365 (proxy de casa \"soft\" como a Betclic), stake fixo, limiares\n  {0, 2, 4, 6, 8, 10}%. Seleção múltipla corrigida por DSR e PBO (CSCV).\nNenhum resultado aqui é promessa de lucro.",
+  "coverage": {
+    "matches": 32477,
+    "test_matches": 25837,
+    "test_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "results": {
+    "market": {
+      "brier": 0.201001,
+      "log_loss": 0.584839,
+      "log_loss_gain_vs_market": 0.0,
+      "gain_ci95_tournament": [
+        0.0,
+        0.0
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199144,
+          "log_loss": 0.580362
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200665,
+          "log_loss": 0.584577
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202286,
+          "log_loss": 0.587001
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.20028,
+          "log_loss": 0.582735
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204494,
+          "log_loss": 0.593206
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.197256,
+          "log_loss": 0.577542
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 839,
+          "roi": 0.065805,
+          "roi_ci95_tournament": [
+            -0.026274,
+            0.165136
+          ],
+          "positive_years": 4
+        },
+        "0.02": {
+          "bets": 228,
+          "roi": 0.083333,
+          "roi_ci95_tournament": [
+            -0.117503,
+            0.297519
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 106,
+          "roi": -0.091698,
+          "roi_ci95_tournament": [
+            -0.37532,
+            0.230402
+          ],
+          "positive_years": 2
+        },
+        "0.06": {
+          "bets": 60,
+          "roi": -0.099,
+          "roi_ci95_tournament": [
+            -0.432913,
+            0.26
+          ],
+          "positive_years": 2
+        },
+        "0.08": {
+          "bets": 46,
+          "roi": -0.029783,
+          "roi_ci95_tournament": [
+            -0.439576,
+            0.389572
+          ],
+          "positive_years": 3
+        },
+        "0.10": {
+          "bets": 34,
+          "roi": 0.066176,
+          "roi_ci95_tournament": [
+            -0.366227,
+            0.594151
+          ],
+          "positive_years": 3
+        }
+      }
+    },
+    "model_cand": {
+      "brier": 0.211016,
+      "log_loss": 0.608794,
+      "log_loss_gain_vs_market": -0.0239549,
+      "gain_ci95_tournament": [
+        -0.026719,
+        -0.021306
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.208754,
+          "log_loss": 0.604031
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.211048,
+          "log_loss": 0.609153
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.2115,
+          "log_loss": 0.609551
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.211685,
+          "log_loss": 0.609955
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.21311,
+          "log_loss": 0.613873
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.208776,
+          "log_loss": 0.603254
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 19490,
+          "roi": -0.103799,
+          "roi_ci95_tournament": [
+            -0.124432,
+            -0.084194
+          ],
+          "positive_years": 0
+        },
+        "0.02": {
+          "bets": 17315,
+          "roi": -0.105156,
+          "roi_ci95_tournament": [
+            -0.126365,
+            -0.084922
+          ],
+          "positive_years": 0
+        },
+        "0.04": {
+          "bets": 15452,
+          "roi": -0.113207,
+          "roi_ci95_tournament": [
+            -0.136647,
+            -0.090817
+          ],
+          "positive_years": 0
+        },
+        "0.06": {
+          "bets": 13848,
+          "roi": -0.117592,
+          "roi_ci95_tournament": [
+            -0.142948,
+            -0.092928
+          ],
+          "positive_years": 0
+        },
+        "0.08": {
+          "bets": 12424,
+          "roi": -0.122299,
+          "roi_ci95_tournament": [
+            -0.149879,
+            -0.095005
+          ],
+          "positive_years": 0
+        },
+        "0.10": {
+          "bets": 11200,
+          "roi": -0.129287,
+          "roi_ci95_tournament": [
+            -0.158209,
+            -0.100701
+          ],
+          "positive_years": 0
+        }
+      }
+    },
+    "market_recal": {
+      "brier": 0.201022,
+      "log_loss": 0.584798,
+      "log_loss_gain_vs_market": 4.11e-05,
+      "gain_ci95_tournament": [
+        -0.000136,
+        0.000219
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199122,
+          "log_loss": 0.580125
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200722,
+          "log_loss": 0.584627
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202353,
+          "log_loss": 0.587025
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200237,
+          "log_loss": 0.582482
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204593,
+          "log_loss": 0.593514
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.197176,
+          "log_loss": 0.577328
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 1014,
+          "roi": 0.046321,
+          "roi_ci95_tournament": [
+            -0.004862,
+            0.095061
+          ],
+          "positive_years": 5
+        },
+        "0.02": {
+          "bets": 156,
+          "roi": 0.067564,
+          "roi_ci95_tournament": [
+            -0.112254,
+            0.248839
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 70,
+          "roi": 0.035857,
+          "roi_ci95_tournament": [
+            -0.270725,
+            0.373926
+          ],
+          "positive_years": 2
+        },
+        "0.06": {
+          "bets": 40,
+          "roi": 0.11575,
+          "roi_ci95_tournament": [
+            -0.29372,
+            0.581058
+          ],
+          "positive_years": 3
+        },
+        "0.08": {
+          "bets": 30,
+          "roi": 0.208333,
+          "roi_ci95_tournament": null,
+          "positive_years": 3
+        },
+        "0.10": {
+          "bets": 29,
+          "roi": 0.25,
+          "roi_ci95_tournament": null,
+          "positive_years": 3
+        }
+      }
+    },
+    "market_model": {
+      "brier": 0.200865,
+      "log_loss": 0.58446,
+      "log_loss_gain_vs_market": 0.0003793,
+      "gain_ci95_tournament": [
+        -5e-06,
+        0.000753
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199181,
+          "log_loss": 0.580248
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200418,
+          "log_loss": 0.583971
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202157,
+          "log_loss": 0.586489
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200124,
+          "log_loss": 0.582201
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204377,
+          "log_loss": 0.593144
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.196991,
+          "log_loss": 0.577076
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 3039,
+          "roi": 0.045012,
+          "roi_ci95_tournament": [
+            0.009715,
+            0.079985
+          ],
+          "positive_years": 6
+        },
+        "0.02": {
+          "bets": 878,
+          "roi": 0.074066,
+          "roi_ci95_tournament": [
+            -0.001878,
+            0.153863
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 278,
+          "roi": 0.127914,
+          "roi_ci95_tournament": [
+            -0.028911,
+            0.293875
+          ],
+          "positive_years": 5
+        },
+        "0.06": {
+          "bets": 106,
+          "roi": 0.06434,
+          "roi_ci95_tournament": [
+            -0.220048,
+            0.355995
+          ],
+          "positive_years": 3
+        },
+        "0.08": {
+          "bets": 66,
+          "roi": -0.005,
+          "roi_ci95_tournament": [
+            -0.31531,
+            0.336898
+          ],
+          "positive_years": 3
+        },
+        "0.10": {
+          "bets": 42,
+          "roi": -0.021429,
+          "roi_ci95_tournament": [
+            -0.42289,
+            0.426159
+          ],
+          "positive_years": 3
+        }
+      }
+    },
+    "market_schedule": {
+      "brier": 0.201195,
+      "log_loss": 0.585206,
+      "log_loss_gain_vs_market": -0.0003666,
+      "gain_ci95_tournament": [
+        -0.000837,
+        6.3e-05
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199685,
+          "log_loss": 0.581481
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.201259,
+          "log_loss": 0.585905
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202462,
+          "log_loss": 0.587303
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200157,
+          "log_loss": 0.582194
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204563,
+          "log_loss": 0.593404
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.196958,
+          "log_loss": 0.576981
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 3345,
+          "roi": -0.016831,
+          "roi_ci95_tournament": [
+            -0.05052,
+            0.015462
+          ],
+          "positive_years": 2
+        },
+        "0.02": {
+          "bets": 1386,
+          "roi": -0.031465,
+          "roi_ci95_tournament": [
+            -0.088381,
+            0.032365
+          ],
+          "positive_years": 1
+        },
+        "0.04": {
+          "bets": 710,
+          "roi": -0.07893,
+          "roi_ci95_tournament": [
+            -0.157247,
+            -0.001983
+          ],
+          "positive_years": 2
+        },
+        "0.06": {
+          "bets": 412,
+          "roi": -0.101189,
+          "roi_ci95_tournament": [
+            -0.21478,
+            0.016215
+          ],
+          "positive_years": 2
+        },
+        "0.08": {
+          "bets": 250,
+          "roi": -0.14584,
+          "roi_ci95_tournament": [
+            -0.306253,
+            0.006564
+          ],
+          "positive_years": 1
+        },
+        "0.10": {
+          "bets": 178,
+          "roi": -0.190281,
+          "roi_ci95_tournament": [
+            -0.394413,
+            0.01551
+          ],
+          "positive_years": 1
+        }
+      }
+    },
+    "market_momentum": {
+      "brier": 0.201014,
+      "log_loss": 0.584789,
+      "log_loss_gain_vs_market": 4.96e-05,
+      "gain_ci95_tournament": [
+        -0.000161,
+        0.000259
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199194,
+          "log_loss": 0.580288
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200734,
+          "log_loss": 0.584661
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202312,
+          "log_loss": 0.586928
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200129,
+          "log_loss": 0.58224
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204596,
+          "log_loss": 0.593545
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.197237,
+          "log_loss": 0.577507
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 1362,
+          "roi": 0.022467,
+          "roi_ci95_tournament": [
+            -0.022849,
+            0.069245
+          ],
+          "positive_years": 4
+        },
+        "0.02": {
+          "bets": 233,
+          "roi": 0.029828,
+          "roi_ci95_tournament": [
+            -0.114724,
+            0.1681
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 82,
+          "roi": 0.103415,
+          "roi_ci95_tournament": [
+            -0.192077,
+            0.414115
+          ],
+          "positive_years": 2
+        },
+        "0.06": {
+          "bets": 47,
+          "roi": 0.01766,
+          "roi_ci95_tournament": [
+            -0.370005,
+            0.417425
+          ],
+          "positive_years": 4
+        },
+        "0.08": {
+          "bets": 37,
+          "roi": 0.140541,
+          "roi_ci95_tournament": [
+            -0.290035,
+            0.614334
+          ],
+          "positive_years": 3
+        },
+        "0.10": {
+          "bets": 30,
+          "roi": 0.226667,
+          "roi_ci95_tournament": null,
+          "positive_years": 4
+        }
+      }
+    },
+    "residual_logistic_all": {
+      "brier": 0.201041,
+      "log_loss": 0.58492,
+      "log_loss_gain_vs_market": -8.09e-05,
+      "gain_ci95_tournament": [
+        -0.000718,
+        0.000502
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199804,
+          "log_loss": 0.581727
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200854,
+          "log_loss": 0.585152
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.20249,
+          "log_loss": 0.587273
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.199865,
+          "log_loss": 0.581539
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204347,
+          "log_loss": 0.593071
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.196813,
+          "log_loss": 0.576938
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 5438,
+          "roi": 0.004156,
+          "roi_ci95_tournament": [
+            -0.026438,
+            0.033805
+          ],
+          "positive_years": 3
+        },
+        "0.02": {
+          "bets": 2399,
+          "roi": -0.00308,
+          "roi_ci95_tournament": [
+            -0.051856,
+            0.045127
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 1156,
+          "roi": 0.014187,
+          "roi_ci95_tournament": [
+            -0.057959,
+            0.087449
+          ],
+          "positive_years": 5
+        },
+        "0.06": {
+          "bets": 601,
+          "roi": 0.013344,
+          "roi_ci95_tournament": [
+            -0.091568,
+            0.115596
+          ],
+          "positive_years": 3
+        },
+        "0.08": {
+          "bets": 353,
+          "roi": -0.027082,
+          "roi_ci95_tournament": [
+            -0.173653,
+            0.126758
+          ],
+          "positive_years": 4
+        },
+        "0.10": {
+          "bets": 210,
+          "roi": -0.021048,
+          "roi_ci95_tournament": [
+            -0.213793,
+            0.189146
+          ],
+          "positive_years": 3
+        }
+      }
+    },
+    "residual_xgb_all": {
+      "brier": 0.200945,
+      "log_loss": 0.584657,
+      "log_loss_gain_vs_market": 0.0001816,
+      "gain_ci95_tournament": [
+        -0.000328,
+        0.000699
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199211,
+          "log_loss": 0.580349
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.200972,
+          "log_loss": 0.585131
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202245,
+          "log_loss": 0.586775
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200018,
+          "log_loss": 0.582018
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.204366,
+          "log_loss": 0.59308
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.196801,
+          "log_loss": 0.576721
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 5798,
+          "roi": -3.4e-05,
+          "roi_ci95_tournament": [
+            -0.027168,
+            0.025717
+          ],
+          "positive_years": 2
+        },
+        "0.02": {
+          "bets": 2771,
+          "roi": 0.018618,
+          "roi_ci95_tournament": [
+            -0.022043,
+            0.058411
+          ],
+          "positive_years": 4
+        },
+        "0.04": {
+          "bets": 1312,
+          "roi": -0.032226,
+          "roi_ci95_tournament": [
+            -0.092895,
+            0.030676
+          ],
+          "positive_years": 3
+        },
+        "0.06": {
+          "bets": 621,
+          "roi": -0.043446,
+          "roi_ci95_tournament": [
+            -0.14297,
+            0.058558
+          ],
+          "positive_years": 3
+        },
+        "0.08": {
+          "bets": 343,
+          "roi": -0.075714,
+          "roi_ci95_tournament": [
+            -0.225553,
+            0.075344
+          ],
+          "positive_years": 1
+        },
+        "0.10": {
+          "bets": 208,
+          "roi": -0.102885,
+          "roi_ci95_tournament": [
+            -0.300697,
+            0.094167
+          ],
+          "positive_years": 1
+        }
+      }
+    },
+    "control_shuffled_xgb": {
+      "brier": 0.201163,
+      "log_loss": 0.585158,
+      "log_loss_gain_vs_market": -0.0003191,
+      "gain_ci95_tournament": [
+        -0.000781,
+        0.000138
+      ],
+      "yearly": {
+        "2021": {
+          "n": 4493,
+          "brier": 0.199097,
+          "log_loss": 0.580004
+        },
+        "2022": {
+          "n": 4576,
+          "brier": 0.201079,
+          "log_loss": 0.585534
+        },
+        "2023": {
+          "n": 4840,
+          "brier": 0.202458,
+          "log_loss": 0.587456
+        },
+        "2024": {
+          "n": 4972,
+          "brier": 0.200373,
+          "log_loss": 0.582809
+        },
+        "2025": {
+          "n": 4601,
+          "brier": 0.20469,
+          "log_loss": 0.593732
+        },
+        "2026": {
+          "n": 2355,
+          "brier": 0.197382,
+          "log_loss": 0.577745
+        }
+      },
+      "betting_b365": {
+        "0.00": {
+          "bets": 4557,
+          "roi": -0.016474,
+          "roi_ci95_tournament": [
+            -0.052672,
+            0.021492
+          ],
+          "positive_years": 2
+        },
+        "0.02": {
+          "bets": 2053,
+          "roi": -0.008534,
+          "roi_ci95_tournament": [
+            -0.071754,
+            0.052198
+          ],
+          "positive_years": 3
+        },
+        "0.04": {
+          "bets": 1004,
+          "roi": 0.046454,
+          "roi_ci95_tournament": [
+            -0.041034,
+            0.139278
+          ],
+          "positive_years": 4
+        },
+        "0.06": {
+          "bets": 521,
+          "roi": 0.032226,
+          "roi_ci95_tournament": [
+            -0.092899,
+            0.166434
+          ],
+          "positive_years": 3
+        },
+        "0.08": {
+          "bets": 274,
+          "roi": 0.064562,
+          "roi_ci95_tournament": [
+            -0.122834,
+            0.266086
+          ],
+          "positive_years": 3
+        },
+        "0.10": {
+          "bets": 150,
+          "roi": 0.193,
+          "roi_ci95_tournament": [
+            -0.06937,
+            0.44106
+          ],
+          "positive_years": 2
+        }
+      }
+    }
+  },
+  "multiple_testing": {
+    "strategies_tested": 54,
+    "best_by_roi_min100": "control_shuffled_xgb@0.10",
+    "best_roi": 0.193,
+    "best_bets": 150,
+    "deflated_sharpe_probability": 0.4372,
+    "pbo_cscv_10_blocks": 0.1429
+  },
+  "data_sha256": "4c8e2c78d65e308c232c865d6853b06d20a2f304bb767eba5f104e1dc1ba8733"
+}
