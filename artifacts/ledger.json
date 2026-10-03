@@ -86,8 +86,8 @@
     "bank_at_pick": 100.32,
     "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/carlos-alcaraz-denis-shapovalov-m1242428419895296",
     "status": "pendente",
-    "last_odds": 1.1,
-    "last_seen": "2026-10-03T16:40:45.796140+00:00"
+    "last_odds": 1.11,
+    "last_seen": "2026-10-03T18:40:36.218839+00:00"
   },
   {
     "match_id": "betclic:1241682986172416",
@@ -107,8 +107,8 @@
     "bank_at_pick": 100.32,
     "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/nikola-bartunkova-aryna-sabalenka-m1241682986172416",
     "status": "pendente",
-    "last_odds": 1.12,
-    "last_seen": "2026-10-03T16:40:45.796140+00:00"
+    "last_odds": 1.13,
+    "last_seen": "2026-10-03T18:40:36.218839+00:00"
   },
   {
     "match_id": "betclic:1241643460091904",
@@ -129,7 +129,7 @@
     "url": "https://www.betclic.pt/tenis-stennis/toquio-atp-c276/valentin-vacherot-arthur-fils-m1241643460091904",
     "status": "pendente",
     "last_odds": 1.21,
-    "last_seen": "2026-10-03T16:40:45.796140+00:00"
+    "last_seen": "2026-10-03T18:40:36.218839+00:00"
   },
   {
     "match_id": "betclic:1242665958019072",
@@ -150,6 +150,6 @@
     "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-qual-c38724/fiona-crawley-alana-smith-m1242665958019072",
     "status": "pendente",
     "last_odds": 1.18,
-    "last_seen": "2026-10-03T16:40:45.796140+00:00"
+    "last_seen": "2026-10-03T18:40:36.218839+00:00"
   }
 ]
