@@ -4,8 +4,8 @@ import { Shell } from "../components/Shell";
 import { BASE } from "../lib/api";
 
 export const metadata: Metadata = {
-  title: "Tennis Quant | Apostas de hoje",
-  description: "Piloto automático de apostas de ténis na Betclic: quais, quanto e resultados, com banca gerida por regras.",
+  title: "Tennis Quant | Plano de múltiplas",
+  description: "Múltiplas curtas de favoritos de ténis na Betclic: que jogos, quanto apostar e que futuro esperar, com previsões baseadas em histórico.",
   icons: { icon: `${BASE}/favicon.svg` },
 };
 

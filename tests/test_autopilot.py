@@ -49,12 +49,12 @@ def test_betclic_parse_reads_main_market_only():
 def test_settle_uses_result_and_voids_stale(monkeypatch):
     now = datetime(2026, 10, 4, 12, tzinfo=timezone.utc)
     start = datetime(2026, 10, 3, 9, tzinfo=timezone.utc)
-    ledger = [
-        {"match_id": "m1", "start_at": start.isoformat(), "player_a": "Daniil Medvedev",
+    ledger = [autopilot.as_parlay(b) for b in [  # livro da era das apostas simples
+        {"match_id": "m1", "start_at": start.isoformat(), "player_a": "Daniil Medvedev", "p": 0.85,
          "player_b": "Jan-Lennard  Struff", "side": "a", "odds": 1.14, "stake": 1.0, "status": "pendente"},
-        {"match_id": "m2", "start_at": (now - timedelta(days=4)).isoformat(), "player_a": "X Y",
+        {"match_id": "m2", "start_at": (now - timedelta(days=4)).isoformat(), "player_a": "X Y", "p": 0.8,
          "player_b": "Z W", "side": "b", "odds": 1.2, "stake": 1.0, "status": "pendente"},
-    ]
+    ]]
     monkeypatch.setattr(autopilot, "espn_results", lambda days: [{
         "player_a": "Jan-Lennard Struff", "player_b": "Daniil Medvedev", "winner": "Daniil Medvedev",
         "score": "6-3 6-4", "start_at": start + timedelta(minutes=20)}])

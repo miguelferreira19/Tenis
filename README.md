@@ -1,20 +1,25 @@
-# Tennis Quant v0.4 — piloto automático
+# Tennis Quant v0.5 — plano de múltiplas curtas
 
-**Site:** https://miguelferreira19.github.io/Tenis/ — abre em «Apostas de hoje».
+**Site:** https://miguelferreira19.github.io/Tenis/ — abre em «Plano de hoje».
 
-De 2 em 2 horas a tarefa do Windows «TennisQuant Piloto» (no teu PC, `scripts/autopilot_local.ps1`; a Betclic bloqueia os servidores do GitHub) lê as odds públicas da Betclic, escolhe as apostas da estratégia, calcula os montantes, fecha os resultados com a ESPN e envia o livro para o GitHub, que reconstrói o site. Com o PC desligado não há apostas novas; os resultados continuam a ser fechados no site. Tu só abres o link de cada jogo na Betclic, apostas o montante indicado e marcas «Já apostei». Os montantes ajustam-se à banca que escreves no site (guardada só no teu browser).
+Desde 06-10-2026 o plano são **múltiplas curtas de favoritos seguros** (pernas com odd até 1,25, de 1 a 4 pernas, odd total entre 1,40 e 1,90) com **montante fixo por múltipla** (5% da banca por omissão, nunca tudo). De 2 em 2 horas a tarefa do Windows «TennisQuant Piloto» (no teu PC, `scripts/autopilot_local.ps1`; a Betclic bloqueia os servidores do GitHub) lê as odds públicas da Betclic, monta as múltiplas, fecha os resultados com a ESPN e envia o livro para o GitHub, que reconstrói o site. Com o PC desligado não há múltiplas novas; os resultados continuam a ser fechados no site.
 
-- Estratégia, regras de banca e resultados esperados: página **Estratégia** do site e [docs/RESULTS_2026-10-02.md](docs/RESULTS_2026-10-02.md).
-- Retorno esperado da estratégia: **negativo (~−2% por euro)**. Usa a conta demo para confirmar antes de usar dinheiro.
+- **Plano de hoje:** as múltiplas a fazer, o montante em € para a banca que escreves (guardada só no teu browser), a perspetiva a 30 dias e uma calculadora para pernas ao vivo.
+- **Previsões:** simulação da banca (cenários «histórico real», «odds justas» e «+3%») sobre ~2000 múltiplas de 2019–2026 com a margem real da Betclic (10,1%, medida em 213 jogos), custo por número de pernas, sensibilidade ao montante e quantas apostas são precisas para confirmar uma vantagem.
+- **Registo:** as apostas reais do utilizador, só em percentagens e índices (o repositório é público): acaso contra vantagem e as mesmas apostas com percentagem fixa.
+- **Estratégia:** regras e validação, em [docs/RESULTS_2026-10-06.md](docs/RESULTS_2026-10-06.md).
+- Retorno esperado: **negativo, ≈ −7% por euro apostado** (−7,2% ± 3,1% em 1 963 múltiplas históricas). O ao vivo e outros desportos não estão validados.
 - O piloto não coloca apostas. O clique final é sempre teu.
 
 Correr em local (Windows):
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\autopilot.py           # lê a Betclic, decide, fecha resultados
-.\.venv\Scripts\python.exe scripts\backtest_strategy.py   # refaz o backtest da estratégia
-.\.venv\Scripts\python.exe scripts\research_market.py     # modelo contra mercado (ronda 4)
+.\.venv\Scripts\python.exe scripts\autopilot.py          # lê a Betclic, monta as múltiplas, fecha resultados
+.\.venv\Scripts\python.exe scripts\backtest_parlays.py   # refaz o backtest → artifacts\parlay_strategy.json
+node apps\dashboard\lib\projection.test.mjs             # testes da simulação da banca
 ```
+
+`artifacts/real_bets.json` é um instantâneo da conta (06-10-2026), gerado a partir das páginas «As minhas apostas» e «Operações» da Betclic: para o atualizar, relê a conta no browser. Nunca incluir montantes, saldos nem referências: o repositório é público. O backtest das apostas simples (`scripts/backtest_strategy.py`, plano antigo) assumia uma margem de 7,5% que nunca foi medida; a margem medida é 10,1%, por isso o −2,0% por euro dessa versão era otimista.
 
 ---
 

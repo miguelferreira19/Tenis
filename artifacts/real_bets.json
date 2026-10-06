@@ -1,0 +1,322 @@
+{
+  "source": "Betclic.pt › As minhas apostas e Operações, lido no browser a 2026-10-06",
+  "note": "Só percentagens e índices (repositório público): sem montantes, saldos nem referências da conta. stake_pct = montante / saldo disponível antes da aposta; index = capital depois da aposta (início da fase = 100).",
+  "start": "2026-10-03",
+  "before": {
+    "from": "2026-09-18",
+    "to": "2026-10-01",
+    "bets": 13,
+    "wins": 1,
+    "note": "Sem detalhe de pernas: a conta só mostra montantes nestas datas."
+  },
+  "bets": [
+    {
+      "placed_at": "2026-10-03T18:35:00+01:00",
+      "legs": [
+        {
+          "pick": "Escócia",
+          "vs": "Macedónia do Norte",
+          "sport": "futebol",
+          "odds": 1.6,
+          "start_at": "2026-10-03T19:45:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Suíça",
+          "vs": "Eslovénia",
+          "sport": "futebol",
+          "odds": 1.32,
+          "start_at": "2026-10-03T19:45:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 2.11,
+      "stake_pct": 0.112,
+      "result": "ganha",
+      "index": 112.5
+    },
+    {
+      "placed_at": "2026-10-03T18:37:00+01:00",
+      "legs": [],
+      "odds": 1.77,
+      "stake_pct": 0.127,
+      "result": "ganha",
+      "index": 121.1,
+      "note": "Sem detalhe de pernas na lista da Betclic. A ordem entre esta e a seguinte (uma ganhou a 1,77, a outra perdeu) não está confirmada."
+    },
+    {
+      "placed_at": "2026-10-03T18:38:00+01:00",
+      "legs": [],
+      "odds": null,
+      "stake_pct": 0.145,
+      "result": "perdida",
+      "index": 109.9,
+      "note": "Sem detalhe de pernas nem odd (aposta perdida)."
+    },
+    {
+      "placed_at": "2026-10-03T22:07:00+01:00",
+      "legs": [
+        {
+          "pick": "Metropolitano Maringá PR",
+          "vs": "Santa Cruz",
+          "sport": "futebol",
+          "odds": 1.3,
+          "start_at": "2026-10-03T21:00:00+01:00",
+          "outcome": "perdida"
+        },
+        {
+          "pick": "Floresta CE",
+          "vs": "Botafogo PB",
+          "sport": "futebol",
+          "odds": 1.32,
+          "start_at": "2026-10-03T21:00:00+01:00",
+          "outcome": "perdida"
+        }
+      ],
+      "odds": 1.72,
+      "stake_pct": 0.102,
+      "result": "perdida",
+      "index": 98.7
+    },
+    {
+      "placed_at": "2026-10-04T09:14:00+01:00",
+      "legs": [
+        {
+          "pick": "Daniil Medvedev",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.36,
+          "start_at": "2026-10-04T09:30:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Jiri Lehecka",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.35,
+          "start_at": "2026-10-04T10:35:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.84,
+      "stake_pct": 0.431,
+      "result": "ganha",
+      "index": 134.4
+    },
+    {
+      "placed_at": "2026-10-05T08:47:00+01:00",
+      "legs": [
+        {
+          "pick": "Timofey Skatov",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.38,
+          "start_at": "2026-10-05T07:35:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Alina Charaeva",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.25,
+          "start_at": "2026-10-05T07:46:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Carlos Alcaraz",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.11,
+          "start_at": "2026-10-05T08:10:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.91,
+      "stake_pct": 0.247,
+      "result": "ganha",
+      "index": 164.6
+    },
+    {
+      "placed_at": "2026-10-05T11:22:00+01:00",
+      "legs": [
+        {
+          "pick": "Dalibor Svrcina",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.32,
+          "start_at": "2026-10-05T09:00:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Johan Nikles",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.03,
+          "start_at": "2026-10-05T10:00:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Alexandre Muller",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.13,
+          "start_at": "2026-10-05T10:55:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.54,
+      "stake_pct": 0.317,
+      "result": "ganha",
+      "index": 192.8
+    },
+    {
+      "placed_at": "2026-10-05T14:21:00+01:00",
+      "legs": [
+        {
+          "pick": "Max Hans Rehberg",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.04,
+          "start_at": "2026-10-05T12:15:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Duje Ajdukovic",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.1,
+          "start_at": "2026-10-05T13:25:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Daniel Rincon",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.1,
+          "start_at": "2026-10-05T13:45:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Nikolas Sanchez-Izquierdo",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.11,
+          "start_at": "2026-10-05T14:10:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.4,
+      "stake_pct": 0.417,
+      "result": "ganha",
+      "index": 224.9
+    },
+    {
+      "placed_at": "2026-10-05T16:01:00+01:00",
+      "legs": [
+        {
+          "pick": "Filippo Moroni",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.16,
+          "start_at": "2026-10-05T13:25:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Moez Echargui",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.09,
+          "start_at": "2026-10-05T15:00:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Coco Gauff",
+          "vs": null,
+          "sport": "ténis",
+          "odds": 1.15,
+          "start_at": "2026-10-05T15:08:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.45,
+      "stake_pct": 0.5,
+      "result": "ganha",
+      "index": 275.6
+    },
+    {
+      "placed_at": "2026-10-05T17:08:00+01:00",
+      "legs": [
+        {
+          "pick": "Maximo Zeitune",
+          "vs": "Lucio Ratti",
+          "sport": "ténis",
+          "odds": 1.18,
+          "start_at": "2026-10-05T16:15:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Besiktas Istanbul",
+          "vs": "Trabzonspor",
+          "sport": "basquetebol",
+          "odds": 1.22,
+          "start_at": "2026-10-05T17:00:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.44,
+      "stake_pct": 0.592,
+      "result": "ganha",
+      "index": 347.4
+    },
+    {
+      "placed_at": "2026-10-05T20:35:00+01:00",
+      "legs": [
+        {
+          "pick": "Jonas Forejtek",
+          "vs": "Sandro Kopp",
+          "sport": "ténis",
+          "odds": 1.09,
+          "start_at": "2026-10-05T19:35:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Genaro Alberto Olivieri",
+          "vs": "Valerio Aboian",
+          "sport": "ténis",
+          "odds": 1.19,
+          "start_at": "2026-10-05T20:00:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.3,
+      "stake_pct": 0.677,
+      "result": "ganha",
+      "index": 418.0
+    },
+    {
+      "placed_at": "2026-10-06T10:23:00+01:00",
+      "legs": [
+        {
+          "pick": "Emerson Jones",
+          "vs": "Mai Hontama",
+          "sport": "ténis",
+          "odds": 1.06,
+          "start_at": "2026-10-06T09:20:00+01:00",
+          "outcome": "ganha"
+        },
+        {
+          "pick": "Carlos Alcaraz",
+          "vs": "Jiri Lehecka",
+          "sport": "ténis",
+          "odds": 1.42,
+          "start_at": "2026-10-06T10:00:00+01:00",
+          "outcome": "ganha"
+        }
+      ],
+      "odds": 1.51,
+      "stake_pct": 0.462,
+      "result": "ganha",
+      "index": 516.5
+    }
+  ]
+}

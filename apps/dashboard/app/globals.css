@@ -99,3 +99,32 @@ input:focus-visible,select:focus-visible{outline:2px solid var(--lime);outline-o
 .ap-foot{color:var(--muted);font-size:14px}.ap-foot a{color:var(--aqua)}
 @media(max-width:600px){.ap-hero{align-items:stretch}.ap-cards{grid-template-columns:1fr}.ap-nums dd{font-size:1rem}.ap-table td,.ap-table th{padding:8px 10px}}
 @media(prefers-reduced-motion:reduce){.ap-card{transition:none}}
+/* Plano de múltiplas curtas */
+.ap-controls{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}
+.ap-bank select{font-size:1.1rem;padding:9px 10px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--text);font-family:var(--sans)}
+.ap-bank input:focus-visible,.ap-bank select:focus-visible{outline:2px solid var(--aqua);outline-offset:2px}
+.ap-big{font-size:1.5rem;margin:0 0 6px;line-height:1.25}.ap-big strong{font-size:1.9rem;letter-spacing:-.02em}.ap-big span{font-size:.9rem;color:var(--muted)}
+.ap-fine{font-size:13px;color:var(--muted);margin:2px 0;line-height:1.5}
+.ap-link{color:var(--aqua);white-space:nowrap;font-size:13px}.ap-link:focus-visible{outline:2px solid var(--aqua);outline-offset:3px}
+.ap-legs{list-style:none;margin:8px 0 6px;padding:0;border:1px solid var(--line-soft);border-radius:10px}
+.ap-legs li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:10px 12px;border-top:1px solid var(--line-soft)}.ap-legs li:first-child{border-top:0}
+.ap-legs strong{display:block;color:var(--lime);font-size:1.05rem}.ap-legs small{display:block;color:var(--muted);font-size:12px}
+.ap-leg-odds{text-align:right}.ap-leg-odds b{font-size:1.25rem}
+.ap-fan{margin:12px 0}.ap-fan svg{width:100%;height:220px;display:block;background:#0004;border-radius:8px}
+.ap-fan figcaption{display:flex;gap:6px 18px;flex-wrap:wrap;font-size:12px;color:var(--muted);font-family:var(--mono);margin-top:8px}
+.ap-key{display:inline-block;width:14px;height:4px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.ap-callout{border-color:var(--orange);background:linear-gradient(160deg,#f4ab780d,var(--panel))}
+.ap-tag{font-style:normal;font-size:10px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--aqua);border:1px solid var(--line);border-radius:5px;padding:1px 5px;margin-left:6px;white-space:nowrap}
+.ap-table td div+div{margin-top:3px}
+.ap-table select,.ap-table input{font-family:var(--sans)}
+@media(max-width:600px){.ap-legs li{grid-template-columns:1fr auto}.ap-legs .ap-link{grid-column:1/-1}.ap-controls{width:100%}.ap-controls .ap-bank{flex:1 1 40%}.ap-big strong{font-size:1.6rem}}
+.ap-calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.ap-calc label{display:flex;flex-direction:column;gap:5px;font-size:11px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}
+.ap-calc input{font-size:1.2rem;padding:9px 10px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--text);font-family:var(--sans)}
+.ap-calc input:focus-visible{outline:2px solid var(--aqua);outline-offset:2px}
+.ap-nums-5{grid-template-columns:repeat(auto-fit,minmax(110px,1fr))}
+.ap-checks{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px}.ap-checks .ok{color:var(--lime)}.ap-checks .no{color:var(--orange)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ap-card-top{flex-wrap:wrap}
+.ap-legs li{grid-template-columns:1fr auto}
+.ap-legs .ap-link{display:inline-block;margin-top:4px}

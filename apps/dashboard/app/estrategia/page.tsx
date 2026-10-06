@@ -1,63 +1,68 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { Autopilot, loadAutopilot, odd, pc } from "../../lib/autopilot";
-import { BankCurve } from "../../components/BankCurve";
+import { loadAutopilot, loadStrategy, odd, pc, spc, useData } from "../../lib/autopilot";
 
 export default function Strategy() {
-  const [data, setData] = useState<Autopilot | null>(null);
-  const [error, setError] = useState("");
-  useEffect(() => { loadAutopilot().then(setData).catch(e => setError(e.message)); }, []);
+  const ap = useData(loadAutopilot), st = useData(loadStrategy);
+  const error = ap.error || st.error;
   if (error) return <p className="ap-warn">{error}</p>;
-  if (!data) return <p role="status" className="ap-loading">A carregar…</p>;
-  const p = data.plan, bt = data.backtest;
-  const test = bt.test_flat?.betclic_proxy, sim = bt.simulation_betclic, base = bt.baseline_all_favourites_betclic;
-  const years = bt.test_years?.length ? `${bt.test_years[0]}–${bt.test_years[bt.test_years.length - 1]}` : "";
+  if (!ap.data || !st.data) return <p role="status" className="ap-loading">A carregar…</p>;
+  const p = st.data.plan, all = st.data.policy.all, test = st.data.policy.test, fit = st.data.policy.fit;
+  const samples = st.data.margin_measured.reduce((n, m) => n + m.matches, 0);
 
   return <div className="ap ap-doc">
     <header className="ap-hero"><div>
-      <p className="ap-kicker">Como o piloto decide</p>
-      <h1>Favoritos fortes, apostas pequenas, regras fixas</h1>
-      <p className="ap-sub">De 2 em 2 horas o piloto lê as odds da Betclic, escolhe as apostas e calcula os montantes. Tu só copias.</p>
+      <p className="ap-kicker">Como o plano decide</p>
+      <h1>Múltiplas curtas de favoritos seguros, montantes pequenos, regras fixas</h1>
+      <p className="ap-sub">De 2 em 2 horas o plano lê as odds da Betclic, escolhe as múltiplas e calcula o montante. O clique final é sempre teu.</p>
     </div></header>
 
     <section className="ap-panel">
       <h2 className="ap-h2">As regras</h2>
       <ol className="ap-rules">
-        <li><strong>Só favoritos claros.</strong> Chance estimada de pelo menos {pc(p.p_min)} e odd entre {odd(p.odds_min)} e {odd(p.odds_max)}. Só apostas simples, uma por jogo; nada de combinadas, que multiplicam a margem da casa.</li>
-        <li><strong>Montante fixo.</strong> Cada aposta vale {pc(p.unit)} da banca atual. Se a banca cresce, as apostas crescem; se encolhe, encolhem.</li>
-        <li><strong>Limite diário.</strong> No máximo {p.max_picks_day} apostas e {pc(p.day_cap)} da banca por dia. Depois de perder {pc(p.stop_day)} num dia, para até ao dia seguinte.</li>
-        <li><strong>Travão nas perdas.</strong> Se a banca cair mais de {pc(p.dd_soft)} desde o máximo, os montantes começam a baixar; a {pc(p.dd_hard)} de queda ficam em {pc(p.dd_floor)} do normal.</li>
-        <li><strong>Nunca repor dinheiro.</strong> O plano nunca pede depósitos e nunca aumenta a aposta para recuperar uma perda.</li>
+        <li><strong>Pernas seguras.</strong> Só favoritos com chance estimada de pelo menos {pc(p.p_min)} e odd até {odd(p.odds_max)}: a zona mais barata do mercado, e a que já escolhes.</li>
+        <li><strong>Poucas pernas.</strong> De 1 a {p.legs_max} pernas, de jogos diferentes, com odd total entre {odd(p.odds_lo)} e {odd(p.odds_hi)} (lucro de {pc(p.odds_lo - 1)} a {pc(p.odds_hi - 1)} quando ganha). Entre as combinações possíveis, escolhe a mais barata, a de maior valor esperado.</li>
+        <li><strong>Montante fixo.</strong> {pc(p.unit)} da banca por múltipla (podes mudar na página inicial), no máximo {p.max_picks_day} por dia e {pc(p.day_cap)} da banca em risco por dia. Depois de perder {pc(p.stop_day)} num dia, para até ao dia seguinte.</li>
+        <li><strong>Travão nas perdas.</strong> Se a banca cair mais de {pc(p.dd_soft)} desde o máximo, os montantes começam a baixar; a {pc(p.dd_hard)} de queda ficam em {pc(p.dd_floor)} do normal. (Aplica-se ao plano em papel; na tua conta, baixa tu a percentagem.)</li>
+        <li><strong>Nunca a banca toda.</strong> Nada de reinvestir tudo na aposta seguinte nem de repor dinheiro para recuperar uma perda: é assim que uma única derrota apaga semanas.</li>
       </ol>
     </section>
 
     <section className="ap-panel">
       <h2 className="ap-h2">De onde vem a «chance estimada»</h2>
-      <p>Das próprias odds da Betclic. Primeiro tira-se a margem da casa (método de Shin), depois corrige-se um viés conhecido: as casas pagam os favoritos fortes um pouco abaixo do que valem e os azarões muito acima. Testámos se o nosso modelo estatístico acrescentava informação às odds e a resposta foi não: com o modelo misturado as previsões ficavam piores. Por isso o piloto usa só as odds.</p>
+      <p>Das próprias odds da Betclic. Tira-se a margem da casa (método de Shin) e corrige-se um viés conhecido: os grandes favoritos ganham um pouco mais vezes do que as odds dizem. O modelo estatístico do projeto não acrescentou informação às odds, por isso não é usado. Nas pernas até 1,15 as chances ficam ligeiramente abaixo do que aconteceu no histórico (o que é conservador).</p>
     </section>
 
-    {test && <section className="ap-panel">
-      <h2 className="ap-h2">O que esperar, sem ilusões</h2>
-      <p>Testámos estas regras em {test.bets} jogos ATP/WTA de {years}, que não foram usados para as escolher, com a margem típica da Betclic (~{pc((bt.betclic_overround ?? 1.075) - 1, 1)}).</p>
+    <section className="ap-panel">
+      <h2 className="ap-h2">O que o histórico diz, sem ilusões</h2>
+      <p>Repetimos estas regras em {all.parlays.toLocaleString("pt-PT")} múltiplas de ATP e WTA entre 2019 e 2026 (ajuste {fit.parlays.toLocaleString("pt-PT")} em 2019–2022, teste {test.parlays.toLocaleString("pt-PT")} em 2023–2026), com a margem real da Betclic: {pc(st.data.betclic_overround - 1, 1)}, medida em {samples} jogos de duas datas.</p>
       <div className="ap-stats">
-        <div><span>Apostas ganhas</span><strong>{pc(test.hit_rate)}</strong><small>mais de 4 em cada 5</small></div>
-        <div><span>Retorno por euro apostado</span><strong className={(test.roi ?? 0) >= 0 ? "pos" : "neg"}>{pc(test.roi, 1)}</strong><small>margem de erro ± {pc((test.roi_se ?? 0) * 2, 1)}</small></div>
-        {sim && <div><span>Banca de 100 € a {pc(p.unit)} por aposta</span><strong>{sim.end.toLocaleString("pt-PT", { maximumFractionDigits: 0 })} €</strong><small>{sim.bets} apostas · pior queda {pc(sim.max_drawdown)}</small></div>}
+        <div><span>Múltiplas ganhas</span><strong>{pc(all.hit_rate)}</strong><small>odd média {odd(all.avg_odds)}</small></div>
+        <div><span>Retorno por euro apostado</span><strong className="neg">{spc(all.roi)}</strong><small>margem de erro ± {pc(all.roi_se * 2, 1)} · ajuste {spc(fit.roi)} · teste {spc(test.roi)}</small></div>
+        <div><span>Pernas por múltipla</span><strong>{Object.entries(all.legs_mix).filter(([, v]) => v > 0).map(([k, v]) => `${k}: ${pc(v)}`).join(" · ")}</strong><small>quase sempre 2 ou 3</small></div>
       </div>
-      {sim && <BankCurve points={sim.curve_weekly} />}
-      <p><strong>Leitura honesta:</strong> acerta-se muito, mas com odds de 1,10 a 1,50 cada derrota apaga o lucro de 2 a 10 vitórias, e a margem da casa come a diferença. No histórico, a estratégia perdeu dinheiro devagar e de forma controlada. Apostar em todos os favoritos dava {base ? pc(base.roi, 1) : "pior"} por euro; os filtros e as regras reduzem o custo, mas não o transformam em lucro garantido. Usa a conta demo para confirmar isto com apostas reais antes de pôr dinheiro.</p>
-      {bt.test_flat_by_year && <div className="ap-table"><table><thead><tr><th>Ano</th><th>Apostas</th><th>Ganhas</th><th>Retorno</th></tr></thead><tbody>
-        {Object.entries(bt.test_flat_by_year).map(([y, r]) => <tr key={y}><td>{y}</td><td>{r.bets}</td><td>{pc(r.hit_rate)}</td><td className={(r.roi ?? 0) >= 0 ? "pos" : "neg"}>{pc(r.roi, 1)}</td></tr>)}
-      </tbody></table></div>}
-    </section>}
+      <div className="ap-table"><table><thead><tr><th>Ano</th><th>Múltiplas</th><th>Ganhas</th><th>Retorno</th></tr></thead><tbody>
+        {Object.entries(st.data.policy.by_year).filter(([, r]) => r.parlays > 0).map(([y, r]) => <tr key={y}><td>{y}</td><td>{r.parlays}</td><td>{pc(r.hit_rate)}</td><td className={r.roi >= 0 ? "pos" : "neg"}>{spc(r.roi)}</td></tr>)}
+      </tbody></table></div>
+      <p><strong>Leitura honesta:</strong> acerta-se em cerca de dois terços das vezes, mas as odds pagam menos do que o risco e a margem da casa come a diferença: {pc(-all.roi, 1)} de cada euro apostado, em média. O que se controla é quanto se aposta e quantas pernas se juntam (cada perna extra custa 1 a 3 pontos). <Link href="/previsoes">Ver as previsões e o custo por perna →</Link></p>
+      <p className="ap-fine">O backtest das apostas simples que existia antes assumia uma margem de 7,5% sem a ter medido; a medida é {pc(st.data.betclic_overround - 1, 1)}. O resultado dessa versão (−2,0% por euro) era, por isso, otimista.</p>
+    </section>
+
+    <section className="ap-panel">
+      <h2 className="ap-h2">O que não está provado</h2>
+      <ul className="ap-rules">
+        <li><strong>O ao vivo.</strong> Os dados são preços de fecho antes do jogo. O plano não lê preços ao vivo e não há histórico para saber se apostar com o favorito já a ganhar é mais barato. Os preços ao vivo que li tinham margem de 11% a 15%.</li>
+        <li><strong>Outros desportos.</strong> Futebol e basquetebol não estão no plano, mas aparecem no <Link href="/registo">registo</Link> porque os fizeste.</li>
+        <li><strong>A tua série de vitórias.</strong> É boa, e com poucas apostas não se distingue de sorte. Cada aposta registada torna a resposta mais firme.</li>
+      </ul>
+    </section>
 
     <section className="ap-panel">
       <h2 className="ap-h2">Porque não há um bot que aposta sozinho</h2>
-      <p>As casas licenciadas, como a Betclic, costumam proibir nos seus termos apostas feitas por programas automáticos; o risco é a conta ser fechada e o saldo retido. Além disso, com retorno esperado negativo, um bot só perderia de forma mais eficiente. O piloto faz tudo menos o clique final: escolhe, calcula o montante, dá-te o link direto para o jogo e fecha os resultados sozinho.</p>
+      <p>As casas licenciadas, como a Betclic, costumam proibir nos seus termos apostas feitas por programas automáticos; o risco é a conta ser fechada e o saldo retido. Além disso, com retorno esperado negativo, um bot só perderia de forma mais eficiente. O plano faz tudo menos o clique final: escolhe, calcula o montante, dá-te o link direto para cada jogo e fecha os resultados sozinho.</p>
     </section>
 
-    <p className="ap-foot"><Link href="/">← Voltar às apostas de hoje</Link></p>
+    <p className="ap-foot"><Link href="/">← Voltar ao plano de hoje</Link></p>
   </div>;
 }

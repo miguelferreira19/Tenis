@@ -44,3 +44,6 @@ data/external/
 !artifacts/market_research.json
 !artifacts/ledger.json
 !artifacts/betclic_snapshot.json
+
+!artifacts/parlay_strategy.json
+!artifacts/real_bets.json
