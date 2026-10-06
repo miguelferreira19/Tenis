@@ -285,7 +285,7 @@
         "start_at": "2026-10-06T07:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/cagla-buyukakcay-linda-klimovicova-m1243510929920000",
         "last_odds": 1.29,
-        "last_seen": "2026-10-06T12:28:59.435928+00:00",
+        "last_seen": "2026-10-06T12:40:44.033159+00:00",
         "status": "pendente"
       }
     ]
@@ -378,7 +378,7 @@
         "start_at": "2026-10-07T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/coco-gauff-elise-mertens-m1244515637690368",
         "last_odds": 1.19,
-        "last_seen": "2026-10-06T12:28:59.435928+00:00",
+        "last_seen": "2026-10-06T12:40:44.033159+00:00",
         "status": "pendente"
       }
     ]
@@ -402,7 +402,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/alina-charaeva-qinwen-zheng-m1244300725739520",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-06T12:28:59.435928+00:00"
+        "last_seen": "2026-10-06T12:40:44.033159+00:00"
       },
       {
         "match_id": "betclic:1244360857378816",
@@ -418,7 +418,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ann-li-elina-svitolina-m1244360857378816",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-06T12:28:59.435928+00:00"
+        "last_seen": "2026-10-06T12:40:44.033159+00:00"
       }
     ],
     "odds": 1.51,

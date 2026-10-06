@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-06T12:28:59.435928+00:00",
+  "observed_at": "2026-10-06T12:40:44.033159+00:00",
   "competitions": 22,
   "matches": [
     {
@@ -13,7 +13,7 @@
       "odds_b": 2.29,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-gea-jaime-faria-m1244218057068544",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244218907447296",
@@ -26,7 +26,7 @@
       "odds_b": 1.39,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/sho-shimabukuro-miomir-kecmanovic-m1244218907447296",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244227713404928",
@@ -39,7 +39,7 @@
       "odds_b": 1.4,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/aleksandar-kovacevic-matteo-berrettini-m1244227713404928",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244227830829060",
@@ -52,7 +52,7 @@
       "odds_b": 1.35,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/zhizhen-zhang-tomas-machac-m1244227830829060",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244261738643456",
@@ -65,7 +65,7 @@
       "odds_b": 1.49,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/yannick-hanfmann-kamil-majchrzak-m1244261738643456",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244220207685632",
@@ -78,7 +78,7 @@
       "odds_b": 2.75,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/holger-rune-daniel-altmaier-m1244220207685632",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244219894161408",
@@ -91,7 +91,7 @@
       "odds_b": 2.26,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-fery-marin-cilic-m1244219894161408",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244219757850624",
@@ -104,7 +104,7 @@
       "odds_b": 3.0,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/hubert-hurkacz-james-duckworth-m1244219757850624",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244227762675715",
@@ -117,7 +117,7 @@
       "odds_b": 2.25,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/jaume-munar-jenson-brooksby-m1244227762675715",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244265900437504",
@@ -130,7 +130,7 @@
       "odds_b": 1.3,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/vit-kopriva-zizou-bergs-m1244265900437504",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244265966501888",
@@ -143,7 +143,7 @@
       "odds_b": 1.84,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/martin-landaluce-jan-lennard-struff-m1244265966501888",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244268528173056",
@@ -156,7 +156,7 @@
       "odds_b": 2.04,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/thiago-agustin-tirante-hamad-medjedovic-m1244268528173056",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244268556480512",
@@ -169,7 +169,7 @@
       "odds_b": 1.47,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/luca-van-assche-bu-yunchaokete-m1244268556480512",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244270321238018",
@@ -182,7 +182,7 @@
       "odds_b": 1.8,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/botic-van-de-zandschulp-daniel-merida-aguilar-m1244270321238018",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244274251300864",
@@ -195,7 +195,7 @@
       "odds_b": 1.8,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/mariano-navone-pablo-carreno-busta-m1244274251300864",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244274750423040",
@@ -208,7 +208,7 @@
       "odds_b": 1.97,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/adolfo-daniel-vallejo-valentin-royer-m1244274750423040",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244275524263936",
@@ -221,7 +221,7 @@
       "odds_b": 3.25,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/nuno-borges-facundo-diaz-acosta-m1244275524263936",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244276789903360",
@@ -234,7 +234,7 @@
       "odds_b": 1.71,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/cameron-norrie-denis-shapovalov-m1244276789903360",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244281818861568",
@@ -247,7 +247,7 @@
       "odds_b": 1.67,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/marcos-giron-sebastian-baez-m1244281818861568",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244288348356608",
@@ -260,7 +260,7 @@
       "odds_b": 1.83,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/fabian-marozsan-zachary-svajda-m1244288348356608",
       "tour": "ATP",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244233285525504",
@@ -273,7 +273,7 @@
       "odds_b": 1.44,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/iva-jovic-iga-swiatek-m1244233285525504",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244515637690368",
@@ -286,7 +286,7 @@
       "odds_b": 3.9,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/coco-gauff-elise-mertens-m1244515637690368",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244300725739520",
@@ -299,7 +299,7 @@
       "odds_b": 1.22,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/alina-charaeva-qinwen-zheng-m1244300725739520",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244360857378816",
@@ -312,7 +312,7 @@
       "odds_b": 1.24,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ann-li-elina-svitolina-m1244360857378816",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245109049921536",
@@ -325,12 +325,12 @@
       "odds_b": 1.24,
       "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ekaterina-alexandrova-mirra-andreeva-m1245109049921536",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244666454380544",
       "competition": "Samsun WTA Challenger",
-      "start_at": "2026-10-06T12:40:00+00:00",
+      "start_at": "2026-10-06T13:00:00+00:00",
       "live": false,
       "player_a": "Bianca Vanessa Andreescu",
       "player_b": "Alana Smith",
@@ -338,7 +338,7 @@
       "odds_b": 5.6,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/bianca-vanessa-andreescu-alana-smith-m1244666454380544",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1243510816669696",
@@ -351,12 +351,12 @@
       "odds_b": 1.38,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/elena-pridankina-anna-blinkova-m1243510816669696",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1243510929920000",
       "competition": "Samsun WTA Challenger",
-      "start_at": "2026-10-06T13:50:00+00:00",
+      "start_at": "2026-10-06T14:10:00+00:00",
       "live": false,
       "player_a": "Cagla Buyukakcay",
       "player_b": "Linda Klimovicova",
@@ -364,7 +364,7 @@
       "odds_b": 1.29,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/cagla-buyukakcay-linda-klimovicova-m1243510929920000",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244666382020608",
@@ -377,7 +377,7 @@
       "odds_b": 2.9,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/leolia-jeanjean-mariam-bolkvadze-m1244666382020608",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244406605713408",
@@ -390,7 +390,7 @@
       "odds_b": 1.68,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/polina-iatcenko-dalma-galfi-m1244406605713408",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245258489794560",
@@ -403,7 +403,7 @@
       "odds_b": 2.0,
       "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/alicia-dudeney-ayla-aksu-m1245258489794560",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1244323369750528",
@@ -416,7 +416,7 @@
       "odds_b": 1.39,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/rebecca-sramkova-claire-liu-m1244323369750528",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245060884623360",
@@ -429,7 +429,7 @@
       "odds_b": 1.46,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/darya-astakhova-renata-zarazua-m1245060884623360",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245050024513601",
@@ -442,7 +442,7 @@
       "odds_b": 1.35,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/linda-fruhvirtova-aliaksandra-sasnovich-m1245050024513601",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245117702754304",
@@ -455,7 +455,7 @@
       "odds_b": 3.25,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/tatiana-prozorova-kyoka-okamura-m1245117702754304",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245106825883648",
@@ -468,7 +468,7 @@
       "odds_b": 1.79,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/oleksandra-oliynykova-aliona-falei-m1245106825883648",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245112105455616",
@@ -481,7 +481,7 @@
       "odds_b": 1.47,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/katarina-zavatska-daria-khomutsianskaya-m1245112105455616",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245226625662976",
@@ -494,7 +494,7 @@
       "odds_b": 1.5,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/zhuoxuan-bai-emerson-jones-m1245226625662976",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     },
     {
       "id": "betclic:1245251001921536",
@@ -503,11 +503,11 @@
       "live": false,
       "player_a": "Elvina Kalieva",
       "player_b": "Tamara Korpatsch",
-      "odds_a": 1.88,
-      "odds_b": 1.64,
+      "odds_a": 1.83,
+      "odds_b": 1.68,
       "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/elvina-kalieva-tamara-korpatsch-m1245251001921536",
       "tour": "WTA",
-      "observed_at": "2026-10-06T12:28:59.435928+00:00"
+      "observed_at": "2026-10-06T12:40:44.033159+00:00"
     }
   ]
 }
