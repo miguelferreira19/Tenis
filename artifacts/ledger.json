@@ -330,7 +330,7 @@
     "stake": 0.99,
     "stake_pct": 0.01,
     "bank_at_pick": 98.52,
-    "status": "pendente",
+    "status": "ganha",
     "start_at": "2026-10-06T07:00:00+00:00",
     "odds": 1.12,
     "p": 0.8615,
@@ -349,9 +349,12 @@
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/simona-waltert-melisa-ercan-m1243510675099648",
         "last_odds": 1.17,
         "last_seen": "2026-10-06T11:23:52.448278+00:00",
-        "status": "pendente"
+        "status": "ganha",
+        "score": "6-2 6-2"
       }
-    ]
+    ],
+    "pnl": 0.12,
+    "settled_at": "2026-10-06T20:38:20.140142+00:00"
   },
   {
     "id": "s:betclic:1244515637690368",
@@ -377,8 +380,8 @@
         "p": 0.8113,
         "start_at": "2026-10-07T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/coco-gauff-elise-mertens-m1244515637690368",
-        "last_odds": 1.19,
-        "last_seen": "2026-10-06T14:40:39.586596+00:00",
+        "last_odds": 1.22,
+        "last_seen": "2026-10-06T20:38:32.783057+00:00",
         "status": "pendente"
       }
     ]
@@ -402,7 +405,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/alina-charaeva-qinwen-zheng-m1244300725739520",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-06T14:40:39.586596+00:00"
+        "last_seen": "2026-10-06T20:38:32.783057+00:00"
       },
       {
         "match_id": "betclic:1244360857378816",
@@ -418,7 +421,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ann-li-elina-svitolina-m1244360857378816",
         "status": "pendente",
         "last_odds": 1.25,
-        "last_seen": "2026-10-06T14:40:39.586596+00:00"
+        "last_seen": "2026-10-06T20:38:32.783057+00:00"
       }
     ],
     "odds": 1.51,
@@ -427,6 +430,52 @@
     "stake": 4.94,
     "stake_pct": 0.05,
     "bank_at_pick": 98.75,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1245117702754304|betclic:1245336223875072",
+    "created_at": "2026-10-06T20:38:20.140142+00:00",
+    "start_at": "2026-10-07T03:30:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1245336223875072",
+        "tour": "ATP",
+        "competition": "Shanghai ATP",
+        "player_a": "Mattia Bellucci",
+        "player_b": "Yi Zhou",
+        "side": "a",
+        "pick": "Mattia Bellucci",
+        "odds": 1.24,
+        "p": 0.785,
+        "start_at": "2026-10-07T06:20:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/mattia-bellucci-yi-zhou-m1245336223875072",
+        "status": "pendente",
+        "last_odds": 1.24,
+        "last_seen": "2026-10-06T20:38:32.783057+00:00"
+      },
+      {
+        "match_id": "betclic:1245117702754304",
+        "tour": "WTA",
+        "competition": "Suzhou WTA Challenger",
+        "player_a": "Tatiana Prozorova",
+        "player_b": "Kyoka Okamura",
+        "side": "a",
+        "pick": "Tatiana Prozorova",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-10-07T03:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/tatiana-prozorova-kyoka-okamura-m1245117702754304",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-06T20:38:32.783057+00:00"
+      }
+    ],
+    "odds": 1.55,
+    "p": 0.6037,
+    "ev": -0.0642,
+    "stake": 4.94,
+    "stake_pct": 0.05,
+    "bank_at_pick": 98.87,
     "status": "pendente"
   }
 ]
