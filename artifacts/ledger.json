@@ -427,9 +427,10 @@
         "p": 0.7747,
         "start_at": "2026-10-07T12:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ann-li-elina-svitolina-m1244360857378816",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.28,
-        "last_seen": "2026-10-07T12:40:41.491895+00:00"
+        "last_seen": "2026-10-07T12:40:41.491895+00:00",
+        "score": "2-6 3-6"
       }
     ],
     "odds": 1.51,
@@ -507,8 +508,8 @@
         "start_at": "2026-10-08T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/nuno-borges-facundo-diaz-acosta-m1244275524263936",
         "status": "pendente",
-        "last_odds": 1.24,
-        "last_seen": "2026-10-07T14:40:37.036152+00:00"
+        "last_odds": 1.26,
+        "last_seen": "2026-10-07T16:40:35.286358+00:00"
       },
       {
         "match_id": "betclic:1245109049921536",
@@ -524,7 +525,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ekaterina-alexandrova-mirra-andreeva-m1245109049921536",
         "status": "pendente",
         "last_odds": 1.26,
-        "last_seen": "2026-10-07T14:40:37.036152+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00"
       }
     ],
     "odds": 1.54,
@@ -553,8 +554,8 @@
         "start_at": "2026-10-08T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/kimmer-coppejans-stefanos-tsitsipas-m1245382488113154",
         "status": "pendente",
-        "last_odds": 1.07,
-        "last_seen": "2026-10-07T14:40:37.036152+00:00"
+        "last_odds": 1.08,
+        "last_seen": "2026-10-07T16:40:35.286358+00:00"
       },
       {
         "match_id": "betclic:1246134353801216",
@@ -569,8 +570,8 @@
         "start_at": "2026-10-08T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/caroline-werner-anna-blinkova-m1246134353801216",
         "status": "pendente",
-        "last_odds": 1.1,
-        "last_seen": "2026-10-07T14:40:37.036152+00:00"
+        "last_odds": 1.15,
+        "last_seen": "2026-10-07T16:40:35.286358+00:00"
       },
       {
         "match_id": "betclic:1246066212093972",
@@ -585,8 +586,8 @@
         "start_at": "2026-10-08T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/mariam-bolkvadze-bianca-vanessa-andreescu-m1246066212093972",
         "status": "pendente",
-        "last_odds": 1.25,
-        "last_seen": "2026-10-07T14:40:37.036152+00:00"
+        "last_odds": 1.24,
+        "last_seen": "2026-10-07T16:40:35.286358+00:00"
       }
     ],
     "odds": 1.47,
