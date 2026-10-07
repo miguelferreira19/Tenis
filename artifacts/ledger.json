@@ -404,8 +404,8 @@
         "start_at": "2026-10-07T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/alina-charaeva-qinwen-zheng-m1244300725739520",
         "status": "pendente",
-        "last_odds": 1.22,
-        "last_seen": "2026-10-06T20:40:44.615139+00:00"
+        "last_odds": 1.23,
+        "last_seen": "2026-10-07T07:54:22.385678+00:00"
       },
       {
         "match_id": "betclic:1244360857378816",
@@ -420,8 +420,8 @@
         "start_at": "2026-10-07T12:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ann-li-elina-svitolina-m1244360857378816",
         "status": "pendente",
-        "last_odds": 1.25,
-        "last_seen": "2026-10-06T20:40:44.615139+00:00"
+        "last_odds": 1.26,
+        "last_seen": "2026-10-07T07:54:22.385678+00:00"
       }
     ],
     "odds": 1.51,
@@ -450,8 +450,8 @@
         "start_at": "2026-10-07T06:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/mattia-bellucci-yi-zhou-m1245336223875072",
         "status": "pendente",
-        "last_odds": 1.24,
-        "last_seen": "2026-10-06T20:40:44.615139+00:00"
+        "last_odds": 1.25,
+        "last_seen": "2026-10-07T07:54:22.385678+00:00"
       },
       {
         "match_id": "betclic:1245117702754304",
@@ -465,9 +465,10 @@
         "p": 0.769,
         "start_at": "2026-10-07T03:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/suzhou-wta-challenger-c38751/tatiana-prozorova-kyoka-okamura-m1245117702754304",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.25,
-        "last_seen": "2026-10-06T20:40:44.615139+00:00"
+        "last_seen": "2026-10-06T20:40:44.615139+00:00",
+        "score": "4-6 6-3 6-7"
       }
     ],
     "odds": 1.55,
@@ -476,6 +477,8 @@
     "stake": 4.94,
     "stake_pct": 0.05,
     "bank_at_pick": 98.87,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -4.94,
+    "settled_at": "2026-10-07T07:53:59.183529+00:00"
   }
 ]
