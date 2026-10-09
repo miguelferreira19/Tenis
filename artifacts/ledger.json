@@ -507,9 +507,10 @@
         "p": 0.7747,
         "start_at": "2026-10-08T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/nuno-borges-facundo-diaz-acosta-m1244275524263936",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.26,
-        "last_seen": "2026-10-07T16:40:35.286358+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00",
+        "score": "7-6 6-2"
       },
       {
         "match_id": "betclic:1245109049921536",
@@ -523,9 +524,10 @@
         "p": 0.7626,
         "start_at": "2026-10-08T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/ekaterina-alexandrova-mirra-andreeva-m1245109049921536",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.26,
-        "last_seen": "2026-10-07T16:40:35.286358+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00",
+        "score": "6-7 6-7"
       }
     ],
     "odds": 1.54,
@@ -534,7 +536,9 @@
     "stake": 4.65,
     "stake_pct": 0.05,
     "bank_at_pick": 92.94,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 2.51,
+    "settled_at": "2026-10-09T07:52:09.088541+00:00"
   },
   {
     "id": "p:betclic:1245382488113154|betclic:1246066212093972|betclic:1246134353801216",
@@ -553,9 +557,10 @@
         "p": 0.9016,
         "start_at": "2026-10-08T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/kimmer-coppejans-stefanos-tsitsipas-m1245382488113154",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.08,
-        "last_seen": "2026-10-07T16:40:35.286358+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00",
+        "score": "3-6 5-7"
       },
       {
         "match_id": "betclic:1246134353801216",
@@ -569,9 +574,10 @@
         "p": 0.8772,
         "start_at": "2026-10-08T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/caroline-werner-anna-blinkova-m1246134353801216",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.15,
-        "last_seen": "2026-10-07T16:40:35.286358+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00",
+        "score": "2-6 3-6"
       },
       {
         "match_id": "betclic:1246066212093972",
@@ -585,9 +591,10 @@
         "p": 0.769,
         "start_at": "2026-10-08T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/samsun-wta-challenger-c38722/mariam-bolkvadze-bianca-vanessa-andreescu-m1246066212093972",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.24,
-        "last_seen": "2026-10-07T16:40:35.286358+00:00"
+        "last_seen": "2026-10-07T16:40:35.286358+00:00",
+        "score": "4-6 3-6"
       }
     ],
     "odds": 1.47,
@@ -596,6 +603,116 @@
     "stake": 4.65,
     "stake_pct": 0.05,
     "bank_at_pick": 93.07,
+    "status": "ganha",
+    "pnl": 2.19,
+    "settled_at": "2026-10-09T07:52:09.088541+00:00"
+  },
+  {
+    "id": "p:betclic:1246066118770688|betclic:1246217009889280",
+    "created_at": "2026-10-09T07:52:09.088541+00:00",
+    "start_at": "2026-10-09T11:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1246217009889280",
+        "tour": "ATP",
+        "competition": "Shanghai ATP",
+        "player_a": "Yi Zhou",
+        "player_b": "Lorenzo Musetti",
+        "side": "b",
+        "pick": "Lorenzo Musetti",
+        "odds": 1.18,
+        "p": 0.8269,
+        "start_at": "2026-10-09T11:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/yi-zhou-lorenzo-musetti-m1246217009889280",
+        "status": "pendente",
+        "last_odds": 1.18,
+        "last_seen": "2026-10-09T07:52:19.262796+00:00"
+      },
+      {
+        "match_id": "betclic:1246066118770688",
+        "tour": "WTA",
+        "competition": "Pequim WTA",
+        "player_a": "Elise Mertens",
+        "player_b": "Iga Swiatek",
+        "side": "b",
+        "pick": "Iga Swiatek",
+        "odds": 1.19,
+        "p": 0.8206,
+        "start_at": "2026-10-09T11:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/elise-mertens-iga-swiatek-m1246066118770688",
+        "status": "pendente",
+        "last_odds": 1.19,
+        "last_seen": "2026-10-09T07:52:19.262796+00:00"
+      }
+    ],
+    "odds": 1.4,
+    "p": 0.6785,
+    "ev": -0.0472,
+    "stake": 4.89,
+    "stake_pct": 0.05,
+    "bank_at_pick": 97.77,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1246905639124992|betclic:1246931892314112|betclic:1247093981188096",
+    "created_at": "2026-10-09T07:52:09.088541+00:00",
+    "start_at": "2026-10-10T04:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1246905639124992",
+        "tour": "ATP",
+        "competition": "Shanghai ATP",
+        "player_a": "Arthur Fils",
+        "player_b": "Pavel Kotov",
+        "side": "a",
+        "pick": "Arthur Fils",
+        "odds": 1.08,
+        "p": 0.8948,
+        "start_at": "2026-10-10T06:20:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-fils-pavel-kotov-m1246905639124992",
+        "status": "pendente",
+        "last_odds": 1.08,
+        "last_seen": "2026-10-09T07:52:19.262796+00:00"
+      },
+      {
+        "match_id": "betclic:1247093981188096",
+        "tour": "ATP",
+        "competition": "Shanghai ATP",
+        "player_a": "Daniil Medvedev",
+        "player_b": "Jan-Lennard  Struff",
+        "side": "a",
+        "pick": "Daniil Medvedev",
+        "odds": 1.11,
+        "p": 0.8675,
+        "start_at": "2026-10-10T04:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/daniil-medvedev-jan-lennard-struff-m1247093981188096",
+        "status": "pendente",
+        "last_odds": 1.11,
+        "last_seen": "2026-10-09T07:52:19.262796+00:00"
+      },
+      {
+        "match_id": "betclic:1246931892314112",
+        "tour": "ATP",
+        "competition": "Shanghai ATP",
+        "player_a": "Matteo Arnaldi",
+        "player_b": "Taylor Fritz",
+        "side": "b",
+        "pick": "Taylor Fritz",
+        "odds": 1.21,
+        "p": 0.7953,
+        "start_at": "2026-10-10T05:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/matteo-arnaldi-taylor-fritz-m1246931892314112",
+        "status": "pendente",
+        "last_odds": 1.21,
+        "last_seen": "2026-10-09T07:52:19.262796+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6173,
+    "ev": -0.1046,
+    "stake": 4.89,
+    "stake_pct": 0.05,
+    "bank_at_pick": 97.77,
     "status": "pendente"
   }
 ]
