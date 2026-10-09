@@ -674,8 +674,8 @@
         "start_at": "2026-10-10T06:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-fils-pavel-kotov-m1246905639124992",
         "status": "pendente",
-        "last_odds": 1.08,
-        "last_seen": "2026-10-09T16:40:42.487919+00:00"
+        "last_odds": 1.09,
+        "last_seen": "2026-10-09T18:40:39.940855+00:00"
       },
       {
         "match_id": "betclic:1247093981188096",
@@ -691,7 +691,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/daniil-medvedev-jan-lennard-struff-m1247093981188096",
         "status": "pendente",
         "last_odds": 1.13,
-        "last_seen": "2026-10-09T16:40:42.487919+00:00"
+        "last_seen": "2026-10-09T18:40:39.940855+00:00"
       },
       {
         "match_id": "betclic:1246931892314112",
@@ -706,8 +706,8 @@
         "start_at": "2026-10-10T05:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/matteo-arnaldi-taylor-fritz-m1246931892314112",
         "status": "pendente",
-        "last_odds": 1.21,
-        "last_seen": "2026-10-09T16:40:42.487919+00:00"
+        "last_odds": 1.22,
+        "last_seen": "2026-10-09T18:40:39.940855+00:00"
       }
     ],
     "odds": 1.45,
