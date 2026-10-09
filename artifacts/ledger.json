@@ -640,9 +640,10 @@
         "p": 0.8206,
         "start_at": "2026-10-09T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/pequim-wta-c36053/elise-mertens-iga-swiatek-m1246066118770688",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.19,
-        "last_seen": "2026-10-09T10:45:03.959570+00:00"
+        "last_seen": "2026-10-09T10:45:03.959570+00:00",
+        "score": "7-6 6-3"
       }
     ],
     "odds": 1.4,
@@ -651,7 +652,9 @@
     "stake": 4.89,
     "stake_pct": 0.05,
     "bank_at_pick": 97.77,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -4.89,
+    "settled_at": "2026-10-09T14:40:37.083235+00:00"
   },
   {
     "id": "p:betclic:1246905639124992|betclic:1246931892314112|betclic:1247093981188096",
@@ -672,7 +675,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-fils-pavel-kotov-m1246905639124992",
         "status": "pendente",
         "last_odds": 1.08,
-        "last_seen": "2026-10-09T12:40:42.811966+00:00"
+        "last_seen": "2026-10-09T14:40:47.729204+00:00"
       },
       {
         "match_id": "betclic:1247093981188096",
@@ -688,7 +691,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/daniil-medvedev-jan-lennard-struff-m1247093981188096",
         "status": "pendente",
         "last_odds": 1.12,
-        "last_seen": "2026-10-09T12:40:42.811966+00:00"
+        "last_seen": "2026-10-09T14:40:47.729204+00:00"
       },
       {
         "match_id": "betclic:1246931892314112",
@@ -704,7 +707,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/matteo-arnaldi-taylor-fritz-m1246931892314112",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-09T12:40:42.811966+00:00"
+        "last_seen": "2026-10-09T14:40:47.729204+00:00"
       }
     ],
     "odds": 1.45,
