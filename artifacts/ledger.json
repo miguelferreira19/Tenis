@@ -689,9 +689,10 @@
         "p": 0.8675,
         "start_at": "2026-10-10T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/daniil-medvedev-jan-lennard-struff-m1247093981188096",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.13,
-        "last_seen": "2026-10-09T20:40:42.503531+00:00"
+        "last_seen": "2026-10-09T20:40:42.503531+00:00",
+        "score": "4-6 6-4 6-3"
       },
       {
         "match_id": "betclic:1246931892314112",
@@ -705,9 +706,10 @@
         "p": 0.7953,
         "start_at": "2026-10-10T05:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/matteo-arnaldi-taylor-fritz-m1246931892314112",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.22,
-        "last_seen": "2026-10-09T20:40:42.503531+00:00"
+        "last_seen": "2026-10-09T20:40:42.503531+00:00",
+        "score": "5-7 4-6"
       }
     ],
     "odds": 1.45,
