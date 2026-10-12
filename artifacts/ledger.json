@@ -743,8 +743,8 @@
         "start_at": "2026-10-12T08:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/arthur-fils-botic-van-de-zandschulp-m1249005560410112",
         "status": "pendente",
-        "last_odds": 1.2,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_odds": 1.19,
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       },
       {
         "match_id": "betclic:1249769226764288",
@@ -760,7 +760,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/alexandra-eala-shi-han-m1249769226764288",
         "status": "pendente",
         "last_odds": 1.2,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       }
     ],
     "odds": 1.46,
@@ -804,9 +804,10 @@
         "p": 0.7824,
         "start_at": "2026-10-12T08:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-qual-c38892/elsa-jacquemot-lea-boskovic-m1249875444379650",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.23,
-        "last_seen": "2026-10-12T06:56:33.732050+00:00"
+        "last_seen": "2026-10-12T06:56:33.732050+00:00",
+        "score": "3-6 2-6"
       }
     ],
     "odds": 1.46,
@@ -815,7 +816,9 @@
     "stake": 4.81,
     "stake_pct": 0.05,
     "bank_at_pick": 96.27,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -4.81,
+    "settled_at": "2026-10-12T10:40:37.243494+00:00"
   },
   {
     "id": "p:betclic:1248979122659328|betclic:1249935945113600|betclic:1250003292008448",
@@ -850,9 +853,10 @@
         "p": 0.8286,
         "start_at": "2026-10-12T08:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-qual-c38789/ida-wobker-cristina-diaz-adrover-m1250003292008448",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.16,
-        "last_seen": "2026-10-12T06:56:33.732050+00:00"
+        "last_seen": "2026-10-12T06:56:33.732050+00:00",
+        "score": "6-0 6-0"
       },
       {
         "match_id": "betclic:1249935945113600",
@@ -898,7 +902,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/mayar-sherif-maja-chwalinska-m1248856602845184",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       },
       {
         "match_id": "betclic:1248859578703878",
@@ -914,7 +918,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/katie-boulter-diana-shnaider-m1248859578703878",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       }
     ],
     "odds": 1.49,
@@ -944,7 +948,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/martyna-kubka-alina-charaeva-m1249497298518016",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       },
       {
         "match_id": "betclic:1249900549386240",
@@ -959,8 +963,8 @@
         "start_at": "2026-10-13T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alexander-bublik-m1249900549386240",
         "status": "pendente",
-        "last_odds": 1.24,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_odds": 1.26,
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       }
     ],
     "odds": 1.4,
@@ -990,7 +994,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/lola-radivojevic-teodora-kostovic-m1249496760594432",
         "status": "pendente",
         "last_odds": 1.2,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       },
       {
         "match_id": "betclic:1249926945177600",
@@ -1005,8 +1009,8 @@
         "start_at": "2026-10-13T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/aurora-zantedeschi-fiona-ferro-m1249926945177600",
         "status": "pendente",
-        "last_odds": 1.21,
-        "last_seen": "2026-10-12T08:40:40.113713+00:00"
+        "last_odds": 1.24,
+        "last_seen": "2026-10-12T10:40:41.022687+00:00"
       }
     ],
     "odds": 1.43,
