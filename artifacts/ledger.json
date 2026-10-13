@@ -958,7 +958,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/martyna-kubka-alina-charaeva-m1249497298518016",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-13T08:40:57.425080+00:00"
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
       },
       {
         "match_id": "betclic:1249900549386240",
@@ -1004,7 +1004,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/lola-radivojevic-teodora-kostovic-m1249496760594432",
         "status": "pendente",
         "last_odds": 1.3,
-        "last_seen": "2026-10-13T08:40:57.425080+00:00"
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
       },
       {
         "match_id": "betclic:1249926945177600",
@@ -1020,7 +1020,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/aurora-zantedeschi-fiona-ferro-m1249926945177600",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-13T08:40:57.425080+00:00"
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
       }
     ],
     "odds": 1.43,
@@ -1049,8 +1049,8 @@
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/karolina-muchova-caty-mcnally-m1250715999666176",
         "status": "pendente",
-        "last_odds": 1.19,
-        "last_seen": "2026-10-13T08:40:57.425080+00:00"
+        "last_odds": 1.18,
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
       },
       {
         "match_id": "betclic:1250911672344584",
@@ -1066,7 +1066,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/shi-han-leylah-annie-fernandez-m1250911672344584",
         "status": "pendente",
         "last_odds": 1.25,
-        "last_seen": "2026-10-13T08:40:57.425080+00:00"
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
       }
     ],
     "odds": 1.49,
@@ -1075,6 +1075,68 @@
     "stake": 3.04,
     "stake_pct": 0.0371,
     "bank_at_pick": 81.84,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1250603289296896|betclic:1251464892657664|betclic:1251507482656768",
+    "created_at": "2026-10-13T10:40:37.088492+00:00",
+    "start_at": "2026-10-14T03:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1250603289296896",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Magdalena Frech",
+        "player_b": "Iga Swiatek",
+        "side": "b",
+        "pick": "Iga Swiatek",
+        "odds": 1.05,
+        "p": 0.9191,
+        "start_at": "2026-10-14T03:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/magdalena-frech-iga-swiatek-m1250603289296896",
+        "status": "pendente",
+        "last_odds": 1.05,
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
+      },
+      {
+        "match_id": "betclic:1251507482656768",
+        "tour": "WTA",
+        "competition": "Maiorca WTA Challenger ",
+        "player_a": "Lucie Nguyen Tan",
+        "player_b": "Laura Samson",
+        "side": "b",
+        "pick": "Laura Samson",
+        "odds": 1.17,
+        "p": 0.8249,
+        "start_at": "2026-10-14T08:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/lucie-nguyen-tan-laura-samson-m1251507482656768",
+        "status": "pendente",
+        "last_odds": 1.17,
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
+      },
+      {
+        "match_id": "betclic:1251464892657664",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Iva Jovic",
+        "player_b": "Dayana Yastremska",
+        "side": "a",
+        "pick": "Iva Jovic",
+        "odds": 1.19,
+        "p": 0.8096,
+        "start_at": "2026-10-14T03:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/iva-jovic-dayana-yastremska-m1251464892657664",
+        "status": "pendente",
+        "last_odds": 1.19,
+        "last_seen": "2026-10-13T10:40:40.643825+00:00"
+      }
+    ],
+    "odds": 1.46,
+    "p": 0.6138,
+    "ev": -0.1027,
+    "stake": 3.42,
+    "stake_pct": 0.0406,
+    "bank_at_pick": 84.2,
     "status": "pendente"
   }
 ]
