@@ -1021,9 +1021,10 @@
         "p": 0.7755,
         "start_at": "2026-10-13T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/aurora-zantedeschi-fiona-ferro-m1249926945177600",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.24,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_seen": "2026-10-13T12:40:36.198489+00:00",
+        "score": "3-6 4-6"
       }
     ],
     "odds": 1.43,
@@ -1053,7 +1054,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/karolina-muchova-caty-mcnally-m1250715999666176",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
       },
       {
         "match_id": "betclic:1250911672344584",
@@ -1069,7 +1070,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/shi-han-leylah-annie-fernandez-m1250911672344584",
         "status": "pendente",
         "last_odds": 1.25,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
       }
     ],
     "odds": 1.49,
@@ -1099,7 +1100,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/magdalena-frech-iga-swiatek-m1250603289296896",
         "status": "pendente",
         "last_odds": 1.05,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
       },
       {
         "match_id": "betclic:1251507482656768",
@@ -1115,7 +1116,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/lucie-nguyen-tan-laura-samson-m1251507482656768",
         "status": "pendente",
         "last_odds": 1.1,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
       },
       {
         "match_id": "betclic:1251464892657664",
@@ -1130,8 +1131,8 @@
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/iva-jovic-dayana-yastremska-m1251464892657664",
         "status": "pendente",
-        "last_odds": 1.18,
-        "last_seen": "2026-10-13T12:40:36.198489+00:00"
+        "last_odds": 1.17,
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
       }
     ],
     "odds": 1.46,
@@ -1140,6 +1141,52 @@
     "stake": 3.42,
     "stake_pct": 0.0406,
     "bank_at_pick": 84.2,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1251517034151936|betclic:1251682862243840",
+    "created_at": "2026-10-13T14:40:32.229388+00:00",
+    "start_at": "2026-10-14T05:20:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1251517034151936",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Katie Volynets",
+        "player_b": "Hanyu Guo",
+        "side": "a",
+        "pick": "Katie Volynets",
+        "odds": 1.17,
+        "p": 0.8218,
+        "start_at": "2026-10-14T05:20:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/katie-volynets-hanyu-guo-m1251517034151936",
+        "status": "pendente",
+        "last_odds": 1.17,
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
+      },
+      {
+        "match_id": "betclic:1251682862243840",
+        "tour": "WTA",
+        "competition": "Maiorca WTA Challenger ",
+        "player_a": "Julia Grabher",
+        "player_b": "Lidia Encheva",
+        "side": "a",
+        "pick": "Julia Grabher",
+        "odds": 1.21,
+        "p": 0.7953,
+        "start_at": "2026-10-14T08:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/julia-grabher-lidia-encheva-m1251682862243840",
+        "status": "pendente",
+        "last_odds": 1.21,
+        "last_seen": "2026-10-13T14:40:35.728895+00:00"
+      }
+    ],
+    "odds": 1.42,
+    "p": 0.6536,
+    "ev": -0.0748,
+    "stake": 2.66,
+    "stake_pct": 0.0335,
+    "bank_at_pick": 79.39,
     "status": "pendente"
   }
 ]
