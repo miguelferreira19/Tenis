@@ -906,9 +906,10 @@
         "p": 0.7972,
         "start_at": "2026-10-13T02:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/mayar-sherif-maja-chwalinska-m1248856602845184",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-10-12T20:40:35.960128+00:00"
+        "last_seen": "2026-10-12T20:40:35.960128+00:00",
+        "score": "3-6 2-6"
       },
       {
         "match_id": "betclic:1248859578703878",
@@ -954,7 +955,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/martyna-kubka-alina-charaeva-m1249497298518016",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-12T20:40:35.960128+00:00"
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
       },
       {
         "match_id": "betclic:1249900549386240",
@@ -969,8 +970,8 @@
         "start_at": "2026-10-13T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alexander-bublik-m1249900549386240",
         "status": "pendente",
-        "last_odds": 1.3,
-        "last_seen": "2026-10-12T20:40:35.960128+00:00"
+        "last_odds": 1.32,
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
       }
     ],
     "odds": 1.4,
@@ -1000,7 +1001,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/lola-radivojevic-teodora-kostovic-m1249496760594432",
         "status": "pendente",
         "last_odds": 1.3,
-        "last_seen": "2026-10-12T20:40:35.960128+00:00"
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
       },
       {
         "match_id": "betclic:1249926945177600",
@@ -1016,7 +1017,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/aurora-zantedeschi-fiona-ferro-m1249926945177600",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-12T20:40:35.960128+00:00"
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
       }
     ],
     "odds": 1.43,
@@ -1025,6 +1026,52 @@
     "stake": 4.81,
     "stake_pct": 0.05,
     "bank_at_pick": 96.27,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1250715999666176|betclic:1250911672344584",
+    "created_at": "2026-10-13T07:32:31.418834+00:00",
+    "start_at": "2026-10-14T03:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1250715999666176",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Karolina Muchova",
+        "player_b": "Caty Mcnally",
+        "side": "a",
+        "pick": "Karolina Muchova",
+        "odds": 1.19,
+        "p": 0.8096,
+        "start_at": "2026-10-14T03:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/karolina-muchova-caty-mcnally-m1250715999666176",
+        "status": "pendente",
+        "last_odds": 1.19,
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
+      },
+      {
+        "match_id": "betclic:1250911672344584",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Shi Han",
+        "player_b": "Leylah Annie Fernandez",
+        "side": "b",
+        "pick": "Leylah Annie Fernandez",
+        "odds": 1.25,
+        "p": 0.7667,
+        "start_at": "2026-10-14T03:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/shi-han-leylah-annie-fernandez-m1250911672344584",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-13T07:32:34.476177+00:00"
+      }
+    ],
+    "odds": 1.49,
+    "p": 0.6207,
+    "ev": -0.0767,
+    "stake": 3.04,
+    "stake_pct": 0.0371,
+    "bank_at_pick": 81.84,
     "status": "pendente"
   }
 ]
