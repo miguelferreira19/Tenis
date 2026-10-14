@@ -1052,9 +1052,10 @@
         "p": 0.8096,
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/karolina-muchova-caty-mcnally-m1250715999666176",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.2,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_seen": "2026-10-13T18:40:40.188038+00:00",
+        "score": "3-6 7-6 7-6"
       },
       {
         "match_id": "betclic:1250911672344584",
@@ -1069,8 +1070,8 @@
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/shi-han-leylah-annie-fernandez-m1250911672344584",
         "status": "pendente",
-        "last_odds": 1.25,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_odds": 1.24,
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
       }
     ],
     "odds": 1.49,
@@ -1098,9 +1099,10 @@
         "p": 0.9191,
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/magdalena-frech-iga-swiatek-m1250603289296896",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.06,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_seen": "2026-10-13T18:40:40.188038+00:00",
+        "score": "2-6 1-6"
       },
       {
         "match_id": "betclic:1251507482656768",
@@ -1116,7 +1118,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/lucie-nguyen-tan-laura-samson-m1251507482656768",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
       },
       {
         "match_id": "betclic:1251464892657664",
@@ -1130,9 +1132,10 @@
         "p": 0.8096,
         "start_at": "2026-10-14T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/iva-jovic-dayana-yastremska-m1251464892657664",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.24,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_seen": "2026-10-13T18:40:40.188038+00:00",
+        "score": "6-4 6-1"
       }
     ],
     "odds": 1.46,
@@ -1177,13 +1180,75 @@
         "start_at": "2026-10-14T08:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/julia-grabher-lidia-encheva-m1251682862243840",
         "status": "pendente",
-        "last_odds": 1.26,
-        "last_seen": "2026-10-13T18:40:40.188038+00:00"
+        "last_odds": 1.28,
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
       }
     ],
     "odds": 1.42,
     "p": 0.6536,
     "ev": -0.0748,
+    "stake": 2.66,
+    "stake_pct": 0.0335,
+    "bank_at_pick": 79.39,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1251682638897152|betclic:1251881289519104|betclic:1251881701617668",
+    "created_at": "2026-10-14T08:40:38.241404+00:00",
+    "start_at": "2026-10-15T10:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1251881289519104",
+        "tour": "WTA",
+        "competition": "Lisboa WTA Challenger",
+        "player_a": "Dalma Galfi",
+        "player_b": "Matilde Jorge",
+        "side": "a",
+        "pick": "Dalma Galfi",
+        "odds": 1.08,
+        "p": 0.8776,
+        "start_at": "2026-10-15T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/dalma-galfi-matilde-jorge-m1251881289519104",
+        "status": "pendente",
+        "last_odds": 1.08,
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
+      },
+      {
+        "match_id": "betclic:1251881701617668",
+        "tour": "WTA",
+        "competition": "Lisboa WTA Challenger",
+        "player_a": "Francisca Jorge",
+        "player_b": "Francesca Jones",
+        "side": "b",
+        "pick": "Francesca Jones",
+        "odds": 1.1,
+        "p": 0.8601,
+        "start_at": "2026-10-15T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/francisca-jorge-francesca-jones-m1251881701617668",
+        "status": "pendente",
+        "last_odds": 1.1,
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
+      },
+      {
+        "match_id": "betclic:1251682638897152",
+        "tour": "WTA",
+        "competition": "Lisboa WTA Challenger",
+        "player_a": "Leyre Romero Gormaz",
+        "player_b": "Raluka Serban",
+        "side": "a",
+        "pick": "Leyre Romero Gormaz",
+        "odds": 1.21,
+        "p": 0.7755,
+        "start_at": "2026-10-15T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/leyre-romero-gormaz-raluka-serban-m1251682638897152",
+        "status": "pendente",
+        "last_odds": 1.21,
+        "last_seen": "2026-10-14T08:40:46.220787+00:00"
+      }
+    ],
+    "odds": 1.44,
+    "p": 0.5854,
+    "ev": -0.1585,
     "stake": 2.66,
     "stake_pct": 0.0335,
     "bank_at_pick": 79.39,
