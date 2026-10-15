@@ -1119,9 +1119,10 @@
         "p": 0.8249,
         "start_at": "2026-10-14T08:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/lucie-nguyen-tan-laura-samson-m1251507482656768",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.11,
-        "last_seen": "2026-10-15T10:40:49.617357+00:00"
+        "last_seen": "2026-10-15T10:40:49.617357+00:00",
+        "score": "0-6 3-6"
       },
       {
         "match_id": "betclic:1251464892657664",
@@ -1147,7 +1148,9 @@
     "stake": 3.42,
     "stake_pct": 0.0406,
     "bank_at_pick": 84.2,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 1.57,
+    "settled_at": "2026-10-15T14:40:31.111094+00:00"
   },
   {
     "id": "p:betclic:1251517034151936|betclic:1251682862243840",
@@ -1213,9 +1216,10 @@
         "p": 0.8776,
         "start_at": "2026-10-15T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/dalma-galfi-matilde-jorge-m1251881289519104",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.16,
-        "last_seen": "2026-10-15T08:40:44.622932+00:00"
+        "last_seen": "2026-10-15T08:40:44.622932+00:00",
+        "score": "3-6 7-6 7-5"
       },
       {
         "match_id": "betclic:1251881701617668",
