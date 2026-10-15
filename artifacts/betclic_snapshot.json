@@ -1,6 +1,6 @@
 {
-  "observed_at": "2026-10-15T14:40:38.043768+00:00",
-  "competitions": 25,
+  "observed_at": "2026-10-15T16:40:40.795352+00:00",
+  "competitions": 24,
   "matches": [
     {
       "id": "betclic:1252387049177088",
@@ -9,11 +9,11 @@
       "live": false,
       "player_a": "Rafael Jodar",
       "player_b": "Casper Ruud",
-      "odds_a": 1.62,
-      "odds_b": 2.06,
+      "odds_a": 1.65,
+      "odds_b": 2.03,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/rafael-jodar-casper-ruud-m1252387049177088",
       "tour": "ATP",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1252583573295104",
@@ -26,7 +26,7 @@
       "odds_b": 2.55,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/daniil-medvedev-tommy-paul-m1252583573295104",
       "tour": "ATP",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1253437074321408",
@@ -35,11 +35,11 @@
       "live": false,
       "player_a": "Alexander Zverev",
       "player_b": "Alejandro Davidovich Fokina",
-      "odds_a": 1.21,
-      "odds_b": 3.4,
+      "odds_a": 1.22,
+      "odds_b": 3.3,
       "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alejandro-davidovich-fokina-m1253437074321408",
       "tour": "ATP",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1253399225970688",
@@ -49,10 +49,10 @@
       "player_a": "Diana Shnaider",
       "player_b": "Jelena Ostapenko",
       "odds_a": 1.37,
-      "odds_b": 2.7,
+      "odds_b": 2.85,
       "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/diana-shnaider-jelena-ostapenko-m1253399225970688",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1253398671273984",
@@ -61,11 +61,11 @@
       "live": false,
       "player_a": "Elina Svitolina",
       "player_b": "Sonay Kartal",
-      "odds_a": 1.44,
-      "odds_b": 2.47,
+      "odds_a": 1.46,
+      "odds_b": 2.55,
       "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/elina-svitolina-sonay-kartal-m1253398671273984",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1253329517678592",
@@ -78,20 +78,7 @@
       "odds_b": 1.63,
       "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/maja-chwalinska-maria-sakkari-m1253329517678592",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
-    },
-    {
-      "id": "betclic:1251698934824960",
-      "competition": "Lisboa WTA Challenger",
-      "start_at": "2026-10-15T15:10:00+00:00",
-      "live": false,
-      "player_a": "Mathilde Lollia",
-      "player_b": "Clara Burel",
-      "odds_a": 7.6,
-      "odds_b": 1.03,
-      "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/mathilde-lollia-clara-burel-m1251698934824960",
-      "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1252643109355520",
@@ -100,24 +87,11 @@
       "live": false,
       "player_a": "Jessica Bouzas Maneiro",
       "player_b": "Polona Hercog",
-      "odds_a": 1.21,
-      "odds_b": 3.65,
+      "odds_a": 1.25,
+      "odds_b": 3.35,
       "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/jessica-bouzas-maneiro-polona-hercog-m1252643109355520",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
-    },
-    {
-      "id": "betclic:1253485293092864",
-      "competition": "Lisboa WTA Challenger",
-      "start_at": "2026-10-16T10:00:00+00:00",
-      "live": false,
-      "player_a": "Leyre Romero Gormaz",
-      "player_b": "Fiona Ferro",
-      "odds_a": 2.2,
-      "odds_b": 1.55,
-      "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/leyre-romero-gormaz-fiona-ferro-m1253485293092864",
-      "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1252694054420480",
@@ -126,11 +100,11 @@
       "live": false,
       "player_a": "Julia Grabher",
       "player_b": "Ariana Geerlings Martinez",
-      "odds_a": 1.49,
-      "odds_b": 2.33,
+      "odds_a": 1.5,
+      "odds_b": 2.31,
       "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/julia-grabher-ariana-geerlings-martinez-m1252694054420480",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1252503166386176",
@@ -139,11 +113,11 @@
       "live": false,
       "player_a": "Francesca Curmi",
       "player_b": "Elizara Yaneva",
-      "odds_a": 2.01,
-      "odds_b": 1.66,
+      "odds_a": 1.98,
+      "odds_b": 1.68,
       "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/francesca-curmi-elizara-yaneva-m1252503166386176",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1253484833804288",
@@ -152,11 +126,11 @@
       "live": false,
       "player_a": "Andrea Lazaro Garcia",
       "player_b": "Laura Samson",
-      "odds_a": 1.93,
-      "odds_b": 1.72,
+      "odds_a": 2.09,
+      "odds_b": 1.61,
       "url": "https://www.betclic.pt/tenis-stennis/maiorca-wta-challenger-c38787/andrea-lazaro-garcia-laura-samson-m1253484833804288",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1251931306598400",
@@ -169,12 +143,25 @@
       "odds_b": 1.45,
       "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/antonia-ruzic-bianca-vanessa-andreescu-m1251931306598400",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
+    },
+    {
+      "id": "betclic:1253485483933696",
+      "competition": "Rovereto WTA Challenger",
+      "start_at": "2026-10-16T10:30:00+00:00",
+      "live": false,
+      "player_a": "Gabriela Andrea Knutson",
+      "player_b": "Martyna Kubka",
+      "odds_a": 1.82,
+      "odds_b": 1.82,
+      "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/gabriela-andrea-knutson-martyna-kubka-m1253485483933696",
+      "tour": "WTA",
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     },
     {
       "id": "betclic:1252830569574400",
       "competition": "Rovereto WTA Challenger",
-      "start_at": "2026-10-16T09:00:00+00:00",
+      "start_at": "2026-10-16T16:00:00+00:00",
       "live": false,
       "player_a": "Lucie Havlickova",
       "player_b": "Jil Teichmann",
@@ -182,20 +169,7 @@
       "odds_b": 2.07,
       "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/lucie-havlickova-jil-teichmann-m1252830569574400",
       "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
-    },
-    {
-      "id": "betclic:1253485483933696",
-      "competition": "Rovereto WTA Challenger",
-      "start_at": "2026-10-16T09:00:00+00:00",
-      "live": false,
-      "player_a": "Gabriela Andrea Knutson",
-      "player_b": "Martyna Kubka",
-      "odds_a": 1.89,
-      "odds_b": 1.75,
-      "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/gabriela-andrea-knutson-martyna-kubka-m1253485483933696",
-      "tour": "WTA",
-      "observed_at": "2026-10-15T14:40:38.043768+00:00"
+      "observed_at": "2026-10-15T16:40:40.795352+00:00"
     }
   ]
 }
