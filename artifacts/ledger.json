@@ -1230,8 +1230,8 @@
         "start_at": "2026-10-15T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/francisca-jorge-francesca-jones-m1251881701617668",
         "status": "pendente",
-        "last_odds": 1.17,
-        "last_seen": "2026-10-15T10:40:49.617357+00:00"
+        "last_odds": 1.18,
+        "last_seen": "2026-10-15T12:40:40.498686+00:00"
       },
       {
         "match_id": "betclic:1251682638897152",
@@ -1245,9 +1245,10 @@
         "p": 0.7755,
         "start_at": "2026-10-15T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/leyre-romero-gormaz-raluka-serban-m1251682638897152",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-10-15T08:40:44.622932+00:00"
+        "last_seen": "2026-10-15T08:40:44.622932+00:00",
+        "score": "6-1 6-2"
       }
     ],
     "odds": 1.44,
