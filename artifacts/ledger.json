@@ -1265,5 +1265,51 @@
     "status": "ganha",
     "pnl": 1.17,
     "settled_at": "2026-10-15T16:40:33.336294+00:00"
+  },
+  {
+    "id": "p:betclic:1252643109355520|betclic:1253531398975488",
+    "created_at": "2026-10-15T18:40:32.829387+00:00",
+    "start_at": "2026-10-16T11:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1253531398975488",
+        "tour": "WTA",
+        "competition": "Wuhan WTA",
+        "player_a": "Ann Li",
+        "player_b": "Iga Swiatek",
+        "side": "b",
+        "pick": "Iga Swiatek",
+        "odds": 1.16,
+        "p": 0.8315,
+        "start_at": "2026-10-16T11:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/ann-li-iga-swiatek-m1253531398975488",
+        "status": "pendente",
+        "last_odds": 1.16,
+        "last_seen": "2026-10-15T18:40:40.110988+00:00"
+      },
+      {
+        "match_id": "betclic:1252643109355520",
+        "tour": "WTA",
+        "competition": "Lisboa WTA Challenger",
+        "player_a": "Jessica Bouzas Maneiro",
+        "player_b": "Polona Hercog",
+        "side": "a",
+        "pick": "Jessica Bouzas Maneiro",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-10-16T11:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/jessica-bouzas-maneiro-polona-hercog-m1252643109355520",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-15T18:40:40.110988+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6394,
+    "ev": -0.0728,
+    "stake": 3.33,
+    "stake_pct": 0.0398,
+    "bank_at_pick": 83.62,
+    "status": "pendente"
   }
 ]
