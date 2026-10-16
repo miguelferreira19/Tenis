@@ -1284,8 +1284,8 @@
         "start_at": "2026-10-16T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/ann-li-iga-swiatek-m1253531398975488",
         "status": "pendente",
-        "last_odds": 1.16,
-        "last_seen": "2026-10-16T02:40:41.380184+00:00"
+        "last_odds": 1.17,
+        "last_seen": "2026-10-16T04:40:40.223511+00:00"
       },
       {
         "match_id": "betclic:1252643109355520",
@@ -1301,7 +1301,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/jessica-bouzas-maneiro-polona-hercog-m1252643109355520",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-16T02:40:41.380184+00:00"
+        "last_seen": "2026-10-16T04:40:40.223511+00:00"
       }
     ],
     "odds": 1.45,
