@@ -1285,9 +1285,10 @@
         "p": 0.8315,
         "start_at": "2026-10-16T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/ann-li-iga-swiatek-m1253531398975488",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.19,
-        "last_seen": "2026-10-16T10:40:44.786506+00:00"
+        "last_seen": "2026-10-16T10:40:44.786506+00:00",
+        "score": "4-6 1-6"
       },
       {
         "match_id": "betclic:1252643109355520",
@@ -1301,9 +1302,10 @@
         "p": 0.769,
         "start_at": "2026-10-16T11:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/jessica-bouzas-maneiro-polona-hercog-m1252643109355520",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-10-16T10:40:44.786506+00:00"
+        "last_seen": "2026-10-16T10:40:44.786506+00:00",
+        "score": "4-6 6-1 6-4"
       }
     ],
     "odds": 1.45,
@@ -1312,7 +1314,9 @@
     "stake": 3.33,
     "stake_pct": 0.0398,
     "bank_at_pick": 83.62,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 1.5,
+    "settled_at": "2026-10-16T19:27:59.522863+00:00"
   },
   {
     "id": "p:betclic:1253437074321408|betclic:1254265206079488",
@@ -1332,8 +1336,8 @@
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/ena-koike-kayla-day-m1254265206079488",
         "status": "pendente",
-        "last_odds": 1.15,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.16,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       },
       {
         "match_id": "betclic:1253437074321408",
@@ -1348,8 +1352,8 @@
         "start_at": "2026-10-17T08:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alejandro-davidovich-fokina-m1253437074321408",
         "status": "pendente",
-        "last_odds": 1.25,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.24,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       }
     ],
     "odds": 1.44,
@@ -1378,8 +1382,8 @@
         "start_at": "2026-10-17T04:50:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/taylah-preston-haruka-kaji-m1254269647855616",
         "status": "pendente",
-        "last_odds": 1.19,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.14,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       },
       {
         "match_id": "betclic:1254267874713600",
@@ -1394,8 +1398,8 @@
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/maya-joint-kyoka-okamura-m1254267874713600",
         "status": "pendente",
-        "last_odds": 1.23,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.25,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       }
     ],
     "odds": 1.46,
@@ -1424,8 +1428,8 @@
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/mary-stoiana-rinko-matsuda-m1254265253273604",
         "status": "pendente",
-        "last_odds": 1.06,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.09,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       },
       {
         "match_id": "betclic:1254269155028992",
@@ -1441,7 +1445,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/mei-yamaguchi-sofia-kenin-m1254269155028992",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       },
       {
         "match_id": "betclic:1254267465760768",
@@ -1456,8 +1460,8 @@
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/sayaka-ishii-elina-avanesyan-m1254267465760768",
         "status": "pendente",
-        "last_odds": 1.22,
-        "last_seen": "2026-10-16T12:41:15.007012+00:00"
+        "last_odds": 1.18,
+        "last_seen": "2026-10-16T19:28:11.599618+00:00"
       }
     ],
     "odds": 1.44,
