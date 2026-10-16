@@ -1005,7 +1005,7 @@
         "p": 0.7979,
         "start_at": "2026-10-13T08:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/rovereto-wta-challenger-c38890/lola-radivojevic-teodora-kostovic-m1249496760594432",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.3,
         "last_seen": "2026-10-13T12:40:36.198489+00:00"
       },
@@ -1033,7 +1033,9 @@
     "stake": 4.81,
     "stake_pct": 0.05,
     "bank_at_pick": 96.27,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 1.01,
+    "settled_at": "2026-10-16T08:40:37.406972+00:00"
   },
   {
     "id": "p:betclic:1250715999666176|betclic:1250911672344584",
@@ -1284,8 +1286,8 @@
         "start_at": "2026-10-16T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/ann-li-iga-swiatek-m1253531398975488",
         "status": "pendente",
-        "last_odds": 1.17,
-        "last_seen": "2026-10-16T06:40:39.258448+00:00"
+        "last_odds": 1.19,
+        "last_seen": "2026-10-16T08:40:46.129318+00:00"
       },
       {
         "match_id": "betclic:1252643109355520",
@@ -1301,7 +1303,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lisboa-wta-challenger-c41352/jessica-bouzas-maneiro-polona-hercog-m1252643109355520",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-16T06:40:39.258448+00:00"
+        "last_seen": "2026-10-16T08:40:46.129318+00:00"
       }
     ],
     "odds": 1.45,
