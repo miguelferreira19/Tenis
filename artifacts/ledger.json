@@ -1171,7 +1171,7 @@
         "p": 0.8218,
         "start_at": "2026-10-14T05:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/wuhan-wta-c36149/katie-volynets-hanyu-guo-m1251517034151936",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.19,
         "last_seen": "2026-10-13T18:40:40.188038+00:00"
       },
@@ -1199,7 +1199,9 @@
     "stake": 2.66,
     "stake_pct": 0.0335,
     "bank_at_pick": 79.39,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.56,
+    "settled_at": "2026-10-17T07:33:05.630814+00:00"
   },
   {
     "id": "p:betclic:1251682638897152|betclic:1251881289519104|betclic:1251881701617668",
@@ -1335,9 +1337,10 @@
         "p": 0.8406,
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/ena-koike-kayla-day-m1254265206079488",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.16,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00",
+        "score": "5-7 3-6"
       },
       {
         "match_id": "betclic:1253437074321408",
@@ -1352,8 +1355,8 @@
         "start_at": "2026-10-17T08:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alejandro-davidovich-fokina-m1253437074321408",
         "status": "pendente",
-        "last_odds": 1.24,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_odds": 1.22,
+        "last_seen": "2026-10-17T07:33:18.636779+00:00"
       }
     ],
     "odds": 1.44,
@@ -1381,9 +1384,10 @@
         "p": 0.8096,
         "start_at": "2026-10-17T04:50:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/taylah-preston-haruka-kaji-m1254269647855616",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.14,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00",
+        "score": "3-1"
       },
       {
         "match_id": "betclic:1254267874713600",
@@ -1397,9 +1401,10 @@
         "p": 0.7802,
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/maya-joint-kyoka-okamura-m1254267874713600",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.25,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00",
+        "score": "6-4 6-2"
       }
     ],
     "odds": 1.46,
@@ -1408,7 +1413,9 @@
     "stake": 3.49,
     "stake_pct": 0.0412,
     "bank_at_pick": 84.63,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 1.61,
+    "settled_at": "2026-10-17T07:33:05.630814+00:00"
   },
   {
     "id": "p:betclic:1254265253273604|betclic:1254267465760768|betclic:1254269155028992",
@@ -1427,9 +1434,10 @@
         "p": 0.9106,
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/mary-stoiana-rinko-matsuda-m1254265253273604",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.09,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00",
+        "score": "6-3 7-6"
       },
       {
         "match_id": "betclic:1254269155028992",
@@ -1459,9 +1467,10 @@
         "p": 0.7792,
         "start_at": "2026-10-17T02:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-qual-c36202/sayaka-ishii-elina-avanesyan-m1254267465760768",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.18,
-        "last_seen": "2026-10-16T19:28:11.599618+00:00"
+        "last_seen": "2026-10-16T19:28:11.599618+00:00",
+        "score": "6-3 0-0"
       }
     ],
     "odds": 1.44,
@@ -1470,6 +1479,8 @@
     "stake": 3.49,
     "stake_pct": 0.0412,
     "bank_at_pick": 84.63,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -3.49,
+    "settled_at": "2026-10-17T07:33:05.630814+00:00"
   }
 ]
