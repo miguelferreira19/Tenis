@@ -1354,9 +1354,10 @@
         "p": 0.769,
         "start_at": "2026-10-17T08:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/shanghai-atp-c36096/alexander-zverev-alejandro-davidovich-fokina-m1253437074321408",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.22,
-        "last_seen": "2026-10-17T07:33:18.636779+00:00"
+        "last_seen": "2026-10-17T07:33:18.636779+00:00",
+        "score": "7-5 4-6 3-6"
       }
     ],
     "odds": 1.44,
@@ -1365,7 +1366,9 @@
     "stake": 3.49,
     "stake_pct": 0.0412,
     "bank_at_pick": 84.63,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -3.49,
+    "settled_at": "2026-10-17T13:07:23.222440+00:00"
   },
   {
     "id": "p:betclic:1254267874713600|betclic:1254269647855616",
@@ -1501,8 +1504,8 @@
         "start_at": "2026-10-18T03:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-qual-c36199/daria-snigur-katarzyna-kawa-m1255000275701760",
         "status": "pendente",
-        "last_odds": 1.15,
-        "last_seen": "2026-10-17T10:40:41.449592+00:00"
+        "last_odds": 1.14,
+        "last_seen": "2026-10-17T13:07:26.831272+00:00"
       },
       {
         "match_id": "betclic:1255110392971264",
@@ -1517,8 +1520,8 @@
         "start_at": "2026-10-18T04:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-qual-c36199/alycia-parks-yulia-putintseva-m1255110392971264",
         "status": "pendente",
-        "last_odds": 1.25,
-        "last_seen": "2026-10-17T10:40:41.449592+00:00"
+        "last_odds": 1.23,
+        "last_seen": "2026-10-17T13:07:26.831272+00:00"
       }
     ],
     "odds": 1.44,
@@ -1527,6 +1530,52 @@
     "stake": 3.52,
     "stake_pct": 0.0415,
     "bank_at_pick": 84.81,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1254639760609280|betclic:1255170412408832",
+    "created_at": "2026-10-17T13:07:23.222440+00:00",
+    "start_at": "2026-10-18T05:20:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1254639760609280",
+        "tour": "ATP",
+        "competition": "Bruxelas ATP",
+        "player_a": "Tallon Griekspoor",
+        "player_b": "Max Schoenhaus",
+        "side": "a",
+        "pick": "Tallon Griekspoor",
+        "odds": 1.19,
+        "p": 0.8079,
+        "start_at": "2026-10-18T10:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/tallon-griekspoor-max-schoenhaus-m1254639760609280",
+        "status": "pendente",
+        "last_odds": 1.19,
+        "last_seen": "2026-10-17T13:07:26.831272+00:00"
+      },
+      {
+        "match_id": "betclic:1255170412408832",
+        "tour": "WTA",
+        "competition": "Ningbo WTA - Qual.",
+        "player_a": "Shi Han",
+        "player_b": "Alina Korneeva",
+        "side": "b",
+        "pick": "Alina Korneeva",
+        "odds": 1.23,
+        "p": 0.7824,
+        "start_at": "2026-10-18T05:20:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-qual-c36199/shi-han-alina-korneeva-m1255170412408832",
+        "status": "pendente",
+        "last_odds": 1.23,
+        "last_seen": "2026-10-17T13:07:26.831272+00:00"
+      }
+    ],
+    "odds": 1.46,
+    "p": 0.6321,
+    "ev": -0.0749,
+    "stake": 2.96,
+    "stake_pct": 0.0364,
+    "bank_at_pick": 81.32,
     "status": "pendente"
   }
 ]
