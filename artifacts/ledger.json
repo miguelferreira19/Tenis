@@ -1482,5 +1482,51 @@
     "status": "perdida",
     "pnl": -3.49,
     "settled_at": "2026-10-17T07:33:05.630814+00:00"
+  },
+  {
+    "id": "p:betclic:1255000275701760|betclic:1255110392971264",
+    "created_at": "2026-10-17T10:40:38.064092+00:00",
+    "start_at": "2026-10-18T03:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1255000275701760",
+        "tour": "WTA",
+        "competition": "Ningbo WTA - Qual.",
+        "player_a": "Daria Snigur",
+        "player_b": "Katarzyna Kawa",
+        "side": "a",
+        "pick": "Daria Snigur",
+        "odds": 1.15,
+        "p": 0.838,
+        "start_at": "2026-10-18T03:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-qual-c36199/daria-snigur-katarzyna-kawa-m1255000275701760",
+        "status": "pendente",
+        "last_odds": 1.15,
+        "last_seen": "2026-10-17T10:40:41.449592+00:00"
+      },
+      {
+        "match_id": "betclic:1255110392971264",
+        "tour": "WTA",
+        "competition": "Ningbo WTA - Qual.",
+        "player_a": "Alycia Parks",
+        "player_b": "Yulia Putintseva",
+        "side": "b",
+        "pick": "Yulia Putintseva",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-10-18T04:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-qual-c36199/alycia-parks-yulia-putintseva-m1255110392971264",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-17T10:40:41.449592+00:00"
+      }
+    ],
+    "odds": 1.44,
+    "p": 0.6444,
+    "ev": -0.0736,
+    "stake": 3.52,
+    "stake_pct": 0.0415,
+    "bank_at_pick": 84.81,
+    "status": "pendente"
   }
 ]
