@@ -1555,7 +1555,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/tallon-griekspoor-max-schoenhaus-m1254639760609280",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-19T22:40:36.276037+00:00"
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
       },
       {
         "match_id": "betclic:1255170412408832",
@@ -1604,7 +1604,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/fabian-marozsan-timofey-skatov-m1255198065463296",
         "status": "pendente",
         "last_odds": 1.27,
-        "last_seen": "2026-10-19T22:40:36.276037+00:00"
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
       },
       {
         "match_id": "betclic:1255197986803712",
@@ -1620,7 +1620,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-aleksandar-kovacevic-m1255197986803712",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-19T22:40:36.276037+00:00"
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
       }
     ],
     "odds": 1.47,
@@ -1649,8 +1649,8 @@
         "start_at": "2026-10-19T04:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/hanyu-guo-ekaterina-alexandrova-m1255395218714624",
         "status": "pendente",
-        "last_odds": 1.22,
-        "last_seen": "2026-10-19T22:40:36.276037+00:00"
+        "last_odds": 1.23,
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
       },
       {
         "match_id": "betclic:1255198093758464",
@@ -1679,5 +1679,51 @@
     "status": "perdida",
     "pnl": -2.0,
     "settled_at": "2026-10-19T10:40:36.429093+00:00"
+  },
+  {
+    "id": "p:betclic:1257023439122432|betclic:1257103742210048",
+    "created_at": "2026-10-20T00:40:32.647573+00:00",
+    "start_at": "2026-10-21T05:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1257023439122432",
+        "tour": "ATP",
+        "competition": "Almaty ATP",
+        "player_a": "Adrian Mannarino",
+        "player_b": "Andrey Rublev",
+        "side": "b",
+        "pick": "Andrey Rublev",
+        "odds": 1.18,
+        "p": 0.8079,
+        "start_at": "2026-10-21T06:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/adrian-mannarino-andrey-rublev-m1257023439122432",
+        "status": "pendente",
+        "last_odds": 1.18,
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
+      },
+      {
+        "match_id": "betclic:1257103742210048",
+        "tour": "WTA",
+        "competition": "Ningbo WTA",
+        "player_a": "Marie Bouzkova",
+        "player_b": "Iga Swiatek",
+        "side": "b",
+        "pick": "Iga Swiatek",
+        "odds": 1.23,
+        "p": 0.7734,
+        "start_at": "2026-10-21T05:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/marie-bouzkova-iga-swiatek-m1257103742210048",
+        "status": "pendente",
+        "last_odds": 1.23,
+        "last_seen": "2026-10-20T00:40:37.578767+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6248,
+    "ev": -0.0931,
+    "stake": 1.73,
+    "stake_pct": 0.0238,
+    "bank_at_pick": 72.84,
+    "status": "pendente"
   }
 ]
