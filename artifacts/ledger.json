@@ -1602,9 +1602,10 @@
         "p": 0.8165,
         "start_at": "2026-10-19T06:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/fabian-marozsan-timofey-skatov-m1255198065463296",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.26,
-        "last_seen": "2026-10-20T08:40:44.577371+00:00"
+        "last_seen": "2026-10-20T08:40:44.577371+00:00",
+        "score": "7-5 7-6"
       },
       {
         "match_id": "betclic:1255197986803712",
@@ -1630,7 +1631,9 @@
     "stake": 2.0,
     "stake_pct": 0.0267,
     "bank_at_pick": 74.84,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.94,
+    "settled_at": "2026-10-20T14:40:36.267528+00:00"
   },
   {
     "id": "p:betclic:1255198093758464|betclic:1255395218714624",
@@ -1700,7 +1703,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/adrian-mannarino-andrey-rublev-m1257023439122432",
         "status": "pendente",
         "last_odds": 1.25,
-        "last_seen": "2026-10-20T12:40:37.143479+00:00"
+        "last_seen": "2026-10-20T14:40:43.265601+00:00"
       },
       {
         "match_id": "betclic:1257103742210048",
@@ -1761,8 +1764,8 @@
         "start_at": "2026-10-21T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/moise-kouame-lorenzo-musetti-m1257311362363392",
         "status": "pendente",
-        "last_odds": 1.27,
-        "last_seen": "2026-10-20T12:40:37.143479+00:00"
+        "last_odds": 1.25,
+        "last_seen": "2026-10-20T14:40:43.265601+00:00"
       }
     ],
     "odds": 1.54,
@@ -1771,6 +1774,52 @@
     "stake": 1.73,
     "stake_pct": 0.0238,
     "bank_at_pick": 72.84,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1257820278226976|betclic:1258000913276928",
+    "created_at": "2026-10-20T14:40:36.267528+00:00",
+    "start_at": "2026-10-21T05:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1258000913276928",
+        "tour": "ATP",
+        "competition": "Bruxelas ATP",
+        "player_a": "Gauthier Onclin",
+        "player_b": "Jan-Lennard  Struff",
+        "side": "b",
+        "pick": "Jan-Lennard  Struff",
+        "odds": 1.19,
+        "p": 0.7984,
+        "start_at": "2026-10-21T17:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/gauthier-onclin-jan-lennard-struff-m1258000913276928",
+        "status": "pendente",
+        "last_odds": 1.19,
+        "last_seen": "2026-10-20T14:40:43.265601+00:00"
+      },
+      {
+        "match_id": "betclic:1257820278226976",
+        "tour": "WTA",
+        "competition": "Ningbo WTA",
+        "player_a": "Marie Bouzkova",
+        "player_b": "Anastasia Zakharova",
+        "side": "a",
+        "pick": "Marie Bouzkova",
+        "odds": 1.24,
+        "p": 0.7747,
+        "start_at": "2026-10-21T05:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/marie-bouzkova-anastasia-zakharova-m1257820278226976",
+        "status": "pendente",
+        "last_odds": 1.24,
+        "last_seen": "2026-10-20T14:40:43.265601+00:00"
+      }
+    ],
+    "odds": 1.48,
+    "p": 0.6185,
+    "ev": -0.0873,
+    "stake": 1.85,
+    "stake_pct": 0.0251,
+    "bank_at_pick": 73.78,
     "status": "pendente"
   }
 ]
