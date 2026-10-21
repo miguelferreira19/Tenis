@@ -1768,7 +1768,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/moise-kouame-lorenzo-musetti-m1257311362363392",
         "status": "pendente",
         "last_odds": 1.27,
-        "last_seen": "2026-10-21T14:40:37.689689+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
       }
     ],
     "odds": 1.54,
@@ -1798,7 +1798,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/gauthier-onclin-jan-lennard-struff-m1258000913276928",
         "status": "pendente",
         "last_odds": 1.27,
-        "last_seen": "2026-10-21T14:40:37.689689+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
       },
       {
         "match_id": "betclic:1257820278226976",
@@ -1845,7 +1845,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/katarzyna-kawa-belinda-bencic-m1258072201768960",
         "status": "pendente",
         "last_odds": 1.07,
-        "last_seen": "2026-10-21T14:40:37.689689+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
       },
       {
         "match_id": "betclic:1257881374572544",
@@ -1861,7 +1861,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/elena-rybakina-polina-kudermetova-m1257881374572544",
         "status": "pendente",
         "last_odds": 1.09,
-        "last_seen": "2026-10-21T14:40:37.689689+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
       },
       {
         "match_id": "betclic:1258249293676544",
@@ -1877,7 +1877,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/raphael-collignon-jiri-lehecka-m1258249293676544",
         "status": "pendente",
         "last_odds": 1.23,
-        "last_seen": "2026-10-21T14:40:37.689689+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
       }
     ],
     "odds": 1.42,
@@ -1886,6 +1886,68 @@
     "stake": 1.85,
     "stake_pct": 0.0251,
     "bank_at_pick": 73.78,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1257888352833536|betclic:1258040038801408|betclic:1258860770758656",
+    "created_at": "2026-10-21T16:40:36.578507+00:00",
+    "start_at": "2026-10-22T09:10:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1257888352833536",
+        "tour": "ATP",
+        "competition": "Almaty ATP",
+        "player_a": "Daniil Medvedev",
+        "player_b": "Sho Shimabukuro",
+        "side": "a",
+        "pick": "Daniil Medvedev",
+        "odds": 1.05,
+        "p": 0.9191,
+        "start_at": "2026-10-22T09:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-sho-shimabukuro-m1257888352833536",
+        "status": "pendente",
+        "last_odds": 1.05,
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
+      },
+      {
+        "match_id": "betclic:1258040038801408",
+        "tour": "ATP",
+        "competition": "Lyon ATP",
+        "player_a": "Pierre-Hugues Herbert",
+        "player_b": "Taylor Fritz",
+        "side": "b",
+        "pick": "Taylor Fritz",
+        "odds": 1.13,
+        "p": 0.8554,
+        "start_at": "2026-10-22T13:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/pierre-hugues-herbert-taylor-fritz-m1258040038801408",
+        "status": "pendente",
+        "last_odds": 1.13,
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
+      },
+      {
+        "match_id": "betclic:1258860770758656",
+        "tour": "ATP",
+        "competition": "Bruxelas ATP",
+        "player_a": "Damir Dzumhur",
+        "player_b": "Zizou Bergs",
+        "side": "b",
+        "pick": "Zizou Bergs",
+        "odds": 1.22,
+        "p": 0.7879,
+        "start_at": "2026-10-22T15:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/damir-dzumhur-zizou-bergs-m1258860770758656",
+        "status": "pendente",
+        "last_odds": 1.22,
+        "last_seen": "2026-10-21T16:40:40.801490+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6194,
+    "ev": -0.1034,
+    "stake": 1.62,
+    "stake_pct": 0.0225,
+    "bank_at_pick": 72.05,
     "status": "pendente"
   }
 ]
