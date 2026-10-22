@@ -1847,9 +1847,10 @@
         "p": 0.8919,
         "start_at": "2026-10-22T05:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/katarzyna-kawa-belinda-bencic-m1258072201768960",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.07,
-        "last_seen": "2026-10-21T16:40:40.801490+00:00"
+        "last_seen": "2026-10-21T16:40:40.801490+00:00",
+        "score": "7-5 6-2"
       },
       {
         "match_id": "betclic:1257881374572544",
@@ -1865,7 +1866,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/elena-rybakina-polina-kudermetova-m1257881374572544",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       },
       {
         "match_id": "betclic:1258249293676544",
@@ -1880,8 +1881,8 @@
         "start_at": "2026-10-22T09:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/raphael-collignon-jiri-lehecka-m1258249293676544",
         "status": "pendente",
-        "last_odds": 1.29,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_odds": 1.28,
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       }
     ],
     "odds": 1.42,
@@ -1890,7 +1891,9 @@
     "stake": 1.85,
     "stake_pct": 0.0251,
     "bank_at_pick": 73.78,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -1.85,
+    "settled_at": "2026-10-22T08:40:51.932051+00:00"
   },
   {
     "id": "p:betclic:1257888352833536|betclic:1258040038801408|betclic:1258860770758656",
@@ -1911,7 +1914,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-sho-shimabukuro-m1257888352833536",
         "status": "pendente",
         "last_odds": 1.05,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       },
       {
         "match_id": "betclic:1258040038801408",
@@ -1926,8 +1929,8 @@
         "start_at": "2026-10-22T13:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/pierre-hugues-herbert-taylor-fritz-m1258040038801408",
         "status": "pendente",
-        "last_odds": 1.14,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_odds": 1.16,
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       },
       {
         "match_id": "betclic:1258860770758656",
@@ -1943,7 +1946,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/damir-dzumhur-zizou-bergs-m1258860770758656",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       }
     ],
     "odds": 1.45,
@@ -1973,7 +1976,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       },
       {
         "match_id": "betclic:1259280611155968",
@@ -1988,8 +1991,8 @@
         "start_at": "2026-10-23T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
         "status": "pendente",
-        "last_odds": 1.2,
-        "last_seen": "2026-10-22T07:03:09.591803+00:00"
+        "last_odds": 1.21,
+        "last_seen": "2026-10-22T08:40:58.434597+00:00"
       }
     ],
     "odds": 1.43,
