@@ -1912,9 +1912,10 @@
         "p": 0.9191,
         "start_at": "2026-10-22T09:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-sho-shimabukuro-m1257888352833536",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.06,
-        "last_seen": "2026-10-22T10:40:40.494265+00:00"
+        "last_seen": "2026-10-22T10:40:40.494265+00:00",
+        "score": "6-2 6-1"
       },
       {
         "match_id": "betclic:1258040038801408",
@@ -1946,7 +1947,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/damir-dzumhur-zizou-bergs-m1258860770758656",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-22T12:40:36.057153+00:00"
+        "last_seen": "2026-10-22T14:40:35.477716+00:00"
       }
     ],
     "odds": 1.45,
@@ -1976,7 +1977,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-22T12:40:36.057153+00:00"
+        "last_seen": "2026-10-22T14:40:35.477716+00:00"
       },
       {
         "match_id": "betclic:1259280611155968",
@@ -1992,7 +1993,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-22T12:40:36.057153+00:00"
+        "last_seen": "2026-10-22T14:40:35.477716+00:00"
       }
     ],
     "odds": 1.43,
