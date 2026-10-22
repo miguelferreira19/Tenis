@@ -1946,9 +1946,10 @@
         "p": 0.7879,
         "start_at": "2026-10-22T15:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/damir-dzumhur-zizou-bergs-m1258860770758656",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-10-22T14:40:35.477716+00:00"
+        "last_seen": "2026-10-22T14:40:35.477716+00:00",
+        "score": "2-6 4-6"
       }
     ],
     "odds": 1.45,
@@ -1957,7 +1958,9 @@
     "stake": 1.62,
     "stake_pct": 0.0225,
     "bank_at_pick": 72.05,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.73,
+    "settled_at": "2026-10-22T18:40:32.042995+00:00"
   },
   {
     "id": "p:betclic:1259020081963008|betclic:1259280611155968",
@@ -1978,7 +1981,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+        "last_seen": "2026-10-22T18:40:36.861555+00:00"
       },
       {
         "match_id": "betclic:1259280611155968",
@@ -1994,7 +1997,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+        "last_seen": "2026-10-22T18:40:36.861555+00:00"
       }
     ],
     "odds": 1.43,
@@ -2024,7 +2027,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-terence-atmane-m1259836132065280",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+        "last_seen": "2026-10-22T18:40:36.861555+00:00"
       },
       {
         "match_id": "betclic:1259858647080960",
@@ -2039,8 +2042,8 @@
         "start_at": "2026-10-23T18:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/luca-van-assche-lorenzo-musetti-m1259858647080960",
         "status": "pendente",
-        "last_odds": 1.23,
-        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+        "last_odds": 1.37,
+        "last_seen": "2026-10-22T18:40:36.861555+00:00"
       }
     ],
     "odds": 1.41,
