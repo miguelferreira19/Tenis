@@ -1929,9 +1929,10 @@
         "p": 0.8554,
         "start_at": "2026-10-22T13:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/pierre-hugues-herbert-taylor-fritz-m1258040038801408",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.17,
-        "last_seen": "2026-10-22T12:40:36.057153+00:00"
+        "last_seen": "2026-10-22T12:40:36.057153+00:00",
+        "score": "2-6 5-7"
       },
       {
         "match_id": "betclic:1258860770758656",
@@ -1977,7 +1978,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-22T14:40:35.477716+00:00"
+        "last_seen": "2026-10-22T16:40:36.670134+00:00"
       },
       {
         "match_id": "betclic:1259280611155968",
@@ -1993,7 +1994,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-22T14:40:35.477716+00:00"
+        "last_seen": "2026-10-22T16:40:36.670134+00:00"
       }
     ],
     "odds": 1.43,
@@ -2002,6 +2003,52 @@
     "stake": 1.74,
     "stake_pct": 0.0239,
     "bank_at_pick": 72.94,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1259836132065280|betclic:1259858647080960",
+    "created_at": "2026-10-22T16:40:32.030327+00:00",
+    "start_at": "2026-10-23T09:10:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1259836132065280",
+        "tour": "ATP",
+        "competition": "Almaty ATP",
+        "player_a": "Daniil Medvedev",
+        "player_b": "Terence Atmane",
+        "side": "a",
+        "pick": "Daniil Medvedev",
+        "odds": 1.15,
+        "p": 0.838,
+        "start_at": "2026-10-23T09:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-terence-atmane-m1259836132065280",
+        "status": "pendente",
+        "last_odds": 1.15,
+        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+      },
+      {
+        "match_id": "betclic:1259858647080960",
+        "tour": "ATP",
+        "competition": "Lyon ATP",
+        "player_a": "Luca van Assche",
+        "player_b": "Lorenzo Musetti",
+        "side": "b",
+        "pick": "Lorenzo Musetti",
+        "odds": 1.23,
+        "p": 0.771,
+        "start_at": "2026-10-23T18:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/luca-van-assche-lorenzo-musetti-m1259858647080960",
+        "status": "pendente",
+        "last_odds": 1.23,
+        "last_seen": "2026-10-22T16:40:36.670134+00:00"
+      }
+    ],
+    "odds": 1.41,
+    "p": 0.6461,
+    "ev": -0.0861,
+    "stake": 1.5,
+    "stake_pct": 0.0211,
+    "bank_at_pick": 71.09,
     "status": "pendente"
   }
 ]
