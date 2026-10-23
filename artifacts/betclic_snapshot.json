@@ -1,65 +1,7 @@
 {
-  "observed_at": "2026-10-23T04:40:37.515959+00:00",
-  "competitions": 23,
+  "observed_at": "2026-10-23T06:40:36.608063+00:00",
+  "competitions": 24,
   "matches": [
-    {
-      "id": "betclic:1258948341530624",
-      "competition": "Almaty ATP",
-      "start_at": "2026-10-23T06:30:00+00:00",
-      "live": false,
-      "player_a": "Nikoloz Basilashvili",
-      "player_b": "Adrian Mannarino",
-      "odds_a": 1.69,
-      "odds_b": 2.05,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1258948341534728",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1258948341534728",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1258948342591508",
-          "1258948342591509"
-        ],
-        "selection_market_ids": [
-          "1258948341534728",
-          "1258948341534728"
-        ],
-        "selection_names": [
-          "Nikoloz Basilashvili",
-          "Adrian Mannarino"
-        ],
-        "selection_contestant_ids": [
-          "543832520089878",
-          "543843428426105"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543832520089878",
-            "contestant:543843428426105"
-          ],
-          [
-            "contestant:543832520089878",
-            "contestant:543843428426105"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543832520089878",
-            "name": "Nikoloz Basilashvili"
-          },
-          {
-            "id": "543843428426105",
-            "name": "Adrian Mannarino"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/nikoloz-basilashvili-adrian-mannarino-m1258948341530624",
-      "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
-    },
     {
       "id": "betclic:1259020081963008",
       "competition": "Almaty ATP",
@@ -116,7 +58,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259836132065280",
@@ -174,7 +116,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-terence-atmane-m1259836132065280",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259905290899456",
@@ -183,8 +125,8 @@
       "live": false,
       "player_a": "Alexander Bublik",
       "player_b": "Karen Khachanov",
-      "odds_a": 1.71,
-      "odds_b": 2.02,
+      "odds_a": 1.69,
+      "odds_b": 2.05,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1259905291939848",
@@ -232,7 +174,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/alexander-bublik-karen-khachanov-m1259905290899456",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259014203654144",
@@ -290,7 +232,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/clement-chidekh-francisco-cerundolo-m1259014203654144",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259806275948544",
@@ -299,8 +241,8 @@
       "live": false,
       "player_a": "Tallon Griekspoor",
       "player_b": "Jiri Lehecka",
-      "odds_a": 3.0,
-      "odds_b": 1.33,
+      "odds_a": 2.95,
+      "odds_b": 1.35,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1259806275960877",
@@ -348,7 +290,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/tallon-griekspoor-jiri-lehecka-m1259806275948544",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259918388662272",
@@ -406,7 +348,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/arthur-fils-alex-michelsen-m1259918388662272",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259961902460928",
@@ -415,8 +357,8 @@
       "live": false,
       "player_a": "Jan-Lennard  Struff",
       "player_b": "Zizou Bergs",
-      "odds_a": 2.6,
-      "odds_b": 1.36,
+      "odds_a": 2.65,
+      "odds_b": 1.38,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1259961903517704",
@@ -464,7 +406,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/jan-lennard-struff-zizou-bergs-m1259961902460928",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259280611155968",
@@ -522,7 +464,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259927983128582",
@@ -580,7 +522,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/daniel-altmaier-taylor-fritz-m1259927983128582",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1260061209952256",
@@ -589,8 +531,8 @@
       "live": false,
       "player_a": "Flavio Cobolli",
       "player_b": "Brandon Nakashima",
-      "odds_a": 2.47,
-      "odds_b": 1.44,
+      "odds_a": 2.35,
+      "odds_b": 1.53,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1260087657123847",
@@ -638,7 +580,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/flavio-cobolli-brandon-nakashima-m1260061209952256",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259858647080960",
@@ -647,8 +589,8 @@
       "live": false,
       "player_a": "Luca van Assche",
       "player_b": "Lorenzo Musetti",
-      "odds_a": 2.7,
-      "odds_b": 1.37,
+      "odds_a": 2.8,
+      "odds_b": 1.38,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1259858648125456",
@@ -696,70 +638,12 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/luca-van-assche-lorenzo-musetti-m1259858647080960",
       "tour": "ATP",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
-    },
-    {
-      "id": "betclic:1258946114367538",
-      "competition": "Ningbo WTA",
-      "start_at": "2026-10-23T05:00:00+00:00",
-      "live": false,
-      "player_a": "Sara Bejlek",
-      "player_b": "Marie Bouzkova",
-      "odds_a": 2.29,
-      "odds_b": 1.56,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1258946115416072",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1258946115416072",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1258946115403796",
-          "1258946115403797"
-        ],
-        "selection_market_ids": [
-          "1258946115416072",
-          "1258946115416072"
-        ],
-        "selection_names": [
-          "Sara Bejlek",
-          "Marie Bouzkova"
-        ],
-        "selection_contestant_ids": [
-          "543834041872453",
-          "543832482640442"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543834041872453",
-            "contestant:543832482640442"
-          ],
-          [
-            "contestant:543834041872453",
-            "contestant:543832482640442"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543834041872453",
-            "name": "Sara Bejlek"
-          },
-          {
-            "id": "543832482640442",
-            "name": "Marie Bouzkova"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/sara-bejlek-marie-bouzkova-m1258946114367538",
-      "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1258946018938880",
       "competition": "Ningbo WTA",
-      "start_at": "2026-10-23T06:10:00+00:00",
+      "start_at": "2026-10-23T07:00:00+00:00",
       "live": false,
       "player_a": "Leylah Annie Fernandez",
       "player_b": "Ekaterina Alexandrova",
@@ -812,12 +696,12 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/leylah-annie-fernandez-ekaterina-alexandrova-m1258946018938880",
       "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259721634885632",
       "competition": "Ningbo WTA",
-      "start_at": "2026-10-23T08:00:00+00:00",
+      "start_at": "2026-10-23T08:10:00+00:00",
       "live": false,
       "player_a": "Iva Jovic",
       "player_b": "Diana Shnaider",
@@ -870,7 +754,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/iva-jovic-diana-shnaider-m1259721634885632",
       "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259796810452992",
@@ -928,128 +812,12 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/ningbo-wta-c36198/elena-rybakina-katarzyna-kawa-m1259796810452992",
       "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
-    },
-    {
-      "id": "betclic:1258684852219904",
-      "competition": "Osaka WTA",
-      "start_at": "2026-10-23T04:50:00+00:00",
-      "live": false,
-      "player_a": "Talia Gibson",
-      "player_b": "Ashlyn Krueger",
-      "odds_a": 2.22,
-      "odds_b": 1.59,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1258684853256199",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1258684853256199",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1258684853272594",
-          "1258684853272595"
-        ],
-        "selection_market_ids": [
-          "1258684853256199",
-          "1258684853256199"
-        ],
-        "selection_names": [
-          "Talia Gibson",
-          "Ashlyn Krueger"
-        ],
-        "selection_contestant_ids": [
-          "543834927620395",
-          "543833005580918"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543834927620395",
-            "contestant:543833005580918"
-          ],
-          [
-            "contestant:543834927620395",
-            "contestant:543833005580918"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543834927620395",
-            "name": "Talia Gibson"
-          },
-          {
-            "id": "543833005580918",
-            "name": "Ashlyn Krueger"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-c36201/talia-gibson-ashlyn-krueger-m1258684852219904",
-      "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
-    },
-    {
-      "id": "betclic:1259629102235648",
-      "competition": "Osaka WTA",
-      "start_at": "2026-10-23T06:00:00+00:00",
-      "live": false,
-      "player_a": "Mary Stoiana",
-      "player_b": "Katerina Siniakova",
-      "odds_a": 3.05,
-      "odds_b": 1.33,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1259629103292423",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1259629103292423",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1259629103284242",
-          "1259629103284243"
-        ],
-        "selection_market_ids": [
-          "1259629103292423",
-          "1259629103292423"
-        ],
-        "selection_names": [
-          "Mary Stoiana",
-          "Katerina Siniakova"
-        ],
-        "selection_contestant_ids": [
-          "543840126460009",
-          "543832614462004"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543840126460009",
-            "contestant:543832614462004"
-          ],
-          [
-            "contestant:543840126460009",
-            "contestant:543832614462004"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543840126460009",
-            "name": "Mary Stoiana"
-          },
-          {
-            "id": "543832614462004",
-            "name": "Katerina Siniakova"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-c36201/mary-stoiana-katerina-siniakova-m1259629102235648",
-      "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     },
     {
       "id": "betclic:1259508949069824",
       "competition": "Osaka WTA",
-      "start_at": "2026-10-23T07:10:00+00:00",
+      "start_at": "2026-10-23T07:40:00+00:00",
       "live": false,
       "player_a": "Katie Boulter",
       "player_b": "Antonia Ruzic",
@@ -1102,7 +870,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/osaka-wta-c36201/katie-boulter-antonia-ruzic-m1259508949069824",
       "tour": "WTA",
-      "observed_at": "2026-10-23T04:40:37.515959+00:00"
+      "observed_at": "2026-10-23T06:40:36.608063+00:00"
     }
   ]
 }
