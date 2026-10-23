@@ -2026,9 +2026,10 @@
         "p": 0.838,
         "start_at": "2026-10-23T09:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-terence-atmane-m1259836132065280",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.13,
-        "last_seen": "2026-10-23T08:40:40.048652+00:00"
+        "last_seen": "2026-10-23T08:40:40.048652+00:00",
+        "score": "6-4 6-4"
       },
       {
         "match_id": "betclic:1259858647080960",
@@ -2044,7 +2045,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/luca-van-assche-lorenzo-musetti-m1259858647080960",
         "status": "pendente",
         "last_odds": 1.38,
-        "last_seen": "2026-10-23T10:40:43.523480+00:00"
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
       }
     ],
     "odds": 1.41,
@@ -2053,6 +2054,130 @@
     "stake": 1.5,
     "stake_pct": 0.0211,
     "bank_at_pick": 71.09,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1260621013200896|betclic:1260658175774720",
+    "created_at": "2026-10-23T12:40:33.126331+00:00",
+    "start_at": "2026-10-24T03:50:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1260658175774720",
+        "tour": "WTA",
+        "competition": "Guangzhou WTA - Qual.",
+        "player_a": "Dayana Yastremska",
+        "player_b": "Xiaodi You",
+        "side": "a",
+        "pick": "Dayana Yastremska",
+        "odds": 1.14,
+        "p": 0.8469,
+        "start_at": "2026-10-24T09:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/dayana-yastremska-xiaodi-you-m1260658175774720",
+        "status": "pendente",
+        "last_odds": 1.14,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      },
+      {
+        "match_id": "betclic:1260621013200896",
+        "tour": "WTA",
+        "competition": "Tóquio WTA - Qual.",
+        "player_a": "Kimberly Birrell",
+        "player_b": "Aoi Ito",
+        "side": "a",
+        "pick": "Kimberly Birrell",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-10-24T03:50:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/kimberly-birrell-aoi-ito-m1260621013200896",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      }
+    ],
+    "odds": 1.42,
+    "p": 0.6513,
+    "ev": -0.0719,
+    "stake": 1.59,
+    "stake_pct": 0.0221,
+    "bank_at_pick": 71.82,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1260619538898944|betclic:1260620812914688|betclic:1260656207609856|betclic:1260656560963584",
+    "created_at": "2026-10-23T12:40:33.126331+00:00",
+    "start_at": "2026-10-24T01:30:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1260656207609856",
+        "tour": "WTA",
+        "competition": "Guangzhou WTA - Qual.",
+        "player_a": "Harriet Dart",
+        "player_b": "Cheuk Ying Shek",
+        "side": "a",
+        "pick": "Harriet Dart",
+        "odds": 1.05,
+        "p": 0.921,
+        "start_at": "2026-10-24T06:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/harriet-dart-cheuk-ying-shek-m1260656207609856",
+        "status": "pendente",
+        "last_odds": 1.05,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      },
+      {
+        "match_id": "betclic:1260656560963584",
+        "tour": "WTA",
+        "competition": "Guangzhou WTA - Qual.",
+        "player_a": "Yihan Qu",
+        "player_b": "Teodora Kostovic",
+        "side": "b",
+        "pick": "Teodora Kostovic",
+        "odds": 1.1,
+        "p": 0.8806,
+        "start_at": "2026-10-24T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/yihan-qu-teodora-kostovic-m1260656560963584",
+        "status": "pendente",
+        "last_odds": 1.1,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      },
+      {
+        "match_id": "betclic:1260619538898944",
+        "tour": "WTA",
+        "competition": "Tóquio WTA - Qual.",
+        "player_a": "Liudmila Samsonova",
+        "player_b": "Heather Watson",
+        "side": "a",
+        "pick": "Liudmila Samsonova",
+        "odds": 1.1,
+        "p": 0.8772,
+        "start_at": "2026-10-24T01:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/liudmila-samsonova-heather-watson-m1260619538898944",
+        "status": "pendente",
+        "last_odds": 1.1,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      },
+      {
+        "match_id": "betclic:1260620812914688",
+        "tour": "WTA",
+        "competition": "Tóquio WTA - Qual.",
+        "player_a": "Yexin Ma",
+        "player_b": "Daria Kasatkina",
+        "side": "b",
+        "pick": "Daria Kasatkina",
+        "odds": 1.14,
+        "p": 0.8469,
+        "start_at": "2026-10-24T03:50:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/yexin-ma-daria-kasatkina-m1260620812914688",
+        "status": "pendente",
+        "last_odds": 1.14,
+        "last_seen": "2026-10-23T12:40:40.316405+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6025,
+    "ev": -0.1273,
+    "stake": 1.59,
+    "stake_pct": 0.0221,
+    "bank_at_pick": 71.82,
     "status": "pendente"
   }
 ]
