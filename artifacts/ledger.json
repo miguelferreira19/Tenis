@@ -1979,9 +1979,10 @@
         "p": 0.8096,
         "start_at": "2026-10-23T06:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/stefanos-tsitsipas-james-duckworth-m1259020081963008",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-10-23T06:40:36.608063+00:00"
+        "last_seen": "2026-10-23T06:40:36.608063+00:00",
+        "score": "6-3 6-4"
       },
       {
         "match_id": "betclic:1259280611155968",
@@ -1997,7 +1998,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/corentin-moutet-tommy-paul-m1259280611155968",
         "status": "pendente",
         "last_odds": 1.26,
-        "last_seen": "2026-10-23T08:40:40.048652+00:00"
+        "last_seen": "2026-10-23T10:40:43.523480+00:00"
       }
     ],
     "odds": 1.43,
@@ -2043,7 +2044,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/lyon-atp-c308/luca-van-assche-lorenzo-musetti-m1259858647080960",
         "status": "pendente",
         "last_odds": 1.38,
-        "last_seen": "2026-10-23T08:40:40.048652+00:00"
+        "last_seen": "2026-10-23T10:40:43.523480+00:00"
       }
     ],
     "odds": 1.41,
