@@ -1750,7 +1750,7 @@
         "p": 0.771,
         "start_at": "2026-10-21T09:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/bruxelas-atp-c38828/arthur-fils-jaume-munar-m1257142076047360",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.24,
         "last_seen": "2026-10-20T12:40:37.143479+00:00"
       },
@@ -1778,7 +1778,9 @@
     "stake": 1.73,
     "stake_pct": 0.0238,
     "bank_at_pick": 72.84,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.43,
+    "settled_at": "2026-10-24T10:40:35.861288+00:00"
   },
   {
     "id": "p:betclic:1257820278226976|betclic:1258000913276928",
@@ -2095,9 +2097,10 @@
         "p": 0.769,
         "start_at": "2026-10-24T03:50:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/kimberly-birrell-aoi-ito-m1260621013200896",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.33,
-        "last_seen": "2026-10-24T06:40:40.869432+00:00"
+        "last_seen": "2026-10-24T06:40:40.869432+00:00",
+        "score": "6-4 6-2"
       }
     ],
     "odds": 1.42,
@@ -2143,7 +2146,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/yihan-qu-teodora-kostovic-m1260656560963584",
         "status": "pendente",
         "last_odds": 1.13,
-        "last_seen": "2026-10-24T08:40:40.368903+00:00"
+        "last_seen": "2026-10-24T10:40:46.046215+00:00"
       },
       {
         "match_id": "betclic:1260619538898944",
@@ -2208,7 +2211,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/anastasia-zakharova-ruien-zhang-m1260656994041856",
         "status": "pendente",
         "last_odds": 1.05,
-        "last_seen": "2026-10-24T08:40:40.368903+00:00"
+        "last_seen": "2026-10-24T10:40:46.046215+00:00"
       },
       {
         "match_id": "betclic:1260656369090560",
@@ -2222,9 +2225,10 @@
         "p": 0.9204,
         "start_at": "2026-10-24T05:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/hong-yi-cody-wong-emerson-jones-m1260656369090560",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.06,
-        "last_seen": "2026-10-24T06:40:40.869432+00:00"
+        "last_seen": "2026-10-24T06:40:40.869432+00:00",
+        "score": "6-4 1-6 4-6"
       },
       {
         "match_id": "betclic:1260714069082112",
@@ -2238,9 +2242,10 @@
         "p": 0.8935,
         "start_at": "2026-10-24T05:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/hayu-kinoshita-yulia-putintseva-m1260714069082112",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.09,
-        "last_seen": "2026-10-24T06:40:40.869432+00:00"
+        "last_seen": "2026-10-24T06:40:40.869432+00:00",
+        "score": "5-7 2-6"
       },
       {
         "match_id": "betclic:1260691510001664",
@@ -2254,9 +2259,10 @@
         "p": 0.8241,
         "start_at": "2026-10-24T05:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/tatiana-prozorova-ekaterine-gorgodze-m1260691510001664",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.18,
-        "last_seen": "2026-10-24T06:40:40.869432+00:00"
+        "last_seen": "2026-10-24T06:40:40.869432+00:00",
+        "score": "6-3 5-7 6-3"
       }
     ],
     "odds": 1.42,
