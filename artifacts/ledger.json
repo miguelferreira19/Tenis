@@ -2272,5 +2272,51 @@
     "stake_pct": 0.0233,
     "bank_at_pick": 72.57,
     "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1261598500995072|betclic:1261753822355462",
+    "created_at": "2026-10-24T18:40:37.844396+00:00",
+    "start_at": "2026-10-25T02:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1261753822355462",
+        "tour": "WTA",
+        "competition": "Guangzhou WTA - Qual.",
+        "player_a": "Harriet Dart",
+        "player_b": "Mei Yamaguchi",
+        "side": "a",
+        "pick": "Harriet Dart",
+        "odds": 1.15,
+        "p": 0.8478,
+        "start_at": "2026-10-25T06:10:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/harriet-dart-mei-yamaguchi-m1261753822355462",
+        "status": "pendente",
+        "last_odds": 1.15,
+        "last_seen": "2026-10-24T18:40:42.384132+00:00"
+      },
+      {
+        "match_id": "betclic:1261598500995072",
+        "tour": "WTA",
+        "competition": "Tóquio WTA - Qual.",
+        "player_a": "Mai Hontama",
+        "player_b": "Maya Joint",
+        "side": "b",
+        "pick": "Maya Joint",
+        "odds": 1.25,
+        "p": 0.7777,
+        "start_at": "2026-10-25T02:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-qual-c18565/mai-hontama-maya-joint-m1261598500995072",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-24T18:40:42.384132+00:00"
+      }
+    ],
+    "odds": 1.44,
+    "p": 0.6594,
+    "ev": -0.0521,
+    "stake": 1.62,
+    "stake_pct": 0.0225,
+    "bank_at_pick": 72.02,
+    "status": "pendente"
   }
 ]
