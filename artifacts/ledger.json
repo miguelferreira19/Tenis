@@ -2339,7 +2339,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/lilli-tagger-venus-williams-m1261546072190976",
         "status": "pendente",
         "last_odds": 1.04,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       },
       {
         "match_id": "betclic:1261544611512324",
@@ -2355,7 +2355,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/alexandra-eala-mika-stojsavljevic-m1261544611512324",
         "status": "pendente",
         "last_odds": 1.09,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       },
       {
         "match_id": "betclic:1261532701786112",
@@ -2371,7 +2371,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/leylah-annie-fernandez-himeno-sakatsume-m1261532701786112",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       },
       {
         "match_id": "betclic:1261530310000640",
@@ -2386,8 +2386,8 @@
         "start_at": "2026-10-26T01:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/moyuka-uchijima-elise-mertens-m1261530310000640",
         "status": "pendente",
-        "last_odds": 1.17,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_odds": 1.15,
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       }
     ],
     "odds": 1.43,
@@ -2417,7 +2417,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/almaty-atp-c36194/daniil-medvedev-nikoloz-basilashvili-m1261663325007872",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       },
       {
         "match_id": "betclic:1262010288316416",
@@ -2433,12 +2433,74 @@
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-qual-c38895/victoria-rodriguez-maria-fernanda-herazo-gonzalez-m1262010288316416",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-25T04:40:35.093339+00:00"
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
       }
     ],
     "odds": 1.48,
     "p": 0.6273,
     "ev": -0.0741,
+    "stake": 1.62,
+    "stake_pct": 0.0225,
+    "bank_at_pick": 72.02,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1261682021117952|betclic:1261728398589952|betclic:1261728475136000",
+    "created_at": "2026-10-25T06:40:30.623417+00:00",
+    "start_at": "2026-10-26T11:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1261728475136000",
+        "tour": "ATP",
+        "competition": "Viena ATP",
+        "player_a": "Alexander Zverev",
+        "player_b": "Martin Landaluce",
+        "side": "a",
+        "pick": "Alexander Zverev",
+        "odds": 1.05,
+        "p": 0.91,
+        "start_at": "2026-10-26T12:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/alexander-zverev-martin-landaluce-m1261728475136000",
+        "status": "pendente",
+        "last_odds": 1.05,
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
+      },
+      {
+        "match_id": "betclic:1261728398589952",
+        "tour": "ATP",
+        "competition": "Viena ATP",
+        "player_a": "Karen Khachanov",
+        "player_b": "Carlos Alcaraz",
+        "side": "b",
+        "pick": "Carlos Alcaraz",
+        "odds": 1.13,
+        "p": 0.8456,
+        "start_at": "2026-10-26T12:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/karen-khachanov-carlos-alcaraz-m1261728398589952",
+        "status": "pendente",
+        "last_odds": 1.13,
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
+      },
+      {
+        "match_id": "betclic:1261682021117952",
+        "tour": "ATP",
+        "competition": "Basileia ATP",
+        "player_a": "Alejandro Tabilo",
+        "player_b": "Rafael Jodar",
+        "side": "b",
+        "pick": "Rafael Jodar",
+        "odds": 1.18,
+        "p": 0.8079,
+        "start_at": "2026-10-26T11:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/alejandro-tabilo-rafael-jodar-m1261682021117952",
+        "status": "pendente",
+        "last_odds": 1.18,
+        "last_seen": "2026-10-25T06:40:35.033508+00:00"
+      }
+    ],
+    "odds": 1.4,
+    "p": 0.6217,
+    "ev": -0.1296,
     "stake": 1.62,
     "stake_pct": 0.0225,
     "bank_at_pick": 72.02,
