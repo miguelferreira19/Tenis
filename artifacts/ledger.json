@@ -2081,7 +2081,7 @@
         "p": 0.8469,
         "start_at": "2026-10-24T09:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/dayana-yastremska-xiaodi-you-m1260658175774720",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.16,
         "last_seen": "2026-10-24T08:40:40.368903+00:00"
       },
@@ -2109,7 +2109,9 @@
     "stake": 1.59,
     "stake_pct": 0.0221,
     "bank_at_pick": 71.82,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.4,
+    "settled_at": "2026-10-27T10:40:35.870527+00:00"
   },
   {
     "id": "p:betclic:1260619538898944|betclic:1260620812914688|betclic:1260656207609856|betclic:1260656560963584",
@@ -2209,7 +2211,7 @@
         "p": 0.927,
         "start_at": "2026-10-24T10:40:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-qual-c36268/anastasia-zakharova-ruien-zhang-m1260656994041856",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.05,
         "last_seen": "2026-10-24T12:40:37.230222+00:00"
       },
@@ -2271,7 +2273,9 @@
     "stake": 1.69,
     "stake_pct": 0.0233,
     "bank_at_pick": 72.57,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.61,
+    "settled_at": "2026-10-27T10:40:35.870527+00:00"
   },
   {
     "id": "p:betclic:1261598500995072|betclic:1261753822355462",
@@ -2473,7 +2477,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/alexander-zverev-martin-landaluce-m1261728475136000",
         "status": "pendente",
         "last_odds": 1.07,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1261728398589952",
@@ -2489,7 +2493,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/karen-khachanov-carlos-alcaraz-m1261728398589952",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1261682021117952",
@@ -2504,8 +2508,8 @@
         "start_at": "2026-10-26T11:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/alejandro-tabilo-rafael-jodar-m1261682021117952",
         "status": "pendente",
-        "last_odds": 1.26,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.29,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.4,
@@ -2535,7 +2539,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/ben-shelton-aleksandar-kovacevic-m1262761184067584",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1262848367927296",
@@ -2551,7 +2555,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/tamara-zidansek-katrina-scott-m1262848367927296",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.4,
@@ -2612,8 +2616,8 @@
         "start_at": "2026-10-27T18:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/stan-wawrinka-jiri-lehecka-m1261683373785088",
         "status": "pendente",
-        "last_odds": 1.18,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.16,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.41,
@@ -2642,8 +2646,8 @@
         "start_at": "2026-10-27T15:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/gaia-maduzzi-linda-klimovicova-m1263687701651456",
         "status": "pendente",
-        "last_odds": 1.11,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.16,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1263687577919488",
@@ -2659,7 +2663,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/adrienn-nagy-oksana-selekhmeteva-m1263687577919488",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1262714646175744",
@@ -2675,7 +2679,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/carolina-meligeni-rodrigues-alves-julia-grabher-m1262714646175744",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.45,
@@ -2705,7 +2709,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/taylor-fritz-rinky-hijikata-m1262828307623936",
         "status": "pendente",
         "last_odds": 1.07,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1264157866360832",
@@ -2720,8 +2724,8 @@
         "start_at": "2026-10-28T01:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/elena-rybakina-yulia-putintseva-m1264157866360832",
         "status": "pendente",
-        "last_odds": 1.12,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.1,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1261726366437376",
@@ -2736,8 +2740,8 @@
         "start_at": "2026-10-28T10:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/daniel-merida-aguilar-daniil-medvedev-m1261726366437376",
         "status": "pendente",
-        "last_odds": 1.2,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.22,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.44,
@@ -2767,7 +2771,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/yelyzaveta-kotliar-erika-andreeva-m1263759329878016",
         "status": "pendente",
         "last_odds": 1.11,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1263058542395392",
@@ -2783,7 +2787,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/laura-mair-katarina-zavatska-m1263058542395392",
         "status": "pendente",
         "last_odds": 1.14,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       },
       {
         "match_id": "betclic:1263934296317952",
@@ -2798,8 +2802,8 @@
         "start_at": "2026-10-28T14:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/nauhany-vitoria-leme-da-silva-luisina-giovannini-m1263934296317952",
         "status": "pendente",
-        "last_odds": 1.22,
-        "last_seen": "2026-10-27T09:00:56.174310+00:00"
+        "last_odds": 1.24,
+        "last_seen": "2026-10-27T10:40:44.471502+00:00"
       }
     ],
     "odds": 1.54,
