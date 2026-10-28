@@ -1,6 +1,6 @@
 {
-  "observed_at": "2026-10-28T08:40:36.459678+00:00",
-  "competitions": 27,
+  "observed_at": "2026-10-28T10:40:41.238405+00:00",
+  "competitions": 26,
   "matches": [
     {
       "id": "betclic:1262764984123392",
@@ -58,7 +58,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/yannick-hanfmann-jan-lennard-struff-m1262764984123392",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1262764920143872",
@@ -116,7 +116,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/remy-bertola-denis-shapovalov-m1262764920143872",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263773765619712",
@@ -174,7 +174,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/nuno-borges-casper-ruud-m1263773765619712",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1261665080324096",
@@ -232,7 +232,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/novak-djokovic-ugo-humbert-m1261665080324096",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1262828307623936",
@@ -290,7 +290,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/taylor-fritz-rinky-hijikata-m1262828307623936",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264393557921792",
@@ -348,7 +348,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/hubert-hurkacz-holger-rune-m1264393557921792",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264417572421632",
@@ -357,8 +357,8 @@
       "live": false,
       "player_a": "Valentin Vacherot",
       "player_b": "Rafael Jodar",
-      "odds_a": 3.05,
-      "odds_b": 1.26,
+      "odds_a": 3.15,
+      "odds_b": 1.28,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264417573466125",
@@ -406,7 +406,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/valentin-vacherot-rafael-jodar-m1264417572421632",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264512969773059",
@@ -415,8 +415,8 @@
       "live": false,
       "player_a": "Alex Michelsen",
       "player_b": "Arthur Fils",
-      "odds_a": 2.5,
-      "odds_b": 1.38,
+      "odds_a": 2.6,
+      "odds_b": 1.4,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264567831269404",
@@ -464,7 +464,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/alex-michelsen-arthur-fils-m1264512969773059",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264576629870592",
@@ -474,7 +474,7 @@
       "player_a": "Ben Shelton",
       "player_b": "Jerome Kym",
       "odds_a": 1.21,
-      "odds_b": 3.45,
+      "odds_b": 3.7,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264637642313735",
@@ -522,7 +522,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/ben-shelton-jerome-kym-m1264576629870592",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264660915441664",
@@ -531,8 +531,8 @@
       "live": false,
       "player_a": "Daniel Altmaier",
       "player_b": "Jiri Lehecka",
-      "odds_a": 3.9,
-      "odds_b": 1.16,
+      "odds_a": 4.1,
+      "odds_b": 1.17,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264734768746509",
@@ -580,7 +580,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/daniel-altmaier-jiri-lehecka-m1264660915441664",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1261726366437376",
@@ -638,7 +638,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/daniel-merida-aguilar-daniil-medvedev-m1261726366437376",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1261732885442596",
@@ -696,7 +696,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/tallon-griekspoor-brandon-nakashima-m1261732885442596",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1261731912368128",
@@ -754,7 +754,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/lorenzo-musetti-frances-tiafoe-m1261731912368128",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264468357046278",
@@ -763,8 +763,8 @@
       "live": false,
       "player_a": "Jakub Mensik",
       "player_b": "Adrian Mannarino",
-      "odds_a": 1.18,
-      "odds_b": 4.3,
+      "odds_a": 1.17,
+      "odds_b": 4.5,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264517289906242",
@@ -812,7 +812,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/jakub-mensik-adrian-mannarino-m1264468357046278",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1261732014075905",
@@ -870,7 +870,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/jurij-rodionov-nikoloz-basilashvili-m1261732014075905",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263729211629568",
@@ -879,8 +879,8 @@
       "live": false,
       "player_a": "Learner Tien",
       "player_b": "Alex De Minaur",
-      "odds_a": 1.88,
-      "odds_b": 1.83,
+      "odds_a": 1.94,
+      "odds_b": 1.77,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1263729211641869",
@@ -928,7 +928,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/learner-tien-alex-de-minaur-m1263729211629568",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264427544371200",
@@ -986,7 +986,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/tommy-paul-luciano-darderi-m1264427544371200",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264688820158464",
@@ -995,8 +995,8 @@
       "live": false,
       "player_a": "Flavio Cobolli",
       "player_b": "Matteo Berrettini",
-      "odds_a": 1.83,
-      "odds_b": 1.74,
+      "odds_a": 1.78,
+      "odds_b": 1.79,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264752977285127",
@@ -1044,7 +1044,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/flavio-cobolli-matteo-berrettini-m1264688820158464",
       "tour": "ATP",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264189016399872",
@@ -1102,7 +1102,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/shi-han-dayana-yastremska-m1264189016399872",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264163844296704",
@@ -1160,7 +1160,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/anna-bondar-kaitlin-quevedo-m1264163844296704",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264165129834496",
@@ -1218,7 +1218,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/jil-teichmann-zeynep-sonmez-m1264165129834496",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264308596019200",
@@ -1227,8 +1227,8 @@
       "live": false,
       "player_a": "Lilli Tagger",
       "player_b": "Magda Linette",
-      "odds_a": 1.36,
-      "odds_b": 2.75,
+      "odds_a": 1.34,
+      "odds_b": 2.8,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264308596011015",
@@ -1276,7 +1276,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/lilli-tagger-magda-linette-m1264308596019200",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264367669633024",
@@ -1285,8 +1285,8 @@
       "live": false,
       "player_a": "Maria Timofeeva",
       "player_b": "Xinran Sun",
-      "odds_a": 1.4,
-      "odds_b": 2.6,
+      "odds_a": 1.42,
+      "odds_b": 2.5,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264367670689800",
@@ -1334,7 +1334,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/maria-timofeeva-xinran-sun-m1264367669633024",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1265030814273537",
@@ -1392,65 +1392,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/guangzhou-wta-c36265/claire-liu-katerina-siniakova-m1265030814273537",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
-    },
-    {
-      "id": "betclic:1263337355624448",
-      "competition": "Tóquio WTA",
-      "start_at": "2026-10-28T08:50:00+00:00",
-      "live": false,
-      "player_a": "Alexandra Eala",
-      "player_b": "Talia Gibson",
-      "odds_a": 1.32,
-      "odds_b": 3.1,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1263337355612167",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1263337355612167",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1263337355620370",
-          "1263337355620371"
-        ],
-        "selection_market_ids": [
-          "1263337355612167",
-          "1263337355612167"
-        ],
-        "selection_names": [
-          "Alexandra Eala",
-          "Talia Gibson"
-        ],
-        "selection_contestant_ids": [
-          "543834041872745",
-          "543834927620395"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543834041872745",
-            "contestant:543834927620395"
-          ],
-          [
-            "contestant:543834041872745",
-            "contestant:543834927620395"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543834041872745",
-            "name": "Alexandra Eala"
-          },
-          {
-            "id": "543834927620395",
-            "name": "Talia Gibson"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/alexandra-eala-talia-gibson-m1263337355624448",
-      "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263198285074432",
@@ -1508,7 +1450,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/alycia-parks-kimberly-birrell-m1263198285074432",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264157603160064",
@@ -1566,7 +1508,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/leylah-annie-fernandez-elise-mertens-m1264157603160064",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264275967463424",
@@ -1624,7 +1566,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/naomi-osaka-mia-pohankova-m1264275967463424",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264157866360832",
@@ -1682,7 +1624,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/elena-rybakina-yulia-putintseva-m1264157866360832",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1265026091470848",
@@ -1691,8 +1633,8 @@
       "live": false,
       "player_a": "Kamilla Rakhimova",
       "player_b": "Maya Joint",
-      "odds_a": 1.82,
-      "odds_b": 1.75,
+      "odds_a": 1.87,
+      "odds_b": 1.71,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1265026091474952",
@@ -1740,7 +1682,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/kamilla-rakhimova-maya-joint-m1265026091470848",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263059823759360",
@@ -1798,7 +1740,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/robin-montgomery-lisa-pigato-m1263059823759360",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263759329878016",
@@ -1807,7 +1749,7 @@
       "live": false,
       "player_a": "Yelyzaveta Kotliar",
       "player_b": "Erika Andreeva",
-      "odds_a": 4.0,
+      "odds_a": 3.95,
       "odds_b": 1.15,
       "market_type": "match_winner",
       "market_verified": true,
@@ -1856,7 +1798,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/yelyzaveta-kotliar-erika-andreeva-m1263759329878016",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263058542395392",
@@ -1914,7 +1856,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/laura-mair-katarina-zavatska-m1263058542395392",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263064171151360",
@@ -1972,7 +1914,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/elsa-jacquemot-caroline-werner-m1263064171151360",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264381429059584",
@@ -2030,7 +1972,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/gabriela-andrea-knutson-alina-charaeva-m1264381429059584",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264468516425728",
@@ -2088,7 +2030,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/elizara-yaneva-oksana-selekhmeteva-m1264468516425728",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264468510150656",
@@ -2146,7 +2088,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/linda-klimovicova-noma-akugue-noha-m1264468510150656",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264281428455424",
@@ -2204,7 +2146,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/courmayeur-wta-challenger-c41471/lucrezia-stefanini-ayla-aksu-m1264281428455424",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264002837532672",
@@ -2213,7 +2155,7 @@
       "live": false,
       "player_a": "Lourdes Ayala",
       "player_b": "Jazmin Ortenzi",
-      "odds_a": 7.0,
+      "odds_a": 7.6,
       "odds_b": 1.01,
       "market_type": "match_winner",
       "market_verified": true,
@@ -2262,7 +2204,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/lourdes-ayala-jazmin-ortenzi-m1264002837532672",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264498017062912",
@@ -2271,8 +2213,8 @@
       "live": false,
       "player_a": "Alice Tubello",
       "player_b": "Luna Maria Cinalli",
-      "odds_a": 1.08,
-      "odds_b": 5.2,
+      "odds_a": 1.05,
+      "odds_b": 6.0,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264525937512449",
@@ -2320,7 +2262,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/alice-tubello-luna-maria-cinalli-m1264498017062912",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263679477665792",
@@ -2378,7 +2320,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/leyre-romero-gormaz-antonia-vergara-rivera-m1263679477665792",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264527734771712",
@@ -2387,8 +2329,8 @@
       "live": false,
       "player_a": "Gabriela Ce",
       "player_b": "Solana Sierra",
-      "odds_a": 2.75,
-      "odds_b": 1.32,
+      "odds_a": 3.15,
+      "odds_b": 1.24,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264527735816201",
@@ -2436,7 +2378,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/gabriela-ce-solana-sierra-m1264527734771712",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1263934296317952",
@@ -2445,8 +2387,8 @@
       "live": false,
       "player_a": "Nauhany Vitoria Leme Da Silva",
       "player_b": "Luisina Giovannini",
-      "odds_a": 3.05,
-      "odds_b": 1.27,
+      "odds_a": 2.95,
+      "odds_b": 1.28,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1263934296326145",
@@ -2494,7 +2436,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/nauhany-vitoria-leme-da-silva-luisina-giovannini-m1263934296317952",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264566865514496",
@@ -2552,7 +2494,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/julia-riera-yasmine-kabbaj-m1264566865514496",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264650347900928",
@@ -2610,7 +2552,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/francesca-jones-marjorie-souza-m1264650347900928",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264761530519552",
@@ -2668,7 +2610,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/maria-lourdes-carle-julia-grabher-m1264761530519552",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264944020492288",
@@ -2677,8 +2619,8 @@
       "live": false,
       "player_a": "Carmen Andreea Herea",
       "player_b": "Carole Monnet",
-      "odds_a": 3.0,
-      "odds_b": 1.23,
+      "odds_a": 3.1,
+      "odds_b": 1.25,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1264944021532673",
@@ -2726,7 +2668,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/carmen-andreea-herea-carole-monnet-m1264944020492288",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264548176752645",
@@ -2784,7 +2726,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/selena-janicijevic-elizabeth-mandlik-m1264548176752645",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264628602535936",
@@ -2842,7 +2784,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/fiona-ferro-adriana-reami-m1264628602535936",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264548177801216",
@@ -2900,7 +2842,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/tatjana-maria-martina-colmegna-m1264548177801216",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264944025722880",
@@ -2958,7 +2900,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/polona-hercog-valeriya-strakhova-m1264944025722880",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264944090734592",
@@ -3016,7 +2958,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/tamara-zidansek-alicia-herrero-linana-m1264944090734592",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264944738766848",
@@ -3074,7 +3016,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/diletta-cherubini-bianca-vanessa-andreescu-m1264944738766848",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     },
     {
       "id": "betclic:1264944803762176",
@@ -3132,7 +3074,7 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/nadia-podoroska-miriam-bianca-bulgaru-m1264944803762176",
       "tour": "WTA",
-      "observed_at": "2026-10-28T08:40:36.459678+00:00"
+      "observed_at": "2026-10-28T10:40:41.238405+00:00"
     }
   ]
 }
