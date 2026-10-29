@@ -2908,8 +2908,8 @@
         "start_at": "2026-10-29T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/ben-shelton-jerome-kym-m1264576629870592",
         "status": "pendente",
-        "last_odds": 1.23,
-        "last_seen": "2026-10-29T12:40:39.442222+00:00"
+        "last_odds": 1.27,
+        "last_seen": "2026-10-29T14:40:39.516894+00:00"
       },
       {
         "match_id": "betclic:1264275967463424",
@@ -2957,8 +2957,8 @@
         "start_at": "2026-10-29T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/daniel-altmaier-jiri-lehecka-m1264660915441664",
         "status": "pendente",
-        "last_odds": 1.15,
-        "last_seen": "2026-10-29T12:40:39.442222+00:00"
+        "last_odds": 1.14,
+        "last_seen": "2026-10-29T14:40:39.516894+00:00"
       },
       {
         "match_id": "betclic:1264417572421632",
@@ -2972,9 +2972,10 @@
         "p": 0.7592,
         "start_at": "2026-10-29T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/basileia-atp-c2152/valentin-vacherot-rafael-jodar-m1264417572421632",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.31,
-        "last_seen": "2026-10-29T10:40:43.685273+00:00"
+        "last_seen": "2026-10-29T10:40:43.685273+00:00",
+        "score": "7-6 2-6 7-6"
       }
     ],
     "odds": 1.44,
@@ -2983,7 +2984,9 @@
     "stake": 2.36,
     "stake_pct": 0.0305,
     "bank_at_pick": 77.42,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -2.36,
+    "settled_at": "2026-10-29T14:40:33.559774+00:00"
   },
   {
     "id": "p:betclic:1264427544371200|betclic:1264944090734592",
@@ -3002,9 +3005,10 @@
         "p": 0.7953,
         "start_at": "2026-10-29T12:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/tommy-paul-luciano-darderi-m1264427544371200",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.22,
-        "last_seen": "2026-10-29T10:40:43.685273+00:00"
+        "last_seen": "2026-10-29T10:40:43.685273+00:00",
+        "score": "6-1 6-1"
       },
       {
         "match_id": "betclic:1264944090734592",
@@ -3019,8 +3023,8 @@
         "start_at": "2026-10-29T20:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/tamara-zidansek-alicia-herrero-linana-m1264944090734592",
         "status": "pendente",
-        "last_odds": 1.26,
-        "last_seen": "2026-10-29T12:40:39.442222+00:00"
+        "last_odds": 1.27,
+        "last_seen": "2026-10-29T14:40:39.516894+00:00"
       }
     ],
     "odds": 1.49,
