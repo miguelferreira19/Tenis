@@ -3024,7 +3024,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/tamara-zidansek-alicia-herrero-linana-m1264944090734592",
         "status": "pendente",
         "last_odds": 1.27,
-        "last_seen": "2026-10-29T20:40:39.981034+00:00"
+        "last_seen": "2026-10-29T22:40:43.174773+00:00"
       }
     ],
     "odds": 1.49,
@@ -3054,7 +3054,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/adrian-mannarino-daniil-medvedev-m1266242141831168",
         "status": "pendente",
         "last_odds": 1.17,
-        "last_seen": "2026-10-29T20:40:39.981034+00:00"
+        "last_seen": "2026-10-29T22:40:43.174773+00:00"
       },
       {
         "match_id": "betclic:1266349435265024",
@@ -3069,13 +3069,59 @@
         "start_at": "2026-10-30T14:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/tommy-paul-carlos-alcaraz-m1266349435265024",
         "status": "pendente",
-        "last_odds": 1.21,
-        "last_seen": "2026-10-29T20:40:39.981034+00:00"
+        "last_odds": 1.22,
+        "last_seen": "2026-10-29T22:40:43.174773+00:00"
       }
     ],
     "odds": 1.42,
     "p": 0.656,
     "ev": -0.0713,
+    "stake": 1.38,
+    "stake_pct": 0.02,
+    "bank_at_pick": 68.83,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1266068460929024|betclic:1266398887149568",
+    "created_at": "2026-10-29T22:40:36.962830+00:00",
+    "start_at": "2026-10-30T05:30:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1266398887149568",
+        "tour": "WTA",
+        "competition": "Curitiba WTA Challenger",
+        "player_a": "Francesca Jones",
+        "player_b": "Nauhany Vitoria Leme Da Silva",
+        "side": "a",
+        "pick": "Francesca Jones",
+        "odds": 1.15,
+        "p": 0.8338,
+        "start_at": "2026-10-30T17:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/francesca-jones-nauhany-vitoria-leme-da-silva-m1266398887149568",
+        "status": "pendente",
+        "last_odds": 1.15,
+        "last_seen": "2026-10-29T22:40:43.174773+00:00"
+      },
+      {
+        "match_id": "betclic:1266068460929024",
+        "tour": "WTA",
+        "competition": "Tóquio WTA",
+        "player_a": "Elena Rybakina",
+        "player_b": "Leylah Annie Fernandez",
+        "side": "a",
+        "pick": "Elena Rybakina",
+        "odds": 1.25,
+        "p": 0.7798,
+        "start_at": "2026-10-30T05:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/toquio-wta-c277/elena-rybakina-leylah-annie-fernandez-m1266068460929024",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-10-29T22:40:43.174773+00:00"
+      }
+    ],
+    "odds": 1.44,
+    "p": 0.6501,
+    "ev": -0.0654,
     "stake": 1.38,
     "stake_pct": 0.02,
     "bank_at_pick": 68.83,
