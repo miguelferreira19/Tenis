@@ -3057,9 +3057,10 @@
         "p": 0.8249,
         "start_at": "2026-10-30T12:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/adrian-mannarino-daniil-medvedev-m1266242141831168",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.2,
-        "last_seen": "2026-10-30T10:40:47.792604+00:00"
+        "last_seen": "2026-10-30T10:40:47.792604+00:00",
+        "score": "2-6 3-6"
       },
       {
         "match_id": "betclic:1266349435265024",
@@ -3104,8 +3105,8 @@
         "start_at": "2026-10-30T17:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/curitiba-wta-challenger-c41468/francesca-jones-nauhany-vitoria-leme-da-silva-m1266398887149568",
         "status": "pendente",
-        "last_odds": 1.26,
-        "last_seen": "2026-10-30T12:40:43.141898+00:00"
+        "last_odds": 1.29,
+        "last_seen": "2026-10-30T14:40:39.799965+00:00"
       },
       {
         "match_id": "betclic:1266068460929024",
@@ -3150,8 +3151,8 @@
         "start_at": "2026-10-31T00:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/fiona-ferro-elizabeth-mandlik-m1266462070153216",
         "status": "pendente",
-        "last_odds": 1.2,
-        "last_seen": "2026-10-30T12:40:43.141898+00:00"
+        "last_odds": 1.21,
+        "last_seen": "2026-10-30T14:40:39.799965+00:00"
       },
       {
         "match_id": "betclic:1266725055115377",
@@ -3167,7 +3168,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/queretaro-wta-challenger-c38893/alicia-herrero-linana-bianca-vanessa-andreescu-m1266725055115377",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-10-30T12:40:43.141898+00:00"
+        "last_seen": "2026-10-30T14:40:39.799965+00:00"
       }
     ],
     "odds": 1.4,
@@ -3196,8 +3197,8 @@
         "start_at": "2026-10-31T02:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-qual-c36360/tatiana-prozorova-hayu-kinoshita-m1266975272620032",
         "status": "pendente",
-        "last_odds": 1.15,
-        "last_seen": "2026-10-30T12:40:43.141898+00:00"
+        "last_odds": 1.16,
+        "last_seen": "2026-10-30T14:40:39.799965+00:00"
       },
       {
         "match_id": "betclic:1266975124770816",
@@ -3213,7 +3214,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-qual-c36360/elena-pridankina-ekaterine-gorgodze-m1266975124770816",
         "status": "pendente",
         "last_odds": 1.22,
-        "last_seen": "2026-10-30T12:40:43.141898+00:00"
+        "last_seen": "2026-10-30T14:40:39.799965+00:00"
       }
     ],
     "odds": 1.4,
