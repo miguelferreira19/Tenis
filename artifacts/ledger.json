@@ -3259,8 +3259,8 @@
         "start_at": "2026-11-01T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alejandro-tabilo-rafael-jodar-m1267801210773504",
         "status": "pendente",
-        "last_odds": 1.15,
-        "last_seen": "2026-10-31T14:40:36.773289+00:00"
+        "last_odds": 1.17,
+        "last_seen": "2026-10-31T16:40:32.687888+00:00"
       },
       {
         "match_id": "betclic:1267894067425280",
@@ -3276,7 +3276,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-qual-c36360/tatiana-prozorova-mika-stojsavljevic-m1267894067425280",
         "status": "pendente",
         "last_odds": 1.24,
-        "last_seen": "2026-10-31T14:40:36.773289+00:00"
+        "last_seen": "2026-10-31T16:40:32.687888+00:00"
       }
     ],
     "odds": 1.43,
