@@ -3240,5 +3240,51 @@
     "status": "ganha",
     "pnl": 0.54,
     "settled_at": "2026-10-31T06:40:32.920335+00:00"
+  },
+  {
+    "id": "p:betclic:1267801210773504|betclic:1267894067425280",
+    "created_at": "2026-10-31T14:40:36.741654+00:00",
+    "start_at": "2026-11-01T02:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1267801210773504",
+        "tour": "ATP",
+        "competition": "Paris Masters ATP",
+        "player_a": "Alejandro Tabilo",
+        "player_b": "Rafael Jodar",
+        "side": "b",
+        "pick": "Rafael Jodar",
+        "odds": 1.15,
+        "p": 0.838,
+        "start_at": "2026-11-01T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alejandro-tabilo-rafael-jodar-m1267801210773504",
+        "status": "pendente",
+        "last_odds": 1.15,
+        "last_seen": "2026-10-31T14:40:36.773289+00:00"
+      },
+      {
+        "match_id": "betclic:1267894067425280",
+        "tour": "WTA",
+        "competition": "Hong Kong WTA - Qual.",
+        "player_a": "Tatiana Prozorova",
+        "player_b": "Mika Stojsavljevic",
+        "side": "a",
+        "pick": "Tatiana Prozorova",
+        "odds": 1.24,
+        "p": 0.785,
+        "start_at": "2026-11-01T02:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-qual-c36360/tatiana-prozorova-mika-stojsavljevic-m1267894067425280",
+        "status": "pendente",
+        "last_odds": 1.24,
+        "last_seen": "2026-10-31T14:40:36.773289+00:00"
+      }
+    ],
+    "odds": 1.43,
+    "p": 0.6578,
+    "ev": -0.0619,
+    "stake": 1.35,
+    "stake_pct": 0.02,
+    "bank_at_pick": 67.59,
+    "status": "pendente"
   }
 ]
