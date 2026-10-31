@@ -3223,9 +3223,10 @@
         "p": 0.7879,
         "start_at": "2026-10-31T03:10:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-qual-c36360/elena-pridankina-ekaterine-gorgodze-m1266975124770816",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.34,
-        "last_seen": "2026-10-31T02:40:39.964306+00:00"
+        "last_seen": "2026-10-31T02:40:39.964306+00:00",
+        "score": "6-1 4-6 6-1"
       }
     ],
     "odds": 1.4,
@@ -3234,6 +3235,8 @@
     "stake": 1.34,
     "stake_pct": 0.02,
     "bank_at_pick": 66.96,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.54,
+    "settled_at": "2026-10-31T06:40:32.920335+00:00"
   }
 ]
