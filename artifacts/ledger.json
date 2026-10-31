@@ -2762,7 +2762,7 @@
         "p": 0.7907,
         "start_at": "2026-10-28T10:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/viena-atp-c282/daniel-merida-aguilar-daniil-medvedev-m1261726366437376",
-        "status": "pendente",
+        "status": "anulada",
         "last_odds": 1.28,
         "last_seen": "2026-10-28T10:40:41.238405+00:00"
       }
@@ -2773,7 +2773,9 @@
     "stake": 1.82,
     "stake_pct": 0.0248,
     "bank_at_pick": 73.51,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.36,
+    "settled_at": "2026-10-31T10:40:33.489885+00:00"
   },
   {
     "id": "p:betclic:1263058542395392|betclic:1263759329878016|betclic:1263934296317952",
