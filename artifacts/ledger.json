@@ -3567,7 +3567,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/leylah-annie-fernandez-sofia-kenin-m1267958016929796",
         "status": "pendente",
         "last_odds": 1.29,
-        "last_seen": "2026-11-03T14:40:42.582957+00:00"
+        "last_seen": "2026-11-03T16:40:38.674912+00:00"
       }
     ],
     "odds": 1.45,
@@ -3597,7 +3597,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/suzan-lamens-kristina-kroitor-m1268237610278912",
         "status": "pendente",
         "last_odds": 1.08,
-        "last_seen": "2026-11-03T14:40:42.582957+00:00"
+        "last_seen": "2026-11-03T16:40:38.674912+00:00"
       },
       {
         "match_id": "betclic:1268240804245504",
@@ -3611,9 +3611,10 @@
         "p": 0.8326,
         "start_at": "2026-11-03T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/justina-mikulskyte-maayan-laron-m1268240804245504",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.13,
-        "last_seen": "2026-11-03T12:41:17.294251+00:00"
+        "last_seen": "2026-11-03T12:41:17.294251+00:00",
+        "score": "7-5 7-5"
       },
       {
         "match_id": "betclic:1269042364043271",
@@ -3638,6 +3639,52 @@
     "stake": 1.36,
     "stake_pct": 0.0199,
     "bank_at_pick": 68.18,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1270147014750208|betclic:1270704404205568",
+    "created_at": "2026-11-03T16:40:33.853529+00:00",
+    "start_at": "2026-11-04T10:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1270147014750208",
+        "tour": "WTA",
+        "competition": "Cali WTA Challenger",
+        "player_a": "Leolia Jeanjean",
+        "player_b": "Carolina Meligeni Rodrigues Alves",
+        "side": "a",
+        "pick": "Leolia Jeanjean",
+        "odds": 1.17,
+        "p": 0.7925,
+        "start_at": "2026-11-04T18:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leolia-jeanjean-carolina-meligeni-rodrigues-alves-m1270147014750208",
+        "status": "pendente",
+        "last_odds": 1.17,
+        "last_seen": "2026-11-03T16:40:38.674912+00:00"
+      },
+      {
+        "match_id": "betclic:1270704404205568",
+        "tour": "ATP",
+        "competition": "Paris Masters ATP",
+        "player_a": "Tomas Martin Etcheverry",
+        "player_b": "Alex De Minaur",
+        "side": "b",
+        "pick": "Alex De Minaur",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-11-04T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/tomas-martin-etcheverry-alex-de-minaur-m1270704404205568",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-11-03T16:40:38.674912+00:00"
+      }
+    ],
+    "odds": 1.46,
+    "p": 0.6095,
+    "ev": -0.1087,
+    "stake": 1.35,
+    "stake_pct": 0.02,
+    "bank_at_pick": 67.41,
     "status": "pendente"
   }
 ]
