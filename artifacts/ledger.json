@@ -3422,9 +3422,10 @@
         "p": 0.7651,
         "start_at": "2026-11-02T09:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/jodie-anna-burrage-vaishnavi-adkar-m1267977213202432",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.28,
-        "last_seen": "2026-11-03T10:40:42.144498+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00",
+        "score": "6-3 3-6 5-7"
       }
     ],
     "odds": 1.43,
@@ -3433,7 +3434,9 @@
     "stake": 1.35,
     "stake_pct": 0.02,
     "bank_at_pick": 67.59,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -1.35,
+    "settled_at": "2026-11-03T14:40:37.742438+00:00"
   },
   {
     "id": "p:betclic:1267957368905737|betclic:1268519441305600",
@@ -3545,9 +3548,10 @@
         "p": 0.8223,
         "start_at": "2026-11-03T09:30:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/viktoria-morvayova-polina-kudermetova-m1268969115770880",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.16,
-        "last_seen": "2026-11-03T10:40:42.144498+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00",
+        "score": "3-6 6-4 1-6"
       },
       {
         "match_id": "betclic:1267958016929796",
@@ -3563,7 +3567,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/leylah-annie-fernandez-sofia-kenin-m1267958016929796",
         "status": "pendente",
         "last_odds": 1.29,
-        "last_seen": "2026-11-03T12:41:17.294251+00:00"
+        "last_seen": "2026-11-03T14:40:42.582957+00:00"
       }
     ],
     "odds": 1.45,
@@ -3593,7 +3597,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/suzan-lamens-kristina-kroitor-m1268237610278912",
         "status": "pendente",
         "last_odds": 1.08,
-        "last_seen": "2026-11-03T12:41:17.294251+00:00"
+        "last_seen": "2026-11-03T14:40:42.582957+00:00"
       },
       {
         "match_id": "betclic:1268240804245504",
@@ -3624,8 +3628,8 @@
         "start_at": "2026-11-03T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/benjamin-bonzi-taylor-fritz-m1269042364043271",
         "status": "pendente",
-        "last_odds": 1.21,
-        "last_seen": "2026-11-03T12:41:17.294251+00:00"
+        "last_odds": 1.22,
+        "last_seen": "2026-11-03T14:40:42.582957+00:00"
       }
     ],
     "odds": 1.4,
