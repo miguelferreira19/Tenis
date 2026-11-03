@@ -3360,7 +3360,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/alycia-parks-alexandra-eala-m1267840106663936",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1267833469165568",
@@ -3374,9 +3374,10 @@
         "p": 0.7871,
         "start_at": "2026-11-02T02:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/maddison-inglis-maya-joint-m1267833469165568",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.28,
-        "last_seen": "2026-11-03T06:40:39.242844+00:00"
+        "last_seen": "2026-11-03T06:40:39.242844+00:00",
+        "score": "5-7 2-6"
       }
     ],
     "odds": 1.42,
@@ -3423,7 +3424,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/jodie-anna-burrage-vaishnavi-adkar-m1267977213202432",
         "status": "pendente",
         "last_odds": 1.28,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       }
     ],
     "odds": 1.43,
@@ -3453,7 +3454,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/maaya-rajeshwaran-revathi-katarzyna-kawa-m1267957368905737",
         "status": "pendente",
         "last_odds": 1.28,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1268519441305600",
@@ -3499,7 +3500,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/elena-pridankina-paula-badosa-gibert-m1268692653465600",
         "status": "pendente",
         "last_odds": 1.28,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1268692538126365",
@@ -3545,7 +3546,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/viktoria-morvayova-polina-kudermetova-m1268969115770880",
         "status": "pendente",
         "last_odds": 1.16,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1267958016929796",
@@ -3561,7 +3562,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/leylah-annie-fernandez-sofia-kenin-m1267958016929796",
         "status": "pendente",
         "last_odds": 1.29,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       }
     ],
     "odds": 1.45,
@@ -3590,8 +3591,8 @@
         "start_at": "2026-11-03T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/suzan-lamens-kristina-kroitor-m1268237610278912",
         "status": "pendente",
-        "last_odds": 1.06,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_odds": 1.08,
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1268240804245504",
@@ -3607,7 +3608,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/justina-mikulskyte-maayan-laron-m1268240804245504",
         "status": "pendente",
         "last_odds": 1.13,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       },
       {
         "match_id": "betclic:1269042364043271",
@@ -3623,7 +3624,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/benjamin-bonzi-taylor-fritz-m1269042364043271",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-11-03T08:40:39.330980+00:00"
+        "last_seen": "2026-11-03T10:40:42.144498+00:00"
       }
     ],
     "odds": 1.4,
