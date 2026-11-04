@@ -3598,9 +3598,10 @@
         "p": 0.8816,
         "start_at": "2026-11-03T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/suzan-lamens-kristina-kroitor-m1268237610278912",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.08,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T10:41:01.343047+00:00",
+        "score": "2-6 4-6"
       },
       {
         "match_id": "betclic:1268240804245504",
@@ -3643,7 +3644,9 @@
     "stake": 1.36,
     "stake_pct": 0.0199,
     "bank_at_pick": 68.18,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -1.36,
+    "settled_at": "2026-11-04T12:40:32.757174+00:00"
   },
   {
     "id": "p:betclic:1270147014750208|betclic:1270704404205568",
@@ -3663,8 +3666,8 @@
         "start_at": "2026-11-04T18:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leolia-jeanjean-carolina-meligeni-rodrigues-alves-m1270147014750208",
         "status": "pendente",
-        "last_odds": 1.18,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_odds": 1.17,
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       },
       {
         "match_id": "betclic:1270704404205568",
@@ -3679,8 +3682,8 @@
         "start_at": "2026-11-04T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/tomas-martin-etcheverry-alex-de-minaur-m1270704404205568",
         "status": "pendente",
-        "last_odds": 1.19,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_odds": 1.17,
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       }
     ],
     "odds": 1.46,
@@ -3709,8 +3712,8 @@
         "start_at": "2026-11-04T12:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ignacio-buse-daniil-medvedev-m1269815290384384",
         "status": "pendente",
-        "last_odds": 1.12,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_odds": 1.13,
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       },
       {
         "match_id": "betclic:1270686900318212",
@@ -3742,7 +3745,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/novak-djokovic-rinky-hijikata-m1270790037196800",
         "status": "pendente",
         "last_odds": 1.23,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       }
     ],
     "odds": 1.43,
@@ -3772,7 +3775,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-michelsen-carlos-alcaraz-m1270857306501120",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       },
       {
         "match_id": "betclic:1270858861547520",
@@ -3788,7 +3791,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-molcan-taylor-fritz-m1270858861547520",
         "status": "pendente",
         "last_odds": 1.2,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       }
     ],
     "odds": 1.4,
@@ -3818,7 +3821,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-zhibek-kulambayeva-m1270904539607042",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       },
       {
         "match_id": "betclic:1270638979338240",
@@ -3833,8 +3836,8 @@
         "start_at": "2026-11-05T06:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/sorana-cirstea-mary-stoiana-m1270638979338240",
         "status": "pendente",
-        "last_odds": 1.24,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_odds": 1.26,
+        "last_seen": "2026-11-04T12:40:39.039525+00:00"
       }
     ],
     "odds": 1.45,
