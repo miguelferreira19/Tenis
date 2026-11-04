@@ -3570,7 +3570,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/leylah-annie-fernandez-sofia-kenin-m1267958016929796",
         "status": "pendente",
         "last_odds": 1.28,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       }
     ],
     "odds": 1.45,
@@ -3600,7 +3600,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/suzan-lamens-kristina-kroitor-m1268237610278912",
         "status": "pendente",
         "last_odds": 1.08,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       },
       {
         "match_id": "betclic:1268240804245504",
@@ -3664,7 +3664,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leolia-jeanjean-carolina-meligeni-rodrigues-alves-m1270147014750208",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       },
       {
         "match_id": "betclic:1270704404205568",
@@ -3680,7 +3680,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/tomas-martin-etcheverry-alex-de-minaur-m1270704404205568",
         "status": "pendente",
         "last_odds": 1.19,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       }
     ],
     "odds": 1.46,
@@ -3710,7 +3710,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ignacio-buse-daniil-medvedev-m1269815290384384",
         "status": "pendente",
         "last_odds": 1.12,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       },
       {
         "match_id": "betclic:1270686900318212",
@@ -3726,7 +3726,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/franziska-sziedat-martyna-kubka-m1270686900318212",
         "status": "pendente",
         "last_odds": 1.03,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       },
       {
         "match_id": "betclic:1270790037196800",
@@ -3742,7 +3742,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/novak-djokovic-rinky-hijikata-m1270790037196800",
         "status": "pendente",
         "last_odds": 1.23,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       }
     ],
     "odds": 1.43,
@@ -3772,7 +3772,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-michelsen-carlos-alcaraz-m1270857306501120",
         "status": "pendente",
         "last_odds": 1.14,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       },
       {
         "match_id": "betclic:1270858861547520",
@@ -3788,12 +3788,58 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-molcan-taylor-fritz-m1270858861547520",
         "status": "pendente",
         "last_odds": 1.21,
-        "last_seen": "2026-11-04T02:40:42.946908+00:00"
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
       }
     ],
     "odds": 1.4,
     "p": 0.6623,
     "ev": -0.0708,
+    "stake": 1.32,
+    "stake_pct": 0.02,
+    "bank_at_pick": 66.06,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1270638979338240|betclic:1270904539607042",
+    "created_at": "2026-11-04T04:40:36.523071+00:00",
+    "start_at": "2026-11-05T06:00:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1270904539607042",
+        "tour": "WTA",
+        "competition": "Chennai WTA",
+        "player_a": "Mai Hontama",
+        "player_b": "Zhibek  Kulambayeva",
+        "side": "a",
+        "pick": "Mai Hontama",
+        "odds": 1.17,
+        "p": 0.8134,
+        "start_at": "2026-11-05T09:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-zhibek-kulambayeva-m1270904539607042",
+        "status": "pendente",
+        "last_odds": 1.17,
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
+      },
+      {
+        "match_id": "betclic:1270638979338240",
+        "tour": "WTA",
+        "competition": "Hong Kong WTA",
+        "player_a": "Sorana Cirstea",
+        "player_b": "Mary Stoiana",
+        "side": "a",
+        "pick": "Sorana Cirstea",
+        "odds": 1.24,
+        "p": 0.7651,
+        "start_at": "2026-11-05T06:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/sorana-cirstea-mary-stoiana-m1270638979338240",
+        "status": "pendente",
+        "last_odds": 1.24,
+        "last_seen": "2026-11-04T04:40:43.213088+00:00"
+      }
+    ],
+    "odds": 1.45,
+    "p": 0.6223,
+    "ev": -0.0971,
     "stake": 1.32,
     "stake_pct": 0.02,
     "bank_at_pick": 66.06,
