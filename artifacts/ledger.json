@@ -3667,7 +3667,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leolia-jeanjean-carolina-meligeni-rodrigues-alves-m1270147014750208",
         "status": "pendente",
         "last_odds": 1.17,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
       },
       {
         "match_id": "betclic:1270704404205568",
@@ -3727,9 +3727,10 @@
         "p": 0.861,
         "start_at": "2026-11-04T09:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/franziska-sziedat-martyna-kubka-m1270686900318212",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.03,
-        "last_seen": "2026-11-04T10:41:01.343047+00:00"
+        "last_seen": "2026-11-04T10:41:01.343047+00:00",
+        "score": "3-6 3-6"
       },
       {
         "match_id": "betclic:1270790037196800",
@@ -3775,7 +3776,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-michelsen-carlos-alcaraz-m1270857306501120",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
       },
       {
         "match_id": "betclic:1270858861547520",
@@ -3790,8 +3791,8 @@
         "start_at": "2026-11-04T13:50:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-molcan-taylor-fritz-m1270858861547520",
         "status": "pendente",
-        "last_odds": 1.2,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_odds": 1.21,
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
       }
     ],
     "odds": 1.4,
@@ -3821,7 +3822,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-zhibek-kulambayeva-m1270904539607042",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
       },
       {
         "match_id": "betclic:1270638979338240",
@@ -3837,7 +3838,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/sorana-cirstea-mary-stoiana-m1270638979338240",
         "status": "pendente",
         "last_odds": 1.26,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
       }
     ],
     "odds": 1.45,
@@ -3846,6 +3847,68 @@
     "stake": 1.32,
     "stake_pct": 0.02,
     "bank_at_pick": 66.06,
+    "status": "pendente"
+  },
+  {
+    "id": "p:betclic:1270716428218368|betclic:1270845349580800|betclic:1271563400810496",
+    "created_at": "2026-11-04T14:40:37.670461+00:00",
+    "start_at": "2026-11-05T03:30:00+00:00",
+    "legs": [
+      {
+        "match_id": "betclic:1270845349580800",
+        "tour": "WTA",
+        "competition": "Luanda WTA Challenger",
+        "player_a": "Anna Blinkova",
+        "player_b": "Zongyu Li",
+        "side": "a",
+        "pick": "Anna Blinkova",
+        "odds": 1.04,
+        "p": 0.9167,
+        "start_at": "2026-11-05T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/anna-blinkova-zongyu-li-m1270845349580800",
+        "status": "pendente",
+        "last_odds": 1.04,
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+      },
+      {
+        "match_id": "betclic:1270716428218368",
+        "tour": "WTA",
+        "competition": "Chennai WTA",
+        "player_a": "Anastasia Zakharova",
+        "player_b": "Vaishnavi Adkar",
+        "side": "a",
+        "pick": "Anastasia Zakharova",
+        "odds": 1.1,
+        "p": 0.8772,
+        "start_at": "2026-11-05T03:30:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/anastasia-zakharova-vaishnavi-adkar-m1270716428218368",
+        "status": "pendente",
+        "last_odds": 1.1,
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+      },
+      {
+        "match_id": "betclic:1271563400810496",
+        "tour": "ATP",
+        "competition": "Paris Masters ATP",
+        "player_a": "Ben Shelton",
+        "player_b": "Arthur Rinderknech",
+        "side": "a",
+        "pick": "Ben Shelton",
+        "odds": 1.25,
+        "p": 0.769,
+        "start_at": "2026-11-05T10:00:00+00:00",
+        "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ben-shelton-arthur-rinderknech-m1271563400810496",
+        "status": "pendente",
+        "last_odds": 1.25,
+        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+      }
+    ],
+    "odds": 1.43,
+    "p": 0.6184,
+    "ev": -0.1157,
+    "stake": 1.29,
+    "stake_pct": 0.0199,
+    "bank_at_pick": 64.7,
     "status": "pendente"
   }
 ]
