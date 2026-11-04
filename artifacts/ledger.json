@@ -3681,9 +3681,10 @@
         "p": 0.769,
         "start_at": "2026-11-04T10:00:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/tomas-martin-etcheverry-alex-de-minaur-m1270704404205568",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.17,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00",
+        "score": "7-6 6-3"
       }
     ],
     "odds": 1.46,
@@ -3692,7 +3693,9 @@
     "stake": 1.35,
     "stake_pct": 0.02,
     "bank_at_pick": 67.41,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -1.35,
+    "settled_at": "2026-11-04T16:40:31.588588+00:00"
   },
   {
     "id": "p:betclic:1269815290384384|betclic:1270686900318212|betclic:1270790037196800",
@@ -3711,9 +3714,10 @@
         "p": 0.8695,
         "start_at": "2026-11-04T12:20:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ignacio-buse-daniil-medvedev-m1269815290384384",
-        "status": "pendente",
+        "status": "perdida",
         "last_odds": 1.13,
-        "last_seen": "2026-11-04T12:40:39.039525+00:00"
+        "last_seen": "2026-11-04T12:40:39.039525+00:00",
+        "score": "6-4 6-4"
       },
       {
         "match_id": "betclic:1270686900318212",
@@ -3755,7 +3759,9 @@
     "stake": 1.32,
     "stake_pct": 0.02,
     "bank_at_pick": 66.06,
-    "status": "pendente"
+    "status": "perdida",
+    "pnl": -1.32,
+    "settled_at": "2026-11-04T16:40:31.588588+00:00"
   },
   {
     "id": "p:betclic:1270857306501120|betclic:1270858861547520",
@@ -3776,7 +3782,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-michelsen-carlos-alcaraz-m1270857306501120",
         "status": "pendente",
         "last_odds": 1.15,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       },
       {
         "match_id": "betclic:1270858861547520",
@@ -3822,7 +3828,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-zhibek-kulambayeva-m1270904539607042",
         "status": "pendente",
         "last_odds": 1.18,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       },
       {
         "match_id": "betclic:1270638979338240",
@@ -3838,7 +3844,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/sorana-cirstea-mary-stoiana-m1270638979338240",
         "status": "pendente",
         "last_odds": 1.26,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       }
     ],
     "odds": 1.45,
@@ -3868,7 +3874,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/anna-blinkova-zongyu-li-m1270845349580800",
         "status": "pendente",
         "last_odds": 1.04,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       },
       {
         "match_id": "betclic:1270716428218368",
@@ -3884,7 +3890,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/anastasia-zakharova-vaishnavi-adkar-m1270716428218368",
         "status": "pendente",
         "last_odds": 1.1,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       },
       {
         "match_id": "betclic:1271563400810496",
@@ -3900,7 +3906,7 @@
         "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ben-shelton-arthur-rinderknech-m1271563400810496",
         "status": "pendente",
         "last_odds": 1.25,
-        "last_seen": "2026-11-04T14:40:44.488803+00:00"
+        "last_seen": "2026-11-04T16:40:38.042437+00:00"
       }
     ],
     "odds": 1.43,
