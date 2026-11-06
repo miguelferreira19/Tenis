@@ -1,280 +1,48 @@
 {
-  "observed_at": "2026-11-04T16:40:38.042437+00:00",
-  "competitions": 27,
+  "observed_at": "2026-11-06T08:52:32.715283+00:00",
+  "competitions": 28,
   "matches": [
     {
-      "id": "betclic:1270757332123648",
+      "id": "betclic:1272523997081600",
       "competition": "Paris Masters ATP",
-      "start_at": "2026-11-04T17:00:00+00:00",
-      "live": false,
-      "player_a": "Matteo Berrettini",
-      "player_b": "Ugo Humbert",
-      "odds_a": 1.97,
-      "odds_b": 1.74,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270799037124616",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270799037124616",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270799037141028",
-          "1270799037141029"
-        ],
-        "selection_market_ids": [
-          "1270799037124616",
-          "1270799037124616"
-        ],
-        "selection_names": [
-          "Matteo Berrettini",
-          "Ugo Humbert"
-        ],
-        "selection_contestant_ids": [
-          "543832026210577",
-          "543832117736241"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543832026210577",
-            "contestant:543832117736241"
-          ],
-          [
-            "contestant:543832026210577",
-            "contestant:543832117736241"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543832026210577",
-            "name": "Matteo Berrettini"
-          },
-          {
-            "id": "543832117736241",
-            "name": "Ugo Humbert"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/matteo-berrettini-ugo-humbert-m1270757332123648",
-      "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270917756907520",
-      "competition": "Paris Masters ATP",
-      "start_at": "2026-11-04T17:00:00+00:00",
-      "live": false,
-      "player_a": "Thiago Agustin Tirante",
-      "player_b": "Jan-Lennard  Struff",
-      "odds_a": 2.7,
-      "odds_b": 1.41,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270963191701517",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270963191701517",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270963191705630",
-          "1270963191705631"
-        ],
-        "selection_market_ids": [
-          "1270963191701517",
-          "1270963191701517"
-        ],
-        "selection_names": [
-          "Thiago Agustin Tirante",
-          "Jan-Lennard  Struff"
-        ],
-        "selection_contestant_ids": [
-          "543834383409345",
-          "543832482639961"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543834383409345",
-            "contestant:543832482639961"
-          ],
-          [
-            "contestant:543834383409345",
-            "contestant:543832482639961"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543834383409345",
-            "name": "Thiago Agustin Tirante"
-          },
-          {
-            "id": "543832482639961",
-            "name": "Jan-Lennard  Struff"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/thiago-agustin-tirante-jan-lennard-struff-m1270917756907520",
-      "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270857306501120",
-      "competition": "Paris Masters ATP",
-      "start_at": "2026-11-04T18:00:00+00:00",
-      "live": false,
-      "player_a": "Alex Michelsen",
-      "player_b": "Carlos Alcaraz",
-      "odds_a": 4.7,
-      "odds_b": 1.15,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270912332619900",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270912332619900",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270912333672468",
-          "1270912333672469"
-        ],
-        "selection_market_ids": [
-          "1270912332619900",
-          "1270912332619900"
-        ],
-        "selection_names": [
-          "Alex Michelsen",
-          "Carlos Alcaraz"
-        ],
-        "selection_contestant_ids": [
-          "543833111785677",
-          "543831832224136"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543833111785677",
-            "contestant:543831832224136"
-          ],
-          [
-            "contestant:543833111785677",
-            "contestant:543831832224136"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543833111785677",
-            "name": "Alex Michelsen"
-          },
-          {
-            "id": "543831832224136",
-            "name": "Carlos Alcaraz"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/alex-michelsen-carlos-alcaraz-m1270857306501120",
-      "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1269976194371584",
-      "competition": "Paris Masters ATP",
-      "start_at": "2026-11-04T19:30:00+00:00",
-      "live": false,
-      "player_a": "Arthur Fils",
-      "player_b": "Tomas Machac",
-      "odds_a": 1.5,
-      "odds_b": 2.41,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1269976195428360",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1269976195428360",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1269976195436564",
-          "1269976195436565"
-        ],
-        "selection_market_ids": [
-          "1269976195428360",
-          "1269976195428360"
-        ],
-        "selection_names": [
-          "Arthur Fils",
-          "Tomas Machac"
-        ],
-        "selection_contestant_ids": [
-          "543832117736294",
-          "543832934278094"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543832117736294",
-            "contestant:543832934278094"
-          ],
-          [
-            "contestant:543832117736294",
-            "contestant:543832934278094"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543832117736294",
-            "name": "Arthur Fils"
-          },
-          {
-            "id": "543832934278094",
-            "name": "Tomas Machac"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/arthur-fils-tomas-machac-m1269976194371584",
-      "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1271563400810496",
-      "competition": "Paris Masters ATP",
-      "start_at": "2026-11-05T10:00:00+00:00",
+      "start_at": "2026-11-06T13:00:00+00:00",
       "live": false,
       "player_a": "Ben Shelton",
-      "player_b": "Arthur Rinderknech",
-      "odds_a": 1.25,
-      "odds_b": 3.35,
+      "player_b": "Tommy Paul",
+      "odds_a": 2.05,
+      "odds_b": 1.69,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271563401850887",
+      "market_id": "1272575641542664",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271563401850887",
+        "market_id": "1272575641542664",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271563401842706",
-          "1271563401842707"
+          "1272575641546772",
+          "1272575641546773"
         ],
         "selection_market_ids": [
-          "1271563401850887",
-          "1271563401850887"
+          "1272575641542664",
+          "1272575641542664"
         ],
         "selection_names": [
           "Ben Shelton",
-          "Arthur Rinderknech"
+          "Tommy Paul"
         ],
         "selection_contestant_ids": [
           "543832201322916",
-          "543832308576397"
+          "543843428426008"
         ],
         "selection_contestant_keys": [
           [
             "contestant:543832201322916",
-            "contestant:543832308576397"
+            "contestant:543843428426008"
           ],
           [
             "contestant:543832201322916",
-            "contestant:543832308576397"
+            "contestant:543843428426008"
           ]
         ],
         "contestants": [
@@ -283,362 +51,188 @@
             "name": "Ben Shelton"
           },
           {
-            "id": "543832308576397",
-            "name": "Arthur Rinderknech"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ben-shelton-arthur-rinderknech-m1271563400810496",
-      "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1271596167761920",
-      "competition": "Paris Masters ATP",
-      "start_at": "2026-11-05T10:00:00+00:00",
-      "live": false,
-      "player_a": "Tommy Paul",
-      "player_b": "Quentin Halys",
-      "odds_a": 1.27,
-      "odds_b": 3.2,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1271596168794119",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271596168794119",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1271596168806418",
-          "1271596168806419"
-        ],
-        "selection_market_ids": [
-          "1271596168794119",
-          "1271596168794119"
-        ],
-        "selection_names": [
-          "Tommy Paul",
-          "Quentin Halys"
-        ],
-        "selection_contestant_ids": [
-          "543843428426008",
-          "543832734298839"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543843428426008",
-            "contestant:543832734298839"
-          ],
-          [
-            "contestant:543843428426008",
-            "contestant:543832734298839"
-          ]
-        ],
-        "contestants": [
-          {
             "id": "543843428426008",
             "name": "Tommy Paul"
-          },
-          {
-            "id": "543832734298839",
-            "name": "Quentin Halys"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/tommy-paul-quentin-halys-m1271596167761920",
+      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/ben-shelton-tommy-paul-m1272523997081600",
       "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1271640638918656",
+      "id": "betclic:1272633701191680",
       "competition": "Paris Masters ATP",
-      "start_at": "2026-11-05T10:00:00+00:00",
+      "start_at": "2026-11-06T14:10:00+00:00",
       "live": false,
-      "player_a": "Lorenzo Musetti",
-      "player_b": "Luca van Assche",
-      "odds_a": 1.3,
-      "odds_b": 3.05,
+      "player_a": "Luca van Assche",
+      "player_b": "Rinky Hijikata",
+      "odds_a": 1.56,
+      "odds_b": 2.28,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271650213457928",
+      "market_id": "1272655121502216",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271650213457928",
+        "market_id": "1272655121502216",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271650214510612",
-          "1271650214510613"
+          "1272655121510452",
+          "1272655121510453"
         ],
         "selection_market_ids": [
-          "1271650213457928",
-          "1271650213457928"
+          "1272655121502216",
+          "1272655121502216"
         ],
         "selection_names": [
-          "Lorenzo Musetti",
-          "Luca van Assche"
+          "Luca van Assche",
+          "Rinky Hijikata"
         ],
         "selection_contestant_ids": [
-          "543832201322611",
-          "543832558138260"
+          "543832558138260",
+          "543833340076386"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543832201322611",
-            "contestant:543832558138260"
+            "contestant:543832558138260",
+            "contestant:543833340076386"
           ],
           [
-            "contestant:543832201322611",
-            "contestant:543832558138260"
+            "contestant:543832558138260",
+            "contestant:543833340076386"
           ]
         ],
         "contestants": [
-          {
-            "id": "543832201322611",
-            "name": "Lorenzo Musetti"
-          },
           {
             "id": "543832558138260",
             "name": "Luca van Assche"
+          },
+          {
+            "id": "543833340076386",
+            "name": "Rinky Hijikata"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/lorenzo-musetti-luca-van-assche-m1271640638918656",
+      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/luca-van-assche-rinky-hijikata-m1272633701191680",
       "tour": "ATP",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1270830255329282",
-      "competition": "Chennai WTA",
-      "start_at": "2026-11-05T09:30:00+00:00",
+      "id": "betclic:1272719886798848",
+      "competition": "Paris Masters ATP",
+      "start_at": "2026-11-06T18:00:00+00:00",
       "live": false,
-      "player_a": "Moyuka Uchijima",
-      "player_b": "Magda Linette",
-      "odds_a": 2.03,
-      "odds_b": 1.64,
+      "player_a": "Taylor Fritz",
+      "player_b": "Carlos Alcaraz",
+      "odds_a": 3.15,
+      "odds_b": 1.31,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1270871776845831",
+      "market_id": "1272748786618376",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270871776845831",
+        "market_id": "1272748786618376",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1270871776849938",
-          "1270871776849939"
+          "1272748786606100",
+          "1272748786606101"
         ],
         "selection_market_ids": [
-          "1270871776845831",
-          "1270871776845831"
+          "1272748786618376",
+          "1272748786618376"
         ],
         "selection_names": [
-          "Moyuka Uchijima",
-          "Magda Linette"
+          "Taylor Fritz",
+          "Carlos Alcaraz"
         ],
         "selection_contestant_ids": [
-          "543834383409393",
-          "543832308577152"
+          "543843398317016",
+          "543831832224136"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543834383409393",
-            "contestant:543832308577152"
+            "contestant:543843398317016",
+            "contestant:543831832224136"
           ],
           [
-            "contestant:543834383409393",
-            "contestant:543832308577152"
+            "contestant:543843398317016",
+            "contestant:543831832224136"
           ]
         ],
         "contestants": [
           {
-            "id": "543834383409393",
-            "name": "Moyuka Uchijima"
+            "id": "543843398317016",
+            "name": "Taylor Fritz"
           },
           {
-            "id": "543832308577152",
-            "name": "Magda Linette"
+            "id": "543831832224136",
+            "name": "Carlos Alcaraz"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/moyuka-uchijima-magda-linette-m1270830255329282",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/taylor-fritz-carlos-alcaraz-m1272719886798848",
+      "tour": "ATP",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1270904539607042",
-      "competition": "Chennai WTA",
-      "start_at": "2026-11-05T09:30:00+00:00",
+      "id": "betclic:1272773371523072",
+      "competition": "Paris Masters ATP",
+      "start_at": "2026-11-06T19:30:00+00:00",
       "live": false,
-      "player_a": "Mai Hontama",
-      "player_b": "Zhibek  Kulambayeva",
-      "odds_a": 1.18,
-      "odds_b": 3.95,
+      "player_a": "Casper Ruud",
+      "player_b": "Nuno Borges",
+      "odds_a": 1.42,
+      "odds_b": 2.65,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1270986292883480",
+      "market_id": "1272796162326535",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270986292883480",
+        "market_id": "1272796162326535",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1270986292879380",
-          "1270986292879381"
+          "1272796162330642",
+          "1272796162330643"
         ],
         "selection_market_ids": [
-          "1270986292883480",
-          "1270986292883480"
+          "1272796162326535",
+          "1272796162326535"
         ],
         "selection_names": [
-          "Mai Hontama",
-          "Zhibek  Kulambayeva"
+          "Casper Ruud",
+          "Nuno Borges"
         ],
         "selection_contestant_ids": [
-          "543838088327776",
-          "543839071592655"
+          "543843398316924",
+          "543832653558444"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543838088327776",
-            "contestant:543839071592655"
+            "contestant:543843398316924",
+            "contestant:543832653558444"
           ],
           [
-            "contestant:543838088327776",
-            "contestant:543839071592655"
+            "contestant:543843398316924",
+            "contestant:543832653558444"
           ]
         ],
         "contestants": [
           {
-            "id": "543838088327776",
-            "name": "Mai Hontama"
+            "id": "543843398316924",
+            "name": "Casper Ruud"
           },
           {
-            "id": "543839071592655",
-            "name": "Zhibek  Kulambayeva"
+            "id": "543832653558444",
+            "name": "Nuno Borges"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-zhibek-kulambayeva-m1270904539607042",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270942917484544",
-      "competition": "Chennai WTA",
-      "start_at": "2026-11-05T10:40:00+00:00",
-      "live": false,
-      "player_a": "Simona Waltert",
-      "player_b": "Lucrezia Stefanini",
-      "odds_a": 2.38,
-      "odds_b": 1.47,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270964895637512",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270964895637512",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270964896690196",
-          "1270964896690197"
-        ],
-        "selection_market_ids": [
-          "1270964895637512",
-          "1270964895637512"
-        ],
-        "selection_names": [
-          "Simona Waltert",
-          "Lucrezia Stefanini"
-        ],
-        "selection_contestant_ids": [
-          "543834530509529",
-          "543833830810211"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543834530509529",
-            "contestant:543833830810211"
-          ],
-          [
-            "contestant:543834530509529",
-            "contestant:543833830810211"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543834530509529",
-            "name": "Simona Waltert"
-          },
-          {
-            "id": "543833830810211",
-            "name": "Lucrezia Stefanini"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/simona-waltert-lucrezia-stefanini-m1270942917484544",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270716428218368",
-      "competition": "Chennai WTA",
-      "start_at": "2026-11-05T13:30:00+00:00",
-      "live": false,
-      "player_a": "Anastasia Zakharova",
-      "player_b": "Vaishnavi Adkar",
-      "odds_a": 1.1,
-      "odds_b": 5.2,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270871799918599",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270871799918599",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270871799910418",
-          "1270871799910419"
-        ],
-        "selection_market_ids": [
-          "1270871799918599",
-          "1270871799918599"
-        ],
-        "selection_names": [
-          "Anastasia Zakharova",
-          "Vaishnavi Adkar"
-        ],
-        "selection_contestant_ids": [
-          "543833737785532",
-          "543839799304429"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543833737785532",
-            "contestant:543839799304429"
-          ],
-          [
-            "contestant:543833737785532",
-            "contestant:543839799304429"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543833737785532",
-            "name": "Anastasia Zakharova"
-          },
-          {
-            "id": "543839799304429",
-            "name": "Vaishnavi Adkar"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/anastasia-zakharova-vaishnavi-adkar-m1270716428218368",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "url": "https://www.betclic.pt/tenis-stennis/paris-masters-atp-c312/casper-ruud-nuno-borges-m1272773371523072",
+      "tour": "ATP",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
       "id": "betclic:1271664163708928",
@@ -647,7 +241,7 @@
       "live": false,
       "player_a": "Janice Tjen",
       "player_b": "Polina Kudermetova",
-      "odds_a": 1.38,
+      "odds_a": 1.47,
       "odds_b": 2.5,
       "market_type": "match_winner",
       "market_verified": true,
@@ -696,307 +290,191 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/janice-tjen-polina-kudermetova-m1271664163708928",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1270756196515840",
-      "competition": "Hong Kong WTA",
-      "start_at": "2026-11-05T06:00:00+00:00",
+      "id": "betclic:1271746620588033",
+      "competition": "Chennai WTA",
+      "start_at": "2026-11-06T10:40:00+00:00",
       "live": false,
-      "player_a": "Elena Pridankina",
-      "player_b": "Alexandra Shubladze",
-      "odds_a": 2.55,
-      "odds_b": 1.41,
+      "player_a": "Robin Montgomery",
+      "player_b": "Maaya Rajeshwaran Revathi",
+      "odds_a": 1.14,
+      "odds_b": 4.9,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1270756196515854",
+      "market_id": "1271746621632571",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270756196515854",
+        "market_id": "1271746621632571",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1270756197564450",
-          "1270756197564451"
+          "1271746621628436",
+          "1271746621628437"
         ],
         "selection_market_ids": [
-          "1270756196515854",
-          "1270756196515854"
+          "1271746621632571",
+          "1271746621632571"
         ],
         "selection_names": [
-          "Elena Pridankina",
-          "Alexandra Shubladze"
+          "Robin Montgomery",
+          "Maaya Rajeshwaran Revathi"
         ],
         "selection_contestant_ids": [
-          "543838124728769",
-          "543838154387782"
+          "543834160361606",
+          "543841364079590"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543838124728769",
-            "contestant:543838154387782"
+            "contestant:543834160361606",
+            "contestant:543841364079590"
           ],
           [
-            "contestant:543838124728769",
-            "contestant:543838154387782"
+            "contestant:543834160361606",
+            "contestant:543841364079590"
           ]
         ],
         "contestants": [
           {
-            "id": "543838124728769",
-            "name": "Elena Pridankina"
+            "id": "543834160361606",
+            "name": "Robin Montgomery"
           },
           {
-            "id": "543838154387782",
-            "name": "Alexandra Shubladze"
+            "id": "543841364079590",
+            "name": "Maaya Rajeshwaran Revathi"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/elena-pridankina-alexandra-shubladze-m1270756196515840",
+      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/robin-montgomery-maaya-rajeshwaran-revathi-m1271746620588033",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1271501035704320",
-      "competition": "Hong Kong WTA",
-      "start_at": "2026-11-05T06:00:00+00:00",
+      "id": "betclic:1272516463058944",
+      "competition": "Chennai WTA",
+      "start_at": "2026-11-06T11:50:00+00:00",
       "live": false,
-      "player_a": "Xin Yu Wang",
-      "player_b": "Antonia Ruzic",
-      "odds_a": 1.82,
-      "odds_b": 1.82,
+      "player_a": "Mai Hontama",
+      "player_b": "Magda Linette",
+      "odds_a": 2.8,
+      "odds_b": 1.38,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271501035692040",
+      "market_id": "1272516463067144",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271501035692040",
+        "market_id": "1272516463067144",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271501036748820",
-          "1271501036748821"
+          "1272516464119828",
+          "1272516464119829"
         ],
         "selection_market_ids": [
-          "1271501035692040",
-          "1271501035692040"
+          "1272516463067144",
+          "1272516463067144"
         ],
         "selection_names": [
-          "Xin Yu Wang",
-          "Antonia Ruzic"
+          "Mai Hontama",
+          "Magda Linette"
         ],
         "selection_contestant_ids": [
-          "543844176061030",
-          "543835947885433"
+          "543838088327776",
+          "543832308577152"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543844176061030",
-            "contestant:543835947885433"
+            "contestant:543838088327776",
+            "contestant:543832308577152"
           ],
           [
-            "contestant:543844176061030",
-            "contestant:543835947885433"
+            "contestant:543838088327776",
+            "contestant:543832308577152"
           ]
         ],
         "contestants": [
           {
-            "id": "543844176061030",
-            "name": "Xin Yu Wang"
+            "id": "543838088327776",
+            "name": "Mai Hontama"
           },
           {
-            "id": "543835947885433",
-            "name": "Antonia Ruzic"
+            "id": "543832308577152",
+            "name": "Magda Linette"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/xin-yu-wang-antonia-ruzic-m1271501035704320",
+      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/mai-hontama-magda-linette-m1272516463058944",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1271501586206722",
-      "competition": "Hong Kong WTA",
-      "start_at": "2026-11-05T07:10:00+00:00",
+      "id": "betclic:1272544353095680",
+      "competition": "Chennai WTA",
+      "start_at": "2026-11-06T13:00:00+00:00",
       "live": false,
-      "player_a": "Mika Stojsavljevic",
-      "player_b": "Zeynep Sonmez",
-      "odds_a": 3.3,
-      "odds_b": 1.26,
+      "player_a": "Anastasia Zakharova",
+      "player_b": "Lucrezia Stefanini",
+      "odds_a": 1.92,
+      "odds_b": 1.79,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271501587238933",
+      "market_id": "1272579015872519",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271501587238933",
+        "market_id": "1272579015872519",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271501587251265",
-          "1271501587251266"
+          "1272579015864338",
+          "1272579015864339"
         ],
         "selection_market_ids": [
-          "1271501587238933",
-          "1271501587238933"
+          "1272579015872519",
+          "1272579015872519"
         ],
         "selection_names": [
-          "Mika Stojsavljevic",
-          "Zeynep Sonmez"
+          "Anastasia Zakharova",
+          "Lucrezia Stefanini"
         ],
         "selection_contestant_ids": [
-          "543836568941474",
-          "543837160038548"
+          "543833737785532",
+          "543833830810211"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543836568941474",
-            "contestant:543837160038548"
+            "contestant:543833737785532",
+            "contestant:543833830810211"
           ],
           [
-            "contestant:543836568941474",
-            "contestant:543837160038548"
+            "contestant:543833737785532",
+            "contestant:543833830810211"
           ]
         ],
         "contestants": [
           {
-            "id": "543836568941474",
-            "name": "Mika Stojsavljevic"
+            "id": "543833737785532",
+            "name": "Anastasia Zakharova"
           },
           {
-            "id": "543837160038548",
-            "name": "Zeynep Sonmez"
+            "id": "543833830810211",
+            "name": "Lucrezia Stefanini"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/mika-stojsavljevic-zeynep-sonmez-m1271501586206722",
+      "url": "https://www.betclic.pt/tenis-stennis/chennai-wta-c31481/anastasia-zakharova-lucrezia-stefanini-m1272544353095680",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270751064776710",
-      "competition": "Hong Kong WTA",
-      "start_at": "2026-11-05T10:30:00+00:00",
-      "live": false,
-      "player_a": "Tereza Valentova",
-      "player_b": "Alexandra Eala",
-      "odds_a": 2.33,
-      "odds_b": 1.49,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270751065837576",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270751065837576",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270751065825300",
-          "1270751065825301"
-        ],
-        "selection_market_ids": [
-          "1270751065837576",
-          "1270751065837576"
-        ],
-        "selection_names": [
-          "Tereza Valentova",
-          "Alexandra Eala"
-        ],
-        "selection_contestant_ids": [
-          "543835452207961",
-          "543834041872745"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543835452207961",
-            "contestant:543834041872745"
-          ],
-          [
-            "contestant:543835452207961",
-            "contestant:543834041872745"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543835452207961",
-            "name": "Tereza Valentova"
-          },
-          {
-            "id": "543834041872745",
-            "name": "Alexandra Eala"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/tereza-valentova-alexandra-eala-m1270751064776710",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270638979338240",
-      "competition": "Hong Kong WTA",
-      "start_at": "2026-11-05T11:40:00+00:00",
-      "live": false,
-      "player_a": "Sorana Cirstea",
-      "player_b": "Mary Stoiana",
-      "odds_a": 1.26,
-      "odds_b": 3.3,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270638980390920",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270638980390920",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270638980395028",
-          "1270638980395029"
-        ],
-        "selection_market_ids": [
-          "1270638980390920",
-          "1270638980390920"
-        ],
-        "selection_names": [
-          "Sorana Cirstea",
-          "Mary Stoiana"
-        ],
-        "selection_contestant_ids": [
-          "543831930041251",
-          "543840126460009"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543831930041251",
-            "contestant:543840126460009"
-          ],
-          [
-            "contestant:543831930041251",
-            "contestant:543840126460009"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543831930041251",
-            "name": "Sorana Cirstea"
-          },
-          {
-            "id": "543840126460009",
-            "name": "Mary Stoiana"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/sorana-cirstea-mary-stoiana-m1270638979338240",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
       "id": "betclic:1271618119696384",
       "competition": "Hong Kong WTA",
-      "start_at": "2026-11-06T06:00:00+00:00",
+      "start_at": "2026-11-06T10:30:00+00:00",
       "live": false,
       "player_a": "Aliaksandra Sasnovich",
       "player_b": "Maria Sakkari",
-      "odds_a": 2.09,
-      "odds_b": 1.56,
+      "odds_a": 2.32,
+      "odds_b": 1.54,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1271618119696393",
@@ -1044,7 +522,65 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/aliaksandra-sasnovich-maria-sakkari-m1271618119696384",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
+    },
+    {
+      "id": "betclic:1272505283137536",
+      "competition": "Hong Kong WTA",
+      "start_at": "2026-11-06T11:40:00+00:00",
+      "live": false,
+      "player_a": "Antonia Ruzic",
+      "player_b": "Alexandra Eala",
+      "odds_a": 3.75,
+      "odds_b": 1.23,
+      "market_type": "match_winner",
+      "market_verified": true,
+      "market_id": "1272505283153928",
+      "market_name": "Vencedor do encontro",
+      "market_proof": {
+        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
+        "market_id": "1272505283153928",
+        "market_name": "Vencedor do encontro",
+        "selection_ids": [
+          "1272505284194358",
+          "1272505284194359"
+        ],
+        "selection_market_ids": [
+          "1272505283153928",
+          "1272505283153928"
+        ],
+        "selection_names": [
+          "Antonia Ruzic",
+          "Alexandra Eala"
+        ],
+        "selection_contestant_ids": [
+          "543835947885433",
+          "543834041872745"
+        ],
+        "selection_contestant_keys": [
+          [
+            "contestant:543835947885433",
+            "contestant:543834041872745"
+          ],
+          [
+            "contestant:543835947885433",
+            "contestant:543834041872745"
+          ]
+        ],
+        "contestants": [
+          {
+            "id": "543835947885433",
+            "name": "Antonia Ruzic"
+          },
+          {
+            "id": "543834041872745",
+            "name": "Alexandra Eala"
+          }
+        ]
+      },
+      "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/antonia-ruzic-alexandra-eala-m1272505283137536",
+      "tour": "WTA",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
       "id": "betclic:1271432793313280",
@@ -1102,7 +638,65 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/wta-finals-indian-wells-c36381/elena-rybakina-linda-noskova-m1271432793313280",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
+    },
+    {
+      "id": "betclic:1271433202274304",
+      "competition": "WTA Finals Indian Wells",
+      "start_at": "2026-11-08T21:10:00+00:00",
+      "live": false,
+      "player_a": "Coco Gauff",
+      "player_b": "Jessica Pegula",
+      "odds_a": 1.55,
+      "odds_b": 2.11,
+      "market_type": "match_winner",
+      "market_verified": true,
+      "market_id": "1271433203306496",
+      "market_name": "Vencedor do encontro",
+      "market_proof": {
+        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
+        "market_id": "1271433203306496",
+        "market_name": "Vencedor do encontro",
+        "selection_ids": [
+          "1271433203318784",
+          "1271433203318785"
+        ],
+        "selection_market_ids": [
+          "1271433203306496",
+          "1271433203306496"
+        ],
+        "selection_names": [
+          "Coco Gauff",
+          "Jessica Pegula"
+        ],
+        "selection_contestant_ids": [
+          "543831930040718",
+          "543832117735530"
+        ],
+        "selection_contestant_keys": [
+          [
+            "contestant:543831930040718",
+            "contestant:543832117735530"
+          ],
+          [
+            "contestant:543831930040718",
+            "contestant:543832117735530"
+          ]
+        ],
+        "contestants": [
+          {
+            "id": "543831930040718",
+            "name": "Coco Gauff"
+          },
+          {
+            "id": "543832117735530",
+            "name": "Jessica Pegula"
+          }
+        ]
+      },
+      "url": "https://www.betclic.pt/tenis-stennis/wta-finals-indian-wells-c36381/coco-gauff-jessica-pegula-m1271433202274304",
+      "tour": "WTA",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
       "id": "betclic:1271433766391808",
@@ -1111,8 +705,8 @@
       "live": false,
       "player_a": "Aryna Sabalenka",
       "player_b": "Karolina Muchova",
-      "odds_a": 1.5,
-      "odds_b": 2.2,
+      "odds_a": 1.42,
+      "odds_b": 2.4,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1271433766395933",
@@ -1160,223 +754,107 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/wta-finals-indian-wells-c36381/aryna-sabalenka-karolina-muchova-m1271433766391808",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1270987001724928",
-      "competition": "Cali WTA Challenger",
-      "start_at": "2026-11-04T17:15:00+00:00",
+      "id": "betclic:1271434126057472",
+      "competition": "WTA Finals Indian Wells",
+      "start_at": "2026-11-09T21:10:00+00:00",
       "live": false,
-      "player_a": "Despina Papamichail",
-      "player_b": "Renata Zarazua",
-      "odds_a": 3.8,
-      "odds_b": 1.17,
+      "player_a": "Mirra Andreeva",
+      "player_b": "Elina Svitolina",
+      "odds_a": 1.41,
+      "odds_b": 2.42,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271141293383689",
+      "market_id": "1271434127106061",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271141293383689",
+        "market_id": "1271434127106061",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271141293387798",
-          "1271141293387799"
+          "1271434128158750",
+          "1271434128158751"
         ],
         "selection_market_ids": [
-          "1271141293383689",
-          "1271141293383689"
+          "1271434127106061",
+          "1271434127106061"
         ],
         "selection_names": [
-          "Despina Papamichail",
-          "Renata Zarazua"
+          "Mirra Andreeva",
+          "Elina Svitolina"
         ],
         "selection_contestant_ids": [
-          "543834349106090",
-          "543837697958378"
+          "543832482640225",
+          "543832117735926"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543834349106090",
-            "contestant:543837697958378"
+            "contestant:543832482640225",
+            "contestant:543832117735926"
           ],
           [
-            "contestant:543834349106090",
-            "contestant:543837697958378"
+            "contestant:543832482640225",
+            "contestant:543832117735926"
           ]
         ],
         "contestants": [
           {
-            "id": "543834349106090",
-            "name": "Despina Papamichail"
+            "id": "543832482640225",
+            "name": "Mirra Andreeva"
           },
           {
-            "id": "543837697958378",
-            "name": "Renata Zarazua"
+            "id": "543832117735926",
+            "name": "Elina Svitolina"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/despina-papamichail-renata-zarazua-m1270987001724928",
+      "url": "https://www.betclic.pt/tenis-stennis/wta-finals-indian-wells-c36381/mirra-andreeva-elina-svitolina-m1271434126057472",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1271041736343553",
+      "id": "betclic:1272747724394496",
       "competition": "Cali WTA Challenger",
-      "start_at": "2026-11-04T18:00:00+00:00",
+      "start_at": "2026-11-06T17:00:00+00:00",
       "live": false,
-      "player_a": "Julia Grabher",
+      "player_a": "Leyre Romero Gormaz",
       "player_b": "Julia Riera",
-      "odds_a": 1.64,
-      "odds_b": 1.95,
+      "odds_a": 1.59,
+      "odds_b": 2.04,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271141093109761",
+      "market_id": "1272831148056577",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271141093109761",
+        "market_id": "1272831148056577",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271141093101570",
-          "1271141093101571"
+          "1272831148060674",
+          "1272831148060675"
         ],
         "selection_market_ids": [
-          "1271141093109761",
-          "1271141093109761"
+          "1272831148056577",
+          "1272831148056577"
         ],
         "selection_names": [
-          "Julia Grabher",
+          "Leyre Romero Gormaz",
           "Julia Riera"
         ],
         "selection_contestant_ids": [
-          "543833178894443",
+          "543836416598176",
           "543833400893896"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543833178894443",
+            "contestant:543836416598176",
             "contestant:543833400893896"
           ],
           [
-            "contestant:543833178894443",
+            "contestant:543836416598176",
             "contestant:543833400893896"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543833178894443",
-            "name": "Julia Grabher"
-          },
-          {
-            "id": "543833400893896",
-            "name": "Julia Riera"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/julia-grabher-julia-riera-m1271041736343553",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1271047354605568",
-      "competition": "Cali WTA Challenger",
-      "start_at": "2026-11-04T18:00:00+00:00",
-      "live": false,
-      "player_a": "Alice Tubello",
-      "player_b": "Marina Bassols Ribera",
-      "odds_a": 1.56,
-      "odds_b": 2.09,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1271140915908609",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271140915908609",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1271140915896322",
-          "1271140915896323"
-        ],
-        "selection_market_ids": [
-          "1271140915908609",
-          "1271140915908609"
-        ],
-        "selection_names": [
-          "Alice Tubello",
-          "Marina Bassols Ribera"
-        ],
-        "selection_contestant_ids": [
-          "543836721734618",
-          "543833950348224"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543836721734618",
-            "contestant:543833950348224"
-          ],
-          [
-            "contestant:543836721734618",
-            "contestant:543833950348224"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543836721734618",
-            "name": "Alice Tubello"
-          },
-          {
-            "id": "543833950348224",
-            "name": "Marina Bassols Ribera"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/alice-tubello-marina-bassols-ribera-m1271047354605568",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270147097595904",
-      "competition": "Cali WTA Challenger",
-      "start_at": "2026-11-04T19:10:00+00:00",
-      "live": false,
-      "player_a": "Leyre Romero Gormaz",
-      "player_b": "Solana Sierra",
-      "odds_a": 1.79,
-      "odds_b": 1.79,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270147097579521",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270147097579521",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270147097591821",
-          "1270147097591822"
-        ],
-        "selection_market_ids": [
-          "1270147097579521",
-          "1270147097579521"
-        ],
-        "selection_names": [
-          "Leyre Romero Gormaz",
-          "Solana Sierra"
-        ],
-        "selection_contestant_ids": [
-          "543836416598176",
-          "543839212102544"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543836416598176",
-            "contestant:543839212102544"
-          ],
-          [
-            "contestant:543836416598176",
-            "contestant:543839212102544"
           ]
         ],
         "contestants": [
@@ -1385,62 +863,62 @@
             "name": "Leyre Romero Gormaz"
           },
           {
-            "id": "543839212102544",
-            "name": "Solana Sierra"
+            "id": "543833400893896",
+            "name": "Julia Riera"
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leyre-romero-gormaz-solana-sierra-m1270147097595904",
+      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/leyre-romero-gormaz-julia-riera-m1272747724394496",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
-      "id": "betclic:1270929704386560",
+      "id": "betclic:1272889282158592",
       "competition": "Cali WTA Challenger",
-      "start_at": "2026-11-04T22:00:00+00:00",
+      "start_at": "2026-11-06T18:30:00+00:00",
       "live": false,
-      "player_a": "Jazmin Ortenzi",
+      "player_a": "Alice Tubello",
       "player_b": "Bianca Vanessa Andreescu",
-      "odds_a": 4.5,
-      "odds_b": 1.11,
+      "odds_a": 2.95,
+      "odds_b": 1.28,
       "market_type": "match_winner",
       "market_verified": true,
-      "market_id": "1271141211607164",
+      "market_id": "1272913425620993",
       "market_name": "Vencedor do encontro",
       "market_proof": {
         "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271141211607164",
+        "market_id": "1272913425620993",
         "market_name": "Vencedor do encontro",
         "selection_ids": [
-          "1271141212643350",
-          "1271141212643351"
+          "1272913425625094",
+          "1272913425625095"
         ],
         "selection_market_ids": [
-          "1271141211607164",
-          "1271141211607164"
+          "1272913425620993",
+          "1272913425620993"
         ],
         "selection_names": [
-          "Jazmin Ortenzi",
+          "Alice Tubello",
           "Bianca Vanessa Andreescu"
         ],
         "selection_contestant_ids": [
-          "543836538233139",
+          "543836721734618",
           "543832201323338"
         ],
         "selection_contestant_keys": [
           [
-            "contestant:543836538233139",
+            "contestant:543836721734618",
             "contestant:543832201323338"
           ],
           [
-            "contestant:543836538233139",
+            "contestant:543836721734618",
             "contestant:543832201323338"
           ]
         ],
         "contestants": [
           {
-            "id": "543836538233139",
-            "name": "Jazmin Ortenzi"
+            "id": "543836721734618",
+            "name": "Alice Tubello"
           },
           {
             "id": "543832201323338",
@@ -1448,251 +926,19 @@
           }
         ]
       },
-      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/jazmin-ortenzi-bianca-vanessa-andreescu-m1270929704386560",
+      "url": "https://www.betclic.pt/tenis-stennis/cali-wta-challenger-c32169/alice-tubello-bianca-vanessa-andreescu-m1272889282158592",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270845349580800",
-      "competition": "Luanda WTA Challenger",
-      "start_at": "2026-11-05T09:00:00+00:00",
-      "live": false,
-      "player_a": "Anna Blinkova",
-      "player_b": "Zongyu Li",
-      "odds_a": 1.04,
-      "odds_b": 6.2,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270851463827457",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270851463827457",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270851463835661",
-          "1270851463835662"
-        ],
-        "selection_market_ids": [
-          "1270851463827457",
-          "1270851463827457"
-        ],
-        "selection_names": [
-          "Anna Blinkova",
-          "Zongyu Li"
-        ],
-        "selection_contestant_ids": [
-          "543837909021019",
-          "543840095301660"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543837909021019",
-            "contestant:543840095301660"
-          ],
-          [
-            "contestant:543837909021019",
-            "contestant:543840095301660"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543837909021019",
-            "name": "Anna Blinkova"
-          },
-          {
-            "id": "543840095301660",
-            "name": "Zongyu Li"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/anna-blinkova-zongyu-li-m1270845349580800",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1271537161228288",
-      "competition": "Luanda WTA Challenger",
-      "start_at": "2026-11-05T09:00:00+00:00",
-      "live": false,
-      "player_a": "Kristina Kroitor",
-      "player_b": "Ksenia Zaytseva",
-      "odds_a": 2.75,
-      "odds_b": 1.33,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1271698996355073",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271698996355073",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1271698996355085",
-          "1271698996355086"
-        ],
-        "selection_market_ids": [
-          "1271698996355073",
-          "1271698996355073"
-        ],
-        "selection_names": [
-          "Kristina Kroitor",
-          "Ksenia Zaytseva"
-        ],
-        "selection_contestant_ids": [
-          "584836393443328",
-          "543836979683744"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:584836393443328",
-            "contestant:543836979683744"
-          ],
-          [
-            "contestant:584836393443328",
-            "contestant:543836979683744"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "584836393443328",
-            "name": "Kristina Kroitor"
-          },
-          {
-            "id": "543836979683744",
-            "name": "Ksenia Zaytseva"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/kristina-kroitor-ksenia-zaytseva-m1271537161228288",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1270795754041344",
-      "competition": "Luanda WTA Challenger",
-      "start_at": "2026-11-05T11:00:00+00:00",
-      "live": false,
-      "player_a": "Justina Mikulskyte",
-      "player_b": "Tiphanie Lemaitre",
-      "odds_a": 1.88,
-      "odds_b": 1.7,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1270850272653313",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1270850272653313",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1270850272645133",
-          "1270850272645134"
-        ],
-        "selection_market_ids": [
-          "1270850272653313",
-          "1270850272653313"
-        ],
-        "selection_names": [
-          "Justina Mikulskyte",
-          "Tiphanie Lemaitre"
-        ],
-        "selection_contestant_ids": [
-          "543837909020899",
-          "543836330914285"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543837909020899",
-            "contestant:543836330914285"
-          ],
-          [
-            "contestant:543837909020899",
-            "contestant:543836330914285"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543837909020899",
-            "name": "Justina Mikulskyte"
-          },
-          {
-            "id": "543836330914285",
-            "name": "Tiphanie Lemaitre"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/justina-mikulskyte-tiphanie-lemaitre-m1270795754041344",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
-    },
-    {
-      "id": "betclic:1271505422946304",
-      "competition": "Luanda WTA Challenger",
-      "start_at": "2026-11-05T13:00:00+00:00",
-      "live": false,
-      "player_a": "Madhurima Sawant",
-      "player_b": "Noma Akugue Noha",
-      "odds_a": 7.4,
-      "odds_b": 1.02,
-      "market_type": "match_winner",
-      "market_verified": true,
-      "market_id": "1271699037249537",
-      "market_name": "Vencedor do encontro",
-      "market_proof": {
-        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
-        "market_id": "1271699037249537",
-        "market_name": "Vencedor do encontro",
-        "selection_ids": [
-          "1271699037261834",
-          "1271699037261835"
-        ],
-        "selection_market_ids": [
-          "1271699037249537",
-          "1271699037249537"
-        ],
-        "selection_names": [
-          "Madhurima Sawant",
-          "Noma Akugue Noha"
-        ],
-        "selection_contestant_ids": [
-          "543837067014426",
-          "543837879361854"
-        ],
-        "selection_contestant_keys": [
-          [
-            "contestant:543837067014426",
-            "contestant:543837879361854"
-          ],
-          [
-            "contestant:543837067014426",
-            "contestant:543837879361854"
-          ]
-        ],
-        "contestants": [
-          {
-            "id": "543837067014426",
-            "name": "Madhurima Sawant"
-          },
-          {
-            "id": "543837879361854",
-            "name": "Noma Akugue Noha"
-          }
-        ]
-      },
-      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/madhurima-sawant-noma-akugue-noha-m1271505422946304",
-      "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     },
     {
       "id": "betclic:1271698976444416",
       "competition": "Luanda WTA Challenger",
-      "start_at": "2026-11-06T10:00:00+00:00",
+      "start_at": "2026-11-06T10:30:00+00:00",
       "live": false,
       "player_a": "Sofya Lansere",
       "player_b": "Martyna Kubka",
-      "odds_a": 2.31,
-      "odds_b": 1.37,
+      "odds_a": 2.38,
+      "odds_b": 1.43,
       "market_type": "match_winner",
       "market_verified": true,
       "market_id": "1271698977476609",
@@ -1740,7 +986,181 @@
       },
       "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/sofya-lansere-martyna-kubka-m1271698976444416",
       "tour": "WTA",
-      "observed_at": "2026-11-04T16:40:38.042437+00:00"
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
+    },
+    {
+      "id": "betclic:1272409365712896",
+      "competition": "Luanda WTA Challenger",
+      "start_at": "2026-11-06T11:00:00+00:00",
+      "live": false,
+      "player_a": "Ksenia Zaytseva",
+      "player_b": "Gina Feistel",
+      "odds_a": 1.7,
+      "odds_b": 1.89,
+      "market_type": "match_winner",
+      "market_verified": true,
+      "market_id": "1272409365712898",
+      "market_name": "Vencedor do encontro",
+      "market_proof": {
+        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
+        "market_id": "1272409365712898",
+        "market_name": "Vencedor do encontro",
+        "selection_ids": [
+          "1272409366749186",
+          "1272409366749187"
+        ],
+        "selection_market_ids": [
+          "1272409365712898",
+          "1272409365712898"
+        ],
+        "selection_names": [
+          "Ksenia Zaytseva",
+          "Gina Feistel"
+        ],
+        "selection_contestant_ids": [
+          "543836979683744",
+          "543837510562398"
+        ],
+        "selection_contestant_keys": [
+          [
+            "contestant:543836979683744",
+            "contestant:543837510562398"
+          ],
+          [
+            "contestant:543836979683744",
+            "contestant:543837510562398"
+          ]
+        ],
+        "contestants": [
+          {
+            "id": "543836979683744",
+            "name": "Ksenia Zaytseva"
+          },
+          {
+            "id": "543837510562398",
+            "name": "Gina Feistel"
+          }
+        ]
+      },
+      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/ksenia-zaytseva-gina-feistel-m1272409365712896",
+      "tour": "WTA",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
+    },
+    {
+      "id": "betclic:1272530727886848",
+      "competition": "Luanda WTA Challenger",
+      "start_at": "2026-11-06T11:40:00+00:00",
+      "live": false,
+      "player_a": "Justina Mikulskyte",
+      "player_b": "Noma Akugue Noha",
+      "odds_a": 4.4,
+      "odds_b": 1.12,
+      "market_type": "match_winner",
+      "market_verified": true,
+      "market_id": "1272649068089345",
+      "market_name": "Vencedor do encontro",
+      "market_proof": {
+        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
+        "market_id": "1272649068089345",
+        "market_name": "Vencedor do encontro",
+        "selection_ids": [
+          "1272649068072962",
+          "1272649068072963"
+        ],
+        "selection_market_ids": [
+          "1272649068089345",
+          "1272649068089345"
+        ],
+        "selection_names": [
+          "Justina Mikulskyte",
+          "Noma Akugue Noha"
+        ],
+        "selection_contestant_ids": [
+          "543837909020899",
+          "543837879361854"
+        ],
+        "selection_contestant_keys": [
+          [
+            "contestant:543837909020899",
+            "contestant:543837879361854"
+          ],
+          [
+            "contestant:543837909020899",
+            "contestant:543837879361854"
+          ]
+        ],
+        "contestants": [
+          {
+            "id": "543837909020899",
+            "name": "Justina Mikulskyte"
+          },
+          {
+            "id": "543837879361854",
+            "name": "Noma Akugue Noha"
+          }
+        ]
+      },
+      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/justina-mikulskyte-noma-akugue-noha-m1272530727886848",
+      "tour": "WTA",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
+    },
+    {
+      "id": "betclic:1272411270963200",
+      "competition": "Luanda WTA Challenger",
+      "start_at": "2026-11-06T15:30:00+00:00",
+      "live": false,
+      "player_a": "Anna Blinkova",
+      "player_b": "Yasmine Kabbaj",
+      "odds_a": 1.07,
+      "odds_b": 5.4,
+      "market_type": "match_winner",
+      "market_verified": true,
+      "market_id": "1272411272011777",
+      "market_name": "Vencedor do encontro",
+      "market_proof": {
+        "basis": "explicit_betclic_ssr_market_label_and_contestants_v1",
+        "market_id": "1272411272011777",
+        "market_name": "Vencedor do encontro",
+        "selection_ids": [
+          "1272411272015874",
+          "1272411272015875"
+        ],
+        "selection_market_ids": [
+          "1272411272011777",
+          "1272411272011777"
+        ],
+        "selection_names": [
+          "Anna Blinkova",
+          "Yasmine Kabbaj"
+        ],
+        "selection_contestant_ids": [
+          "543837909021019",
+          "543836189057189"
+        ],
+        "selection_contestant_keys": [
+          [
+            "contestant:543837909021019",
+            "contestant:543836189057189"
+          ],
+          [
+            "contestant:543837909021019",
+            "contestant:543836189057189"
+          ]
+        ],
+        "contestants": [
+          {
+            "id": "543837909021019",
+            "name": "Anna Blinkova"
+          },
+          {
+            "id": "543836189057189",
+            "name": "Yasmine Kabbaj"
+          }
+        ]
+      },
+      "url": "https://www.betclic.pt/tenis-stennis/luanda-wta-challenger-c41506/anna-blinkova-yasmine-kabbaj-m1272411270963200",
+      "tour": "WTA",
+      "observed_at": "2026-11-06T08:52:32.715283+00:00"
     }
   ]
 }
