@@ -3967,9 +3967,10 @@
         "p": 0.7921,
         "start_at": "2026-11-06T11:40:00+00:00",
         "url": "https://www.betclic.pt/tenis-stennis/hong-kong-wta-c36359/antonia-ruzic-alexandra-eala-m1272505283137536",
-        "status": "pendente",
+        "status": "ganha",
         "last_odds": 1.21,
-        "last_seen": "2026-11-06T10:40:42.649282+00:00"
+        "last_seen": "2026-11-06T10:40:42.649282+00:00",
+        "score": "6-7 5-7"
       }
     ],
     "odds": 1.4,
@@ -3978,6 +3979,8 @@
     "stake": 1.28,
     "stake_pct": 0.02,
     "bank_at_pick": 63.94,
-    "status": "pendente"
+    "status": "ganha",
+    "pnl": 0.51,
+    "settled_at": "2026-11-06T16:40:39.459128+00:00"
   }
 ]
